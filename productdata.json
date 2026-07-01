@@ -1,0 +1,3567 @@
+[
+  {
+    "category": "Core Routing Switch",
+    "products": [
+      {
+        "id": 1,
+        "model": "NAV-C24S2Q",
+        "title": "The NAV-C24S2Q is a high-performance Layer 3 switch featuring 24×1/10G SFP+ ports and 2×40G QSFP uplink ports.",
+        "description": "Designed for next-generation enterprise networks and data centers, it delivers line-speed switching, advanced QoS, and robust security.",
+        "highSpeedArchitecture": {
+          "description": "The switch features a non-blocking switching capacity of 2.56Tbps and a forwarding rate of 476.16Mpps for seamless big data transmission.",
+          "switchingCapacity": "2.56Tbps",
+          "forwardingRate": "476.16Mpps"
+        },
+        "advancedL3Routing": [
+          "Supports complete IPv4/IPv6 routing protocols including RIP, OSPF, and BGP.",
+          "Suitable for complex network interconnection needs."
+        ],
+        "robustSecurity": [
+          "IEEE 802.1x authentication",
+          "ACL filtering",
+          "Hardware-level protection against DoS attacks and broadcast storms"
+        ],
+        "summarySpecifications": [
+          "Switching Capacity: 2.56Tbps",
+          "Forwarding Rate: 476 Mpps",
+          "Rich server access solution with comprehensive reliability features",
+          "Supports VRRP for redundancy & intelligent fan speed regulation",
+          "Web / CLI / SNMP management options",
+          "Ideal for smart campuses, telecom aggregation, and video surveillance networks"
+        ],
+        "productOverview": [
+          "Designed for 10G access and 40G uplink applications.",
+          "Ideal for core layer in SMEs or aggregation layer of campus/telecom networks.",
+          "Standard 1U/19-inch rack-mount form factor.",
+          "Supports L2 / L3 / L4 switching, multicast, and advanced QoS.",
+          "Efficient voice, video, and data integration.",
+          "Suitable for smart campuses, smart cities, and transportation networks."
+        ],
+        "keyFeatures": {
+          "ultraHighBandwidth": [
+            "24×1/10G SFP+ fiber ports",
+            "2×40G QSFP uplink ports",
+            "2.56Tbps switching capacity",
+            "476Mpps forwarding rate"
+          ],
+          "comprehensiveSecurity": [
+            "Supports IEEE 802.1x, Radius, & Tacacs+ authentication",
+            "Hardware-level DoS, TCP SYN, UDP flood, & broadcast storm protection"
+          ],
+          "advancedL3Routing": [
+            "Full IPv4/IPv6 routing support: RIP, OSPF, BGP, Static Routing",
+            "Supports VRRP & IPv4-to-IPv6 transition (6to4, tunneling)"
+          ],
+          "carrierGradeReliability": [
+            "STP/RSTP/MSTP & LACP redundancy",
+            "Intelligent fan with automatic speed control",
+            "Advanced power architecture"
+          ],
+          "smartOAM_Management": [
+            "Ethernet OAM (802.3ah/lag) for real-time monitoring & fault detection",
+            "Secure management via Web / CLI / SSH / SNMP (V1/V2/V3)",
+            "RMON for traffic statistics"
+          ]
+        },
+        "technicalSpecification": {
+          "model": "NAV-C24S20",
+          "interfaceCharacteristics": {
+            "fixedPort": [
+              "2×40G QSFP fiber ports (Data)",
+              "24×1/10G SFP+ fiber ports (Data)"
+            ],
+            "consolePort": "1x RS232 (9600,8,N,1)",
+            "networkPort": "1x RJ45 management port (Data)",
+            "usbPort": "1x USB 2.0 port",
+            "opticalFiberPort": "10G SFP+ optical fiber interface, optical modules optional"
+          },
+          "opticalCableDistance": "Multi-mode: 850nm/0-550m, Single-mode: 1310nm/0-40km, 1550nm/0-120km",
+          "chipParameters": {
+            "networkManagementType": "L3",
+            "networkProtocol": "IEEE802.3u/3ab/3z/3ae/3ba/3x Ethernet",
+            "forwardingMode": "Store and Forward (Full Wire-Speed)",
+            "switchingCapacity": "2.56Tbps (non-blocking)",
+            "forwardingRate": "476.16Mpps",
+            "MAC": "128K",
+            "bufferMemory": "72M",
+            "jumboFrame": "9K",
+            "ledIndicator": "PWR (Green), SYS (Green)"
+          },
+          "power": {
+            "totalPowerVoltage": "96W / AC100-240V",
+            "powerConsumption": "Standby <50W, Full Load <90W",
+            "powerSupply": "Built-in AC100~240V 50-60Hz, 1.0A",
+            "expansionSlot": "Supports dual power expansion"
+          },
+          "physicalParameter": {
+            "operatingTempHumidity": "-20°C to +55°C, 5%–90% RH (Non-condensing)",
+            "storageTempHumidity": "-40°C to +75°C, 5%–95% RH (Non-condensing)",
+            "dimension": "440×320×44mm",
+            "weight": "<8.0kg / <8.5kg",
+            "installation": "Desktop / 1U / 19-inch rack"
+          },
+          "certificationWarranty": {
+            "lightningProtection": "6KV 8/20μs IP30 protection level",
+            "certification": "CCC, CE, EN62368-1, FCC Part 15 Class B, RoHS",
+            "warranty": "3 years, lifelong maintenance"
+          }
+        },
+        "featureCategory": {
+          "l2RingNetworkProtocol": [
+            "ERPS ring network",
+            "STP / RSTP / MSTP",
+            "BPDU Guard, Root Guard, Filtering"
+          ],
+          "IPv4": [
+            "Inter-VLAN routing",
+            "OSPF, BGP, VRRP, RIP",
+            "Routing cost configuration"
+          ],
+          "IPv6": [
+            "IPv6 static routing / RIPng / OSPFv3",
+            "IPv6-Ping, IPv6-Tracert, IPv6-Telnet"
+          ],
+          "MAC": [
+            "Static & dynamic learning",
+            "Configurable MAC aging time",
+            "MAC filtering"
+          ],
+          "multicast": [
+            "IGMP Proxy, IGMP Snooping (V1/V2)"
+          ],
+          "DHCP": [
+            "DHCP Snooping / Relay / Server"
+          ],
+          "mirroring": [
+            "CPU packet mirroring",
+            "Multiple port mirroring"
+          ],
+          "acl_qos": [
+            "802.1P / DSCP priority mapping",
+            "SP / WRR / SP+WRR scheduling",
+            "8 queue system"
+          ],
+          "security": [
+            "Radius authentication",
+            "Port isolation",
+            "IP source protection",
+            "MAC-based security control"
+          ]
+        },
+        "managementSystem": [
+          "Console / Telnet / SSH 2.0",
+          "SNMP v1/v2/v3 / RMON",
+          "Web Management (HTTP/HTTPS)",
+          "System Log & Alarm Log",
+          "Restore factory mode",
+          "TFTP file transfer support"
+        ],
+        "orderingInformation": [
+          {
+            "model": "NAV-C24S2Q",
+            "description": "L3 managed Ethernet switch with 24×1/10G SFP+ & 2×40G QSFP, built-in power supply, rack-mount design.",
+            "powerSupply": "96W"
+          }
+        ],
+        "packingList": [
+          {
+            "content": "NAV-C24S2Q Core Switch",
+            "qty": 1,
+            "unit": "Set"
+          },
+          {
+            "content": "AC Power Cable",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "Mounting Ear",
+            "qty": 1,
+            "unit": "Set"
+          },
+          {
+            "content": "User Guide",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "Warranty Card & Certificate",
+            "qty": 1,
+            "unit": "PC"
+          }
+        ],
+        "opticalModule": [
+          {
+            "category": "1.25G Optical Module",
+            "items": [
+              {
+                "model": "2630",
+                "description": "SFP optical module, 1.25G multi-mode dual fiber 850nm, transmission distance: 550m, LC interface. Supports DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "2632",
+                "description": "SFP optical module, 1.25G single-mode dual fiber 1310nm, transmission distance: 20km, LC interface. Supports DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "2612-T",
+                "description": "SFP optical module, 1.25G single-mode single fiber TX1310nm/RX1550nm, transmission distance: 20km, LC interface. Supports DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "2613-R",
+                "description": "SFP optical module, 1.25G single-mode single fiber TX1550nm/RX1310nm, transmission distance: 20km, LC interface. Supports DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "2612-T-SC",
+                "description": "SFP optical module, 1.25G single-mode single fiber TX1310nm/RX1550nm, transmission distance: 20km, SC interface. Supports DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "2613-R-SC",
+                "description": "SFP optical module, 1.25G single-mode single fiber TX1550nm/RX1310nm, transmission distance: 20km, SC interface. Supports DDM function and hot plugging.",
+                "unit": "PC"
+              }
+            ]
+          },
+          {
+            "category": "Power Module",
+            "items": [
+              {
+                "model": "2633",
+                "description": "1.25G SFP optical module transfers to 10/100/1000M RJ45 port.",
+                "unit": "PC"
+              }
+            ]
+          },
+          {
+            "category": "10G Optical Module",
+            "items": [
+              {
+                "model": "6630",
+                "description": "SFP+ optical module, 10G multi-mode dual fiber 850nm, transmission distance: 300m, LC interface. Supports DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "7832",
+                "description": "SFP+ optical module, 10G single-mode dual fiber 1310nm, transmission distance: 20km, LC interface. Supports DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "7832-33",
+                "description": "SFP+ optical module, 10G single-mode single fiber TX1330nm/RX1270nm, transmission distance: 20km, LC interface. Supports DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "7832-27",
+                "description": "SFP+ optical module, 10G single-mode single fiber TX1270nm/RX13300nm, transmission distance: 20km, LC interface. Supports DDM function and hot plugging.",
+                "unit": "PC"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Core Routing Switch",
+    "products": [
+      {
+        "id": 1,
+        "model": "NAV-C24S2Q",
+        "title": "26-port L3 managed core routing switch",
+        "subtitle": "High-Speed Layer 3 Industrial Connectivity",
+        "overview": [
+          "A high-performance L3 managed Ethernet switch oriented for next-generation IP metropolitan area networks, large campus networks, and enterprise networks.",
+          "Equipped with ASIC switching chip and multi-core processor with 1.28Tbps switching capacity for high-density data centers.",
+          "Virtualizes multiple physical devices into one logical device (VSS), extending clusters up to 80km and eliminating STP blocking.",
+          "Supports ISSU for uninterrupted upgrades, Ethernet OAM for fault detection, and redundant hot-swappable power supplies.",
+          "Supports BVSS virtualization, access to 15,000+ 10G servers, and integrates IPv6, security, and traffic analysis."
+        ],
+        "performance": {
+          "switchingCapacity": "880Gbps (Non-blocking)",
+          "forwardingRate": "654 Mpps @64byte"
+        },
+        "keyFeatures": {
+          "ultraHighConnectivity": [
+            "24x 1/10G SFP+ fiber ports",
+            "2x 40/100G QSFP28 uplinks",
+            "1.28Tbps switching capacity"
+          ],
+          "vssVirtualization": [
+            "Virtualizes multiple physical devices into one logical unit",
+            "Extends clusters up to 80km",
+            "Eliminates STP blocking"
+          ],
+          "l3ServiceFeatures": [
+            "Full IPv4/IPv6 stack: RIP, OSPF, BGP, IS-IS",
+            "VRRP and BFD support",
+            "IGMP v1/v2/v3 and PIM-SM/DM",
+            "4K VLAN, QinQ, Private VLAN"
+          ],
+          "security": [
+            "IEEE 802.1x, Radius, Tacacs+",
+            "Hardware defense against DOS & floods",
+            "uRPF and deep packet inspection"
+          ],
+          "carrierGradeReliability": [
+            "ISSU uninterrupted upgrades",
+            "Ethernet OAM & BFD fast fault detection"
+          ]
+        },
+        "technicalSpecification": {
+          "model": "NAV-C24S2Q",
+          "fixedPort": "24x 1/10G SFP+ fiber ports (Data), 2x 40G/100G QSFP28 fiber ports (Data)",
+          "powerPort": "2 ports",
+          "fan": "4 (built-in)",
+          "switchingCapacity": "880Gbps (non-blocking)",
+          "forwardingRateAt64byte": "654.72Mpps",
+          "MAC": "32K",
+          "bufferMemory": "32M",
+          "powerSupply": "AC100-240V 50Hz±10%",
+          "operationTempHumidity": "-10°C~+50°C, 5%~90% RH non-condensing",
+          "storageTempHumidity": "-20°C~+70°C, 5%~95% RH non-condensing",
+          "dimension": "442.5*300*44.5mm",
+          "datacenterFeature": [
+            "Support VSS virtualization technology",
+            "Configurable MAC address aging time",
+            "Black hole MAC, MAC address learning quantity limit"
+          ],
+          "macExchange": [
+            "Static configuration and dynamic learning of MAC addresses",
+            "View and clear MAC addresses",
+            "MAC address filtering function"
+          ],
+          "vlan": [
+            "GVRP, Private VLAN, 4K VLAN",
+            "1:1 and N:1 VLAN Mapping",
+            "Basic QinQ and QinQ functions"
+          ],
+          "stp": [
+            "802.1D (STP), 802.1W (RSTP), 802.1S (MSTP)",
+            "BPDU protection, Root protection, Loop protection",
+            "Multicast traffic cross-VLAN replication"
+          ],
+          "multicast": [
+            "Support multicast group policy and multicast group quantity limit",
+            "IGMP v1/v2/v3, PIM-SM, PIM-DM",
+            "IGMP Snooping, IGMP Fast Leave"
+          ],
+          "IPv4": [
+            "Policy routing, BFD for OSPF, BGP",
+            "Equal-cost routing for load balancing",
+            "Static routing, RIP v1/v2, OSPF, BGP, IS-IS, BEIGRP"
+          ],
+          "IPv6": [
+            "MLD v1/v2, MLD Snooping",
+            "ICMPv6, DHCPv6, ACLv6, IPv6 Telnet",
+            "Manual tunnel, ISATAP tunnel, 6to4 tunnel",
+            "IPv6 static routing, RIPng, OSPFv3, BGP4+",
+            "IPv6 neighbor discovery, Path MTU discovery"
+          ],
+          "QoS": [
+            "802.1P/DSCP priority remarking",
+            "CAR traffic limit, traffic policing and shaping",
+            "SP, WRR, SP+WRR queue scheduling",
+            "Tail-Drop & WRED congestion avoidance",
+            "Traffic classification via L2/L3/L4 headers"
+          ],
+          "securityFeatures": [
+            "Ingress/Egress ACL (L2/L3/L4 & IP quintuple)",
+            "uRPF, 802.1x, Radius, Tacacs+",
+            "IP+MAC+Port binding, DHCP Snooping, Option 82",
+            "Port security, isolation, hierarchical protection",
+            "Anti DDoS, TCP SYN Flood, UDP Flood",
+            "ACL flow filtering based on L2/L3/L4"
+          ],
+          "reliability": [
+            "Optional power supply 1+1 backup",
+            "OSPF & BGP GR, BFD support",
+            "VRRP, EAPS, ERPS",
+            "LACP & static aggregation (cross-service card)"
+          ],
+          "management": [
+            "SNMP v1/v2/v3",
+            "Browser-based Web management",
+            "ZTP (Zero Touch Provisioning), RMON",
+            "Console, Telnet, SSH 2.0, TFTP"
+          ],
+          "greenEnergySaving": [
+            "IEEE 802.3az green energy-efficient Ethernet"
+          ]
+        },
+        "orderingInformation": [
+          {
+            "model": "NAV-C24S2Q",
+            "description": "L3 managed Ethernet core routing switch with 24x 1/10G SFP+ fiber ports and 2x 40/100G QSFP28 fiber ports. Redundant dual AC power supply (75W*2). Supports 1U/19\" cabinet mount.",
+            "powerSupply": "75W x 2"
+          }
+        ],
+        "packingList": [
+          {
+            "item": "NAV-C24S2Q (26-port 10G Switch)",
+            "qty": 1,
+            "unit": "Set"
+          },
+          {
+            "item": "AC Power Cable",
+            "qty": 2,
+            "unit": "PC"
+          },
+          {
+            "item": "RJ45-DB9 Adapter Cable",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "item": "Mounting Ear",
+            "qty": 1,
+            "unit": "Set"
+          },
+          {
+            "item": "User Guide",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "item": "Warranty Card & Certificate",
+            "qty": 1,
+            "unit": "PC"
+          }
+        ],
+        "opticalModules": [
+          {
+            "model": "2630",
+            "description": "1.25G multi-mode 850nm LC",
+            "unit": "PC"
+          },
+          {
+            "model": "2632",
+            "description": "1.25G single-mode 1310nm LC",
+            "unit": "PC"
+          },
+          {
+            "model": "2612-T",
+            "description": "TX1310/RX1550 LC",
+            "unit": "PC"
+          },
+          {
+            "model": "2613-R",
+            "description": "TX1550/RX1310 LC",
+            "unit": "PC"
+          },
+          {
+            "model": "2612-T-SC",
+            "description": "TX1310/RX1550 SC",
+            "unit": "PC"
+          },
+          {
+            "model": "2613-R-SC",
+            "description": "TX1550/RX1310 SC",
+            "unit": "PC"
+          },
+          {
+            "model": "2633",
+            "description": "SFP to RJ45 port",
+            "unit": "PC"
+          },
+          {
+            "model": "6630",
+            "description": "10G multi-mode 850nm LC",
+            "unit": "PC"
+          },
+          {
+            "model": "7832",
+            "description": "10G single-mode 1310nm LC",
+            "unit": "PC"
+          },
+          {
+            "model": "7832-33",
+            "description": "10G single-mode TX1330/RX1270 LC",
+            "unit": "PC"
+          },
+          {
+            "model": "7832-27",
+            "description": "10G single-mode TX1270/RX1330 LC",
+            "unit": "PC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "RIZONN",
+    "tagline": "Powering the Connected Future",
+    "model": "NAV-C48S2Q-4Q",
+    "productType": "54-port 10G Core Routing Switch",
+    "description": "The NAV-C48S2Q-4Q is a high-performance L3 managed Ethernet switch designed for metropolitan area networks, data centers, and campus networks. It features 48×1/10G SFP+ fiber ports, 2×40G QSFP28 fiber ports, and 4×100G QSFP28 fiber ports to expand network capacity.",
+    "keyHighlights": {
+      "highSpeedConnectivity": "Designed for MAN, data centers, and high-density core networks.",
+      "hardware": "Advanced ASIC chips and multi-core processors for exceptional performance.",
+      "reliability": "Hitless Protection System (HPS) with redundant hot-swappable power.",
+      "routing": "Supports full L3 routing protocols: RIP, OSPF, BGP, MPLS VPN.",
+      "capacity": "Switching Capacity: 1.96Tbps",
+      "forwardingRate": "1428Mpps"
+    },
+    "detailedOverview": [
+      "1U/19-inch rack-mountable chassis",
+      "Supports IPv6, MPLS VPN, virtualization, and network security",
+      "Continuous software upgrades using ISSU technology",
+      "Advanced reliability: graceful restart, ring protection, redundancy",
+      "Ideal for virtualized data centers and enterprise IT networks"
+    ],
+    "keyFeatures": {
+      "highDensityCoreArchitecture": [
+        "48×1/10G SFP+ ports",
+        "2×40G QSFP28 uplink ports",
+        "4×100G QSFP28 uplink ports",
+        "1.96Tbps switching capacity (non-blocking)"
+      ],
+      "continuousReliability": [
+        "ISSU – In-Service Software Upgrade",
+        "Hitless Protection System (HPS)",
+        "Hot-swappable redundant power supply"
+      ],
+      "advancedL3Services": [
+        "IPv4/IPv6 full protocol stack",
+        "MPLS VPN support",
+        "PIM-DM/SM multicast routing"
+      ],
+      "robustSecurity": [
+        "Defense against DDoS / TCP SYN / UDP flood",
+        "IEEE 802.1x / Radius / Tacacs+ authentication",
+        "uRPF reverse routing lookup"
+      ],
+      "intelligentOMManagement": [
+        "Real-time CPU monitoring, Ping detection, cable diagnostics",
+        "HTTPS / SSH V2 / SNMP v1/v2/v3 support",
+        "Traffic statistics via RMON"
+      ]
+    },
+    "technicalSpecification": {
+      "model": "NAV-C48S2Q-40",
+      "interfaceCharacteristics": {
+        "consolePort": "1x RS232 (9600,8,N,1)",
+        "fixedPorts": [
+          "48×1/10G SFP+ fiber ports (Data)",
+          "2×40G QSFP28 fiber ports (Data)",
+          "4×100G QSFP28 fiber ports (Data)"
+        ],
+        "usbPort": "1x USB 2.0 configuration port",
+        "opticalFiberPort": "10G/40G/100G QSFP28 ports, optical modules optional"
+      },
+      "opticalCableDistance": "Multi-mode: 850nm (0–550m), Single-mode: 1310nm (0–40km), 1550nm (0–120km)",
+      "chipParameters": {
+        "networkType": "Layer 3",
+        "protocol": "IEEE 802.3u/3ab/3z/3ae/3x Ethernet Standards",
+        "forwardingMode": "Store and Forward (Full Wire Speed)",
+        "switchingCapacity": "1.96Tbps",
+        "forwardingRate": "1428Mpps",
+        "MAC": "64K",
+        "bufferMemory": "64M",
+        "jumboFrame": "16K"
+      },
+      "power": {
+        "ledIndicators": "PWR A, PWR B, SYS, MNG (Green)",
+        "totalInputVoltage": "AC100-240V",
+        "powerConsumption": "<50W standby, <160W full load",
+        "powerSupply": "Built-in AC 100–240V, Supports Dual Power Supply"
+      },
+      "physicalParameters": {
+        "operatingTemp": "-20°C to +55°C",
+        "operatingHumidity": "5%–90% RH (Non-condensing)",
+        "storageTemp": "-40°C to +75°C",
+        "dimensions": "442.5×404×44mm",
+        "weight": "6.8kg / <7.0kg",
+        "installation": "Desktop / 1U / 19-inch rack"
+      },
+      "certificationWarranty": {
+        "lightningProtection": "6KV 8/20μs, IP30",
+        "certification": "CCC, CE, EN62368-1, FCC Part 15 Class B, RoHS",
+        "warranty": "3 years, lifelong maintenance"
+      }
+    },
+    "featureCategory": {
+      "vlanFeatures": [
+        "4K VLAN entries",
+        "Basic QinQ, Flexible QinQ",
+        "1:1 & N:1 VLAN Mapping"
+      ],
+      "linkAggregation": [
+        "10GE port aggregation",
+        "Static & Dynamic LACP"
+      ],
+      "stp_erps": [
+        "ERPS (G.8032)",
+        "802.1D / 802.1W / 802.1S",
+        "BPDU protection & root guard"
+      ],
+      "multicastSupport": [
+        "IGMP v1/v2/v3",
+        "PIM-SM/DM",
+        "Multicast cross-VLAN replication"
+      ],
+      "qos_acl": [
+        "SP / WRR / SP+WRR scheduling",
+        "802.1P / DSCP priority marking",
+        "WRED congestion control",
+        "Traffic shaping & classification"
+      ],
+      "security": [
+        "DDoS / TCP-SYN / UDP flood protection",
+        "ARP anti-attack & MAC binding",
+        "Port isolation & IEEE 802.1x authentication"
+      ]
+    },
+    "management": [
+      "Web (HTTP/HTTPS)",
+      "SNMP v1/v2/v3",
+      "SSH v2 / Telnet / Console",
+      "RMON traffic stats",
+      "TFTP file management",
+      "System logs & graded alarms"
+    ],
+    "orderingInformation": [
+      {
+        "model": "NAV-C48S2Q-40",
+        "description": "L3 managed Ethernet switch with 48×10G SFP+, 2×40G QSFP28 & 4×100G QSFP28 ports. Rack mountable 1U/19\".",
+        "powerSupply": "2×480W"
+      }
+    ],
+    "packingList": [
+      {
+        "content": "NAV-C48S2Q-40 Switch",
+        "qty": 1,
+        "unit": "Set"
+      },
+      {
+        "content": "AC Power Cable",
+        "qty": 1,
+        "unit": "PC"
+      },
+      {
+        "content": "Mounting Kit",
+        "qty": 1,
+        "unit": "Set"
+      },
+      {
+        "content": "Warranty Card & Certificate",
+        "qty": 1,
+        "unit": "PC"
+      }
+    ],
+    "opticalModules": [
+      {
+        "category": "1.25G SFP",
+        "modules": [
+          {
+            "model": "2630",
+            "description": "Multi-mode, 850nm, 550m, LC",
+            "unit": "PC"
+          },
+          {
+            "model": "2632",
+            "description": "Single-mode, 1310nm, 20km, LC",
+            "unit": "PC"
+          },
+          {
+            "model": "2612-T",
+            "description": "Single-mode TX1310/RX1550, 20km, LC",
+            "unit": "PC"
+          },
+          {
+            "model": "2613-R",
+            "description": "Single-mode TX1550/RX1310, 20km, LC",
+            "unit": "PC"
+          }
+        ]
+      },
+      {
+        "category": "10G SFP+",
+        "modules": [
+          {
+            "model": "6630",
+            "description": "Multi-mode 850nm, 300m, LC",
+            "unit": "PC"
+          },
+          {
+            "model": "7832",
+            "description": "Single-mode 1310nm, 20km, LC",
+            "unit": "PC"
+          },
+          {
+            "model": "7832-33",
+            "description": "Single-mode TX1330/RX1270, 20km",
+            "unit": "PC"
+          },
+          {
+            "model": "7832-27",
+            "description": "Single-mode TX1270/RX1330, 20km",
+            "unit": "PC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "RIZONN",
+    "tagline": "Powering the Connected Future",
+    "model": "NAV-D8R12S",
+    "productType": "20-port 10G Uplink Core Routing Switch",
+    "description": "The NAV-D8R12S is a high-performance L3 managed switch designed for next-generation IP metropolitan area networks and large campus networks. It features 8×10/100/1000M RJ45 ports and 12×1/10G SFP+ fiber ports to meet high-density big data transmission requirements.",
+    "keyHighlights": {
+      "highSpeedConnectivity": "Designed for IP MAN, large campus, and enterprise networks with 8×GE RJ45 and 12×1/10G SFP+ ports.",
+      "hardware": "1U architecture with 680Gbps switching capacity for triple-play voice, video, and data.",
+      "security": "IEEE 802.1x, Radius, Tacacs+ authentication with hardware-level deep packet inspection.",
+      "reliability": "ISSU, VRRP, Ring Network protection, and BFD for millisecond-level fault recovery.",
+      "capacity": "Switching Capacity: 680Gbps",
+      "forwardingRate": "136Mpps",
+      "warranty": "3-year product warranty with lifelong maintenance."
+    },
+    "detailedOverview": [
+      "Next-generation 10G convergence solution for IP MANs, large campus, and enterprise networks.",
+      "Equipped with 8×10/100/1000M RJ45 ports and 12×1/10G SFP+ fiber ports.",
+      "Provides high-performance L2/L3/L4 wire-speed switching.",
+      "Supports advanced services such as IPv6, MPLS VPN, network security, traffic analysis, and virtualization.",
+      "Designed for continuous communication with ISSU, graceful restart, and redundancy protection.",
+      "Supports RIP, OSPF, BGP, PIM-DM/SM for traditional and virtualized big data networks.",
+      "Flexible optical fiber selection based on distance and speed to expand 1/10G networks."
+    ],
+    "keyFeatures": {
+      "advancedHardwareArchitecture": [
+        "8× Gigabit RJ45 ports + 12×1/10G SFP+ fiber ports for flexible access and uplinks.",
+        "680Gbps switching capacity for non-blocking, wire-speed data forwarding.",
+        "1U rack-mount design suitable for core or aggregation layers."
+      ],
+      "multiLayerSecurityDefense": [
+        "Supports IEEE 802.1x, Radius, and Tacacs+ for strict identity authentication.",
+        "Hardware-level deep packet inspection to isolate illegal traffic.",
+        "Protection against DoS, TCP SYN Flood, and UDP Flood attacks."
+      ],
+      "richL3ServiceCapabilities": [
+        "Complete L3 routing support: RIP, OSPF, BGP, and MPLS VPN for private networks.",
+        "Comprehensive IPv6 protocol suite for dual-stack and transition scenarios.",
+        "Supports multicast routing such as PIM-DM/SM for video/data convergence."
+      ],
+      "carrierGradeStability": [
+        "ISSU support for uninterrupted data forwarding during system upgrades.",
+        "VRRP and Ring Network Protection for high-availability routing.",
+        "BFD ensures millisecond-level fault detection and recovery."
+      ],
+      "smartOMManagement": [
+        "Diverse management via Web, CLI, SNMP (v1/v2/v3), and RMON.",
+        "Supports traffic analysis, SFLOW, and diagnostics for optimization.",
+        "IEEE 802.3az energy-saving design with intelligent speed-regulating fans."
+      ],
+      "productSummary": [
+        "A high-performance L3 core routing switch with 12×10G SFP+ uplinks and 8×Gigabit access ports.",
+        "Designed for large campus and enterprise networks requiring high-density and strong security.",
+        "Provides strong virtualization, security, and slow start power protection for enhanced reliability."
+      ]
+    },
+    "technicalSpecification": {
+      "model": "NAV-D8R12S",
+      "interfaceCharacteristics": {
+        "fixedPorts": [
+          "8×10/100/1000M RJ45 ports (Data)",
+          "12×1/10G SFP+ fiber ports (Data)"
+        ],
+        "consolePort": "1× RS232 console port (9600, 8, N, 1)",
+        "ethernetPort": "Ports 1–8 support 10/100/1000Base-T auto-sensing, full/half duplex, MDI/MDI-X auto-adaptation",
+        "twistedPairTransmission": [
+          "10BASE-T: Cat3, 4, 5 UTP (≤100 meters)",
+          "100BASE-TX: Cat5 or later UTP (≤100 meters)",
+          "1000BASE-T: Cat5e or later UTP (≤100 meters)"
+        ],
+        "opticalFiberPort": [
+          "1/10G SFP+ optical fiber interface, optical modules not included by default.",
+          "Optional single-mode/multi-mode, single/dual fiber optical modules with LC interface."
+        ],
+        "opticalCableDistance": "Multi-mode: 850nm, 0–550m; Single-mode: 1310nm, 0–40km; 1550nm, 0–120km."
+      },
+      "chipParameters": {
+        "networkManagementType": "Layer 3",
+        "networkProtocol": "IEEE 802.3u 100Base-TX, IEEE 802.3ab 1000Base-T, IEEE 802.3z 1000Base-X, IEEE 802.3ae 10Gb/s Ethernet, IEEE 802.3x",
+        "forwardingMode": "Store and Forward (Full Wire Speed)",
+        "switchingCapacity": "680Gbps (non-blocking)",
+        "forwardingRate": "136Mpps",
+        "MAC": "32K",
+        "bufferMemory": "32M",
+        "jumboFrame": "9K",
+        "ledIndicator": "Power: PWR (Green), System: SYS (Green), Network: G1–G8 (Green), Fiber: TE1–12 (Green)",
+        "resetSwitch": "Yes – Press and hold for 10 seconds and release to restore factory settings."
+      },
+      "power": {
+        "totalPowerInputVoltage": "75W / AC100–240V",
+        "powerConsumption": "Standby <20W, Full Load <40W",
+        "powerSupply": "Built-in power supply, AC100–240V 50–60Hz, 1.0A"
+      },
+      "physicalParameters": {
+        "operatingTemp": "-20°C to +55°C",
+        "operatingHumidity": "5%–90% RH (Non-condensing)",
+        "storageTemp": "-40°C to +75°C",
+        "storageHumidity": "5%–95% RH (Non-condensing)",
+        "dimensions": "442.5×315×44mm",
+        "weight": "<5.8kg / <6.2kg",
+        "installation": "Desktop / 1U / 19-inch cabinet"
+      },
+      "certificationWarranty": {
+        "lightningProtection": "Port lightning protection: 6KV 8/20μs, Protection level: IP30",
+        "certification": "CCC, CE mark, commercial, CE/LVD EN62368-1, FCC Part 15 Class B, RoHS",
+        "warranty": "3 years, lifelong maintenance"
+      }
+    },
+    "featureCategory": {
+      "virtualizationStacking": [
+        "VRRP virtualization stack with active/standby switching.",
+        "Policy routing with BFD for OSPF and BGP.",
+        "Equal-cost routing for load balancing."
+      ],
+      "ipv4Features": [
+        "Supports static routing, RIP v1/v2, OSPF, BGP, IS-IS, BEIGRP."
+      ],
+      "ipv6Features": [
+        "IPv6 static routing, RIPng, OSPFv3, BGP4+.",
+        "MLD v1/v2, MLD Snooping, IPv6 neighbor discovery.",
+        "ICMPv6, DHCPv6, ACLv6, IPv6 Telnet.",
+        "Supports manual tunnel, ISATAP tunnel, and 6to4 tunnel.",
+        "Path MTU discovery."
+      ],
+      "macFeatures": [
+        "Configurable MAC address aging time.",
+        "IEEE 802.1AE MACSec security control.",
+        "Static configuration and dynamic MAC learning.",
+        "MAC filtering and black-hole MAC entries.",
+        "Limit MAC address learning quantity."
+      ],
+      "vlanFeatures": [
+        "4K active VLAN entries.",
+        "GVRP and Private VLAN support.",
+        "Basic QinQ and flexible QinQ.",
+        "1:1 and N:1 VLAN Mapping."
+      ],
+      "linkAggregation": [
+        "10GE port aggregation.",
+        "Static link aggregation.",
+        "Dynamic aggregation (LACP)."
+      ],
+      "flowMonitoring": [
+        "SFLOW-based flow monitoring.",
+        "DHCP Snooping option82 / DHCP Relay option82."
+      ],
+      "dhcpFeatures": [
+        "DHCP Client, DHCP Snooping, DHCP Relay, DHCP Server.",
+        "Zero configuration via DHCP auto-config and CWMP-TR069."
+      ],
+      "stp_erps": [
+        "802.1D STP, 802.1W RSTP, 802.1S MSTP.",
+        "BPDU protection, root protection, loop protection.",
+        "ERPS Ethernet Ring Protection (G.8032)."
+      ],
+      "multicastSupport": [
+        "Multicast group policy and multicast group quantity limit.",
+        "IGMP v1/v2/v3, IGMP Snooping, IGMP Fast Leave.",
+        "PIM-SM, PIM-DM, multicast traffic cross-VLAN duplication."
+      ],
+      "arpFeatures": [
+        "Static ARP entries and ARP source suppression.",
+        "Standard proxy ARP and local proxy ARP.",
+        "Free ARP, Dynamic ARP Inspection, ARP anti-attack.",
+        "ARP Detection based on DHCP Snooping, 802.1x, or IP/MAC binding."
+      ],
+      "mirroring": [
+        "Flow mirroring, N:4 port mirroring.",
+        "Local and remote port mirroring support."
+      ],
+      "vpn_mpls": [
+        "MCE, MPLS TE, MPLS OAM, LDP protocol.",
+        "Supports MPLS VPN P/PE roles."
+      ],
+      "qos_acl": [
+        "Traffic supervision and traffic shaping.",
+        "SP, WRR, and SP+WRR queue scheduling.",
+        "CAR traffic restriction, 802.1P/DSCP priority remarking.",
+        "Tail-Drop, WRED, and other congestion avoidance mechanisms.",
+        "Traffic classification based on L2/L3/L4 header fields.",
+        "Ingress/Egress ACL with L2/L3/L4 & IP five-tuple matching.",
+        "Hash same-source/same-destination load balancing.",
+        "ACL-based L2/L3/L4 identification and filtering."
+      ],
+      "security": [
+        "uRPF, port isolation, port security, IP+MAC+port binding.",
+        "IEEE 802.1x authentication, DHCP Snooping, DHCP Option 82.",
+        "Radius and Tacacs+ authentication, CLI hierarchical protection.",
+        "Suppression of broadcast, multicast, and unknown unicast traffic.",
+        "Protection against DDoS, TCP SYN Flood, and UDP Flood attacks."
+      ],
+      "reliability": [
+        "EAPS and ERPS ring network protection.",
+        "ISSU for uninterrupted system upgrades.",
+        "HSRP and VRRP hot standby, GR for OSPF and BGP.",
+        "Optional 1+1 power backup with BFD for OSPF/BGP.",
+        "Static/LACP link aggregation supporting cross-service card aggregation."
+      ]
+    },
+    "management": [
+      "Web-based management (HTTP/HTTPS).",
+      "SNMP v1/v2/v3 with RMON event history.",
+      "Console, Telnet, SSH 2.0 remote access.",
+      "TFTP file upload and download management.",
+      "ZTP (Zero Touch Provisioning) support.",
+      "NTP, Ping, Tracert, debug information output.",
+      "System logs and graded alarm notifications.",
+      "Support for 802.1AG and 802.3AH OAM.",
+      "IEEE 802.3az green energy-efficient Ethernet."
+    ],
+    "orderingInformation": [
+      {
+        "model": "NAV-D8R12S",
+        "description": "L3 managed 10G uplink Ethernet core routing switch with 8×10/100/1000M RJ45 ports and 12×1/10G SFP+ fiber ports. Built-in power supply, supports 1U/19\" cabinet installation.",
+        "powerSupply": "75W",
+        "note": "Optical modules are not included and must be purchased separately."
+      }
+    ],
+    "packingList": [
+      {
+        "content": "20-port 10G uplink core routing switch (NAV-D8R12S)",
+        "qty": 1,
+        "unit": "Set"
+      },
+      {
+        "content": "AC Power Cable",
+        "qty": 1,
+        "unit": "PC"
+      },
+      {
+        "content": "RJ45-DB9 Adapter Cable",
+        "qty": 1,
+        "unit": "PC"
+      },
+      {
+        "content": "Mounting Kit",
+        "qty": 1,
+        "unit": "Set"
+      },
+      {
+        "content": "Warranty Card and Certificate of Conformity",
+        "qty": 1,
+        "unit": "PC"
+      }
+    ],
+    "opticalModules": [
+      {
+        "category": "1.25G SFP",
+        "modules": [
+          {
+            "model": "2630",
+            "description": "SFP optical module, 1.25G multi-mode dual fiber 850nm, 550m, LC interface. Supports DDM and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "model": "2632",
+            "description": "SFP optical module, 1.25G single-mode dual fiber 1310nm, 20km, LC interface. Supports DDM and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "model": "2612-T",
+            "description": "SFP optical module, 1.25G single-mode single fiber TX1310nm/RX1550nm, 20km, LC interface. Supports DDM and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "model": "2613-R",
+            "description": "SFP optical module, 1.25G single-mode single fiber TX1550nm/RX1310nm, 20km, LC interface. Supports DDM and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "model": "2612-T-SC",
+            "description": "SFP optical module, 1.25G single-mode single fiber TX1310nm/RX1550nm, 20km, SC interface. Supports DDM and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "model": "2613-R-SC",
+            "description": "SFP optical module, 1.25G single-mode single fiber TX1550nm/RX1310nm, 20km, SC interface. Supports DDM and hot plugging.",
+            "unit": "PC"
+          }
+        ]
+      },
+      {
+        "category": "Power Module",
+        "modules": [
+          {
+            "model": "2633",
+            "description": "1.25G SFP optical module to 10/100/1000M RJ45 conversion module.",
+            "unit": "PC"
+          }
+        ]
+      },
+      {
+        "category": "10G SFP+",
+        "modules": [
+          {
+            "model": "6630",
+            "description": "SFP+ optical module, 10G multi-mode dual fiber 850nm, 300m, LC interface. Supports DDM and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "model": "7832",
+            "description": "SFP+ optical module, 10G single-mode dual fiber 1310nm, 20km, LC interface. Supports DDM and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "model": "7832-33",
+            "description": "SFP+ optical module, 10G single-mode single fiber TX1330nm/RX1270nm, 20km, LC interface. Supports DDM and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "model": "7832-27",
+            "description": "SFP+ optical module, 10G single-mode single fiber TX1270nm/RX1330nm, 20km, LC interface. Supports DDM and hot plugging.",
+            "unit": "PC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Industrial Switch",
+    "products": [
+      {
+        "id": 1,
+        "model": "NAV-D24R4S",
+        "title": "28-port 10G Uplink Managed Industrial Ethernet Switch",
+        "description": "High-speed L3 industrial switch with 24 Gigabit ports and 4 SFP+ uplinks, built for harsh environments such as transportation, mining, and energy sectors.",
+        "highPerformanceIndustrialConnectivity": {
+          "description": "Supports IPv4/IPv6 routing (OSPF, BGP) with wire-speed performance.",
+          "switchingCapacity": "176 Gbps",
+          "protectionLevel": "6 KV",
+          "housing": "IP40 Rated Industrial Housing"
+        },
+        "dualPowerRedundancy": [
+          "2x AC (100-240V) & 2x DC (12-48V) inputs",
+          "Automatic switching from AC to DC on failure",
+          "Supports anti-reverse protection"
+        ],
+        "l3CoreRouting": [
+          "Full Layer 3 Management",
+          "Supports RIP v1/v2, OSPF v2/v3, BGP+, VRRP",
+          "Efficient Multi-Segment Communication"
+        ],
+        "selfHealingNetwork": [
+          "Supports ERPS (G.8032), STP, RSTP, MSTP",
+          "Self-healing recovery time <20ms"
+        ],
+        "productOverview": [
+          "24x adaptive 10/100/1000Base-T RJ45 ports",
+          "4x 1/10G SFP+ uplinks",
+          "Full wire-speed forwarding",
+          "Advanced L3 management with VLAN, ACL, QoS",
+          "Optimized for industrial applications"
+        ],
+        "keyFeatures": {
+          "highPerformanceNetworking": [
+            "IEEE 802.3x full-duplex",
+            "Auto sensing on all copper ports"
+          ],
+          "advancedSecurity": [
+            "Port isolation & ACL",
+            "IP+MAC+Port+VLAN binding"
+          ],
+          "strongL2L3Processing": [
+            "ERPS, STP, RSTP, MSTP",
+            "LACP + Static Aggregation"
+          ],
+          "robustReliability": [
+            "Industrial-grade certifications (CCC, CE, FCC, RoHS)",
+            "Fanless design with metal housing"
+          ],
+          "easyManagement": [
+            "SSH, HTTPS, SNMP, Web UI, CLI",
+            "ONV-NMS platform support"
+          ]
+        },
+        "technicalSpecification": {
+          "model": "NAV-D24R4S",
+          "interfaceCharacteristics": {
+            "ports": [
+              "24x 10/100/1000Base-T RJ45 ports (Data)",
+              "4x 1/10G SFP+ fiber ports (Data)",
+              "1x Console port (115200,N,8,1)"
+            ],
+            "powerInput": [
+              "2x AC100-240V power input ports",
+              "2x DC12-48V power input ports (anti-reverse protection)"
+            ],
+            "ethernetPort": [
+              "Auto-sensing / MDI/MDI-X",
+              "10BASE-T/100BASE-TX/1000BASE-T",
+              "≤100 meters Cat5e or above"
+            ],
+            "opticalFiberPort": "1/10G SFP+ (optional single-mode/multi-mode module)",
+            "opticalCableDistance": "Multi-mode: 850nm/0-550m, Single-mode: 1310nm/0-40km"
+          },
+          "chipParameters": {
+            "networkManagementType": "L3",
+            "networkProtocol": "IEEE 802.3 standards",
+            "forwardingMode": "Store and Forward",
+            "switchingCapacity": "176Gbps",
+            "forwardingRate": "95.23Mpps",
+            "cpu": "500M Hz",
+            "dram": "2G",
+            "flash": "128M",
+            "mac": "32K",
+            "bufferMemory": "32M",
+            "jumboFrame": "9.6K"
+          },
+          "powerSupply": {
+            "totalPower": "60W (AC100-240V)",
+            "consumption": "Standby <25W, Full Load <45W",
+            "inputs": [
+              "AC 100-240V 50-60Hz",
+              "DC 12-48V dual input with protection"
+            ]
+          },
+          "physicalParameter": {
+            "operatingTemperature": "-40°C to +80°C",
+            "storageTemperature": "-40°C to +85°C",
+            "dimension": "440×298×44mm",
+            "weight": "3.9kg / 4.7kg",
+            "installation": "Desktop / 1U / 19-inch cabinet"
+          },
+          "certificationWarranty": {
+            "protection": "IP40",
+            "mechanicalProperties": [
+              "IEC60068-2-6 (Anti Vibration)",
+              "IEC60068-2-32 (Free Fall)",
+              "IEC60068-2-27 (Anti Shock)"
+            ],
+            "certification": "CCC, CE, FCC Part 15 Class B, RoHS",
+            "warranty": "5 years, lifelong maintenance"
+          }
+        },
+        "networkManagementFeatures": {
+          "interface": [
+            "Port temperature protection",
+            "Green Ethernet energy-saving mode"
+          ],
+          "l3Routing": [
+            "RIPv1/v2, OSPFv2/v3, BGP+, VRRP",
+            "Static & dynamic routing"
+          ],
+          "vlan": [
+            "Voice VLAN, QinQ, IEEE802.1q",
+            "4K VLAN based on port"
+          ],
+          "ringNetwork": [
+            "ERPS <20ms",
+            "Supports up to 255 rings"
+          ]
+        },
+        "orderingInformation": [
+          {
+            "model": "NAV-D24R4S",
+            "description": "L3 managed industrial Ethernet switch with 24x RJ45 & 4x 10G SFP+ ports",
+            "powerSupply": "2×60W"
+          }
+        ],
+        "packingList": [
+          {
+            "content": "28-port 10G industrial switch",
+            "qty": 1,
+            "unit": "SET"
+          },
+          {
+            "content": "AC Power Cable",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "RJ45-DB9 Adapter Cable",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "Mounting Kit",
+            "qty": 1,
+            "unit": "SET"
+          },
+          {
+            "content": "User Guide",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "Warranty Card",
+            "qty": 1,
+            "unit": "PC"
+          }
+        ],
+        "opticalModule": [
+          {
+            "product": "1.25G Optical Module",
+            "model": "2630-G",
+            "description": "Industrial SFP optical module, 1.25G multi-mode dual fiber 850nm, transmission distance: 550m, LC interface. supports DDM function and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "product": "1.25G Optical Module",
+            "model": "2632-G",
+            "description": "Industrial SFP optical module, 1.25G single-mode dual fiber 1310nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "product": "1.25G Optical Module",
+            "model": "2612-T-G",
+            "description": "Industrial SFP optical module, 1.25G single-mode single fiber TX1310nm/RX1550nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "product": "1.25G Optical Module",
+            "model": "2613-R-G",
+            "description": "Industrial SFP optical module, 1.25G single-mode single fiber TX1550nm/RX1310nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "product": "1.25G Optical Module",
+            "model": "2612-T-G-SC",
+            "description": "Industrial SFP optical module, 1.25G single-mode single fiber TX1310nm/RX1550nm, transmission distance: 20km, SC interface. supports DDM function and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "product": "1.25G Optical Module",
+            "model": "2613-R-G-SC",
+            "description": "Industrial SFP optical module, 1.25G single-mode single fiber TX1550nm/RX1310nm, transmission distance: 20km, SC interface. supports DDM function and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "product": "10G Optical Module",
+            "model": "6630-G",
+            "description": "Industrial SFP+ optical module, 10G multi-mode dual fiber 850nm, transmission distance: 300m, LC interface. supports DDM function and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "product": "10G Optical Module",
+            "model": "7832-G",
+            "description": "Industrial SFP+ optical module, 10G single-mode dual fiber 1310nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "product": "10G Optical Module",
+            "model": "7832-33-G",
+            "description": "Industrial SFP+ optical module, 10G single-mode single fiber X1330nm/RX1270nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "product": "10G Optical Module",
+            "model": "7832-27-G",
+            "description": "Industrial SFP+ optical module, 10G single-mode single fiber TX1270nm/RX1330nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+            "unit": "PC"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "brand": "RIZONN",
+    "tagline": "Powering the Connected Future",
+    "productDatasheet": "RIZONN Product Datasheet",
+    "productType": "14-Port Gigabit Managed Industrial Ethernet Switch",
+    "model": "NAV-I-10R4S",
+    "managedIndustrialEthernetSolution": "The NAV-I-10R4S is a Gigabit managed industrial Ethernet fiber switch featuring 10x 10/100/1000Base-T adaptive RJ45 ports and 4x 100/1000Base-X uplink SFP fiber ports. Designed for harsh environments, it supports wire-speed forwarding and comprehensive L2+ network management.",
+    "robustIndustrialBuild": "Features an IP40 rated aluminum alloy housing with a fanless thermal design and 6KV lightning protection. It operates stably in extreme temperatures ranging from -40°C to +80°C.",
+    "networkRedundancy": "Supports ERPS ring network protocols (recovery time <20ms) and STP/RSTP/MSTP. This eliminates Layer 2 loops and ensures uninterrupted communication for critical applications.",
+    "advancedSecurity": "Includes comprehensive security mechanisms such as 802.1X authentication, port isolation, and broadcast storm suppression. Supports easy management via Web, CLI, and SNMP.",
+    "performanceSummary": {
+      "switchingCapacity": "52Gbps Non-blocking wire-speed",
+      "warranty": "5 Years Lifelong maintenance"
+    },
+    "idealFor": "Industrial scenarios such as intelligent transportation, rail transit, and green energy construction. The NAV-I-10R4S offers flexible port combinations (Gigabit RJ45+SFP) and diverse management modes to build economical, efficient, and stable communication networks.",
+    "productOverview": "The NAV-I-10R4S is a Gigabit managed industrial Ethernet fiber switch. It is equipped with 10x 10/100/1000Base-T adaptive RJ45 ports and 4x 100/1000Base-X uplink SFP fiber ports. Each port supports wire-speed forwarding. The NAV-I-10R4S features L2+ network management functions, including IPv4/IPv6 management, static routing forwarding, comprehensive security protection mechanisms, advanced ACL/QoS strategies, and rich VLAN functions for ease of management and maintenance. It supports multiple network redundancy protocols, including STP/RSTP/MSTP (<50ms) and ERPS (ITU-T G.8032) ring networks (<20ms), to enhance link backup and network reliability. If a unidirectional network fails, communication is quickly restored to ensure the uninterrupted operation of critical applications. Designed for harsh environments, the switch offers excellent adaptability to mechanical stress, extreme climates, and electromagnetic interference. It is ideal for industrial scenarios such as intelligent transportation, rail transit, power industries, mining, petroleum, shipping, metallurgy, and green energy construction.",
+    "keyFeatures": {
+      "flexibleGigabitAccess": [
+        "10× Gigabit RJ45 ports + 4× Gigabit SFP fiber uplinks for flexible networking.",
+        "Supports non-blocking wire-speed forwarding and IEEE 802.3x full-duplex/backpressure."
+      ],
+      "multiLayerSecurity": [
+        "Features Port isolation, broadcast storm suppression, and IP+MAC+Port+VLAN binding.",
+        "Includes 802.1X authentication and strict ACL policies for secure access control."
+      ],
+      "smartTrafficControl": [
+        "ERPS (<20ms) and STP/RSTP/MSTP for fast, loop-free ring network redundancy.",
+        "Supports VLAN (Voice/QinQ), LACP aggregation, IGMP Snooping, and QoS (SP/WRR)."
+      ],
+      "efficientMaintenance": [
+        "Real-time CPU/memory monitoring, Ping detection, and cable length diagnostics.",
+        "Supports Web, CLI, SNMP V1/V2/V3, SSH 2.0, and LLDP for easy network oversight."
+      ],
+      "ruggedIndustrialDesign": [
+        "Fanless aluminum alloy housing rated for -40°C to +80°C operation.",
+        "IP40 protection with 6KV lightning defense; CCC, CE, FCC, and RoHS certified.",
+        "Supports dual redundant DC power inputs (12-48V) for stable uptime."
+      ]
+    },
+    "technicalSpecification": {
+      "feature": "Technical Specification",
+      "model": "NAV-I-10R4S",
+      "interfaceCharacteristics": {
+        "fixedPort": [
+          "10× 10/100/1000Base-T RJ45 ports (Data)",
+          "4× 100/1000Base-X uplink SFP fiber ports (Data)",
+          "1× RS232 Console port (115200, N, 8, 1)",
+          "2 sets V+, V- redundant DC power port (6P Phoenix terminal)"
+        ],
+        "ethernetPort": "Port 1-10 supports 10/100/1000Base-T auto-sensing, full/half duplex MDI/MDI-X self-adaption",
+        "twistedPairTransmission": "10BASE-T: Cat3, 4, 5 UTP (≤100m) | 100BASE-TX: Cat5 or later UTP (≤100m) | 1000BASE-T: Cat5e or later UTP (≤100m)",
+        "opticalFiberPort": "Gigabit optical fiber interface with optional single/multi-mode LC modules",
+        "opticalExpansion": "Supports Turbo overclocking 2.5G optical module expansion & ring network",
+        "opticalCableDistance": "Multi-mode: 850nm/0-550m | Single-mode: 1310nm/0-40km | 1550nm/0-120km"
+      },
+      "chipParameters": {
+        "networkManagementType": "L2+",
+        "networkProtocol": "IEEE 802.3 10BASE-T, IEEE 802.3i 10Base-T, IEEE 802.3u 100Base-TX, IEEE 802.3ab 1000Base-T, IEEE 802.3z 1000Base-X, IEEE 802.3x",
+        "forwardingMode": "Store and Forward (Full Wire Speed)",
+        "switchingCapacity": "52Gbps (non-blocking)",
+        "forwardingRate": "20.83 Mpps (@64 byte)",
+        "cpu": "416M",
+        "dram": "1G",
+        "flash": "128M",
+        "MAC": "8K",
+        "bufferMemory": "6M",
+        "jumboFrame": "9.6K",
+        "ledIndicator": "Power: PWR (Green), System: SYS (Green), Network: Link (Yellow), Fiber port: L/A (Green)",
+        "resetSwitch": "Yes, press and hold for 10s and release to restore factory settings"
+      },
+      "power": {
+        "powerConsumption": "Standby <10W, Full load <15W",
+        "workingVoltage": "DC12-48V, 6P industrial Phoenix terminal, anti-reverse protection",
+        "powerSupply": "No, optional 24V/24W industrial power supply"
+      },
+      "physicalParameter": {
+        "operatingTempHumidity": "-40~+80°C; 5%~90% RH Non-condensing",
+        "storageTempHumidity": "-40~+85°C; 5%~95% RH Non-condensing",
+        "dimensions": "165×148×54mm",
+        "weight": "1.1kg / 1.3kg",
+        "installation": "Desktop / 35mm DIN Rail"
+      }
+    },
+    "certificationAndWarranty": {
+      "protectionLevel": "IP40",
+      "lightningProtection": [
+        "6KV 8/20μs",
+        "IEC61000-4-4 (EFT): ±4kV",
+        "IEC61000-4-2 (ESD): ±8kV contact / ±15kV air",
+        "IEC61000-4-5 (Surge): CM±4kV / DM±2kV"
+      ],
+      "mechanicalProperties": "IEC60068-2-6 (Vibration), IEC60068-2-32 (Free Fall), IEC60068-2-27 (Shock)",
+      "certification": "CCC, CE mark, EN62368-1, FCC Part 15 Class B, RoHS",
+      "warranty": "5 years, lifelong maintenance"
+    },
+    "orderingInformation": [
+      {
+        "model": "NAV-I-10R4S",
+        "description": "L2+ managed industrial Ethernet fiber switch with 10×RJ45 & 4×SFP ports. Supports dual DC power input and DIN Rail mounting.",
+        "recommendedPowerSupply": "24W"
+      }
+    ],
+    "packingList": [
+      {
+        "content": "14-port gigabit managed industrial Ethernet switch",
+        "qty": 1,
+        "unit": "SET"
+      },
+      {
+        "content": "RJ45-DB9 Adapter Cable",
+        "qty": 1,
+        "unit": "PC"
+      },
+      {
+        "content": "User Guide",
+        "qty": 1,
+        "unit": "PC"
+      },
+      {
+        "content": "Warranty Card & Certificate of Conformity",
+        "qty": 1,
+        "unit": "PC"
+      }
+    ],
+    "powerSupply": [
+      {
+        "product": "24W DIN Rail Industrial Power Supply",
+        "model": "GWS-DP24-24",
+        "description": [
+          "DIN Rail 24W single set of output power supply",
+          "Input Voltage: AC100V~240V 50-60Hz, 0.35A",
+          "Output Voltage: DC24V, 1.0A",
+          "Operating Temperature: -40°C to +70°C"
+        ],
+        "unit": "PC"
+      }
+    ],
+    "opticalModule": [
+      {
+        "product": "1.25G Optical Module",
+        "modules": [
+          {
+            "model": "2630G",
+            "description": "Industrial SFP optical module, 1.25G multi-mode dual fiber 850nm, 550m, LC interface. Support DDM function and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "model": "2632-G",
+            "description": "Industrial SFP optical module, 1.25G single-mode dual fiber 1310nm, 20km, LC interface. Support DDM function and hot plugging.",
+            "unit": "PC"
+          },
+          {
+            "model": "2612-T-G",
+            "description": "Industrial SFP optical module, single-mode single fiber TX1310nm/RX1550nm, 20km, LC interface.",
+            "unit": "PC"
+          },
+          {
+            "model": "2613-R-G",
+            "description": "Industrial SFP optical module, single-mode single fiber TX1550nm/RX1310nm, 20km, LC interface.",
+            "unit": "PC"
+          },
+          {
+            "model": "2612-T-SC-G",
+            "description": "Industrial SFP optical module, single-mode TX1310/RX1550, SC interface.",
+            "unit": "PC"
+          },
+          {
+            "model": "2613-R-SC-G",
+            "description": "Industrial SFP optical module, single-mode RX1310/TX1550, SC interface.",
+            "unit": "PC"
+          }
+        ]
+      }
+    ]
+  },
+  
+  {
+    "category": "Industrial Managed Switch",
+    "products": [
+      {
+        "id": 1,
+        "model": "NAV-I-16R2S",
+        "title": "18-Port Full Gigabit L2+ Managed Industrial Ethernet Switch with 2×SFP Fiber Uplinks",
+        "description": "The NAV-I-16R2S is a full gigabit managed industrial Ethernet fiber switch designed for high-performance environments, supporting non-blocking wire-speed forwarding and L2+ network management.",
+        "gigabitAccess": "Features 16x 10/100/1000Base-T RJ45 ports and 2x 100/1000Base-X uplink SFP fiber ports to meet various networking scenarios.",
+        "robustManagement": "Supports IPv4/IPv6 management, static route forwarding, and rich VLAN functions (Voice VLAN, QinQ) for easy maintenance.",
+        "industrialReliability": "Supports ERPS ring network (<20ms recovery) and STP/RSTP/MSTP (<50ms) to eliminate loops and ensure uninterrupted communication.",
+        "performance": {
+          "switchingCapacity": "52Gbps",
+          "forwardingRate": "26.78Mpps @64byte",
+          "ruggedDesign": "Engineered for harsh industrial applications with IP40 protection, fanless galvanized steel shell, and wide temperature range: -40°C to +80°C."
+        },
+        "idealApplications": "Ideally suited for intelligent transportation, rail, power industry, and green energy construction.",
+        "contactDetails": "+91-9667656203 www.rizonn.in info@rizonn.in",
+        "productOverview": [
+          "Designed for high-performance industrial environments.",
+          "Every port supports wire-speed forwarding.",
+          "L2+ network management capabilities including IPv4/IPv6 management and ACL/QoS.",
+          "Supports STP/RSTP/MSTP (<50ms) and ERPS (<20ms) ring redundancy.",
+          "Suitable for intelligent transportation, rail, mining, power utilities, and green energy construction."
+        ],
+        "keyFeatures": {
+          "gigabitAccessUplink": [
+            "16× Gigabit RJ45 ports + 2× SFP fiber uplinks",
+            "Non-blocking forwarding & IEEE 802.3x full-duplex flow control"
+          ],
+          "secureNetworkControl": [
+            "Port isolation & storm control",
+            "IP+MAC+Port+VLAN binding",
+            "802.1X authentication & ACL policies"
+          ],
+          "intelligentTrafficHandling": [
+            "ERPS ring (<20ms) & STP/RSTP/MSTP",
+            "L2+ VLANs, QoS (SP/WRR), IGMP Snooping"
+          ],
+          "industrialGradeDesign": [
+            "Fanless IP40 galvanized steel shell",
+            "Operates in -40°C to +80°C",
+            "Dual redundant power inputs (AC priority + DC backup)"
+          ],
+          "versatileMaintenance": [
+            "Managed via Web, CLI, Telnet, SSH, SNMP (V1/V2/V3)",
+            "RMON, system logs & cable diagnostics"
+          ]
+        },
+        "technicalSpecification": {
+          "model": "NAV-I-16R2S",
+          "interfaceCharacteristics": {
+            "consolePort": "1x Console port (115200,N,8,1)",
+            "alarmSwitch": "Power-off alarm switch (FAULT)",
+            "acPowerInputs": "2x AC100-240V power input ports",
+            "fixedPorts": [
+              "16×10/100/1000Base-T RJ45 ports (Data)",
+              "2×100/1000Base-X uplink SFP fiber ports (Data)"
+            ],
+            "dcPowerInput": "2×DC12-48V power input ports (with anti-reverse protection)"
+          },
+          "ethernetPort": "Port 1-16 support 10/100/1000Base-T auto-sensing, full/half duplex MDI/MDI-X",
+          "twistedPairTransmission": [
+            "10BASE-T: Cat3/4/5 UTP ≤100m",
+            "100BASE-TX: Cat5 ≤100m",
+            "1000BASE-T: Cat5e or higher UTP ≤100m"
+          ],
+          "opticalFiberPort": "Gigabit optical fiber interface, optical module optional (LC-type)",
+          "opticalCableDistance": [
+            "Multi-mode: 850nm / 0-500m",
+            "Single-mode: 1310nm / 0-40km, 1550nm / 0-120km"
+          ],
+          "chipParameters": {
+            "networkManagementType": "L2+",
+            "networkProtocol": "IEEE802.3/802.3i/802.3u/802.3ab/802.3z/802.3x",
+            "forwardingMode": "Store and Forward (Wire-Speed)",
+            "switchingCapacity": "52Gbps (non-blocking)",
+            "forwardingRate": "26.78Mpps (@64byte)",
+            "MAC": "8K",
+            "bufferMemory": "6M",
+            "jumboFrame": "9.6K",
+            "ledIndicator": "PWR (Yellow), SYS (Yellow), Link (Yellow), SPEED (Green), Fiber L/A (Green)"
+          },
+          "power": {
+            "powerSupply": "Built-in AC100–240V 50-60Hz, 0.56A, supports anti-reverse AC/DC protection",
+            "redundancy": "Dual power input – AC priority, auto-switch DC backup",
+            "powerConsumption": "Standby <16W, Full load <30W"
+          },
+          "physicalParameter": {
+            "operatingTempHumidity": "-40°C to +80°C, 5%–90% RH (Non-condensing)",
+            "storageTempHumidity": "-40°C to +85°C, 5%–95% RH (Non-condensing)",
+            "dimension": "440×298×44mm",
+            "weight": "3.75kg / 4.4kg",
+            "installation": "1U / 19-inch cabinet / Desktop",
+            "protectionLevel": "IP40"
+          },
+          "certificationWarranty": {
+            "lightningProtection": "6KV 8/20μs",
+            "IECStandards": [
+              "IEC61000-4-3 (RS): 10V/m (80~1000MHz)",
+              "IEC61000-6-2 (Industrial Standard)",
+              "IEC61000-4-9 (Pulsed magnetic field)",
+              "IEC61000-4-10 (Damped oscillation)",
+              "IEC61000-4-5 (Surge): CM±4kV / DM±2kV"
+            ],
+            "certification": "CCC, CE, EN62368-1, FCC Part 15 Class B, RoHS",
+            "warranty": "5 years, lifelong maintenance"
+          }
+        },
+        "managementFeatures": {
+          "interface": [
+            "Port temperature protection",
+            "Broadcast storm control",
+            "EEE Green Ethernet",
+            "Rate limiting (64Kbps granularity)"
+          ],
+          "VLAN": [
+            "4K VLAN entries",
+            "Voice VLAN",
+            "QinQ",
+            "Access/Trunk/Hybrid"
+          ],
+          "spanningTree": [
+            "STP / RSTP / MSTP",
+            "ERPS Ring (<20ms), up to 255 rings supported"
+          ],
+          "multicast": [
+            "IGMP Snooping v1/v2/v3",
+            "MLD Snooping",
+            "Multicast VLAN"
+          ],
+          "qos_acl": [
+            "SP / WRR / SP+WRR scheduling",
+            "802.1p / DSCP mapping",
+            "ACL filtering up to 80 bytes"
+          ]
+        },
+        "security": [
+          "Port-based IEEE802.1X authentication",
+          "IP+MAC+Port+VLAN binding",
+          "ARP intrusion detection",
+          "DoS attack prevention",
+          "SSH 2.0 secure login",
+          "AAA & RADIUS & TACACS+ certification"
+        ],
+        "dimensions": {
+          "size": "440mm × 298mm × 44mm",
+          "diagram": "A. Working indicator | B. 16×RJ45 ports | C. 2×SFP uplink ports | D. Console port"
+        },
+        "orderingInformation": [
+          {
+            "model": "NAV-I-16R2S",
+            "description": "L2+ managed industrial switch with 16×RJ45 ports & 2×SFP ports, built-in power supply, supports 2AC+DC input & 1U/19-inch mounting.",
+            "builtInPower": "2×30W"
+          }
+        ],
+        "packingList": [
+          {
+            "content": "18-port full gigabit L2+ managed switch",
+            "qty": 1,
+            "unit": "SET"
+          },
+          {
+            "content": "AC Power Cable",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "RJ45-DB9 Line",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "Mounting Kits",
+            "qty": 1,
+            "unit": "SET"
+          },
+          {
+            "content": "User Guide",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "Warranty Card",
+            "qty": 1,
+            "unit": "PC"
+          }
+        ],
+        "opticalModules": [
+          {
+            "category": "1.25G Optical Module",
+            "items": [
+              {
+                "model": "2630-G",
+                "description": "Industrial SFP optical module, 1.25G multi-mode 850nm, 550m, LC. Supports DDM & hot-plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "2632-G",
+                "description": "Industrial SFP optical module, 1.25G single-mode 1310nm, 20km, LC. Supports DDM & hot-plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "2612-T-G",
+                "description": "Single-mode single fiber TX1310/RX1550 20km, LC.",
+                "unit": "PC"
+              },
+              {
+                "model": "2613-RG-",
+                "description": "Single-mode single fiber TX1550/RX1310 20km, LC.",
+                "unit": "PC"
+              },
+              {
+                "model": "2612-T-SCG-",
+                "description": "Single-mode single fiber TX1310/RX1550 20km, SC.",
+                "unit": "PC"
+              },
+              {
+                "model": "2613-R-SC-G",
+                "description": "Single-mode single fiber TX1550/RX1310 20km, SC.",
+                "unit": "PC"
+              }
+            ]
+          },
+          {
+            "category": "Power Module",
+            "items": [
+              {
+                "model": "2633",
+                "description": "1.25G SFP optical module transfers to 10/100/1000M RJ45 port.",
+                "unit": "PC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "model": "NAV-I-8P2S",
+        "title": "10-Port Gigabit Managed PoE Switch with 2×SFP Fiber Uplinks",
+        "description": "The NAV-I-8P2S is a high-performance industrial-grade managed PoE switch designed for harsh environments, featuring 8×10/100/1000M PoE ports and 2×1000M SFP fiber uplinks.",
+        "gigabitAccess": "Features 8× Gigabit PoE ports and 2× SFP fiber uplinks to meet various industrial networking scenarios with IEEE 802.3af/at PoE standards.",
+        "robustManagement": "Supports IPv4/IPv6 management, static route forwarding, and rich VLAN functions (Voice VLAN, QinQ) for easy maintenance.",
+        "industrialReliability": "Supports ERPS ring network (<20ms recovery) and STP/RSTP/MSTP (<50ms) to eliminate loops and ensure uninterrupted communication.",
+        "performance": {
+          "switchingCapacity": "20Gbps",
+          "forwardingRate": "14.88Mpps @64byte",
+          "ruggedDesign": "Engineered for harsh industrial applications with IP40 protection, fanless galvanized steel shell, and wide temperature range: -40°C to +80°C."
+        },
+        "idealApplications": "Ideally suited for intelligent transportation, rail, power industry, green energy construction, and industrial automation.",
+        "contactDetails": "+91-9667656203 www.rizonn.in info@rizonn.in",
+        "productOverview": [
+          "Designed for high-performance industrial environments requiring PoE power delivery.",
+          "Every port supports wire-speed forwarding.",
+          "L2+ network management capabilities including IPv4/IPv6 management and ACL/QoS.",
+          "Supports STP/RSTP/MSTP (<50ms) and ERPS (<20ms) ring redundancy.",
+          "All 8 RJ45 ports support IEEE 802.3af/at PoE standards with up to 30W per port.",
+          "Suitable for intelligent transportation, rail, mining, power utilities, and green energy construction."
+        ],
+        "keyFeatures": {
+          "gigabitPoEAccessUplink": [
+            "8× Gigabit PoE RJ45 ports + 2× SFP fiber uplinks",
+            "Non-blocking forwarding & IEEE 802.3x full-duplex flow control",
+            "Total PoE power budget: 120W"
+          ],
+          "smartPoEPower": [
+            "Supports IEEE 802.3af/at PoE standards",
+            "Automatically identifies PoE devices",
+            "Up to 30W power output per port",
+            "Protects non-PoE devices from damage"
+          ],
+          "secureNetworkControl": [
+            "Port isolation & storm control",
+            "IP+MAC+Port+VLAN binding",
+            "802.1X authentication & ACL policies"
+          ],
+          "intelligentTrafficHandling": [
+            "ERPS ring (<20ms) & STP/RSTP/MSTP",
+            "L2+ VLANs, QoS (SP/WRR), IGMP Snooping"
+          ],
+          "industrialGradeDesign": [
+            "Fanless IP40 galvanized steel shell",
+            "Operates in -40°C to +80°C",
+            "Dual redundant power inputs (AC priority + DC backup)"
+          ],
+          "versatileMaintenance": [
+            "Managed via Web, CLI, Telnet, SSH, SNMP (V1/V2/V3)",
+            "RMON, system logs & cable diagnostics"
+          ]
+        },
+        "technicalSpecification": {
+          "model": "NAV-I-8P2S",
+          "interfaceCharacteristics": {
+            "consolePort": "1x Console port (115200,N,8,1)",
+            "alarmSwitch": "Power-off alarm switch (FAULT)",
+            "acPowerInputs": "2x AC100-240V power input ports",
+            "fixedPorts": [
+              "8×10/100/1000Base-T PoE RJ45 ports (Data/Power)",
+              "2×100/1000Base-X uplink SFP fiber ports (Data)"
+            ],
+            "dcPowerInput": "2×DC12-48V power input ports (with anti-reverse protection)"
+          },
+          "ethernetPort": "Port 1-8 support 10/100/1000Base-T auto-sensing, full/half duplex MDI/MDI-X",
+          "twistedPairTransmission": [
+            "10BASE-T: Cat3/4/5 UTP ≤100m",
+            "100BASE-TX: Cat5 ≤100m",
+            "1000BASE-T: Cat5e or higher UTP ≤100m"
+          ],
+          "opticalFiberPort": "Gigabit optical fiber interface, optical module optional (LC-type)",
+          "opticalCableDistance": [
+            "Multi-mode: 850nm / 0-500m",
+            "Single-mode: 1310nm / 0-40km, 1550nm / 0-120km"
+          ],
+          "chipParameters": {
+            "networkManagementType": "L2+",
+            "networkProtocol": "IEEE802.3/802.3i/802.3u/802.3ab/802.3z/802.3x/802.3af/802.3at",
+            "forwardingMode": "Store and Forward (Wire-Speed)",
+            "switchingCapacity": "20Gbps (non-blocking)",
+            "forwardingRate": "14.88Mpps (@64byte)",
+            "MAC": "8K",
+            "bufferMemory": "4M",
+            "jumboFrame": "9.6K",
+            "ledIndicator": "PWR (Yellow), SYS (Yellow), Link (Yellow), SPEED (Green), Fiber L/A (Green), PoE (Green)"
+          },
+          "poePowerSupply": {
+            "poePort": "Port 1-8",
+            "powerSupplyPin": "1/2 (+), 3/6 (-)",
+            "maxPowerPerPort": "30W (IEEE 802.3 af/at)",
+            "totalPoEPower": "120W",
+            "poeDetection": "Automatic PoE device detection and power allocation"
+          },
+          "power": {
+            "powerSupply": "Built-in AC100–240V 50-60Hz, 0.56A, supports anti-reverse AC/DC protection",
+            "redundancy": "Dual power input – AC priority, auto-switch DC backup",
+            "powerConsumption": "Standby <12W, Full load <150W (with PoE)"
+          },
+          "physicalParameter": {
+            "operatingTempHumidity": "-40°C to +80°C, 5%–90% RH (Non-condensing)",
+            "storageTempHumidity": "-40°C to +85°C, 5%–95% RH (Non-condensing)",
+            "dimension": "440×298×44mm",
+            "weight": "3.5kg / 4.0kg",
+            "installation": "1U / 19-inch cabinet / Desktop",
+            "protectionLevel": "IP40"
+          },
+          "certificationWarranty": {
+            "lightningProtection": "6KV 8/20μs",
+            "IECStandards": [
+              "IEC61000-4-3 (RS): 10V/m (80~1000MHz)",
+              "IEC61000-6-2 (Industrial Standard)",
+              "IEC61000-4-9 (Pulsed magnetic field)",
+              "IEC61000-4-10 (Damped oscillation)",
+              "IEC61000-4-5 (Surge): CM±4kV / DM±2kV"
+            ],
+            "certification": "CCC, CE, EN62368-1, FCC Part 15 Class B, RoHS",
+            "warranty": "5 years, lifelong maintenance"
+          }
+        },
+        "managementFeatures": {
+          "interface": [
+            "Port temperature protection",
+            "Broadcast storm control",
+            "EEE Green Ethernet",
+            "Rate limiting (64Kbps granularity)"
+          ],
+          "VLAN": [
+            "4K VLAN entries",
+            "Voice VLAN",
+            "QinQ",
+            "Access/Trunk/Hybrid"
+          ],
+          "spanningTree": [
+            "STP / RSTP / MSTP",
+            "ERPS Ring (<20ms), up to 255 rings supported"
+          ],
+          "multicast": [
+            "IGMP Snooping v1/v2/v3",
+            "MLD Snooping",
+            "Multicast VLAN"
+          ],
+          "qos_acl": [
+            "SP / WRR / SP+WRR scheduling",
+            "802.1p / DSCP mapping",
+            "ACL filtering up to 80 bytes"
+          ]
+        },
+        "security": [
+          "Port-based IEEE802.1X authentication",
+          "IP+MAC+Port+VLAN binding",
+          "ARP intrusion detection",
+          "DoS attack prevention",
+          "SSH 2.0 secure login",
+          "AAA & RADIUS & TACACS+ certification"
+        ],
+        "dimensions": {
+          "size": "440mm × 298mm × 44mm",
+          "diagram": "A. Working indicator | B. 8×PoE RJ45 ports | C. 2×SFP uplink ports | D. Console port"
+        },
+        "orderingInformation": [
+          {
+            "model": "NAV-I-8P2S",
+            "description": "L2+ managed industrial PoE switch with 8×PoE RJ45 ports & 2×SFP ports, built-in power supply, supports 2AC+DC input & 1U/19-inch mounting.",
+            "builtInPower": "2×150W",
+            "totalPoEPower": "120W"
+          }
+        ],
+        "packingList": [
+          {
+            "content": "10-port Gigabit managed PoE switch",
+            "qty": 1,
+            "unit": "SET"
+          },
+          {
+            "content": "AC Power Cable",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "RJ45-DB9 Line",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "Mounting Kits",
+            "qty": 1,
+            "unit": "SET"
+          },
+          {
+            "content": "User Guide",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "Warranty Card",
+            "qty": 1,
+            "unit": "PC"
+          }
+        ],
+        "opticalModules": [
+          {
+            "category": "1.25G Optical Module",
+            "items": [
+              {
+                "model": "2630-G",
+                "description": "Industrial SFP optical module, 1.25G multi-mode 850nm, 550m, LC. Supports DDM & hot-plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "2632-G",
+                "description": "Industrial SFP optical module, 1.25G single-mode 1310nm, 20km, LC. Supports DDM & hot-plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "2612-T-G",
+                "description": "Single-mode single fiber TX1310/RX1550 20km, LC.",
+                "unit": "PC"
+              },
+              {
+                "model": "2613-RG-",
+                "description": "Single-mode single fiber TX1550/RX1310 20km, LC.",
+                "unit": "PC"
+              },
+              {
+                "model": "2612-T-SCG-",
+                "description": "Single-mode single fiber TX1310/RX1550 20km, SC.",
+                "unit": "PC"
+              },
+              {
+                "model": "2613-R-SC-G",
+                "description": "Single-mode single fiber TX1550/RX1310 20km, SC.",
+                "unit": "PC"
+              }
+            ]
+          },
+          {
+            "category": "Power Module",
+            "items": [
+              {
+                "model": "2633",
+                "description": "1.25G SFP optical module transfers to 10/100/1000M RJ45 port.",
+                "unit": "PC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "model": "NAV-I-8R2S",
+        "title": "10-Port Gigabit Managed Industrial Ethernet Switch",
+        "description": "The NAV-I-8R2S is a Gigabit managed industrial Ethernet switch designed for reliable communication networks in harsh industrial environments.",
+        "gigabitAccess": "Features 8×10/100/1000Base-T adaptive RJ45 ports and 2×100/1000Base-X SFP fiber ports, supporting wire-speed forwarding on every port.",
+        "robustManagement": "Supports Layer 2+ (L2+) management, IPv4/IPv6 management, static routing, comprehensive security mechanisms, and advanced ACL/QoS strategies.",
+        "industrialReliability": "Designed for harsh industrial environments, providing resistance to mechanical stress, extreme climates, and electromagnetic interference.",
+        "performance": {
+          "switchingCapacity": "20Gbps",
+          "forwardingRate": "14.88Mpps @64byte",
+          "ruggedDesign": "Fanless aluminum alloy housing with wide temperature range: -40°C to +80°C and 6KV lightning protection."
+        },
+        "idealApplications": "Ideal for intelligent transportation, rail systems, power, mining, petroleum, shipping, metallurgy, and green energy construction.",
+        "contactDetails": "+91-9667656203 www.rizonn.in info@rizonn.in",
+        "productOverview": [
+          "The NAV-I-8R2S is a Gigabit managed industrial Ethernet switch independently developed for robust performance.",
+          "It supports Layer 2+ (L2+) management, IPv4/IPv6 management, static routing, comprehensive security mechanisms, and advanced ACL/QoS strategies.",
+          "Designed for harsh industrial environments, it provides resistance to mechanical stress, extreme climates, and electromagnetic interference."
+        ],
+        "keyFeatures": {
+          "gigabitConnectivityUplink": [
+            "8× Gigabit RJ45 ports + 2× Gigabit SFP fiber slots",
+            "Non-blocking wire-speed forwarding",
+            "Full-duplex IEEE 802.3x support"
+          ],
+          "intelligentRedundancy": [
+            "ERPS ring protocol with <20ms recovery",
+            "STP / RSTP / MSTP support to eliminate Layer 2 loops"
+          ],
+          "advancedL2Management": [
+            "VLAN, QinQ, static routing, and link aggregation",
+            "IGMP Snooping v1/v2/v3 for HD video surveillance"
+          ],
+          "multiLayerSecurity": [
+            "Port isolation and broadcast storm suppression",
+            "ACL access control policies",
+            "802.1X authentication and IP+MAC+Port+VLAN binding"
+          ],
+          "industrialDurability": [
+            "Fanless aluminum alloy housing",
+            "Wide temperature range: -40°C to +80°C",
+            "6KV lightning protection",
+            "Dual redundant DC power inputs"
+          ]
+        },
+        "technicalSpecification": {
+          "model": "NAV-I-8R2S",
+          "interfaceCharacteristics": {
+            "ethernetPorts": "8× 10/100/1000Base-T RJ45 (Data)",
+            "fiberPorts": "2× 100/1000Base-X SFP (Data)",
+            "consolePort": "1× RS232 Console (115200, N, 8, 1)",
+            "powerInput": "2 sets V+ / V- redundant DC power (Phoenix terminal)"
+          },
+          "chipParameters": {
+            "networkManagementType": "L2+",
+            "networkProtocol": "IEEE802.3/802.3i/802.3u/802.3ab/802.3z/802.3x",
+            "forwardingMode": "Store and Forward (Full Wire Speed)",
+            "switchingCapacity": "20Gbps (Non-blocking)",
+            "forwardingRate": "14.88Mpps @64Byte",
+            "macTable": "8K",
+            "bufferMemory": "4M",
+            "jumboFrame": "9.6K",
+            "cpu": "416MHz",
+            "dram": "1GB",
+            "flash": "128MB",
+            "ledIndicators": ["PWR (Power)", "SYS (System)", "LINK (Network)", "Fiber L/A (Green)"],
+            "reset": "Factory reset via reset button (press 10s)"
+          },
+          "physicalParameter": {
+            "operatingTempHumidity": "-40°C to +80°C, 5%–90% RH (Non-condensing)",
+            "storageTempHumidity": "-40°C to +85°C, 5%–95% RH (Non-condensing)",
+            "dimension": "165 × 148 × 54 mm",
+            "netWeight": "0.95 kg",
+            "grossWeight": "1.2 kg",
+            "installation": "Desktop, 35mm DIN Rail",
+            "protectionLevel": "IP40",
+            "lightningProtection": "6KV 8/20us"
+          },
+          "certificationWarranty": {
+            "certification": ["CCC", "CE", "CE/LVD EN62368-1", "FCC Part 15 Class B", "RoHS"],
+            "warranty": "5 years"
+          }
+        },
+        "managementFeatures": {
+          "redundancy": [
+            "ERPS (G.8032) <20ms recovery",
+            "STP / RSTP / MSTP"
+          ],
+          "vlan": [
+            "Port-based VLAN",
+            "802.1Q VLAN (4K)",
+            "QinQ",
+            "Voice VLAN"
+          ],
+          "aggregation": [
+            "LACP",
+            "Static aggregation",
+            "Max 5 groups, 8 ports per group"
+          ],
+          "multicast": [
+            "IGMP Snooping v1/v2/v3",
+            "Multicast VLAN",
+            "Max 1024 multicast groups"
+          ],
+          "qos": [
+            "802.1p / DSCP",
+            "SP, WRR, SP+WRR",
+            "Flow-based rate limiting"
+          ],
+          "security": [
+            "ACL (L2–L4)",
+            "802.1X authentication",
+            "SSH 2.0 / SSL",
+            "IP-MAC-VLAN-Port binding",
+            "ARP inspection",
+            "Anti-DoS",
+            "AAA / RADIUS / TACACS+"
+          ],
+          "dhcp": [
+            "DHCP Client",
+            "DHCP Snooping",
+            "DHCP Server",
+            "DHCP Relay"
+          ],
+          "management": [
+            "Web (HTTPS)",
+            "CLI (Console / Telnet / SSH)",
+            "SNMP v1/v2/v3",
+            "LLDP",
+            "NTP",
+            "FTP / TFTP / SFTP",
+            "System log & ping detection"
+          ]
+        },
+        "orderingInformation": [
+          {
+            "model": "NAV-I-8R2S",
+            "description": "L2+ managed industrial Ethernet switch with 8×RJ45 and 2×SFP ports, supports dual DC power input and DIN rail mounting.",
+            "recommendedPowerSupply": "24W"
+          }
+        ],
+        "packingList": [
+          {
+            "content": "10-port gigabit managed industrial Ethernet switch",
+            "qty": 1,
+            "unit": "SET"
+          },
+          {
+            "content": "RJ45-DB9 Adapter Cable",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "User Guide",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "Warranty Card & Certificate of Conformity",
+            "qty": 1,
+            "unit": "PC"
+          }
+        ],
+        "powerSupply": [
+          {
+            "product": "24W DIN Rail Industrial Power Supply",
+            "model": "GWS-DP24-24",
+            "input": "AC100V–240V, 50–60Hz",
+            "output": "DC24V, 1.0A",
+            "operatingTemperature": "-40°C to +70°C"
+          }
+        ],
+        "opticalModules": [
+          {
+            "category": "1.25G Optical Module",
+            "items": [
+              {
+                "model": "2630-G",
+                "description": "1.25G Multi-mode, 850nm, 550m, LC",
+                "unit": "PC"
+              },
+              {
+                "model": "2632-G",
+                "description": "1.25G Single-mode, 1310nm, 20km, LC",
+                "unit": "PC"
+              },
+              {
+                "model": "2612-T-G",
+                "description": "Single fiber TX1310 / RX1550, 20km, LC",
+                "unit": "PC"
+              },
+              {
+                "model": "2613-R-G",
+                "description": "Single fiber TX1550 / RX1310, 20km, LC",
+                "unit": "PC"
+              },
+              {
+                "model": "2633",
+                "description": "1.25G SFP to 10/100/1000M RJ45",
+                "unit": "PC"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "PoE Fiber Switch",
+    "products": [
+      {
+        "id": 1,
+        "model": "NAV-P-24P2S",
+        "title": "The NAV-P-24P2S is a high-performance 26-port full Gigabit PoE fiber switch designed for high-density power supply environments.",
+        "description": "It features 24×10/100/1000M RJ45 ports and 2×1000M uplink SFP fiber ports, providing seamless connectivity for APs, IP cameras, and VoIP phones.",
+        "summarySpecifications": [
+          "24×10/100/1000M RJ45 PoE Ports",
+          "2×1000M SFP Fiber Uplink Ports",
+          "Switching Capacity: 52Gbps",
+          "Wire-Speed Forwarding",
+          "PoE Power Budget: 400W / 600W",
+          "IEEE 802.3 af/at Standard",
+          "Plug & Play Unmanaged PoE Switch"
+        ],
+        "productOverview": [
+          "The NAV-P-24P2S is a Gigabit PoE fiber switch independently developed to address the requirements of high-density PoE power supply environments.",
+          "Equipped with 24×10/100/1000M adaptive RJ45 ports and 2×1000M SFP uplink ports.",
+          "All 24 RJ45 ports support IEEE 802.3af/at PoE standards and up to 30W per port.",
+          "Automatically detects and powers PoE devices without damaging non-PoE equipment.",
+          "Ideal for wireless APs, IP cameras, VoIP phones, and access control systems.",
+          "Suitable for hotels, campuses, factories, dormitories, and SMEs.",
+          "Unmanaged model – plug-and-play deployment with no configuration required."
+        ],
+        "keyFeatures": {
+          "gigabitAccessUplink": [
+            "24×10/100/1000M RJ45 ports + 2×Gigabit SFP fiber uplinks.",
+            "Supports non-blocking wire-speed forwarding for flexible networking."
+          ],
+          "smartPoEPower": [
+            "Supports IEEE 802.3af/at PoE standards.",
+            "Automatically identifies PoE devices.",
+            "Up to 30W power output per port."
+          ],
+          "stabilityReliability": [
+            "Galvanized steel metal shell with active fan cooling.",
+            "High redundancy for long-term stable PoE power output."
+          ]
+        },
+        "technicalSpecification": {
+          "models": [
+            "NAV-P-24P2S",
+            "NAV-P-24P2S-at"
+          ],
+          "interfaceCharacteristics": {
+            "fixedPort": [
+              "2×1000Base-X uplink SFP fiber ports (Data)",
+              "24×10/100/1000Base-T PoE ports (Data/Power)"
+            ],
+            "ethernetPort": "Port 1-24 auto-sensing 10/100/1000Base-T, full/half duplex, MDI/MDI-X",
+            "twistedPairTransmission": [
+              "10BASE-T: Cat3/4/5 UTP (≤100m)",
+              "100BASE-TX: Cat5 UTP (≤100m)",
+              "1000BASE-T: Cat5e UTP (≤100m)"
+            ],
+            "opticalFiberPort": "Gigabit optical fiber interface, optional single-mode/multi-mode (LC)",
+            "opticalCableDistance": "Multi-mode: 850nm/0-500m, Single-mode: 1310nm/0-40km, 1550nm/0-120km"
+          },
+          "chipParameters": {
+            "networkProtocol": "IEEE 802.3 / 802.3i / 802.3u / 802.3ab / 802.3z / 802.3x",
+            "forwardingMode": "Store and Forward (Full Wire Speed)",
+            "switchingCapacity": "52Gbps",
+            "forwardingRate": "38.69Mpps (@64 byte)",
+            "MAC": "8K",
+            "bufferMemory": "4M",
+            "jumboFrame": "9.6K",
+            "ledIndicator": "Power: PWR (Green), Network: 1-24/G1-2 (Green), PoE: PoE (Green)"
+          },
+          "poePowerSupply": {
+            "poePort": "Port 1-24",
+            "powerSupplyPin": "1/2 (+), 3/6 (-)",
+            "maxPowerPerPort": "30W (IEEE 802.3 af/at)",
+            "totalPower": [
+              "NAV-P-24P2S: 400W (AC100-240V)",
+              "NAV-P-24P2S-at: 600W (AC100-240V)"
+            ],
+            "consumption": [
+              "NAV-P-24P2S: Standby <25W, Full Load <380W",
+              "NAV-P-24P2S-at: Standby <26W, Full Load <600W"
+            ],
+            "powerSupply": "Built-in AC100~240V 50-60Hz (5.0A / 6.6A based on model)"
+          },
+          "physicalParameter": {
+            "operatingTempHumidity": "-20°C to +55°C, 5%–90% RH (Non-condensing)",
+            "storageTempHumidity": "-40°C to +75°C, 5%–95% RH (Non-condensing)",
+            "dimension": [
+              "440×225×44mm",
+              "440×290×44.5mm (NAV-P-24P2S-at)"
+            ],
+            "weight": [
+              "3.0kg / 3.7kg",
+              "3.2kg / 3.9kg"
+            ],
+            "installation": "Desktop / Wall Mount / 1U 19-inch Cabinet"
+          },
+          "certificationWarranty": {
+            "lightningProtection": "4KV 8/20μs",
+            "protectionLevel": "IP30",
+            "certification": "CCC, CE, EN62368-1, FCC Part 15 Class B, RoHS",
+            "warranty": "3 years, lifelong maintenance"
+          }
+        },
+        "orderingInformation": [
+          {
+            "model": "NAV-P-24P2S",
+            "description": "Unmanaged PoE fiber switch with 24×RJ45 PoE ports and 2×SFP uplinks. Supports IEEE 802.3af/at standard.",
+            "builtInPowerSupply": "400W"
+          },
+          {
+            "model": "NAV-P-24P2S-at",
+            "description": "Same unmanaged PoE switch with upgraded power supply.",
+            "builtInPowerSupply": "600W"
+          }
+        ],
+        "packingList": [
+          {
+            "content": "26-port full gigabit PoE fiber switch",
+            "qty": 1,
+            "unit": "SET"
+          },
+          {
+            "content": "AC power cable",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "Mounting Kits",
+            "qty": 1,
+            "unit": "SET"
+          },
+          {
+            "content": "User Guide",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "Warranty Card",
+            "qty": 1,
+            "unit": "PC"
+          }
+        ],
+        "opticalModule": [
+          {
+            "category": "1.25G Optical Module",
+            "items": [
+              {
+                "model": "2630",
+                "unit": "PC",
+                "description": "Multi-mode dual fiber 850nm, 550m LC, DDM, hot plugging"
+              },
+              {
+                "model": "2632",
+                "unit": "PC",
+                "description": "Single-mode dual fiber 1310nm, 20km LC, DDM, hot plugging"
+              },
+              {
+                "model": "2612-T",
+                "unit": "PC",
+                "description": "Single-mode single fiber TX1310/RX1550nm, LC, 20km"
+              },
+              {
+                "model": "2613-R",
+                "unit": "PC",
+                "description": "Single-mode single fiber TX1550/RX1310nm, LC, 20km"
+              },
+              {
+                "model": "2612-T-SC",
+                "unit": "PC",
+                "description": "Single-mode single fiber TX1310/RX1550nm, SC, 20km"
+              },
+              {
+                "model": "2613-R-SC",
+                "unit": "PC",
+                "description": "Single-mode single fiber TX1550/RX1310nm, SC, 20km"
+              }
+            ]
+          },
+          {
+            "category": "Power Module",
+            "items": [
+              {
+                "model": "2633",
+                "description": "1.25G SFP optical module converts to 10/100/1000M RJ45 port.",
+                "unit": "PC"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Managed PoE Switch",
+    "products": [
+      {
+        "id": 1,
+        "model": "NAV-P-24P4S",
+        "title": "RIZONN Pol Saitch 28-Port 10G Uplink Managed PoE Switch (NAV-P-24P4S)",
+        "description": "High-Performance L3 Managed PoE Switch. The NAV-P-24P4S is a 10G uplink managed PoE switch featuring 24×10/100/1000Base-T adaptive RJ45 ports and 4×1/10G uplink SFP+ fiber ports. It supports the IEEE 802.3 af/at standard with intelligent power management for high-density networks.",
+        "keyHighlights": {
+          "gigabitAccessWith10GUplink": "Features wire-speed forwarding with 4×1/10G SFP+ fiber ports, enabling flexible networking for various high-bandwidth scenarios.",
+          "smartPoEPowerSupply": "24 Gigabit ports support IEEE 802.3af/at. The system automatically identifies PoE devices and prioritizes power allocation to prevent overloading.",
+          "l2PlusManagement": "Supports IPv4/IPv6 management, secure ACL/QoS strategies, and rich VLAN functions for easy maintenance and complete security protection.",
+          "switchingCapacity": "176Gbps",
+          "powerBudget": "400W",
+          "builtInPowerSupply": "AC 100-240V"
+        },
+        "productOverview": [
+          "The NAV-P-24P4S is a 10G uplink managed PoE switch featuring 24×10/100/1000Base-T adaptive RJ45 ports and 4×1/10G uplink SFP+ fiber ports.",
+          "Ports 1-24 support the IEEE 802.3af/at PoE standard, with maximum power output of 30W per port.",
+          "Designed for wireless APs, network cameras, VoIP phones, and video access control systems.",
+          "Ideal for hotels, campuses, supermarkets, and SMEs for high-density PoE environments.",
+          "Supports IPv4/IPv6, static routing, ACL/QoS, VLAN, and simplified network management."
+        ],
+        "keyFeatures": {
+          "highSpeedAccess": [
+            "24× Gigabit RJ45 PoE+ ports with 4×1/10G SFP+ fiber uplinks",
+            "176Gbps switching capacity (non-blocking wire-speed)"
+          ],
+          "comprehensiveSecurity": [
+            "Port isolation, broadcast storm suppression",
+            "IP+MAC+Port+VLAN binding and 802.1X authentication"
+          ],
+          "l2PlusCapabilities": [
+            "ERPS ring network (<20ms)",
+            "STP / RSTP / MSTP",
+            "Voice VLAN, QinQ, LACP, IGMP Snooping"
+          ],
+          "smartPoEAndReliability": [
+            "Auto-identifies PoE devices and prevents overload",
+            "Galvanized steel metal housing with active cooling"
+          ],
+          "management": [
+            "Web (HTTPS), CLI (Console/Telnet), SSH V1/V2, SNMP V1/V2/V3",
+            "CPU/Memory monitoring, Ping detection, cable diagnostics"
+          ]
+        },
+        "technicalSpecification": {
+          "model": "NAV-P-24P4S / NAV-P-24P4S-at",
+          "interfaceCharacteristics": {
+            "fixedPort": "4×1/10G uplink SFP+ fiber ports (Data), 24×10/100/1000Base-T PoE ports (Data/Power)",
+            "consolePort": "1× Console RS232 port (115200, N, 8, 1)",
+            "portEthernet": "10/100/1000Base-T(X) auto-sensing, full/half duplex MDI/MDI-X self-adaption",
+            "twistedPairTransmission": "Cat3/4/5/5e (≤100 meters) for 10/100/1000Base-T(X)",
+            "opticalFiberPort": "1/10G SFP+ port, optical modules optional (SM/MM, single/dual fiber)",
+            "opticalCableDistance": "MM: 850nm 0–550m / 0–300m (10G), SM: 1310nm 0–40km / 1550nm 0–120km"
+          },
+          "chipParameters": {
+            "networkManagementType": "L2+",
+            "networkProtocols": "IEEE 802.3 10BASE-T/100BASE-TX/1000BASE-T, IEEE 802.3ae 10GBase-LR/SR",
+            "forwardingMode": "Store and Forward (Full wire speed)",
+            "switchingCapacity": "176Gbps",
+            "forwardingRate": "95.23Mpps",
+            "cpu": "500M",
+            "dram": "2G",
+            "flash": "128M",
+            "macTable": "32K",
+            "bufferMemory": "32M",
+            "jumboFrame": "9.6K",
+            "ledIndicator": "PWR (Yellow), SYS (Yellow), Link (Yellow), PoE (Green), Fiber L/A (Green)",
+            "resetSwitch": "Yes"
+          },
+          "poeAndPowerSupply": {
+            "poePort": "Port 1-24",
+            "poeManagement": "Power limit config, delay start, port priority, PoE scheduling, PoE on/off",
+            "powerSupplyPin": "1/2(+) 3/6 (-)",
+            "maxPowerPerPort": "30W (IEEE 802.3 af/at)",
+            "totalPower": "NAV-P-24P4S: 400W | NAV-P-24P4S-at: 600W (AC100-240V)",
+            "powerConsumption": "NAV-P-24P4S: Standby <30W, Full <400W | NAV-P-24P4S-at: Standby <25W, Full <600W",
+            "powerSupply": "Built-in power supply, AC100–240V 50-60Hz, 5.0A / 6.6A"
+          },
+          "physicalParameters": {
+            "operatingTempHumidity": "-20~+55°C, 5%~90% RH",
+            "storageTempHumidity": "-40~+80°C, 5%~95% RH",
+            "dimensions": "440×290×44.5mm",
+            "weight": "NAV-P-24P4S: 4.0kg/4.8kg | NAV-P-24P4S-at: 4.3kg/5.2kg",
+            "installation": "Desktop, 1U/19\" cabinet"
+          },
+          "certificationWarranty": {
+            "lightningProtection": "4KV 8/20us, IP30 protection",
+            "certification": "CCC, CE, EN62368-1, FCC Part 15, RoHS",
+            "warranty": "3 years, lifelong maintenance"
+          }
+        },
+        "networkManagementFeatures": [
+          "IEEE 802.3x flow control, storm control, speed limit (64Kbps min)",
+          "IPv4/IPv6 management, static routing, ARP (1024 entries)",
+          "4K VLAN, Trunk/Hybrid/Access, QinQ, Voice VLAN",
+          "ERPS ring (<20ms), STP/RSTP/MSTP",
+          "IGMP Snooping v1/v2/v3, multicast VLAN",
+          "ACL L2–L4 filtering, IP/MAC/VLAN binding",
+          "DHCP Client/Relay/Server",
+          "SNMP, Web HTTPS, SSH2.0, CLI (Telnet/Console)"
+        ],
+        "orderingInformation": [
+          {
+            "model": "NAV-P-24P4S",
+            "description": "L2+ managed PoE fiber switch with 24×Gigabit RJ45 & 4×10G SFP+ ports.",
+            "powerSupply": "400W"
+          },
+          {
+            "model": "NAV-P-24P4S-at",
+            "description": "L2+ managed PoE fiber switch with 24×Gigabit RJ45 & 4×10G SFP+ ports (High Power Model).",
+            "powerSupply": "600W"
+          }
+        ],
+        "packingList": [
+          {
+            "content": "28-port 10G uplink managed PoE switch",
+            "qty": 1,
+            "unit": "Set"
+          },
+          {
+            "content": "AC Power Cable",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "RJ45-DB9 Adapter Cable",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "Mounting Kits (Hanging Ear)",
+            "qty": 1,
+            "unit": "Set"
+          },
+          {
+            "content": "User Guide",
+            "qty": 1,
+            "unit": "PC"
+          },
+          {
+            "content": "Warranty Card & Certificate",
+            "qty": 1,
+            "unit": "PC"
+          }
+        ],
+        "opticalModule": [
+          {
+            "category": "1.25G Optical Module",
+            "items": [
+              {
+                "model": "2630",
+                "description": "SFP optical module, 1.25G multi-mode dual fiber 850nm, transmission distance: 550m, LC interface. Support DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "2632",
+                "description": "SFP optical module, 1.25G single-mode dual fiber 1310nm, transmission distance: 20km, LC interface. Support DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "2612-T",
+                "description": "SFP optical module, 1.25G single-mode single fiber TX1310nm/RX1550nm, transmission distance: 20km, LC interface. Support DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "2613-R",
+                "description": "SFP optical module, 1.25G single-mode single fiber TX1550nm/RX1310nm, transmission distance: 20km, LC interface. Support DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "2612-T-SC",
+                "description": "SFP optical module, 1.25G single-mode single fiber TX1310nm/RX1550nm, transmission distance: 20km, SC interface. Support DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "2613-R-SC",
+                "description": "SFP optical module, 1.25G single-mode single fiber TX1550nm/RX1310nm, transmission distance: 20km, SC interface. Support DDM function and hot plugging.",
+                "unit": "PC"
+              }
+            ]
+          },
+          {
+            "category": "Power Module",
+            "items": [
+              {
+                "model": "2633",
+                "description": "1.25G SFP optical module transfers to 10/100/1000M RJ45 port.",
+                "unit": "PC"
+              }
+            ]
+          },
+          {
+            "category": "10G Optical Module",
+            "items": [
+              {
+                "model": "6630",
+                "description": "SFP+ optical module, 10G multi-mode dual fiber 850nm, transmission distance: 300m, LC interface. Support DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "7832",
+                "description": "SFP+ optical module, 10G single-mode dual fiber 1310nm, transmission distance: 20km, LC interface. Support DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "7832-33",
+                "description": "SFP+ optical module, 10G single-mode single fiber TX1330nm/RX1270nm, transmission distance: 20km, LC interface. Support DDM function and hot plugging.",
+                "unit": "PC"
+              },
+              {
+                "model": "7832-27",
+                "description": "SFP+ optical module, 10G single-mode single fiber TX1270nm/RX1330nm, transmission distance: 20km, LC interface. Support DDM function and hot plugging.",
+                "unit": "PC"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "model": "NAV-P-24P8S-4S",
+    "productType": "36-Port 10G Uplink L3 Managed PoE Switch",
+    "title": "36-Port 10G Uplink L3 Managed PoE Switch (NAV-P-24P8S-4S)",
+    "highPerformanceL3ManagedPoESwitch": "A high-performance Layer 3 managed fiber switch designed to meet the demands of high-density PoE networks. With 10G uplink capabilities and intelligent power management, the NAV-P-24P8S-4S ensures seamless data transmission and robust security for modern infrastructures.",
+    "smartPoEPowerSupply": "Supports IEEE 802.3af/at standards with up to 30W per port. Automatically detects compliant devices to power Wireless APs and IP Cameras safely without damaging non-PoE equipment. Flexible 10G Networking Features 24× Gigabit PoE ports, 8× SFP fiber ports, and $4\\times1/10\\text{G}$ SFP+ uplinks. Ideal for building flexible, cost-effective networks in hotels, campuses, and commercial parks. L3 Management & Security Equipped with Layer 3 dynamic routing, IPv4/IPv6 management, and ERPS ring network protocol (<50ms recovery) to ensure uninterrupted communication and carrier-grade reliability.",
+    "featuresHighlights": [
+      "Switching Capacity 176 Gbps",
+      "Non-blocking Wire-speed Forwarding",
+      "Power Budget 400W+",
+      "High Redundancy Power Supply"
+    ],
+    "productOverview": "The NAV-P-24P8S-4S is a Layer 3 (L3) managed PoE fiber switch featuring 10G uplinks, independently developed to meet high-density network requirements. The device is equipped with 24x 10/100/1000Base-T adaptive RJ45 ports, 8x 100/1000Base-X SFP fiber ports, and $4\\times1/10\\text{G}$ uplink SFP+ fiber ports. Ports 1-24 support the IEEE 802.3af/at PoE standard, capable of delivering up to 30W per port. Designed for versatility, the NAV-P-24P8S-4S is suitable for a wide range of environments, including hotels, campuses, parks, supermarkets, factories, and small-to-medium enterprises (SMBs), providing a cost-effective networking solution. The switch features comprehensive L3 network management capabilities, including IPv4/IPv6 management, dynamic routing, and forwarding. It incorporates robust security mechanisms, complete ACL/QoS policies, and extensive VLAN functions for easy maintenance. To ensure network reliability, it supports multiple redundancy protocols such as STP/RSTP/MSTP (<50ms) and ERPS (ITU-T G.8032). If a network link fails, communication is quickly restored to ensure uninterrupted application performance. Users can configure various services-such as PoE power management, traffic control, VLAN division, and SNMP-via a web-based management interface.",
+    "keyFeatures": {
+      "versatileInterfaceDesign": [
+        "24× Gigabit PoE ports, 8x SFP fiber ports, and 4x 10G SFP+ uplinks.",
+        "Supports non-blocking wire-speed forwarding and IEEE 802.3x full-duplex flow control."
+      ],
+      "comprehensiveSecurity": [
+        "Features Port isolation, broadcast storm control, and IP+MAC+VLAN binding.",
+        "Includes 802.1X authentication and flexible ACL policies for secure access control."
+      ],
+      "intelligentL3Management": [
+        "L3 dynamic routing (IPv4/IPv6) with ERPS ring protocol (<50ms recovery).",
+        "Supports Voice VLAN, QinQ, and advanced QoS with SP/WRR scheduling."
+      ],
+      "industrialGradeReliability": [
+        "Galvanized steel metal shell with active fan cooling for efficient heat dissipation.",
+        "Built-in high-redundancy power supply with 4KV lightning protection."
+      ],
+      "simplifiedOMManagement": [
+        "Offers CPU/memory monitoring, Ping detection, and cable diagnostics for quick troubleshooting.",
+        "Supports various management methods (Web, CLI, SNMP) with HTTPS, SSL, and SSH encryption for security."
+      ]
+    },
+    "technicalSpecification": {
+      "Model": "NAV-P-24P8S-4S / NAV-P-24P8S-4S-at",
+      "InterfaceCharacteristics": {
+        "ConsolePort": "1x Console RS232 port (115200,N,8,1)",
+        "FixedPort": "4x 1/10G uplink SFP+ fiber ports (Data), 8x 100/1000Base-X SFP fiber ports (Data), 24x 10/100/1000Base-T PoE ports (Data/Power)",
+        "EthernetPort": "Port 1-24 supports 10/100/1000Base-T auto-sensing, full/half duplex MDI/MDI-X self-adaption",
+        "TwistedPairTransmission": [
+          "10BASE-T: Cat3,4,5 UTP (≤100 meters)",
+          "100BASE-TX: Cat5 or later UTP (≤100 meters)",
+          "1000BASE-T: Cat5e or later UTP (≤100 meters)"
+        ],
+        "OpticalFiberPort": "1/10G SFP+ optical fiber port, default no include optical module (optional single-mode/multi-mode, single fiber/dual fiber optical module. LC)",
+        "OpticalPortExpansion": "Turbo overclocking 2.5G optical module expansion and ring network",
+        "OpticalCableDistance": [
+          "Multi-mode: 850nm/0-500m, 850nm/0-300m (10G)",
+          "Single-mode: 1310nm/0-40km, 1550nm/0-120km"
+        ]
+      },
+      "ChipParameter": {
+        "NetworkManagementType": "L3",
+        "NetworkProtocol": "IEEE802.3 standards",
+        "ForwardingMode": "Store and Forward (Full Wire Speed)",
+        "SwitchingCapacity": "176Gbps (non-blocking)",
+        "ForwardingRate": "107.14Mpps @64byte",
+        "CPU": "500MHz",
+        "DRAM": "2G",
+        "FLASH": "128M",
+        "MAC": "32K",
+        "BufferMemory": "32M",
+        "JumboFrame": "9.6K",
+        "LEDIndicator": "System: SYS (Green), Network: Link (Yellow), PoE: PoE (Green), Fiber port: L/A (Green)",
+        "ResetSwitch": "Yes, press and hold 10 seconds to restore factory settings"
+      },
+      "PoE_PowerSupply": {
+        "PoEPort": "Port 1-24",
+        "PoEManagement": "Supports power scheduling, priority, and status display",
+        "PowerSupplyPin": "1/2(+)3/6(-)",
+        "MaxPowerPerPort": "30W, IEEE 802.3 af/at",
+        "PowerConsumption": [
+          "400W Model: Standby <25W, Full Load <400W",
+          "600W Model: Standby <30W, Full Load <600W"
+        ]
+      },
+      "physicalParameter": {
+        "OperationTempHumidity": "-20~+55°C, 5%~90% RH",
+        "StorageTempHumidity": "-40~+80°C, 5%~95% RH",
+        "Dimension": "44029044.5mm",
+        "NetGrossWeight": "400W Model: 4.1kg/4.9kg | 600W Model: 4.4kg/5.3kg",
+        "Installation": "Desktop, 1U/19 cabinet"
+      }
+    },
+    "dimensions": {
+      "size": "290mm 44.5mm 440mm",
+      "parts": [
+        "A. Working indicator",
+        "B. 24×10/100/1000M PoE ports",
+        "C. 8×100/1000M SFP fiber ports",
+        "D. 4×1/10G uplink SFP+ fiber ports",
+        "E. Console port",
+        "F. Reset switch",
+        "G. Power input port AC100-240V"
+      ]
+    },
+    "applications": "PoE Switch, PoE IP Camera, PD Video Splitter, Core/Aggregation Switch, Power, 10G Fiber, Firewall, Monitor, Cat 5e/6 UTP, Video Line, NVR, Core/Aggregation Switch Power",
+    "orderingInformation": [
+      {
+        "model": "NAV-P-24P8S-4S",
+        "description": "L3 managed PoE switch with 24×10/100/1000M RJ45 ports and 8×100/1000M SFP fiber ports and 4×1/10G uplink SFP+ fiber ports. Built-in power supply and 1U/19 cabinet installation.",
+        "builtInPowerSupply": "400W"
+      },
+      {
+        "model": "NAV-P-24P8S-4S-at",
+        "description": "L3 managed PoE switch with 24×10/100/1000M RJ45 ports and 8×100/1000M SFP fiber ports and 4×1/10G uplink SFP+ fiber ports. Built-in power supply and 1U/19 cabinet installation.",
+        "builtInPowerSupply": "600W"
+      }
+    ],
+    "packingList": [
+      {
+        "content": "36-port 10G uplink L3 managed PoE fiber switch",
+        "qty": 1,
+        "unit": "SET"
+      },
+      {
+        "content": "AC Power Cable",
+        "qty": 1,
+        "unit": "PC"
+      },
+      {
+        "content": "RJ45-DB9 Line",
+        "qty": 1,
+        "unit": "PC"
+      },
+      {
+        "content": "Mounting Kits",
+        "qty": 1,
+        "unit": "SET"
+      },
+      {
+        "content": "User Guide",
+        "qty": 1,
+        "unit": "PC"
+      },
+      {
+        "content": "Warranty Card",
+        "qty": 1,
+        "unit": "PC"
+      }
+    ],
+    "opticalModule": [
+      {
+        "product": "1.25G Optical Module",
+        "model": "2630",
+        "description": "SFP optical module, 1.25G multi-mode dual fiber 850nm, transmission distance: 550m, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "1.25G Optical Module",
+        "model": "2632",
+        "description": "SFP optical module, 1.25G single-mode dual fiber 1310nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "1.25G Optical Module",
+        "model": "2612-T",
+        "description": "SFP optical module, 1.25G single-mode single fiber TX1310nm/RX1550nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "1.25G Optical Module",
+        "model": "2613-R",
+        "description": "SFP optical module, 1.25G single-mode single fiber TX1550nm/RX1310nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "1.25G Optical Module",
+        "model": "2612-T-SC",
+        "description": "SFP optical module, 1.25G single-mode single fiber TX1310nm/RX1550nm, transmission distance: 20km, SC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "1.25G Optical Module",
+        "model": "2613-R-SC",
+        "description": "SFP optical module, 1.25G single-mode single fiber TX1550nm/RX1310nm, transmission distance: 20km, SC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "Power Module",
+        "model": "2633",
+        "description": "1.25G SFP optical module transfers to 10/100/1000M RJ45 port.",
+        "unit": "PC"
+      },
+      {
+        "product": "10G Optical Module",
+        "model": "6630",
+        "description": "SFP+ optical module, 10G multi-mode dual fiber 850nm, transmission distance: 300m, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "10G Optical Module",
+        "model": "7832",
+        "description": "SFP+ optical module, 10G single-mode dual fiber 1310nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "10G Optical Module",
+        "model": "7832-33",
+        "description": "SFP+ optical module, 10G single-mode single fiber TX1330nm/RX1270nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "10G Optical Module",
+        "model": "7832-27",
+        "description": "SFP+ optical module, 10G single-mode single fiber TX1270nm/RX13300nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      }
+    ]
+  },
+  {
+    "model": "NAV-P48P4S",
+    "productType": "52-Port 10G Uplink L3 Managed PoE Switch",
+    "title": "52-Port 10G Uplink L3 Managed PoE Switch (NAV-P48P4S)",
+    "highPerformanceL3ManagedCoreSwitching": "The NAV-P48P4S is a next-generation Layer 3 managed PoE fiber switch independently developed for high-density networks. It features 48x Gigabit RJ45 ports and 4x 10G SFP+ uplink fiber ports, making it the ideal core aggregation solution for demanding environments.",
+    "smartPoEPowerSupply": "Supports IEEE 802.3af/at standards with a massive 600W total power budget. Automatically detects and powers compliant devices like APs and IP cameras.",
+    "uplinkCapacity": "Equipped with 4×1/10G SFP+ fiber ports to support high-bandwidth uplinks and long-distance transmission, ensuring non-blocking wire-speed forwarding.",
+    "robustL3Management": "Features comprehensive Layer 3 management including IPv4/IPv6 dual-stack, dynamic routing, and redundant ring network protocols (ERPS) for <50ms recovery.",
+    "performanceHighlights": [
+      "Switching Capacity: 176 Gbps",
+      "Non-blocking High Speed",
+      "Forwarding Rate: 131 Mpps",
+      "Fast Packet Processing"
+    ],
+    "useCase": "Designed for versatility and reliability, this switch is perfect for hotels, campuses, parks, and medium-sized enterprises. It supports rich security features like port isolation and ACL policies, ensuring a secure and easy-to-manage network infrastructure.",
+    "productOverview": "The NAV-P48P4S is a high-performance Layer 3 (L3) managed PoE fiber switch, independently developed to meet the demands of high-density network environments. It features 48x 10/100/1000Base-T adaptive RJ45 ports and 4×1/10G uplink SFP+ fiber ports. Ports 1-48 support the IEEE 802.3af/at PoE standard, delivering up to 30W of power per port. As a dedicated power supply device, it automatically detects and provides power to compliant equipment via Ethernet cables, eliminating the need for extra wiring. This switch is ideal for powering wireless access points (APs), IP cameras, VoIP phones, and video access control systems.",
+    "keyFeatures": {
+      "uplinkCapacity": [
+        "48× Gigabit RJ45 PoE ports + 4× 1/10G SFP+ uplinks for flexible networking.",
+        "Supports non-blocking wire-speed forwarding and IEEE 802.3x full-duplex."
+      ],
+      "comprehensiveSecurity": [
+        "Features port isolation, storm control, and IP+MAC+Port+VLAN binding.",
+        "Includes 802.1X authentication and flexible ACL policies for secure access."
+      ],
+      "l3ManagementRedundancy": [
+        "IPv4/IPv6 L3 routing with ERPS ring protection (<50ms recovery).",
+        "STP/RSTP/MSTP redundancy, Link Aggregation, and IGMP Snooping.",
+        "Rich VLAN support (Voice/QinQ) and QoS with SP/WRR scheduling."
+      ],
+      "stableHardwareDesign": [
+        "CCC, CE, FCC, RoHS certified with galvanized steel metal shell.",
+        "Active fan cooling and high-redundancy power supply for stability.",
+        "Smart PoE priority prevents overloading during high power usage."
+      ],
+      "easyOMManagement": [
+        "Real-time CPU/memory monitoring, Ping detection, and cable diagnostics.",
+        "Secure management via HTTPS, SSH V1/V2, SSL, and SNMP V1/V2/V3.",
+        "LLDP and RMON support for efficient network optimization."
+      ]
+    },
+    "technicalSpecification": {
+      "feature": "Specification",
+      "model": "NAV-P48P4S",
+      "interfaceCharacteristics": {
+        "fixedPort": "48x 10/100/1000Base-T PoE ports (Data/Power), 4x 1/10G uplink SFP+ fiber ports (Data)",
+        "consolePort": "1x Console RS232 port (115200, N, 8, 1)",
+        "ethernetPort": "Port 1-48 supports 10/100/1000Base-T auto-sensing, full/half duplex MDI/MDI-X self-adaption",
+        "twistedPairTransmission": [
+          "10BASE-T: Cat3, 4, 5 UTP (≤100 meters)",
+          "100BASE-TX: Cat5 or later UTP (≤100 meters)",
+          "1000BASE-T: Cat5e or later UTP (≤100 meters)"
+        ],
+        "opticalFiberPort": "1/10G SFP+ optical fiber port, default no optical module included",
+        "opticalPortExpansion": "Turbo overclocking 2.5G optical module expansion and ring network",
+        "opticalCableDistance": [
+          "Multi-mode: 850nm/0-500m, 850nm/0-300m (10G)",
+          "Single-mode: 1310nm/0-40km, 1550nm/0-120km"
+        ]
+      },
+      "chipParameters": {
+        "networkManagementType": "L3",
+        "networkProtocol": "IEEE802.3 standards",
+        "forwardingMode": "Store and Forward (Full Wire Speed)",
+        "switchingCapacity": "176Gbps (non-blocking)",
+        "forwardingRate": "131Mpps (@64byte)",
+        "CPU": "500MHz",
+        "DRAM": "4G",
+        "FLASH": "256M",
+        "MAC": "32K",
+        "bufferMemory": "32M",
+        "jumboFrame": "9.6K",
+        "LEDIndicator": "System: SYS (Green), Network: Link (Yellow), PoE: PoE (Green), Fiber port: L/A (Green)",
+        "resetSwitch": "Yes (press and hold 10 seconds to restore factory settings)"
+      },
+      "poePowerSupply": {
+        "poePort": "Port 1-48",
+        "maxPowerPerPort": "30W, IEEE 802.3 af/at",
+        "totalPWR": "600W/(AC100-240V)",
+        "powerConsumption": "Standby <30W, Full Load <600W",
+        "powerSupply": "Built-in power supply, AC100-240V 50-60Hz, 6.6A"
+      },
+      "physicalParameter": {
+        "operationTempHumidity": "-20~+55°C; 5%~90% RH Non-condensing",
+        "storageTempHumidity": "-40~+80°C; 5%~95% RH Non-condensing",
+        "dimension": "440×290×44.5mm",
+        "netGrossWeight": "4.8kg / 5.7kg",
+        "installation": "Desktop, 1U/19\" cabinet"
+      },
+      "certificationWarranty": {
+        "lightningProtection": "Lightning protection: 4KV 8/20μs, Protection level: IP30",
+        "certification": "CCC, CE mark, CE/LVD EN62368-1, FCC Part 15 Class B, RoHS",
+        "warranty": "3 years, lifelong maintenance"
+      },
+      "networkManagement": {
+        "interfaceFeatures": [
+          "IEEE802.3x flow control (Full-duplex)",
+          "Port temperature protection setting",
+          "No connection port automatic sleep",
+          "Port green Ethernet energy-saving setting",
+          "Broadcast storm control based on port speed",
+          "SFP+ optical port DDMI real-time digital diagnosis"
+        ],
+        "l3Routing": [
+          "IPv4/IPv6 static/default routing",
+          "RIPv1/v2, OSPFv2, BGP4+ (IPv4)",
+          "OSPFv3, BGP+, RIPng (IPv6)",
+          "VRRP & L3 forwarding between different VLANs"
+        ]
+      }
+    },
+    "dimensions": {
+      "size": "440×290×44.5mm",
+      "parts": [
+        "A. Working indicator",
+        "B. 48×10/100/1000M RJ45 ports",
+        "C. 4×1/10G uplink SFP+ fiber ports",
+        "D. Console port",
+        "E. Power input port AC100-240V, 50/60Hz"
+      ]
+    },
+    "applications": "IP Camera, PD Video Splitter, Servers, Firewall, NVR, Core/Aggregation Switch, PoE Devices, 10G Fiber Connectivity",
+    "orderingInformation": [
+      {
+        "model": "NAV-P48P4S",
+        "description": "L3 managed PoE switch with 48x 10/100/1000M RJ45 ports and 4x 1/10G uplink SFP+ fiber ports. Ports 1-48 support IEEE 802.3af/at PoE. Built-in power supply. 1U/19-inch cabinet installation.",
+        "builtInPower": "600W"
+      }
+    ],
+    "packingList": [
+      {
+        "content": "NAV-P48P4S (52-port 10G uplink L3 managed PoE switch)",
+        "qty": 1,
+        "unit": "SET"
+      },
+      {
+        "content": "AC Power Cable",
+        "qty": 1,
+        "unit": "PC"
+      },
+      {
+        "content": "RJ45-DB9 Line",
+        "qty": 1,
+        "unit": "PC"
+      },
+      {
+        "content": "Mounting Kit (Hanging Ear)",
+        "qty": 1,
+        "unit": "SET"
+      },
+      {
+        "content": "User Guide",
+        "qty": 1,
+        "unit": "PC"
+      },
+      {
+        "content": "Warranty Card",
+        "qty": 1,
+        "unit": "PC"
+      }
+    ],
+    "opticalModule": [
+      {
+        "product": "1.25G Optical Module",
+        "model": "2630",
+        "description": "SFP optical module, 1.25G multi-mode dual fiber 850nm, transmission distance: 550m, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "1.25G Optical Module",
+        "model": "2632",
+        "description": "SFP optical module, 1.25G single-mode dual fiber 1310nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "1.25G Optical Module",
+        "model": "2612-T",
+        "description": "SFP optical module, 1.25G single-mode single fiber TX1310nm/RX1550nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "1.25G Optical Module",
+        "model": "2613-R",
+        "description": "SFP optical module, 1.25G single-mode single fiber TX1550nm/RX1310nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "1.25G Optical Module",
+        "model": "2612-T-SC",
+        "description": "SFP optical module, 1.25G single-mode single fiber TX1310nm/RX1550nm, transmission distance: 20km, SC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "1.25G Optical Module",
+        "model": "2613-R-SC",
+        "description": "SFP optical module, 1.25G single-mode single fiber TX1550nm/RX1310nm, transmission distance: 20km, SC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "Power Module",
+        "model": "2633",
+        "description": "1.25G SFP optical module transfers to 10/100//1000M RJ45 port.",
+        "unit": "PC"
+      },
+      {
+        "product": "10G Optical Module",
+        "model": "6630",
+        "description": "SFP+ optical module, 10G multi-mode dual fiber 850nm, transmission distance: 300m, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "10G Optical Module",
+        "model": "7832",
+        "description": "SFP+ optical module, 10G single-mode dual fiber 1310nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "10G Optical Module",
+        "model": "7832-33",
+        "description": "SFP+ optical module, 10G single-mode single fiber TX1330nm/RX1270nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      },
+      {
+        "product": "10G Optical Module",
+        "model": "7832-27",
+        "description": "SFP+ optical module, 10G single-mode single fiber TX1270nm/RX13300nm, transmission distance: 20km, LC interface. supports DDM function and hot plugging.",
+        "unit": "PC"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "brand": "Indio Networks",
+    "company": "RIZONN",
+    "model": "UM-325AX",
+    "title": "FINETUNE UniMax UM-325AX",
+    "tagline": "Tri-band 2x2 MIMO WiFi-6 Cloud & Controller Managed Access Point",
+    "productType": "Tri-band WiFi 6 Access Point",
+    "description": "The UM-325AX is a Wi-Fi 6 tri-band, cloud & controller managed 2x2 MU-MIMO access point designed for high-density indoor environments such as airports, convention centers, conference halls, and enterprises. It delivers high performance, enterprise-grade security, and simplified centralized management.",
+    "heroDescription": "The UM-325AX is a Wi-Fi 6 tri-band, cloud & controller managed 2x2 MU-MIMO access point designed for high-density indoor environments with support for concurrent 2.4GHz, 5GHz, and 6GHz radios for next-generation wireless deployments.",
+    "stats": [
+      {
+        "label": "Aggregate Throughput",
+        "value": "3.9 Gbps",
+        "description": "Combined tri-band speed"
+      },
+      {
+        "label": "Client Capacity",
+        "value": "512+",
+        "description": "Concurrent devices supported"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Tri-band WiFi 6 Performance",
+        "description": "Up to 3.9 Gbps aggregate throughput with 1148 Mbps on 2.4GHz, 2400 Mbps on 5GHz, and Wi-Fi 6E support on 6GHz for next-generation wireless deployments."
+      },
+      {
+        "title": "Zero-Touch Deployment",
+        "description": "Self-configuring plug-and-play setup with auto configuration from cloud or controller, becoming operational within minutes after power-on."
+      },
+      {
+        "title": "Enterprise-Grade Security",
+        "description": "WPA/WPA2/WPA3 encryption, VLAN isolation, guest access modes, captive portal with SMS/OTP authentication, and deep packet inspection support."
+      }
+    ],
+    "overview": {
+      "title": "Product Overview",
+      "paragraphs": [
+        "The UM-325AX is a Wi-Fi 6 tri-band, cloud & controller managed 2x2 MU-MIMO access point.",
+        "Designed for high-density indoor environments such as airports, convention centers, conference halls, and enterprises.",
+        "It delivers high performance, enterprise-grade security, and simplified centralized management.",
+        "Supports concurrent 2.4GHz, 5GHz, and 6GHz radios for next-generation wireless deployments."
+      ]
+    },
+    "applications": {
+      "title": "Ideal Applications",
+      "categories": [
+        {
+          "name": "High-Density Venues",
+          "items": [
+            "Airports",
+            "Convention Centers",
+            "Conference Halls",
+            "Auditoriums",
+            "Large Event Spaces"
+          ]
+        },
+        {
+          "name": "Enterprise & Corporate",
+          "items": [
+            "Corporate Offices",
+            "Business Centers",
+            "Co-working Spaces",
+            "Executive Suites",
+            "Multi-tenant Buildings"
+          ]
+        },
+        {
+          "name": "Education & Healthcare",
+          "items": [
+            "Universities",
+            "Research Facilities",
+            "Hospitals",
+            "Medical Centers",
+            "Training Centers"
+          ]
+        }
+      ]
+    },
+    "keyFeatures": [
+      {
+        "category": "High Data Rate Performance",
+        "features": [
+          "Aggregate throughput up to 3.9 Gbps",
+          "2.4GHz: up to 1148 Mbps (802.11ax, 40MHz)",
+          "5GHz: up to 2400 Mbps (802.11ax, 160MHz)",
+          "6GHz supported for Wi-Fi 6E readiness"
+        ]
+      },
+      {
+        "category": "Advanced Wireless Technology",
+        "features": [
+          "2x2 MU-MIMO support for efficient RF spectrum utilization",
+          "Supports large number of concurrent users (512+ devices)",
+          "16 SSIDs for flexible network segmentation",
+          "1024-QAM modulation for maximum throughput"
+        ]
+      },
+      {
+        "category": "Smart Deployment & Management",
+        "features": [
+          "Zero-touch provisioning with plug-and-play setup",
+          "Auto configuration from cloud or controller",
+          "Cloud-based or on-premise controller management",
+          "Remote management via HTTP, HTTPS, SSH, Telnet, SSL"
+        ]
+      },
+      {
+        "category": "Enterprise Security & Access",
+        "features": [
+          "WPA/WPA2/WPA3 enterprise security",
+          "Guest access & hotspot support with captive portal",
+          "VLAN isolation (802.1Q static & dynamic via RADIUS)",
+          "RADIUS, 802.1X, PSK, SAE authentication"
+        ]
+      },
+      {
+        "category": "Location & Installation",
+        "features": [
+          "Built-in GPS receiver for autonomous location detection",
+          "Indoor mapping reference data for network planning",
+          "Ceiling, wall, or desktop mount support",
+          "Integrated 5 dBi omnidirectional antennas"
+        ]
+      }
+    ],
+    "advancedCapabilities": [
+      {
+        "title": "Tri-band Wi-Fi 6E Ready",
+        "description": "Support for 2.4GHz, 5GHz, and 6GHz bands enables next-generation wireless deployments with reduced interference and increased capacity for demanding applications like AR/VR and HD video streaming."
+      },
+      {
+        "title": "Location Awareness",
+        "description": "Built-in GPS receiver with autonomous location detection and indoor mapping reference data enables precise network planning and asset tracking capabilities."
+      },
+      {
+        "title": "Flexible Management Options",
+        "description": "Choose between cloud-based Indio Cloud or on-premise controller management with detailed AP, client, system logs, and event notifications for comprehensive network visibility."
+      },
+      {
+        "title": "High-Density Optimization",
+        "description": "Designed specifically for high-density environments with support for 512+ concurrent devices, MU-MIMO technology, and advanced RF optimization for airports, convention centers, and large enterprises."
+      }
+    ],
+    "technicalSpecifications": {
+      "hardware": {
+        "chipset": "Qualcomm 1GHz Quad-Core CPU with dedicated NSS",
+        "memory": "512 MB RAM",
+        "flash": "32 MB",
+        "ports": {
+          "wan": "1 × WAN (10/100/1000/2500 Mbps)",
+          "lan": "1 × LAN (10/100/1000/2500 Mbps)",
+          "usb": "Micro-B USB",
+          "security": "Kensington lock slot"
+        },
+        "antenna": "Inbuilt 5 dBi omnidirectional antennas",
+        "power": {
+          "poe": "802.3af/at (PoE+) or Proprietary 48V",
+          "dc": "12V / 2A DC",
+          "consumption": "24W max"
+        },
+        "outputPower": {
+          "2_4GHz": "24 dBm",
+          "5GHz": "26 dBm",
+          "6GHz": "28 dBm"
+        },
+        "resetButton": "1 × Reset button"
+      },
+      "wireless": {
+        "standards": "IEEE 802.11 a/b/g/n/ac/ax",
+        "radios": {
+          "2_4GHz": "802.11b/g/n/ax",
+          "5GHz": "802.11a/n/ac/ax",
+          "6GHz": "802.11a/n/ac/ax"
+        },
+        "channelWidth": [
+          "20 MHz",
+          "40 MHz",
+          "80 MHz",
+          "160 MHz"
+        ],
+        "dataRates": {
+          "2_4GHz": "Up to 1148 Mbps",
+          "5GHz": "Up to 2402 Mbps",
+          "aggregate": "Up to 3.9 Gbps"
+        },
+        "modulation": [
+          "BPSK",
+          "QPSK",
+          "CCK",
+          "16-QAM",
+          "64-QAM",
+          "256-QAM",
+          "1024-QAM"
+        ],
+        "mimo": "2x2 MIMO (2 spatial streams per band)",
+        "security": [
+          "WPA",
+          "WPA2",
+          "WPA3"
+        ],
+        "ssidCapacity": "16 SSIDs total",
+        "clientCapacity": "512+ concurrent devices",
+        "advancedFeatures": [
+          "WMM",
+          "Power Save",
+          "802.11r/k/v fast roaming",
+          "Captive Portal",
+          "Hotspot Service",
+          "WISPr"
+        ]
+      },
+      "networking": {
+        "operationModes": [
+          "WiFi Access Point",
+          "Mesh"
+        ],
+        "managementPlatform": [
+          "Indio Cloud",
+          "On-premise Controller",
+          "Stand-alone"
+        ],
+        "ipStack": "IPv4 / IPv6 dual stack",
+        "vlan": "802.1Q (static & dynamic via RADIUS)",
+        "authentication": [
+          "RADIUS",
+          "802.1X",
+          "PSK",
+          "SAE"
+        ],
+        "tunnels": [
+          "VPN",
+          "GRE"
+        ],
+        "networkPolicies": [
+          "ACL",
+          "Rate Limiting",
+          "Device Fingerprinting"
+        ]
+      },
+      "softwareFeatures": {
+        "installation": "Plug-n-Play (Zero Touch)",
+        "rateLimiting": [
+          "Per Client",
+          "Per SSID",
+          "Dynamic Rate Limiting",
+          "MAC Authentication",
+          "MAC Filtering",
+          "Firewall"
+        ],
+        "guestPortals": [
+          "Click-through",
+          "Data Capture",
+          "SMS/OTP",
+          "Payment Gateway",
+          "Social Media Login",
+          "Voucher"
+        ],
+        "troubleshooting": [
+          "Syslog",
+          "Ping",
+          "Traceroute",
+          "Speed-test"
+        ],
+        "timeSync": "NTP",
+        "dataOffload": true,
+        "clientPresenceApi": true,
+        "backupRestore": "TFTP / FTP / HTML interface"
+      },
+      "environmental": {
+        "operatingTemperature": "-20°C to 60°C",
+        "humidity": "5% – 95% (Non-condensing)",
+        "mounting": [
+          "Ceiling mount",
+          "Wall mount",
+          "Desktop"
+        ]
+      },
+      "physical": {
+        "formFactor": "Indoor Access Point",
+        "dimensions": "Standard AP form factor",
+        "weight": "Lightweight design"
+      },
+      "certifications": {
+        "safety": "EN 60950-1",
+        "wireless": [
+          "WPC",
+          "Wi-Fi Alliance (WFA)",
+          "Wi-Fi CERTIFIED a/b/g/n/ac",
+          "Wi-Fi CERTIFIED 6E"
+        ],
+        "security": [
+          "WPA/WPA2/WPA3 Enterprise"
+        ],
+        "compliance": [
+          "OpenWiFi Compliant",
+          "Passpoint Release 2"
+        ]
+      }
+    },
+    "accessories": [
+      {
+        "partNo": "UM-PoE-30W",
+        "description": "30W PoE Injector (On-demand)"
+      },
+      {
+        "partNo": "UM-DC-12V",
+        "description": "12V, 2A DC Power Supply (On-demand)"
+      }
+    ],
+    "useCases": [
+      "HD video streaming",
+      "Voice applications",
+      "AR / VR workloads",
+      "High-density enterprise WiFi"
+    ],
+    "summary": "UM-325AX is a high-performance tri-band WiFi 6 access point delivering up to 3.9 Gbps throughput with Wi-Fi 6E support, enterprise-grade security, and flexible cloud or on-premise management for high-density indoor deployments such as airports, convention centers, and large enterprises."
+  },
+  {
+    "id": 10,
+    "brand": "Indio Networks",
+    "company": "RIZONN",
+    "model": "UC-500",
+    "title": "FINETUNE UniController UC-500",
+    "tagline": "Wired LAN Controller",
+    "productType": "Wired LAN Controller",
+    "description": "UniController is an intelligent Wireless LAN Controller combined with comprehensive billing and bandwidth management. It enables centralized management of wired and wireless networks, prevents unauthorized access, and provides real-time activity tracking.",
+    "heroDescription": "FINETUNE UniController UC-500 is an enterprise-grade wired LAN controller delivering high scalability, advanced security, AI-driven RF optimization, deep application visibility, and robust firewall performance for large-scale wireless deployments.",
+    "stats": [
+      {
+        "label": "Access Points",
+        "value": "1024",
+        "description": "Supported in HA mode"
+      },
+      {
+        "label": "Client Devices",
+        "value": "24,000",
+        "description": "Concurrent connections"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "High Capacity & Performance",
+        "description": "Supports up to 1024 Access Points in High Availability mode and handles up to 24,000 concurrent client devices with AI-driven wireless and RF optimization."
+      },
+      {
+        "title": "Advanced Security & Threat Detection",
+        "description": "Comprehensive WIDS/WIPS protection with automatic malicious client blacklisting, Evil Twin AP detection, and advanced attack tool identification."
+      },
+      {
+        "title": "Enterprise Scalability",
+        "description": "Controller clustering with up to 10 controllers per cluster, seamless roaming across Wi-Fi zones, and multiple HA architectures for mission-critical deployments."
+      }
+    ],
+    "overview": {
+      "title": "Product Overview",
+      "paragraphs": [
+        "UniController is an intelligent Wireless LAN Controller combined with comprehensive billing and bandwidth management.",
+        "It enables centralized management of wired and wireless networks, prevents unauthorized access, and provides real-time activity tracking.",
+        "Designed for large-scale enterprise deployments such as airports, hotels, campuses, hospitals, and public venues.",
+        "Offers enterprise-grade scalability, AI-powered management, and secure policy-driven Wi-Fi control."
+      ]
+    },
+    "applications": {
+      "title": "Ideal Applications",
+      "categories": [
+        {
+          "name": "Transportation & Infrastructure",
+          "items": [
+            "Airports",
+            "Transport Hubs",
+            "Railway Stations",
+            "Bus Terminals",
+            "Seaports"
+          ]
+        },
+        {
+          "name": "Hospitality & Healthcare",
+          "items": [
+            "Hotels & Resorts",
+            "Hospitals",
+            "Healthcare Facilities",
+            "Medical Centers",
+            "Wellness Centers"
+          ]
+        },
+        {
+          "name": "Education & Enterprise",
+          "items": [
+            "Universities",
+            "Large Campuses",
+            "Corporate Headquarters",
+            "Government Buildings",
+            "Public Places"
+          ]
+        },
+        {
+          "name": "Telecommunications",
+          "items": [
+            "Telecom Infrastructure",
+            "Data Centers",
+            "Network Operations Centers",
+            "Service Provider Networks",
+            "ISP Deployments"
+          ]
+        }
+      ]
+    },
+    "keyFeatures": [
+      {
+        "category": "High Capacity & Performance",
+        "features": [
+          "Supports up to 1024 Access Points in High Availability (HA) mode",
+          "Handles up to 24,000 concurrent client devices",
+          "AI-driven wireless and RF optimization",
+          "Hitless failover with intelligent automated load balancing across APs"
+        ]
+      },
+      {
+        "category": "Advanced Wireless Standards",
+        "features": [
+          "Fully compliant with IEEE 802.11ax (Wi-Fi 6)",
+          "Supports WPA3, Enhanced Open, and legacy Wi-Fi security protocols",
+          "802.11e WMM support for multimedia optimization",
+          "MU-MIMO client grouping for higher WLAN capacity"
+        ]
+      },
+      {
+        "category": "Network Segmentation & Architecture",
+        "features": [
+          "Multiple SSIDs on different controllers using same AP infrastructure",
+          "Complete network, policy, and management isolation",
+          "Supports Active/Active (1:1), Active/Standby (1+1), and N+1 HA architectures",
+          "Up to 10 controllers per cluster with seamless roaming"
+        ]
+      },
+      {
+        "category": "Security & Threat Protection",
+        "features": [
+          "Advanced WIDS/WIPS with malicious client detection",
+          "Evil Twin AP identification and blocking",
+          "MAC spoofing detection and prevention",
+          "Broadcast disassociation and deauthentication DoS protection"
+        ]
+      },
+      {
+        "category": "Application Awareness & QoS",
+        "features": [
+          "Recognizes 3,000+ applications with deep packet inspection",
+          "Per-user traffic prioritization and control",
+          "Granular user- and application-level traffic management",
+          "Media stream prioritization for video QoS"
+        ]
+      }
+    ],
+    "advancedCapabilities": [
+      {
+        "title": "AI-Driven RF Optimization",
+        "description": "Automatic channel and transmit power optimization with real-time interference charts per AP, radio, and channel. RF interferer classification and identification with detailed spectrograms and heatmaps."
+      },
+      {
+        "title": "Zero-Touch Provisioning",
+        "description": "Automated deployment and configuration with hierarchical configuration management for multi-site deployments, enabling rapid large-scale rollouts."
+      },
+      {
+        "title": "Advanced Forensics & Analytics",
+        "description": "Real-time spectrum analysis with interferer classification, detailed charts, spectrograms, and heatmaps. Tracks and locates interferer devices on floor maps."
+      },
+      {
+        "title": "Enterprise Firewall Performance",
+        "description": "Handles 2 million active firewall sessions, 24,000 concurrent IPSec sessions, 40 Gbps firewall throughput, and 20 Gbps AES-CCM encrypted throughput."
+      }
+    ],
+    "securityFeatures": [
+      {
+        "category": "Encryption & Authentication",
+        "features": [
+          "CCMP/AES encryption",
+          "WEP 64/128-bit support",
+          "TKIP, SSL/TLS protocols",
+          "RC4-128, RSA-1024/2048",
+          "L2TP/IPsec, XAUTH/IPsec, PPTP"
+        ]
+      },
+      {
+        "category": "Threat Detection (WIDS/WIPS)",
+        "features": [
+          "Detects malicious and null SSID probe responses",
+          "Prevents AP management-frame flooding attacks",
+          "Blocks broadcast disassociation and deauthentication DoS attacks",
+          "Detects advanced attack tools like FATA-Jack and Wellenreiter"
+        ]
+      }
+    ],
+    "technicalSpecifications": {
+      "hardware": {
+        "interfaces": [
+          "4 × Ethernet (RJ-45) 10/100/1000 Base-T",
+          "4 × SFP+ 10G ports",
+          "1 × Console Port",
+          "2 × USB ports"
+        ],
+        "formFactor": "Standalone",
+        "dimensions": "482 × 680 × 44 mm",
+        "weight": "4 kg (approx)",
+        "cooling": "Fanless design"
+      },
+      "networking": {
+        "protocols": [
+          "Static & Dynamic routing",
+          "DNS & DHCP Server",
+          "Layer-2 isolation",
+          "VLAN tagging",
+          "SNMP v2c",
+          "NTP (RFC 1305)"
+        ],
+        "ipStack": "IPv4 and IPv6 support"
+      },
+      "power": {
+        "inputVoltage": "110-240V AC",
+        "powerConsumption": "10W",
+        "heatDissipation": "300 BTU"
+      },
+      "performance": {
+        "accessPoints": "Up to 1024 APs (HA mode)",
+        "concurrentClients": "24,000 devices",
+        "concurrentUserSessions": 500,
+        "dataThroughput": {
+          "authenticated": "860 Mbps",
+          "nonAuthenticated": "921 Mbps"
+        },
+        "firewallSessions": "2 million active sessions",
+        "ipsecSessions": "24,000 concurrent sessions",
+        "firewallThroughput": "40 Gbps",
+        "encryptedThroughput": "20 Gbps AES-CCM"
+      },
+      "environmental": {
+        "operatingTemperature": "5°C to 50°C",
+        "humidity": "8% – 90% non-condensing"
+      },
+      "compliance": [
+        "CE",
+        "RoHS"
+      ]
+    },
+    "featureIcons": [
+      "AP Controller & NMS",
+      "Multi-WAN & Load Balancer",
+      "Traffic Analysis",
+      "VPN Server",
+      "Better Throughput",
+      "Automatic Software Updates",
+      "Configurable Portal Templates",
+      "Virtual LAN",
+      "Enterprise Configuration Enabled",
+      "Bandwidth Monitoring",
+      "Remote Sys Logger",
+      "Firewall",
+      "Upgraded GUI",
+      "External DHCP Support",
+      "Social Media Integration",
+      "Branch Networking"
+    ],
+    "idealFor": [
+      "Telecom",
+      "Hotels & Resorts",
+      "Universities",
+      "Healthcare",
+      "Public Places",
+      "Airports",
+      "Transport"
+    ],
+    "summary": "FINETUNE UniController UC-500 is an enterprise-grade wired LAN controller delivering high scalability with support for 1024 APs and 24,000 concurrent clients, advanced security with WIDS/WIPS protection, AI-driven RF optimization, deep application visibility, and robust firewall performance for large-scale wireless deployments."
+  }
+   
+]

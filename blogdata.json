@@ -1,0 +1,169 @@
+[
+  {
+    "id": 1,
+    "slug": "introducing-new-rizonn-industrial-switch-series",
+    "title": "Introducing the New Rizonn Industrial Switch Series",
+    "subtitle": "Next-generation industrial networking solutions for extreme environments",
+    "category": "Product News",
+    "categoryColor": "blue",
+    "publishDate": "2025-12-10",
+    "readTime": "5 min read",
+    "author": {
+      "name": "Rizonn Engineering Team",
+      "role": "Product Development",
+      "avatar": "/team-avatar.jpg"
+    },
+    "heroImage": "/s1.jpeg",
+    "excerpt": "Discover our latest range of rugged industrial switches designed for extreme environments. Featuring enhanced security, high-speed connectivity, and robust reliability for mission-critical applications.",
+    "content": {
+      "introduction": "The industrial networking landscape is evolving rapidly, and Rizonn is at the forefront of this transformation. Today, we're excited to introduce our new industrial switch series, designed specifically for the demanding requirements of modern industrial environments.",
+      "sections": [
+        {
+          "heading": "Enhanced Durability for Extreme Conditions",
+          "content": "Our new switch series features IP67-rated enclosures, operating temperature ranges from -40°C to +75°C, and shock/vibration resistance that exceeds industry standards. These switches are built to withstand the harshest industrial environments while maintaining peak performance.",
+          "image": "/s2.jpeg"
+        },
+        {
+          "heading": "Advanced Security Features",
+          "content": "Security is paramount in industrial networks. Our switches include advanced features such as IEEE 802.1X authentication, VLAN segmentation, access control lists (ACLs), and encrypted management protocols. These features ensure your critical infrastructure remains protected against cyber threats.",
+          "bulletPoints": [
+            "IEEE 802.1X port-based authentication",
+            "Advanced VLAN segmentation capabilities",
+            "Comprehensive access control lists (ACLs)",
+            "Encrypted HTTPS and SSH management",
+            "Real-time security monitoring and alerts"
+          ]
+        },
+        {
+          "heading": "High-Speed Connectivity Options",
+          "content": "With support for Gigabit Ethernet, 10G SFP+ uplinks, and PoE+ capabilities, our switches provide the bandwidth and power delivery needed for modern industrial applications including IP cameras, wireless access points, and IoT devices."
+        },
+        {
+          "heading": "Intelligent Management and Monitoring",
+          "content": "Built-in web management interface, SNMP support, and integration with popular network management systems make deployment and ongoing maintenance simple and efficient. Real-time monitoring capabilities provide visibility into network performance and health."
+        }
+      ],
+      "conclusion": "The new Rizonn industrial switch series represents our commitment to providing reliable, secure, and high-performance networking solutions for industrial applications. Contact our sales team to learn more about how these switches can enhance your industrial network infrastructure."
+    },
+    "tags": ["Industrial Switches", "Network Security", "Industrial IoT", "Ethernet", "PoE"],
+    "relatedProducts": ["NAV-I-10R4S", "NAV-I-16R2S", "NAV-I-8P2S"],
+    "seo": {
+      "metaTitle": "New Rizonn Industrial Switch Series - Enhanced Security & Performance",
+      "metaDescription": "Discover Rizonn's latest industrial switches with advanced security, extreme durability, and high-speed connectivity for mission-critical applications."
+    }
+  },
+  {
+    "id": 2,
+    "slug": "future-of-iiot-connectivity-at-the-edge",
+    "title": "The Future of IIoT: Connectivity at the Edge",
+    "subtitle": "How edge computing is transforming industrial automation",
+    "category": "Technology",
+    "categoryColor": "purple",
+    "publishDate": "2025-11-28",
+    "readTime": "7 min read",
+    "author": {
+      "name": "Dr. Sarah Chen",
+      "role": "Chief Technology Officer",
+      "avatar": "/team-avatar.jpg"
+    },
+    "heroImage": "/Control Systems.jpg",
+    "excerpt": "Explore how Rizonn's edge computing solutions are transforming industrial automation. Learn about the benefits of processing data closer to the source for lower latency and improved efficiency.",
+    "content": {
+      "introduction": "The Industrial Internet of Things (IIoT) is revolutionizing manufacturing and industrial processes. As we move towards Industry 4.0, the need for real-time data processing and decision-making at the edge has become critical for maintaining competitive advantage.",
+      "sections": [
+        {
+          "heading": "What is Edge Computing in Industrial Settings?",
+          "content": "Edge computing brings data processing closer to where data is generated - at the factory floor, production line, or remote facility. This approach reduces latency, improves response times, and enables real-time decision-making that's crucial for industrial automation.",
+          "image": "/enterprice.jpeg"
+        },
+        {
+          "heading": "Key Benefits of Edge Computing",
+          "content": "Edge computing offers several advantages for industrial applications:",
+          "bulletPoints": [
+            "Reduced latency for real-time control systems",
+            "Improved reliability with local processing capabilities",
+            "Enhanced security through data localization",
+            "Reduced bandwidth costs and network congestion",
+            "Better compliance with data sovereignty requirements"
+          ]
+        },
+        {
+          "heading": "Rizonn's Edge Solutions",
+          "content": "Our industrial switches and access controllers are designed with edge computing capabilities, featuring built-in processing power, local data storage, and intelligent traffic management. These solutions enable manufacturers to implement sophisticated automation and monitoring systems without relying solely on cloud connectivity."
+        },
+        {
+          "heading": "Real-World Applications",
+          "content": "From predictive maintenance systems that analyze vibration data in real-time to quality control systems that make instant decisions on production lines, edge computing is enabling new levels of automation and efficiency in industrial environments."
+        }
+      ],
+      "conclusion": "As industrial networks become more complex and data-driven, edge computing will play an increasingly important role. Rizonn's solutions are designed to support this evolution, providing the infrastructure needed for next-generation industrial automation."
+    },
+    "tags": ["IIoT", "Edge Computing", "Industrial Automation", "Industry 4.0", "Real-time Processing"],
+    "relatedProducts": ["NAV-500", "NAV-1000", "NAV-2500"],
+    "seo": {
+      "metaTitle": "IIoT Edge Computing Solutions - Industrial Automation Future",
+      "metaDescription": "Learn how edge computing is transforming industrial automation with Rizonn's IIoT solutions for real-time processing and improved efficiency."
+    }
+  },
+  {
+    "id": 3,
+    "slug": "smart-manufacturing-success-story",
+    "title": "Smart Manufacturing: A Success Story",
+    "subtitle": "How automotive manufacturer increased efficiency by 25%",
+    "category": "Case Study",
+    "categoryColor": "green",
+    "publishDate": "2025-11-15",
+    "readTime": "6 min read",
+    "author": {
+      "name": "Michael Rodriguez",
+      "role": "Solutions Engineer",
+      "avatar": "/team-avatar.jpg"
+    },
+    "heroImage": "/enterprice.jpeg",
+    "excerpt": "See how a leading automotive manufacturer increased production efficiency by 25% using Rizonn's unified networking infrastructure. A deep dive into the implementation and results.",
+    "content": {
+      "introduction": "When a major automotive manufacturer approached us with challenges in their production line connectivity and data visibility, we knew we had an opportunity to demonstrate the real-world impact of modern industrial networking solutions.",
+      "sections": [
+        {
+          "heading": "The Challenge",
+          "content": "The manufacturer was experiencing network bottlenecks, inconsistent connectivity across production lines, and limited visibility into real-time production data. These issues were causing production delays and making it difficult to implement predictive maintenance strategies.",
+          "bulletPoints": [
+            "Legacy network infrastructure causing bottlenecks",
+            "Inconsistent connectivity across 12 production lines",
+            "Limited real-time data visibility",
+            "Difficulty implementing predictive maintenance",
+            "High network maintenance costs"
+          ]
+        },
+        {
+          "heading": "Our Solution",
+          "content": "We implemented a comprehensive networking solution using Rizonn industrial switches and access controllers, creating a unified, high-performance network infrastructure that could handle the demanding requirements of modern manufacturing.",
+          "image": "/Software.jpeg"
+        },
+        {
+          "heading": "Implementation Process",
+          "content": "The implementation was completed in phases over 6 months, minimizing disruption to ongoing production. Our team worked closely with the manufacturer's IT and operations teams to ensure seamless integration with existing systems."
+        },
+        {
+          "heading": "Results Achieved",
+          "content": "The results exceeded expectations:",
+          "bulletPoints": [
+            "25% increase in overall production efficiency",
+            "40% reduction in unplanned downtime",
+            "Real-time visibility into all production metrics",
+            "Successful implementation of predictive maintenance",
+            "30% reduction in network maintenance costs",
+            "ROI achieved within 18 months"
+          ]
+        }
+      ],
+      "conclusion": "This success story demonstrates the transformative power of modern industrial networking infrastructure. By providing reliable, high-performance connectivity and real-time data visibility, manufacturers can achieve significant improvements in efficiency and productivity."
+    },
+    "tags": ["Case Study", "Smart Manufacturing", "Production Efficiency", "Automotive", "ROI"],
+    "relatedProducts": ["NAV-D24R4S", "NAV-P-24P4S", "NAV-C48S2Q-4Q"],
+    "seo": {
+      "metaTitle": "Smart Manufacturing Case Study - 25% Efficiency Increase",
+      "metaDescription": "Learn how Rizonn's industrial networking solutions helped an automotive manufacturer achieve 25% efficiency increase and significant cost savings."
+    }
+  }
+]

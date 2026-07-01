@@ -1,0 +1,763 @@
+[{
+    "category":"Access Point",
+    "products":[
+         {
+      "id": 6,
+      "brand": "RIZONN",
+      "company": "RIZONN",
+      "model": "NAV-519-VA",
+      "title": "Outdoor Wi-Fi 6 Cloud Managed Access Point",
+      "tagline": "Dual-band Wi-Fi 6 Cloud Managed Outdoor Access Point",
+      "productType": "Outdoor Access Point",
+      "description": "A rugged, cloud-managed Wi-Fi 6 outdoor access point delivering ultra-fast speeds, enterprise-grade security, and reliable connectivity in harsh environments.",
+      "heroDescription": "The NAV-519-VA is a robust dual-band Wi-Fi 6 outdoor access point fully managed from the cloud and built using OpenWiFi technology.",
+      "stats": [
+        {
+          "label": "Max Throughput",
+          "value": "3000 Mbps",
+          "description": "Aggregate link speed"
+        },
+        {
+          "label": "Client Capacity",
+          "value": "150+",
+          "description": "Concurrent users supported"
+        }
+      ],
+
+      "highlights": [
+        {
+          "title": "Super-Fast Wi-Fi 6 Performance",
+          "description": "Up to 3000 Mbps total throughput with 600 Mbps on 2.4GHz + 2400 Mbps on 5GHz, optimized for HD video streaming and voice calls."
+        },
+        {
+          "title": "High Capacity & Efficiency",
+          "description": "MU-MIMO technology supports 150+ concurrent users with efficient RF spectrum utilization."
+        },
+        {
+          "title": "Rugged Outdoor Design",
+          "description": "IP-67 rated metal enclosure operates in extreme temperatures (-20°C to 60°C) with external omnidirectional antennas."
+        }
+      ],
+
+      "overview": {
+        "title": "Product Overview",
+        "paragraphs": [
+          "The NAV-519-VA is a robust dual-band Wi-Fi 6 outdoor access point fully managed from the cloud and built using OpenWiFi technology.",
+          "It supports a maximum combined data speed of 3000 Mbps (600 Mbps on 2.4GHz and 2400 Mbps on 5GHz) using concurrent radios.",
+          "Designed for harsh outdoor environments, it features an IP-67 rated metal enclosure and external omnidirectional antennas.",
+          "The device is zero-touch plug-and-play and automatically downloads configuration from the cloud to become operational within minutes."
+        ]
+      },
+
+      "keyFeatures": [
+        {
+          "category": "Super-Fast Wi-Fi 6 Performance",
+          "features": [
+            "Up to 3000 Mbps total throughput",
+            "600 Mbps on 2.4GHz + 2400 Mbps on 5GHz",
+            "Optimized for HD video streaming and voice calls"
+          ]
+        },
+        {
+          "category": "High Capacity & Efficiency",
+          "features": [
+            "MU-MIMO technology",
+            "Supports 150+ concurrent users",
+            "Efficient RF spectrum utilization"
+          ]
+        },
+        {
+          "category": "Rugged Outdoor Design",
+          "features": [
+            "IP-67 rated metal enclosure",
+            "Operates in extreme temperatures (-20°C to 60°C)",
+            "External omnidirectional antennas for extended coverage"
+          ]
+        },
+        {
+          "category": "Smart Cloud Management",
+          "features": [
+            "Zero-Touch Plug-and-Play deployment",
+            "Cloud-based monitoring and control",
+            "Enterprise-grade security with WPA/WPA2",
+            "Dedicated Guest & Hotspot modes"
+          ]
+        },
+        {
+          "category": "Enterprise-Grade Security",
+          "features": [
+            "WPA/WPA2 encryption",
+            "VLAN isolation",
+            "Built-in firewall",
+            "MAC filtering",
+            "RADIUS authentication",
+            "Guest network isolation"
+          ]
+        }
+      ],
+
+      "technicalSpecifications": {
+        "hardwareSystem": {
+          "processor": "Qualcomm 1GHz Quad-Core CPU with dedicated NSS",
+          "memory": "512 MB RAM",
+          "flashStorage": "32 MB",
+          "ethernetPorts": "1 × 10/100/1000 BASE-T RJ-45",
+          "interface": "1 × WAN",
+          "antennas": "External 6 dBi omnidirectional antennas"
+        },
+        "power": {
+          "powerSource": "PoE+ (802.3af) or Proprietary 48V",
+          "powerConsumption": "25 W (Max)",
+          "outputPower": {
+            "2_4GHz": "26 dBm",
+            "5GHz": "26 dBm"
+          }
+        },
+        "wirelessSpecs": {
+          "standards": "IEEE 802.11 a/b/g/n/ac/ax",
+          "radios": "Concurrent Dual-Band (2.4GHz & 5GHz)",
+          "mimo": "2×2 MIMO, 2 Spatial Streams",
+          "dataRates": {
+            "2_4GHz": "Up to 600 Mbps",
+            "5GHz": "Up to 2400 Mbps"
+          },
+          "frequencyBands": {
+            "2_4GHz": "2400 – 2482 MHz",
+            "5GHz": [
+              "5150–5250 MHz",
+              "5250–5350 MHz",
+              "5470–5725 MHz",
+              "5725–5850 MHz"
+            ]
+          },
+          "advancedFeatures": [
+            "WMM",
+            "Power Save",
+            "802.11k/v (Fast Roaming)",
+            "Hotspot Service",
+            "Captive Portal",
+            "WISPr"
+          ]
+        },
+        "performance": {
+          "totalThroughput": "3000 Mbps",
+          "userCapacity": "150+ concurrent devices",
+          "ssidCapacity": "8 SSIDs per radio"
+        },
+        "softwareAndManagement": {
+          "managementMode": "Cloud Controller Managed",
+          "installation": "Plug-n-Play (Zero Touch)",
+          "authentication": [
+            "RADIUS",
+            "802.1x",
+            "PSK",
+            "SAE"
+          ],
+          "guestPortals": [
+            "Click-through",
+            "Data Capture",
+            "SMS / OTP",
+            "Payment Gateway",
+            "Social Media Login",
+            "Voucher"
+          ],
+          "trafficManagement": [
+            "Rate limiting per client / SSID",
+            "Dynamic rate limiting",
+            "MAC authentication & filtering",
+            "Firewall"
+          ],
+          "troubleshooting": [
+            "Syslog",
+            "Ping",
+            "Traceroute",
+            "Speed Test"
+          ],
+          "timeAndData": [
+            "NTP Time Sync",
+            "Data offload support"
+          ]
+        },
+        "networking": {
+          "protocols": "IPv4 / IPv6 Dual Stack",
+          "vlan": "802.1Q (Static & Dynamic via RADIUS)",
+          "tunneling": [
+            "GRE",
+            "VPN"
+          ],
+          "securityPolicies": [
+            "ACL",
+            "Device Fingerprinting"
+          ]
+        },
+        "regulatory": {
+          "certifications": [
+            "EN 60950-1",
+            "WPC",
+            "OpenWiFi Compliant"
+          ],
+          "supportedRegions": [
+            "Americas (US)",
+            "European Union",
+            "Taiwan",
+            "Japan",
+            "Israel",
+            "Rest of World"
+          ]
+        },
+        "physicalAndEnvironmental": {
+          "operatingTemperature": "-20°C to 60°C",
+          "operatingHumidity": "5% – 95%",
+          "mounting": "Outdoor pole or wall mount",
+          "dimensions": "198 × 198 × 41 mm (7.7\" × 7.7\" × 1.61\")",
+          "weight": "2551 g (5.5 lbs)"
+        }
+      },
+
+      "applications": {
+        "title": "Ideal Applications",
+        "categories": [
+          {
+            "name": "Outdoor Venues",
+            "items": [
+              "Parks & Recreation Areas",
+              "Stadiums & Sports Complexes",
+              "Outdoor Events",
+              "Campuses",
+              "Public Squares"
+            ]
+          },
+          {
+            "name": "Industrial & Commercial",
+            "items": [
+              "Warehouses",
+              "Manufacturing Facilities",
+              "Logistics Centers",
+              "Retail Outdoor Areas",
+              "Construction Sites"
+            ]
+          },
+          {
+            "name": "Transportation & Infrastructure",
+            "items": [
+              "Airports",
+              "Train Stations",
+              "Bus Terminals",
+              "Parking Lots",
+              "Highway Rest Areas"
+            ]
+          }
+        ]
+      },
+
+      "advancedCapabilities": [
+        {
+          "title": "Zero-Touch Deployment",
+          "description": "Plug-and-play installation with automatic cloud configuration download for rapid deployment."
+        },
+        {
+          "title": "Weather-Resistant Design",
+          "description": "IP-67 rated enclosure withstands rain, dust, and extreme temperatures for reliable outdoor operation."
+        },
+        {
+          "title": "Enterprise Security",
+          "description": "Advanced security features including WPA3, RADIUS authentication, and network segmentation."
+        },
+        {
+          "title": "High-Density Support",
+          "description": "MU-MIMO and advanced RF optimization support high user density in crowded outdoor environments."
+        }
+      ],
+
+      "conclusion": "A dual-band, IP-67 weather-proof Wi-Fi 6 outdoor access point delivering 3 Gbps speeds with cloud management, zero-touch deployment, and enterprise-grade security for reliable wide-area outdoor connectivity.",
+
+      "summary": "A rugged, cloud-managed Wi-Fi 6 outdoor access point delivering ultra-fast speeds, enterprise-grade security, and reliable connectivity in harsh environments. Perfect for outdoor venues, industrial sites, and transportation hubs requiring high-performance wireless coverage."
+    },
+
+    {
+      "id": 7,
+      "brand": "RIZONN",
+      "company": "RIZONN",
+      "model": "NAV-219-VA",
+      "title": "High Performance Access Point",
+      "tagline": "WiFi 6 In-Wall Access Point",
+      "productType": "WiFi 6 In-Wall Access Point",
+      "description": "The NAV-219-VA is a high-performance WiFi 6 (802.11ax) in-wall access point designed for modern indoor environments. It delivers a combined wireless speed of up to 1800Mbps, offering fast and reliable connectivity for high-density deployments.",
+      "heroDescription": "The NAV-219-VA is a high-performance WiFi 6 (802.11ax) in-wall access point designed for modern indoor environments with a sleek in-wall design that blends seamlessly into hotels, universities, offices, gyms, and concert venues.",
+      "stats": [
+        {
+          "label": "Combined Speed",
+          "value": "1800 Mbps",
+          "description": "600Mbps @ 2.4GHz + 1200Mbps @ 5GHz"
+        },
+        {
+          "label": "Client Capacity",
+          "value": "120+",
+          "description": "Concurrent devices supported"
+        }
+      ],
+
+      "highlights": [
+        {
+          "title": "Optimized WiFi 6 Performance",
+          "description": "Total link speed up to 1800Mbps with 2x2 MU-MIMO for efficient multi-device handling and 1024-QAM and OFDMA for improved throughput and stability."
+        },
+        {
+          "title": "Discreet In-Wall Design",
+          "description": "Sleek pure-white finish with standard wall-mount installation in a compact size of 87mm x 87mm that blends seamlessly into any environment."
+        },
+        {
+          "title": "Enterprise-Grade Security",
+          "description": "WPA/WPA2 encryption, VLAN isolation, MAC filtering, built-in firewall, DoS protection, and secure guest access with captive portal."
+        }
+      ],
+
+      "overview": {
+        "title": "Product Overview",
+        "paragraphs": [
+          "The NAV-219-VA is a high-performance WiFi 6 (802.11ax) in-wall access point designed for modern indoor environments.",
+          "It delivers a combined wireless speed of up to 1800Mbps, offering fast and reliable connectivity for high-density deployments.",
+          "With a sleek in-wall design, it blends seamlessly into hotels, universities, offices, gyms, and concert venues.",
+          "Designed for high-density environments with Wave 2.0, OFDMA, and seamless roaming support."
+        ]
+      },
+
+      "keyFeatures": [
+        {
+          "category": "WiFi 6 Performance",
+          "features": [
+            "IEEE 802.11ax (WiFi 6), Wave 2",
+            "2x2 MU-MIMO support",
+            "1024-QAM, OFDMA, DL/UL MIMO",
+            "Total link speed up to 1800Mbps"
+          ]
+        },
+        {
+          "category": "Design & Installation",
+          "features": [
+            "Sleek pure-white finish",
+            "Standard wall-mount installation",
+            "Compact size: 87mm x 87mm",
+            "PoE powered (802.3af/at)"
+          ]
+        },
+        {
+          "category": "Connectivity",
+          "features": [
+            "1x Gigabit WAN port",
+            "4x Gigabit LAN ports",
+            "Optional 3x LAN + 1x RJ11 configuration",
+            "PoE (802.3af/at) support"
+          ]
+        },
+        {
+          "category": "Security & Management",
+          "features": [
+            "WPA/WPA2 encryption",
+            "VLAN isolation and MAC filtering",
+            "Built-in firewall and DoS protection",
+            "Cloud, Controller, or Stand-alone management"
+          ]
+        },
+        {
+          "category": "Advanced Features",
+          "features": [
+            "Plug-and-play deployment",
+            "Built-in troubleshooting tools (Ping, Traceroute, Speed-test)",
+            "SNMP and Syslog monitoring",
+            "Secure guest access with captive portal"
+          ]
+        }
+      ],
+
+      "applications": {
+        "title": "Ideal Applications",
+        "categories": [
+          {
+            "name": "Hospitality",
+            "items": [
+              "Hotels & Resorts",
+              "Guest Rooms",
+              "Conference Centers",
+              "Restaurants & Cafes",
+              "Lobbies & Common Areas"
+            ]
+          },
+          {
+            "name": "Education & Corporate",
+            "items": [
+              "Universities & Schools",
+              "Classrooms & Lecture Halls",
+              "Office Buildings",
+              "Meeting Rooms",
+              "Student Dormitories"
+            ]
+          },
+          {
+            "name": "Public & Entertainment",
+            "items": [
+              "Gyms & Fitness Centers",
+              "Concert Venues",
+              "Shopping Centers",
+              "Healthcare Facilities",
+              "Apartment Buildings"
+            ]
+          }
+        ]
+      },
+
+      "advancedCapabilities": [
+        {
+          "title": "High-Density Support",
+          "description": "Supports 120+ concurrent devices with 2x2 MU-MIMO and OFDMA technology for efficient spectrum utilization in crowded environments."
+        },
+        {
+          "title": "Flexible Management",
+          "description": "Choose from Cloud, Controller Appliance, or Stand-alone management modes to fit your network architecture and requirements."
+        },
+        {
+          "title": "Multiple Operation Modes",
+          "description": "Functions as Wireless AP, Gateway, Router, or Meshing node to adapt to various network topologies and deployment scenarios."
+        },
+        {
+          "title": "Advanced Guest Access",
+          "description": "Comprehensive guest access options including captive portal, SMS/OTP, voucher systems, social login, and payment gateway integration."
+        }
+      ],
+
+      "technicalSpecifications": {
+        "productInfo": {
+          "modelName": "NAV-219-VA",
+          "productType": "WiFi 6 In-Wall Access Point"
+        },
+        "hardware": {
+          "chipset": "MT7621DAT + MT7905DN + MT7975DN",
+          "memory": "128MB",
+          "flash": "SPI NOR 16MB",
+          "interfaces": {
+            "wan": "1 x 10/100/1000 RJ45",
+            "lan": "4 x 10/100/1000 RJ45",
+            "optional": "3 x LAN + 1 x RJ11"
+          },
+          "power": {
+            "method": "PoE (IEEE 802.3af/at) 48V",
+            "consumption": "14W",
+            "reset": "Hardware reset button (10 seconds)"
+          }
+        },
+        "wireless": {
+          "standards": {
+            "2_4ghz": "802.11b/g/n/ac/ax",
+            "5ghz": "802.11a/n/ac/ax"
+          },
+          "speed": {
+            "aggregate": "1800 Mbps",
+            "2_4ghz": "600 Mbps",
+            "5ghz": "1200 Mbps"
+          },
+          "mimo": "2x2 MU-MIMO",
+          "modulation": "1024-QAM, DL/UL OFDMA",
+          "frequencyBands": {
+            "2_4ghz": "2.4GHz – 2.484GHz",
+            "5ghz": "5.15GHz – 5.85GHz"
+          },
+          "antenna": {
+            "type": "Internal",
+            "gain": {
+              "2_4ghz": "2dBi",
+              "5ghz": "4dBi"
+            }
+          },
+          "txPower": "20 dBm",
+          "rxSensitivity": {
+            "2_4ghz": "-94 dBm",
+            "5ghz": "-90 dBm"
+          }
+        },
+        "softwareNetwork": {
+          "managementModes": ["Cloud", "Controller Appliance", "Stand-alone"],
+          "operationModes": ["Wireless AP", "Gateway", "Router", "Meshing"],
+          "ssidCapacity": "8 SSIDs (4 per radio)",
+          "clientCapacity": "120 concurrent devices",
+          "vlan": "802.1Q (Static & Dynamic via RADIUS)",
+          "authentication": ["802.1X", "RADIUS", "MAC Authentication"],
+          "guestAccess": ["Captive Portal", "SMS/OTP", "Voucher", "Social Login", "Payment Gateway"],
+          "securityFeatures": ["Firewall", "DoS Protection", "IP/MAC/Domain Filtering", "IP-MAC Binding"],
+          "networkingFeatures": ["IPv4", "NTP Time Sync", "GRE/L2TP Tunnels", "QoS", "Band Steering", "Airtime Fairness"],
+          "troubleshooting": ["Syslog", "Ping", "Traceroute", "Speed-test"]
+        },
+        "environmental": {
+          "operatingTemp": "-20°C to 55°C",
+          "storageTemp": "-40°C to 70°C",
+          "operatingHumidity": "10% – 90% non-condensing",
+          "storageHumidity": "5% – 90% non-condensing"
+        },
+        "physical": {
+          "mounting": "Wall Mount",
+          "dimensions": "87mm x 87mm x 35mm",
+          "weight": "250g"
+        },
+        "certifications": {
+          "compliance": ["CE", "FCC", "WPC", "RoHS"],
+          "safety": "EN 60950-1"
+        }
+      },
+
+      "conclusion": "A high-performance WiFi 6 in-wall access point delivering 1800 Mbps speeds with enterprise-grade security, flexible management options, and seamless integration for modern indoor environments.",
+
+      "summary": "A sleek, high-performance WiFi 6 in-wall access point designed for hotels, universities, offices, and high-density indoor environments. The NAV-219-VA delivers 1800 Mbps combined speed with advanced security features and flexible deployment options."
+    },
+
+    {
+      "id": 8,
+      "brand": "RIZONN",
+      "company": "RIZONN",
+      "model": "NAV-319-VA",
+      "title": "Cloud & Controller Managed Access Point",
+      "tagline": "Dual-band 2x2:2 MU-MIMO WiFi 6 Access Point",
+      "productType": "WiFi 6 Cloud & Controller Managed Access Point",
+      "description": "The NAV-319-VA is a modern Wi-Fi 6 (802.11ax) access point designed for high-performance business environments. It features dual-band radios with cloud and controller-based management, making it ideal for centralized indoor deployments.",
+      "heroDescription": "The NAV-319-VA is a modern Wi-Fi 6 (802.11ax) access point designed for high-performance business environments with dual-band radios and cloud-based management for centralized indoor deployments.",
+      "stats": [
+        {
+          "label": "Aggregated Speed",
+          "value": "3000 Mbps",
+          "description": "600 Mbps @ 2.4GHz + 2400 Mbps @ 5GHz"
+        },
+        {
+          "label": "Client Capacity",
+          "value": "100+",
+          "description": "Concurrent users supported"
+        }
+      ],
+
+      "highlights": [
+        {
+          "title": "High-Speed Performance",
+          "description": "3000 Mbps aggregated throughput with 600 Mbps on 2.4GHz and 2400 Mbps on 5GHz, powered by Qualcomm 1GHz quad-core CPU with dedicated NSS."
+        },
+        {
+          "title": "Smart Connectivity",
+          "description": "2x2:2 MU-MIMO technology for efficient simultaneous data transmission, supporting 100+ concurrent active devices with seamless performance."
+        },
+        {
+          "title": "Cloud & Mesh Ready",
+          "description": "Zero-touch plug-and-play configuration managed via Indio Cloud Controller with self-healing mesh networking for extended coverage."
+        }
+      ],
+
+      "overview": {
+        "title": "Product Overview",
+        "paragraphs": [
+          "The NAV-319-VA is a modern Wi-Fi 6 (802.11ax) access point designed for high-performance business environments.",
+          "It features dual-band radios with cloud and controller-based management, making it ideal for centralized indoor deployments.",
+          "The device delivers a maximum combined throughput of 3Gbps across 2.4GHz and 5GHz bands, ensuring reliable performance for voice and HD video applications.",
+          "Built using OpenWiFi technology, the NAV-319-VA is managed through Indio's cloud platform, enabling simple provisioning, configuration, and remote monitoring."
+        ]
+      },
+
+      "keyFeatures": [
+        {
+          "category": "High-Performance WiFi 6",
+          "features": [
+            "Aggregate data rate up to 3Gbps",
+            "IEEE 802.11a/b/g/n/ac/ax compliant",
+            "Concurrent 2.4GHz and 5GHz radios",
+            "2x2:2 MU-MIMO technology"
+          ]
+        },
+        {
+          "category": "Cloud Management",
+          "features": [
+            "Zero-touch plug-and-play configuration",
+            "Managed via Indio Cloud Controller",
+            "Self-configuring and self-healing mesh",
+            "Remote management via HTTP, HTTPS, SSH, Telnet, SSL"
+          ]
+        },
+        {
+          "category": "Enterprise Security",
+          "features": [
+            "WPA2 / WPA3 security",
+            "VLAN isolation and guest access modes",
+            "Captive Portal with SMS/OTP authentication",
+            "Deep packet inspection support"
+          ]
+        },
+        {
+          "category": "Flexible Installation",
+          "features": [
+            "Ceiling, wall, or desktop mount support",
+            "Inbuilt 5 dBi omnidirectional antennas",
+            "PoE (802.3af/at) or Proprietary 48V power",
+            "24W max power consumption"
+          ]
+        },
+        {
+          "category": "Advanced Features",
+          "features": [
+            "Configuration backup and restore via TFTP / FTP / HTML",
+            "Rich system information with logs and event tracking",
+            "IPv4 and IPv6 dual stack support",
+            "Integrated troubleshooting tools"
+          ]
+        }
+      ],
+
+      "applications": {
+        "title": "Ideal Applications",
+        "categories": [
+          {
+            "name": "Business Environments",
+            "items": [
+              "Corporate Offices",
+              "Conference Rooms",
+              "Co-working Spaces",
+              "Business Centers",
+              "Executive Suites"
+            ]
+          },
+          {
+            "name": "Education & Healthcare",
+            "items": [
+              "Universities & Schools",
+              "Libraries & Study Areas",
+              "Hospitals & Clinics",
+              "Research Facilities",
+              "Training Centers"
+            ]
+          },
+          {
+            "name": "High-Density Venues",
+            "items": [
+              "Convention Centers",
+              "Auditoriums",
+              "Large Meeting Halls",
+              "Event Spaces",
+              "Multi-tenant Buildings"
+            ]
+          }
+        ]
+      },
+
+      "advancedCapabilities": [
+        {
+          "title": "Cloud-Native Management",
+          "description": "Built using OpenWiFi technology and managed through Indio's cloud platform for simple provisioning, configuration, and remote monitoring with zero-touch deployment."
+        },
+        {
+          "title": "Self-Healing Mesh Network",
+          "description": "Advanced mesh networking capabilities with self-configuring and self-healing features to ensure continuous coverage and automatic network optimization."
+        },
+        {
+          "title": "Enterprise-Grade Performance",
+          "description": "Qualcomm 1GHz quad-core CPU with dedicated NSS delivers consistent high-performance for demanding business applications and high-density user environments."
+        },
+        {
+          "title": "Comprehensive Security Suite",
+          "description": "Advanced security features including WPA3, VLAN isolation, captive portal authentication, and deep packet inspection for enterprise-level network protection."
+        }
+      ],
+
+      "technicalSpecifications": {
+        "hardware": {
+          "throughputAndUsers": "3000 Mbps; 100+ users",
+          "radios": {
+            "2_4GHz": "802.11b/g/n/ax",
+            "5GHz": "802.11a/n/ac/ax"
+          },
+          "chipset": "Qualcomm 1GHz Quad-Core CPU with dedicated NSS",
+          "memory": "512 MB RAM",
+          "flash": "32 MB",
+          "ports": {
+            "wan": "1 × WAN (10/100/1000/2500 Mbps)",
+            "lan": "1 × LAN (10/100/1000 Mbps)"
+          },
+          "antenna": "Inbuilt 5 dBi omnidirectional antennas",
+          "powerConsumption": "24W max",
+          "powerSource": "PoE (802.3af/at) or Proprietary 48V",
+          "outputPower": {
+            "2_4GHz": "24 dBm"
+          },
+          "resetButton": "1 × Reset button"
+        },
+        "wireless": {
+          "standards": "IEEE 802.11 a/b/g/n/ac/ax",
+          "supportedRates": {
+            "2_4GHz": "Up to 600 Mbps"
+          },
+          "peakDataRates": {
+            "2_4GHz": "573.5 Mbps"
+          },
+          "mimo": "2x2 MIMO (2 spatial streams)",
+          "frequencyBands": {
+            "2_4GHz": "2400 – 2482 MHz",
+            "5GHz": [
+              "5150–5250 MHz",
+              "5250–5350 MHz",
+              "5470–5725 MHz",
+              "5725–5850 MHz"
+            ]
+          },
+          "security": "WPA / WPA2 / WPA3",
+          "ssids": "8 per radio",
+          "clientCapacity": "128+ concurrent devices",
+          "otherFeatures": [
+            "WMM",
+            "Power Save",
+            "Fast Roaming (802.11r/k/v)",
+            "Hotspot Service",
+            "Captive Portal",
+            "WISPr"
+          ]
+        },
+        "networking": {
+          "operationModes": ["WiFi Access Point", "Mesh"],
+          "managementPlatform": "Cloud Controller Appliance & Stand-alone mode",
+          "ipStack": "IPv4 / IPv6",
+          "vlanSupport": "802.1Q (Static & Dynamic via RADIUS)",
+          "authentication": ["RADIUS", "802.1X (Auth & Supplicant)", "PSK", "SAE"],
+          "tunnels": ["VPN", "GRE"],
+          "networkPolicies": ["ACL", "Rate Limiting", "Device Fingerprinting"]
+        },
+        "softwareFeatures": {
+          "installation": "Plug-n-Play (Zero Touch)",
+          "rateLimiting": [
+            "Per Client",
+            "Per SSID",
+            "Dynamic Rate Limiting",
+            "MAC Authentication",
+            "MAC Filtering",
+            "Firewall"
+          ],
+          "guestPortals": [
+            "Click-through",
+            "Data Capture",
+            "SMS/OTP",
+            "Payment Gateway",
+            "Social Media Login",
+            "Voucher"
+          ],
+          "troubleshooting": ["Syslog", "Ping", "Traceroute", "Speed-test"],
+          "timeSync": "NTP",
+          "dataOffload": true,
+          "snmpLocApi": false
+        },
+        "environmental": {
+          "operatingTemperature": "-20°C to 60°C",
+          "humidity": "5% – 95%",
+          "mounting": ["Ceiling mount", "Wall mount"]
+        },
+        "certifications": {
+          "safety": "EN 60950-1",
+          "wireless": "WPC",
+          "compliance": ["OpenWiFi Compliant", "Passpoint Compliant"]
+        }
+      },
+
+      "conclusion": "A robust dual-band WiFi 6 access point delivering 3Gbps speeds with seamless cloud management, enterprise-grade security, and reliable performance for high-density indoor environments.",
+
+      "summary": "A robust dual-band WiFi 6 access point delivering 3Gbps speeds with seamless cloud management, enterprise-grade security, and reliable performance for high-density indoor environments."
+    }
+    ]
+}]

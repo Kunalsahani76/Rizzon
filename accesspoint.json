@@ -1,0 +1,1744 @@
+[
+{
+  "category": "Access Point Controllers",
+  "products": [
+    {
+      "id": 1,
+      "brand": "UNIBOX",
+      "company": "RIZONN",
+      "model": "NAV-50",
+      "title": "Network Access & Bandwidth Controller",
+      "tagline": "Intelligent hotspot gateway for complete network control",
+      "description": "The NAV-50 is an intelligent access controller designed to provide complete control over your wireless network. It allows administrators to centrally manage wired and wireless networks, prevent unauthorized access, and track real-time activity, making it ideal for small venues like cafes, hotels, and offices.",
+      "productType": "50-User Network Access Controller",
+      "connectivity": {
+        "ports": "3x Gigabit LAN/WAN Ports",
+        "powerConsumption": "5W",
+        "ecoFriendly": true
+      },
+
+  "highlights": [
+    {
+      "title": "Centralized Management",
+      "description": "Manage remote units and track users centrally. Built on a reliable Linux platform, it supports up to 50 concurrent user sessions with high availability."
+    },
+    {
+      "title": "Bandwidth Control",
+      "description": "Complete bandwidth management with rate limiting, dynamic allocation, and group-based policies to ensure fair usage."
+    },
+    {
+      "title": "Monetization & Billing",
+      "description": "Integrated hotspot billing, voucher management, and payment gateway support with seamless PMS integration."
+    }
+  ],
+
+  "overview": {
+    "paragraphs": [
+      "The UniBox NAV-50 is an intelligent access controller and hotspot gateway designed to provide comprehensive control over your wireless network. It empowers network administrators to centrally manage both wired and wireless networks, preventing unauthorized access while tracking real-time network activity.",
+      "Engineered for seamless integration, the NAV-50 features a built-in captive portal engine, bandwidth controller, policy manager, URL tracker, and reporting system. It is fully compatible with the WiOS Cloud Hotspot Manager for centralized monitoring of remote units."
+    ]
+  },
+
+  "applications": {
+    "title": "Ideal Applications",
+    "categories": [
+      {
+        "name": "Hospitality",
+        "items": [
+          "Small Hotels",
+          "Resorts",
+          "Inns",
+          "Restaurants",
+          "Cafes"
+        ]
+      },
+      {
+        "name": "Education & Corporate",
+        "items": [
+          "Universities",
+          "Training Institutes",
+          "Small Offices"
+        ]
+      },
+      {
+        "name": "Public Sectors",
+        "items": [
+          "Healthcare Facilities",
+          "Airports",
+          "Transport Hubs",
+          "Public Wi-Fi Hotspots"
+        ]
+      }
+    ]
+  },
+
+  "keyFeatures": [
+    {
+      "category": "Networking & Connectivity",
+      "features": [
+        "Universal controller with Gigabit LAN & WAN ports",
+        "Multi-WAN support with load balancing",
+        "Group-based routing and port forwarding",
+        "Comprehensive network monitoring"
+      ]
+    },
+    {
+      "category": "Bandwidth & Policy Management",
+      "features": [
+        "Rate limiting and dynamic bandwidth allocation",
+        "Fair usage policies with date/time and group-based rules",
+        "Limits based on time and data usage"
+      ]
+    },
+    {
+      "category": "Captive Portal & User Access",
+      "features": [
+        "Template-based customizable captive portals",
+        "Multiple login methods including social login and SMS/OTP",
+        "Access codes and voucher-based authentication",
+        "User isolation, MAC blacklisting, TRAI/DOT compliance"
+      ]
+    },
+    {
+      "category": "Reporting & Administration",
+      "features": [
+        "Detailed analytics on users, usage, and revenue",
+        "Social media profiling and PMS/Voucher activity",
+        "Web logging, archiving, and URL filtering",
+        "Automatic updates and role-based administration"
+      ]
+    },
+    {
+      "category": "Billing & Monetization",
+      "features": [
+        "Configurable hotspot billing plans",
+        "Integrated payment gateway support",
+        "PMS integration for hospitality",
+        "Advertising support for revenue generation"
+      ]
+    }
+  ],
+
+  "technicalSpecifications": {
+    "interface": [
+      "1 x LAN Port (RJ-45): 10/100/1000 base T/Tx",
+      "1 x WAN Port (RJ-45): 10/100/1000 base T/Tx",
+      "1 x Service Port (RJ-45): 10/100/1000 base T/Tx",
+      "2 x USB Ports"
+    ],
+    "networking": [
+      "Static & Dynamic Routing",
+      "DNS & DHCP Server",
+      "Layer 2 Isolation",
+      "SNMP v2c Support",
+      "NTP (RFC 1305) Support"
+    ],
+    "power": {
+      "input": "12V DC, 2A",
+      "consumption": "5W",
+      "heatDissipation": "300 BTU"
+    },
+    "physical": {
+      "formFactor": "Standalone",
+      "dimensions": "176 x 174 x 30 mm (6.92 x 6.85 x 1.18 in)",
+      "weight": "500 g (1.1 lbs)"
+    },
+    "environmental": {
+      "operatingTemperature": "5°C to 50°C (Non-condensing)",
+      "humidity": "8% - 90%",
+      "cooling": "Fanless Design"
+    },
+    "compliance": [
+      "CE Emission",
+      "FCC Class A",
+      "RoHS"
+    ]
+  },
+
+      "summary": "This intelligent access controller and hotspot gateway is designed for small venues, supporting up to 50 concurrent users. Built on a reliable Linux platform with Gigabit connectivity, it delivers enterprise-grade bandwidth management, captive portals, and robust security for complete wireless network control."
+    },
+
+    {
+      "id": 2,
+      "brand": "UNIBOX",
+      "company": "RIZONN",
+      "model": "NAV-100",
+      "title": "Network Access & Bandwidth Controller",
+      "tagline": "Intelligent hotspot gateway for complete network control",
+      "productType": "100-User Network Access Controller",
+      "heroDescription": "The NAV-100 is an intelligent hotspot gateway that provides complete control over both wired and wireless networks. Built on a reliable Linux platform, it ensures high performance for medium-sized venues.",
+      "stats": [
+        {
+          "label": "Gigabit Connectivity",
+          "value": "1 Gbps",
+          "description": "WAN & LAN Port Speed"
+        },
+        {
+          "label": "Operating Temp",
+          "value": "50°C",
+          "description": "Max Heat Tolerance"
+        }
+      ],
+
+  "overview": {
+    "headline": "Simple, Smart Wi-Fi Control.",
+    "description": "The UniBox NAV-100 is a smart gateway that gives you total control over your wireless network. It enables administrators to manage both wired and wireless connections from a single centralized interface, ensuring only authorized users can access the network while tracking activity in real time."
+  },
+
+  "whoIsItFor": {
+    "title": "Who is it for?",
+    "description": "The NAV-100 is designed for small venues that need reliable guest Wi-Fi.",
+    "list": [
+      "Cafes and Restaurants",
+      "Small Hotels and Inns",
+      "Training Institutes and Small Offices",
+      "Public Wi-Fi Hotspots"
+    ]
+  },
+
+  "keyCapabilities": [
+    {
+      "title": "Capacity",
+      "description": "Handles up to 100 concurrent users at the same time."
+    },
+    {
+      "title": "Performance",
+      "description": "Built on a stable Linux platform for reliable speed and uptime."
+    },
+    {
+      "title": "Cloud Ready",
+      "description": "Works seamlessly with the WiOS Cloud Manager to control remote NAV-100 units from anywhere."
+    }
+  ],
+
+  "keyFeatures": [
+    {
+      "category": "Centralized Network Control",
+      "features": [
+        "Unified management of wired and wireless networks",
+        "Single interface with Multi-WAN support",
+        "Static & dynamic routing",
+        "Port forwarding and load balancing for optimized traffic flow"
+      ]
+    },
+    {
+      "category": "Intelligent Bandwidth Management",
+      "features": [
+        "Traffic shaping with upload/download speed limits",
+        "Time and data quotas per user",
+        "Dynamic bandwidth allocation for up to 100 concurrent users"
+      ]
+    },
+    {
+      "category": "Guest Access & Monetization",
+      "features": [
+        "Custom captive portals",
+        "Voucher, credit card, and social media login",
+        "Hotel PMS integration",
+        "Payment gateway support for automated revenue generation"
+      ]
+    },
+    {
+      "category": "Advanced Security",
+      "features": [
+        "MAC blacklisting",
+        "User isolation",
+        "Two-Factor Authentication (SMS/OTP)",
+        "Group-based URL filtering",
+        "Malicious content blocking"
+      ]
+    },
+    {
+      "category": "Compliance & Reporting",
+      "features": [
+        "Automated web logging and archiving",
+        "Full TRAI/DoT compliance",
+        "Real-time analytics on usage, revenue, and network health",
+        "Automated email reports"
+      ]
+    }
+  ],
+
+  "technicalSpecifications": {
+    "interfaces": [
+      "1 × WAN Port (RJ-45) – 10/100/1000 base T/Tx",
+      "1 × LAN Port (RJ-45) – 10/100/1000 base T/Tx",
+      "1 × Service Port (RJ-45)",
+      "2 × USB Ports"
+    ],
+    "networking": [
+      "Static & Dynamic Routing",
+      "DNS & DHCP Server Support",
+      "Layer-2 Isolation",
+      "SNMP v2c Support",
+      "NTP (Time Protocol) Support"
+    ],
+    "power": {
+      "input": "12V DC, 2A",
+      "consumption": "5W",
+      "heatDissipation": "300 BTU"
+    },
+    "physical": {
+      "dimensions": "176 × 174 × 30 mm (6.92 × 6.85 × 1.18 in)",
+      "weight": "500 g (1.1 lbs)",
+      "formFactor": "Standalone box"
+    },
+    "environment": {
+      "operatingTemperature": "5°C to 50°C",
+      "humidity": "8% – 90% (Non-condensing)",
+      "design": "Fanless (Quiet operation)"
+    },
+    "compliance": [
+      "CE Emission",
+      "FCC Class A",
+      "RoHS"
+    ]
+  },
+
+      "summary": "A compact, all-in-one hotspot gateway designed for cafes, small hotels, and offices. The NAV-100 combines enterprise-grade security, robust billing engines, and cloud-ready management on a reliable Linux platform to handle medium-sized networks effortlessly."
+    },
+
+    {
+      "id": 3,
+      "brand": "UNIBOX",
+      "company": "RIZONN",
+      "model": "NAV-500",
+      "title": "Network Access & Bandwidth Controller",
+      "tagline": "Intelligent hotspot gateway for complete network control",
+      "productType": "500-User Network Access Controller",
+      "heroDescription": "NAV-500 is an all-in-one smart controller designed to centrally manage wired and wireless networks. It prevents unauthorized access, tracks real-time activity, and optimizes internet speed for all users.",
+      "stats": [
+        {
+          "label": "Performance",
+          "value": "500+",
+          "description": "Concurrent Users"
+        },
+        {
+          "label": "Operating Temp",
+          "value": "50°C",
+          "description": "Max Heat Tolerance"
+        }
+      ],
+
+  "introFeatures": [
+    {
+      "title": "All-in-One Management",
+      "description": "Combines a Wi-Fi controller, hotspot gateway, VPN server, firewall, and load balancer into a single powerful device."
+    },
+    {
+      "title": "Smart Billing & Access",
+      "description": "Flexible billing plans, voucher integration, and multiple login options including Social Media and SMS OTP."
+    },
+    {
+      "title": "Security & Compliance",
+      "description": "User isolation, MAC blacklisting, and automated web logging to meet government compliance regulations."
+    }
+  ],
+
+  "overview": {
+    "title": "Product Overview",
+    "description": [
+      "NAV-500 is an all-in-one smart device designed to manage your network. It combines multiple functions—including a Wi-Fi controller, billing system, and internet traffic manager—into a single box.",
+      "It helps administrators centrally control both wired and wireless networks, prevents unauthorized access, tracks user activity in real time, and efficiently manages bandwidth."
+    ]
+  },
+
+  "keyCapabilities": [
+    {
+      "title": "All-in-One Solution",
+      "description": "Acts as a hotspot gateway, firewall, web server, VPN server, and load balancer."
+    },
+    {
+      "title": "User Capacity",
+      "description": "Built to handle up to 500 active users simultaneously."
+    },
+    {
+      "title": "Reliability",
+      "description": "Runs on a stable Linux platform to ensure high availability and performance."
+    },
+    {
+      "title": "Flexible Deployment",
+      "description": "Can be used as a standalone device or integrated with WiOS OSS/BSS systems."
+    }
+  ],
+
+  "perfectFor": [
+    "Hotels & Resorts",
+    "Airports & Transport Hubs",
+    "Universities & Schools",
+    "Healthcare Facilities",
+    "Public Places & Hotzones"
+  ],
+
+  "keyFeatures": [
+    {
+      "category": "High-Performance Networking",
+      "features": [
+        "Multi-WAN support with load balancing",
+        "Gigabit LAN & WAN ports for high-speed data transfer",
+        "Static, dynamic, and group-based routing"
+      ]
+    },
+    {
+      "category": "Bandwidth Control",
+      "features": [
+        "Fair usage policy to prevent bandwidth hogging",
+        "Time and data quotas for user groups",
+        "Traffic prioritization for critical users or applications"
+      ]
+    },
+    {
+      "category": "Flexible Billing & PMS",
+      "features": [
+        "Built-in billing with voucher and online payment gateway support",
+        "Virtual PMS for hotels",
+        "Tiered billing plans based on time or data usage"
+      ]
+    },
+    {
+      "category": "Reporting & Analytics",
+      "features": [
+        "Real-time monitoring of online users",
+        "Revenue, usage, and social media profile reports",
+        "Automated email reports"
+      ]
+    },
+    {
+      "category": "Smart User Login",
+      "features": [
+        "Social Media and Two-Factor (SMS/OTP) authentication",
+        "Enterprise login via G-Suite and LDAP/AD",
+        "Customizable captive portal templates"
+      ]
+    }
+  ],
+
+  "advancedCapabilities": [
+    {
+      "title": "Manage Multiple Locations",
+      "description": "Create and manage multiple hotspots across different locations simultaneously using a single device."
+    },
+    {
+      "title": "Virtual PMS (Hotel Features)",
+      "description": "Acts as a Virtual PMS when no dedicated Property Management System is available, reducing software costs."
+    },
+    {
+      "title": "Google G-Suite & LDAP Integration",
+      "description": "Allows users to log in using existing office or email credentials without remembering new passwords."
+    },
+    {
+      "title": "Automatic Cloud Sync System",
+      "description": "Automatically syncs data and software updates via the cloud to keep the system up to date."
+    }
+  ],
+
+  "technicalSpecifications": {
+    "modelName": "UniBox NAV-500",
+    "ethernetPorts": "6 × Gigabit Ports (RJ-45, 10/100/1000 base T/Tx)",
+    "optionalPorts": "2 × SFP+ 10G Ports (Optional)",
+    "connectivity": "1 × Console Port, 2 × USB Ports",
+    "throughput": {
+      "withAuthentication": "860 Mbps",
+      "withoutAuthentication": "921 Mbps"
+    },
+    "concurrentUsers": "Supports up to 500 active sessions",
+    "processor": "Intel Chipset",
+    "power": "110–240V AC",
+    "dimensions": "482 × 280 × 44 mm (Rack-mountable)",
+    "weight": "Approx. 4 kg (8.8 lbs)",
+    "environment": "Operating Temperature: 5°C to 50°C",
+    "design": "Fanless design (Silent operation)"
+  },
+
+      "summary": "A fanless, silent, enterprise-grade hotspot controller designed for 500+ concurrent users. NAV-500 delivers powerful networking, advanced billing, robust reporting, and cloud-ready management—ideal for hotels, universities, transport hubs, and large public venues."
+    },
+
+    {
+      "id": 4,
+      "brand": "UNIBOX",
+      "company": "RIZONN",
+      "model": "NAV-1000",
+      "title": "Network Access & Bandwidth Controller",
+      "tagline": "Intelligent all-in-one controller",
+      "productType": "1000-User Network Access Controller",
+      "heroDescription": "The NAV-1000 is an intelligent all-in-one controller designed to manage your entire network from a single device. It combines the functions of a Wi-Fi controller, hotspot gateway, billing system, and firewall to control bandwidth and prevent unauthorized access.",
+      "stats": [
+        {
+          "label": "Capacity",
+          "value": "1000",
+          "description": "Concurrent Users"
+        },
+        {
+          "label": "Performance",
+          "value": "930 Mbps",
+          "description": "High-Speed Data Throughput"
+        }
+      ],
+
+      "introFeatures": [
+        {
+          "title": "All-in-One Management",
+          "description": "Manage wired and wireless networks centrally. Replaces multiple devices by acting as a router, load balancer, and VPN server in one box."
+        },
+        {
+          "title": "Smart Billing & Hotspots",
+          "description": "Built-in billing system for hotels and cafes with custom login pages, payment acceptance, and PMS integration."
+        },
+        {
+          "title": "Security & Compliance",
+          "description": "Ensures network safety with user isolation, web filtering, and detailed logging compliant with TRAI/DoT regulations."
+        }
+      ],
+
+      "overview": {
+        "title": "Product Overview",
+        "description": [
+          "The UniBox NAV-1000 is an intelligent all-in-one device designed to manage your network completely. It acts as a central gatekeeper for your internet by combining a Wi-Fi controller, billing system, and security firewall into a single box.",
+          "It allows administrators to control who accesses the internet (wired or wireless), prevent unauthorized usage, and track activity in real time."
+        ]
+      },
+
+      "idealFor": [
+        "Hotels & Resorts",
+        "Universities & Schools",
+        "Airports & Public Places",
+        "Hospitals (Healthcare)"
+      ],
+
+      "keyFeatures": [
+        {
+          "category": "Centralized Control",
+          "features": [
+            "6 Gigabit Ethernet ports for fast data transfer",
+            "Multi-WAN support with load balancing",
+            "High throughput up to 930 Mbps"
+          ]
+        },
+        {
+          "category": "Advanced Security & Compliance",
+          "features": [
+            "Enterprise-grade firewall",
+            "MAC address blacklisting",
+            "Group-based URL filtering",
+            "Web logging and audit trails for compliance"
+          ]
+        },
+        {
+          "category": "Integrated Hotspot & Billing",
+          "features": [
+            "Built-in billing with payment gateway integration",
+            "Multiple login methods including social media and vouchers",
+            "PMS integration for hotels"
+          ]
+        },
+        {
+          "category": "Smart Bandwidth Management",
+          "features": [
+            "Fair usage policies to prevent congestion",
+            "Dynamic bandwidth allocation and rate limiting",
+            "Time-based and data-based access controls"
+          ]
+        },
+        {
+          "category": "Easy Management & Monitoring",
+          "features": [
+            "Centralized dashboard for wired and wireless networks",
+            "Real-time reporting on usage, revenue, and network health",
+            "Remote syslog support and role-based administration"
+          ]
+        }
+      ],
+
+      "exclusiveFeatures": [
+        "Multiple hotspots management across locations",
+        "Virtual PMS for hotels at no extra cost",
+        "Google G-Suite login integration",
+        "Automatic cloud sync and software updates",
+        "One-password access via LDAP/Active Directory",
+        "Group-based content filtering"
+      ],
+
+      "newAndImprovedCapabilities": [
+        "Multi-WAN & load balancing for high availability",
+        "AP Controller & Network Management System (NMS)",
+        "Real-time traffic analysis and bandwidth monitoring",
+        "Built-in VPN server and branch networking",
+        "Improved throughput and overall performance",
+        "Modern, upgraded GUI dashboard"
+      ],
+
+      "loginAndSecurity": [
+        "Custom captive portal login pages",
+        "Social media login integration",
+        "Advanced firewall with remote syslog logging",
+        "Automatic security updates",
+        "VLAN-based network segmentation",
+        "External DHCP server support"
+      ],
+
+      "technicalSpecifications": {
+        "model": "NAV-1000",
+        "hardwareInterface": [
+          "6 × Gigabit Ethernet Ports (RJ-45, 10/100/1000 Base T/Tx)",
+          "2 × Optional 10G SFP+ Fiber Ports",
+          "1 × Console Port",
+          "2 × USB Ports",
+          "Intel Chipset"
+        ],
+        "networkingProtocols": [
+          "Static & Dynamic Routing",
+          "DNS & DHCP Server",
+          "Layer-2 Isolation",
+          "VLAN Tagging",
+          "SNMP v2c Support",
+          "NTP Support (RFC 1305)"
+        ],
+        "systemPerformance": {
+          "concurrentUsers": "1000 Sessions",
+          "throughput": {
+            "withoutAuthentication": "930 Mbps",
+            "withAuthentication": "861 Mbps"
+          }
+        },
+        "powerSpecifications": {
+          "inputVoltage": "110–240V AC",
+          "powerConsumption": "10 Watts",
+          "heatDissipation": "300 BTU"
+        },
+        "physical": {
+          "formFactor": "Rack-mount (Standard server racks)",
+          "dimensions": "482 × 680 × 44 mm (18.9 × 26.7 × 1.73 in)",
+          "weight": "Approx. 4 kg (8.8 lbs)"
+        },
+        "environmental": {
+          "operatingTemperature": "5°C to 50°C",
+          "humidity": "8% to 90% (Non-condensing)"
+        },
+        "compliance": [
+          "CE Emission",
+          "RoHS"
+        ]
+      },
+
+      "summary": "The NAV-1000 is a rugged, enterprise-grade all-in-one network controller built for up to 1,000 concurrent users. Running on a reliable Linux platform, it combines gateway, firewall, hotspot billing, and advanced management features into a single high-performance device—ideal for large venues and public networks."
+    },
+
+    {
+      "id": 5,
+      "brand": "UNIBOX",
+      "company": "RIZONN",
+      "model": "NAV-2500",
+      "title": "Network Access & Bandwidth Controller",
+      "tagline": "Intelligent all-in-one controller",
+      "productType": "2500-User Network Access Controller",
+      "description": "The UniBox NAV-2500 is a versatile, all-in-one appliance that acts as a Wireless LAN Controller, Hotspot Gateway, and Billing Server. It enables centralized management of wired and wireless networks, real-time activity tracking, and strong security against unauthorized access.",
+      "stats": [
+        {
+          "label": "High Performance",
+          "value": "2,500",
+          "unit": "Concurrent Users"
+        },
+        {
+          "label": "Global Support",
+          "value": "24/7",
+          "unit": "Customer Support"
+        }
+      ],
+
+      "overview": {
+        "title": "Product Overview",
+        "content": [
+          "The UniBox NAV-2500 is a smart, all-in-one solution for managing your network.",
+          "It combines network access control, billing, and internet speed management into a single device.",
+          "It helps administrators control both wired and wireless (Wi-Fi) networks from one central place, prevent unauthorized access, and track network activity in real-time."
+        ]
+      },
+
+      "idealFor": [
+        "Hotels & Resorts",
+        "Universities & Schools",
+        "Airports & Transport Hubs",
+        "Healthcare Facilities",
+        "Large Offices & Public Parks"
+      ],
+
+      "actsAs": [
+        "Wi-Fi Controller",
+        "Hotspot Gateway (Login Page)",
+        "Billing System",
+        "Firewall & Security System",
+        "VPN Server",
+        "User Activity Logger"
+      ],
+
+      "keyFeatures": [
+        {
+          "category": "High-Performance Networking",
+          "features": [
+            "6 Gigabit Ethernet ports with Multi-WAN support",
+            "Automated load balancing",
+            "Group-based routing for efficient traffic distribution"
+          ]
+        },
+        {
+          "category": "Smart Bandwidth Management",
+          "features": [
+            "Strict upload/download speed limits",
+            "Data quotas and time limits per user",
+            "Dynamic bandwidth allocation with fair usage policies"
+          ]
+        },
+        {
+          "category": "Integrated Hotspot Billing",
+          "features": [
+            "Built-in billing system with vouchers and access codes",
+            "Online payment gateway integration",
+            "Hotel PMS integration",
+            "Custom branded captive portals"
+          ]
+        },
+        {
+          "category": "Robust Security & Compliance",
+          "features": [
+            "TRAI/DoT compliant",
+            "Detailed web logging and user activity archiving",
+            "MAC blacklisting",
+            "URL filtering",
+            "Layer-2 user isolation"
+          ]
+        },
+        {
+          "category": "Reporting",
+          "features": [
+            "View active users and data usage",
+            "Revenue reports from Wi-Fi sales",
+            "Automated email reports"
+          ]
+        }
+      ],
+
+      "exclusiveFeatures": [
+        "Multiple hotspot management from a single device",
+        "Virtual PMS (Property Management System) without extra cost",
+        "Google G-Suite login integration",
+        "LDAP / Active Directory single sign-on",
+        "Automatic cloud sync and updates",
+        "Group-based content filtering"
+      ],
+
+      "newAndImprovedCapabilities": [
+        "Multi-WAN with automatic failover and load balancing",
+        "AP Controller for centralized access point management",
+        "Built-in VPN server for remote access",
+        "Traffic analysis and real-time monitoring",
+        "Higher throughput for heavy traffic environments",
+        "Automatic software updates",
+        "Customizable captive portal templates",
+        "VLAN support for network segmentation",
+        "Enterprise-grade configuration options",
+        "Bandwidth monitoring and bottleneck detection",
+        "Remote syslog server support",
+        "Built-in firewall",
+        "Upgraded modern GUI",
+        "External DHCP server support",
+        "Social media login integration",
+        "Branch office networking support"
+      ],
+
+      "technicalSpecifications": {
+        "hardwareInterface": [
+          "6 × Ethernet Ports (RJ-45) – 10/100/1000 Base T/Tx",
+          "2 × Optional SFP+ 10G Ports",
+          "1 × Console Port",
+          "2 × USB Ports",
+          "Intel Chipset"
+        ],
+        "physical": {
+          "formFactor": "1U Rackmount",
+          "dimensions": "430 × 380 × 45 mm",
+          "weight": "5.53 kg (12 lbs)"
+        },
+        "environment": {
+          "operatingTemperature": "-10°C to 60°C",
+          "humidity": "5% – 95% (Non-condensing)",
+          "vibration": "0.5g rms / 5–500 Hz",
+          "cooling": "Fan cooling structure"
+        },
+        "networking": [
+          "Static & Dynamic Routing",
+          "DNS & DHCP Server",
+          "Layer-2 Isolation",
+          "VLAN Tagging",
+          "SNMP v2c Support",
+          "NTP Support (RFC 1305)"
+        ],
+        "power": {
+          "inputVoltage": "110–240V AC",
+          "consumption": "220W",
+          "heatDissipation": "300 BTU"
+        },
+        "compliance": [
+          "CE Emission",
+          "FCC Class A",
+          "RoHS"
+        ],
+        "systemPerformance": {
+          "concurrentUsers": 2500
+        }
+      },
+
+      "summary": "A powerful, enterprise-grade Network Access Controller built for large venues such as hotels, airports, universities, and public spaces. The NAV-2500 supports up to 2,500 concurrent users and combines firewall, billing, VPN, and bandwidth management into a single reliable appliance."
+    },
+
+    {
+      "id": 6,
+      "brand": "RIZONN",
+      "company": "RIZONN",
+      "model": "NAV-519-VA",
+      "title": "Outdoor Wi-Fi 6 Cloud Managed Access Point",
+      "tagline": "Dual-band Wi-Fi 6 Cloud Managed Outdoor Access Point",
+      "productType": "Outdoor Access Point",
+      "description": "A rugged, cloud-managed Wi-Fi 6 outdoor access point delivering ultra-fast speeds, enterprise-grade security, and reliable connectivity in harsh environments.",
+      "heroDescription": "The NAV-519-VA is a robust dual-band Wi-Fi 6 outdoor access point fully managed from the cloud and built using OpenWiFi technology.",
+      "stats": [
+        {
+          "label": "Max Throughput",
+          "value": "3000 Mbps",
+          "description": "Aggregate link speed"
+        },
+        {
+          "label": "Client Capacity",
+          "value": "150+",
+          "description": "Concurrent users supported"
+        }
+      ],
+
+      "highlights": [
+        {
+          "title": "Super-Fast Wi-Fi 6 Performance",
+          "description": "Up to 3000 Mbps total throughput with 600 Mbps on 2.4GHz + 2400 Mbps on 5GHz, optimized for HD video streaming and voice calls."
+        },
+        {
+          "title": "High Capacity & Efficiency",
+          "description": "MU-MIMO technology supports 150+ concurrent users with efficient RF spectrum utilization."
+        },
+        {
+          "title": "Rugged Outdoor Design",
+          "description": "IP-67 rated metal enclosure operates in extreme temperatures (-20°C to 60°C) with external omnidirectional antennas."
+        }
+      ],
+
+      "overview": {
+        "title": "Product Overview",
+        "paragraphs": [
+          "The NAV-519-VA is a robust dual-band Wi-Fi 6 outdoor access point fully managed from the cloud and built using OpenWiFi technology.",
+          "It supports a maximum combined data speed of 3000 Mbps (600 Mbps on 2.4GHz and 2400 Mbps on 5GHz) using concurrent radios.",
+          "Designed for harsh outdoor environments, it features an IP-67 rated metal enclosure and external omnidirectional antennas.",
+          "The device is zero-touch plug-and-play and automatically downloads configuration from the cloud to become operational within minutes."
+        ]
+      },
+
+      "keyFeatures": [
+        {
+          "category": "Super-Fast Wi-Fi 6 Performance",
+          "features": [
+            "Up to 3000 Mbps total throughput",
+            "600 Mbps on 2.4GHz + 2400 Mbps on 5GHz",
+            "Optimized for HD video streaming and voice calls"
+          ]
+        },
+        {
+          "category": "High Capacity & Efficiency",
+          "features": [
+            "MU-MIMO technology",
+            "Supports 150+ concurrent users",
+            "Efficient RF spectrum utilization"
+          ]
+        },
+        {
+          "category": "Rugged Outdoor Design",
+          "features": [
+            "IP-67 rated metal enclosure",
+            "Operates in extreme temperatures (-20°C to 60°C)",
+            "External omnidirectional antennas for extended coverage"
+          ]
+        },
+        {
+          "category": "Smart Cloud Management",
+          "features": [
+            "Zero-Touch Plug-and-Play deployment",
+            "Cloud-based monitoring and control",
+            "Enterprise-grade security with WPA/WPA2",
+            "Dedicated Guest & Hotspot modes"
+          ]
+        },
+        {
+          "category": "Enterprise-Grade Security",
+          "features": [
+            "WPA/WPA2 encryption",
+            "VLAN isolation",
+            "Built-in firewall",
+            "MAC filtering",
+            "RADIUS authentication",
+            "Guest network isolation"
+          ]
+        }
+      ],
+
+      "technicalSpecifications": {
+        "hardwareSystem": {
+          "processor": "Qualcomm 1GHz Quad-Core CPU with dedicated NSS",
+          "memory": "512 MB RAM",
+          "flashStorage": "32 MB",
+          "ethernetPorts": "1 × 10/100/1000 BASE-T RJ-45",
+          "interface": "1 × WAN",
+          "antennas": "External 6 dBi omnidirectional antennas"
+        },
+        "power": {
+          "powerSource": "PoE+ (802.3af) or Proprietary 48V",
+          "powerConsumption": "25 W (Max)",
+          "outputPower": {
+            "2_4GHz": "26 dBm",
+            "5GHz": "26 dBm"
+          }
+        },
+        "wirelessSpecs": {
+          "standards": "IEEE 802.11 a/b/g/n/ac/ax",
+          "radios": "Concurrent Dual-Band (2.4GHz & 5GHz)",
+          "mimo": "2×2 MIMO, 2 Spatial Streams",
+          "dataRates": {
+            "2_4GHz": "Up to 600 Mbps",
+            "5GHz": "Up to 2400 Mbps"
+          },
+          "frequencyBands": {
+            "2_4GHz": "2400 – 2482 MHz",
+            "5GHz": [
+              "5150–5250 MHz",
+              "5250–5350 MHz",
+              "5470–5725 MHz",
+              "5725–5850 MHz"
+            ]
+          },
+          "advancedFeatures": [
+            "WMM",
+            "Power Save",
+            "802.11k/v (Fast Roaming)",
+            "Hotspot Service",
+            "Captive Portal",
+            "WISPr"
+          ]
+        },
+        "performance": {
+          "totalThroughput": "3000 Mbps",
+          "userCapacity": "150+ concurrent devices",
+          "ssidCapacity": "8 SSIDs per radio"
+        },
+        "softwareAndManagement": {
+          "managementMode": "Cloud Controller Managed",
+          "installation": "Plug-n-Play (Zero Touch)",
+          "authentication": [
+            "RADIUS",
+            "802.1x",
+            "PSK",
+            "SAE"
+          ],
+          "guestPortals": [
+            "Click-through",
+            "Data Capture",
+            "SMS / OTP",
+            "Payment Gateway",
+            "Social Media Login",
+            "Voucher"
+          ],
+          "trafficManagement": [
+            "Rate limiting per client / SSID",
+            "Dynamic rate limiting",
+            "MAC authentication & filtering",
+            "Firewall"
+          ],
+          "troubleshooting": [
+            "Syslog",
+            "Ping",
+            "Traceroute",
+            "Speed Test"
+          ],
+          "timeAndData": [
+            "NTP Time Sync",
+            "Data offload support"
+          ]
+        },
+        "networking": {
+          "protocols": "IPv4 / IPv6 Dual Stack",
+          "vlan": "802.1Q (Static & Dynamic via RADIUS)",
+          "tunneling": [
+            "GRE",
+            "VPN"
+          ],
+          "securityPolicies": [
+            "ACL",
+            "Device Fingerprinting"
+          ]
+        },
+        "regulatory": {
+          "certifications": [
+            "EN 60950-1",
+            "WPC",
+            "OpenWiFi Compliant"
+          ],
+          "supportedRegions": [
+            "Americas (US)",
+            "European Union",
+            "Taiwan",
+            "Japan",
+            "Israel",
+            "Rest of World"
+          ]
+        },
+        "physicalAndEnvironmental": {
+          "operatingTemperature": "-20°C to 60°C",
+          "operatingHumidity": "5% – 95%",
+          "mounting": "Outdoor pole or wall mount",
+          "dimensions": "198 × 198 × 41 mm (7.7\" × 7.7\" × 1.61\")",
+          "weight": "2551 g (5.5 lbs)"
+        }
+      },
+
+      "applications": {
+        "title": "Ideal Applications",
+        "categories": [
+          {
+            "name": "Outdoor Venues",
+            "items": [
+              "Parks & Recreation Areas",
+              "Stadiums & Sports Complexes",
+              "Outdoor Events",
+              "Campuses",
+              "Public Squares"
+            ]
+          },
+          {
+            "name": "Industrial & Commercial",
+            "items": [
+              "Warehouses",
+              "Manufacturing Facilities",
+              "Logistics Centers",
+              "Retail Outdoor Areas",
+              "Construction Sites"
+            ]
+          },
+          {
+            "name": "Transportation & Infrastructure",
+            "items": [
+              "Airports",
+              "Train Stations",
+              "Bus Terminals",
+              "Parking Lots",
+              "Highway Rest Areas"
+            ]
+          }
+        ]
+      },
+
+      "advancedCapabilities": [
+        {
+          "title": "Zero-Touch Deployment",
+          "description": "Plug-and-play installation with automatic cloud configuration download for rapid deployment."
+        },
+        {
+          "title": "Weather-Resistant Design",
+          "description": "IP-67 rated enclosure withstands rain, dust, and extreme temperatures for reliable outdoor operation."
+        },
+        {
+          "title": "Enterprise Security",
+          "description": "Advanced security features including WPA3, RADIUS authentication, and network segmentation."
+        },
+        {
+          "title": "High-Density Support",
+          "description": "MU-MIMO and advanced RF optimization support high user density in crowded outdoor environments."
+        }
+      ],
+
+      "conclusion": "A dual-band, IP-67 weather-proof Wi-Fi 6 outdoor access point delivering 3 Gbps speeds with cloud management, zero-touch deployment, and enterprise-grade security for reliable wide-area outdoor connectivity.",
+
+      "summary": "A rugged, cloud-managed Wi-Fi 6 outdoor access point delivering ultra-fast speeds, enterprise-grade security, and reliable connectivity in harsh environments. Perfect for outdoor venues, industrial sites, and transportation hubs requiring high-performance wireless coverage."
+    },
+
+    {
+      "id": 7,
+      "brand": "RIZONN",
+      "company": "RIZONN",
+      "model": "NAV-219-VA",
+      "title": "High Performance Access Point",
+      "tagline": "WiFi 6 In-Wall Access Point",
+      "productType": "WiFi 6 In-Wall Access Point",
+      "description": "The NAV-219-VA is a high-performance WiFi 6 (802.11ax) in-wall access point designed for modern indoor environments. It delivers a combined wireless speed of up to 1800Mbps, offering fast and reliable connectivity for high-density deployments.",
+      "heroDescription": "The NAV-219-VA is a high-performance WiFi 6 (802.11ax) in-wall access point designed for modern indoor environments with a sleek in-wall design that blends seamlessly into hotels, universities, offices, gyms, and concert venues.",
+      "stats": [
+        {
+          "label": "Combined Speed",
+          "value": "1800 Mbps",
+          "description": "600Mbps @ 2.4GHz + 1200Mbps @ 5GHz"
+        },
+        {
+          "label": "Client Capacity",
+          "value": "120+",
+          "description": "Concurrent devices supported"
+        }
+      ],
+
+      "highlights": [
+        {
+          "title": "Optimized WiFi 6 Performance",
+          "description": "Total link speed up to 1800Mbps with 2x2 MU-MIMO for efficient multi-device handling and 1024-QAM and OFDMA for improved throughput and stability."
+        },
+        {
+          "title": "Discreet In-Wall Design",
+          "description": "Sleek pure-white finish with standard wall-mount installation in a compact size of 87mm x 87mm that blends seamlessly into any environment."
+        },
+        {
+          "title": "Enterprise-Grade Security",
+          "description": "WPA/WPA2 encryption, VLAN isolation, MAC filtering, built-in firewall, DoS protection, and secure guest access with captive portal."
+        }
+      ],
+
+      "overview": {
+        "title": "Product Overview",
+        "paragraphs": [
+          "The NAV-219-VA is a high-performance WiFi 6 (802.11ax) in-wall access point designed for modern indoor environments.",
+          "It delivers a combined wireless speed of up to 1800Mbps, offering fast and reliable connectivity for high-density deployments.",
+          "With a sleek in-wall design, it blends seamlessly into hotels, universities, offices, gyms, and concert venues.",
+          "Designed for high-density environments with Wave 2.0, OFDMA, and seamless roaming support."
+        ]
+      },
+
+      "keyFeatures": [
+        {
+          "category": "WiFi 6 Performance",
+          "features": [
+            "IEEE 802.11ax (WiFi 6), Wave 2",
+            "2x2 MU-MIMO support",
+            "1024-QAM, OFDMA, DL/UL MIMO",
+            "Total link speed up to 1800Mbps"
+          ]
+        },
+        {
+          "category": "Design & Installation",
+          "features": [
+            "Sleek pure-white finish",
+            "Standard wall-mount installation",
+            "Compact size: 87mm x 87mm",
+            "PoE powered (802.3af/at)"
+          ]
+        },
+        {
+          "category": "Connectivity",
+          "features": [
+            "1x Gigabit WAN port",
+            "4x Gigabit LAN ports",
+            "Optional 3x LAN + 1x RJ11 configuration",
+            "PoE (802.3af/at) support"
+          ]
+        },
+        {
+          "category": "Security & Management",
+          "features": [
+            "WPA/WPA2 encryption",
+            "VLAN isolation and MAC filtering",
+            "Built-in firewall and DoS protection",
+            "Cloud, Controller, or Stand-alone management"
+          ]
+        },
+        {
+          "category": "Advanced Features",
+          "features": [
+            "Plug-and-play deployment",
+            "Built-in troubleshooting tools (Ping, Traceroute, Speed-test)",
+            "SNMP and Syslog monitoring",
+            "Secure guest access with captive portal"
+          ]
+        }
+      ],
+
+      "applications": {
+        "title": "Ideal Applications",
+        "categories": [
+          {
+            "name": "Hospitality",
+            "items": [
+              "Hotels & Resorts",
+              "Guest Rooms",
+              "Conference Centers",
+              "Restaurants & Cafes",
+              "Lobbies & Common Areas"
+            ]
+          },
+          {
+            "name": "Education & Corporate",
+            "items": [
+              "Universities & Schools",
+              "Classrooms & Lecture Halls",
+              "Office Buildings",
+              "Meeting Rooms",
+              "Student Dormitories"
+            ]
+          },
+          {
+            "name": "Public & Entertainment",
+            "items": [
+              "Gyms & Fitness Centers",
+              "Concert Venues",
+              "Shopping Centers",
+              "Healthcare Facilities",
+              "Apartment Buildings"
+            ]
+          }
+        ]
+      },
+
+      "advancedCapabilities": [
+        {
+          "title": "High-Density Support",
+          "description": "Supports 120+ concurrent devices with 2x2 MU-MIMO and OFDMA technology for efficient spectrum utilization in crowded environments."
+        },
+        {
+          "title": "Flexible Management",
+          "description": "Choose from Cloud, Controller Appliance, or Stand-alone management modes to fit your network architecture and requirements."
+        },
+        {
+          "title": "Multiple Operation Modes",
+          "description": "Functions as Wireless AP, Gateway, Router, or Meshing node to adapt to various network topologies and deployment scenarios."
+        },
+        {
+          "title": "Advanced Guest Access",
+          "description": "Comprehensive guest access options including captive portal, SMS/OTP, voucher systems, social login, and payment gateway integration."
+        }
+      ],
+
+      "technicalSpecifications": {
+        "productInfo": {
+          "modelName": "NAV-219-VA",
+          "productType": "WiFi 6 In-Wall Access Point"
+        },
+        "hardware": {
+          "chipset": "MT7621DAT + MT7905DN + MT7975DN",
+          "memory": "128MB",
+          "flash": "SPI NOR 16MB",
+          "interfaces": {
+            "wan": "1 x 10/100/1000 RJ45",
+            "lan": "4 x 10/100/1000 RJ45",
+            "optional": "3 x LAN + 1 x RJ11"
+          },
+          "power": {
+            "method": "PoE (IEEE 802.3af/at) 48V",
+            "consumption": "14W",
+            "reset": "Hardware reset button (10 seconds)"
+          }
+        },
+        "wireless": {
+          "standards": {
+            "2_4ghz": "802.11b/g/n/ac/ax",
+            "5ghz": "802.11a/n/ac/ax"
+          },
+          "speed": {
+            "aggregate": "1800 Mbps",
+            "2_4ghz": "600 Mbps",
+            "5ghz": "1200 Mbps"
+          },
+          "mimo": "2x2 MU-MIMO",
+          "modulation": "1024-QAM, DL/UL OFDMA",
+          "frequencyBands": {
+            "2_4ghz": "2.4GHz – 2.484GHz",
+            "5ghz": "5.15GHz – 5.85GHz"
+          },
+          "antenna": {
+            "type": "Internal",
+            "gain": {
+              "2_4ghz": "2dBi",
+              "5ghz": "4dBi"
+            }
+          },
+          "txPower": "20 dBm",
+          "rxSensitivity": {
+            "2_4ghz": "-94 dBm",
+            "5ghz": "-90 dBm"
+          }
+        },
+        "softwareNetwork": {
+          "managementModes": ["Cloud", "Controller Appliance", "Stand-alone"],
+          "operationModes": ["Wireless AP", "Gateway", "Router", "Meshing"],
+          "ssidCapacity": "8 SSIDs (4 per radio)",
+          "clientCapacity": "120 concurrent devices",
+          "vlan": "802.1Q (Static & Dynamic via RADIUS)",
+          "authentication": ["802.1X", "RADIUS", "MAC Authentication"],
+          "guestAccess": ["Captive Portal", "SMS/OTP", "Voucher", "Social Login", "Payment Gateway"],
+          "securityFeatures": ["Firewall", "DoS Protection", "IP/MAC/Domain Filtering", "IP-MAC Binding"],
+          "networkingFeatures": ["IPv4", "NTP Time Sync", "GRE/L2TP Tunnels", "QoS", "Band Steering", "Airtime Fairness"],
+          "troubleshooting": ["Syslog", "Ping", "Traceroute", "Speed-test"]
+        },
+        "environmental": {
+          "operatingTemp": "-20°C to 55°C",
+          "storageTemp": "-40°C to 70°C",
+          "operatingHumidity": "10% – 90% non-condensing",
+          "storageHumidity": "5% – 90% non-condensing"
+        },
+        "physical": {
+          "mounting": "Wall Mount",
+          "dimensions": "87mm x 87mm x 35mm",
+          "weight": "250g"
+        },
+        "certifications": {
+          "compliance": ["CE", "FCC", "WPC", "RoHS"],
+          "safety": "EN 60950-1"
+        }
+      },
+
+      "conclusion": "A high-performance WiFi 6 in-wall access point delivering 1800 Mbps speeds with enterprise-grade security, flexible management options, and seamless integration for modern indoor environments.",
+
+      "summary": "A sleek, high-performance WiFi 6 in-wall access point designed for hotels, universities, offices, and high-density indoor environments. The NAV-219-VA delivers 1800 Mbps combined speed with advanced security features and flexible deployment options."
+    },
+
+    {
+      "id": 8,
+      "brand": "RIZONN",
+      "company": "RIZONN",
+      "model": "NAV-319-VA",
+      "title": "Cloud & Controller Managed Access Point",
+      "tagline": "Dual-band 2x2:2 MU-MIMO WiFi 6 Access Point",
+      "productType": "WiFi 6 Cloud & Controller Managed Access Point",
+      "description": "The NAV-319-VA is a modern Wi-Fi 6 (802.11ax) access point designed for high-performance business environments. It features dual-band radios with cloud and controller-based management, making it ideal for centralized indoor deployments.",
+      "heroDescription": "The NAV-319-VA is a modern Wi-Fi 6 (802.11ax) access point designed for high-performance business environments with dual-band radios and cloud-based management for centralized indoor deployments.",
+      "stats": [
+        {
+          "label": "Aggregated Speed",
+          "value": "3000 Mbps",
+          "description": "600 Mbps @ 2.4GHz + 2400 Mbps @ 5GHz"
+        },
+        {
+          "label": "Client Capacity",
+          "value": "100+",
+          "description": "Concurrent users supported"
+        }
+      ],
+
+      "highlights": [
+        {
+          "title": "High-Speed Performance",
+          "description": "3000 Mbps aggregated throughput with 600 Mbps on 2.4GHz and 2400 Mbps on 5GHz, powered by Qualcomm 1GHz quad-core CPU with dedicated NSS."
+        },
+        {
+          "title": "Smart Connectivity",
+          "description": "2x2:2 MU-MIMO technology for efficient simultaneous data transmission, supporting 100+ concurrent active devices with seamless performance."
+        },
+        {
+          "title": "Cloud & Mesh Ready",
+          "description": "Zero-touch plug-and-play configuration managed via Indio Cloud Controller with self-healing mesh networking for extended coverage."
+        }
+      ],
+
+      "overview": {
+        "title": "Product Overview",
+        "paragraphs": [
+          "The NAV-319-VA is a modern Wi-Fi 6 (802.11ax) access point designed for high-performance business environments.",
+          "It features dual-band radios with cloud and controller-based management, making it ideal for centralized indoor deployments.",
+          "The device delivers a maximum combined throughput of 3Gbps across 2.4GHz and 5GHz bands, ensuring reliable performance for voice and HD video applications.",
+          "Built using OpenWiFi technology, the NAV-319-VA is managed through Indio's cloud platform, enabling simple provisioning, configuration, and remote monitoring."
+        ]
+      },
+
+      "keyFeatures": [
+        {
+          "category": "High-Performance WiFi 6",
+          "features": [
+            "Aggregate data rate up to 3Gbps",
+            "IEEE 802.11a/b/g/n/ac/ax compliant",
+            "Concurrent 2.4GHz and 5GHz radios",
+            "2x2:2 MU-MIMO technology"
+          ]
+        },
+        {
+          "category": "Cloud Management",
+          "features": [
+            "Zero-touch plug-and-play configuration",
+            "Managed via Indio Cloud Controller",
+            "Self-configuring and self-healing mesh",
+            "Remote management via HTTP, HTTPS, SSH, Telnet, SSL"
+          ]
+        },
+        {
+          "category": "Enterprise Security",
+          "features": [
+            "WPA2 / WPA3 security",
+            "VLAN isolation and guest access modes",
+            "Captive Portal with SMS/OTP authentication",
+            "Deep packet inspection support"
+          ]
+        },
+        {
+          "category": "Flexible Installation",
+          "features": [
+            "Ceiling, wall, or desktop mount support",
+            "Inbuilt 5 dBi omnidirectional antennas",
+            "PoE (802.3af/at) or Proprietary 48V power",
+            "24W max power consumption"
+          ]
+        },
+        {
+          "category": "Advanced Features",
+          "features": [
+            "Configuration backup and restore via TFTP / FTP / HTML",
+            "Rich system information with logs and event tracking",
+            "IPv4 and IPv6 dual stack support",
+            "Integrated troubleshooting tools"
+          ]
+        }
+      ],
+
+      "applications": {
+        "title": "Ideal Applications",
+        "categories": [
+          {
+            "name": "Business Environments",
+            "items": [
+              "Corporate Offices",
+              "Conference Rooms",
+              "Co-working Spaces",
+              "Business Centers",
+              "Executive Suites"
+            ]
+          },
+          {
+            "name": "Education & Healthcare",
+            "items": [
+              "Universities & Schools",
+              "Libraries & Study Areas",
+              "Hospitals & Clinics",
+              "Research Facilities",
+              "Training Centers"
+            ]
+          },
+          {
+            "name": "High-Density Venues",
+            "items": [
+              "Convention Centers",
+              "Auditoriums",
+              "Large Meeting Halls",
+              "Event Spaces",
+              "Multi-tenant Buildings"
+            ]
+          }
+        ]
+      },
+
+      "advancedCapabilities": [
+        {
+          "title": "Cloud-Native Management",
+          "description": "Built using OpenWiFi technology and managed through Indio's cloud platform for simple provisioning, configuration, and remote monitoring with zero-touch deployment."
+        },
+        {
+          "title": "Self-Healing Mesh Network",
+          "description": "Advanced mesh networking capabilities with self-configuring and self-healing features to ensure continuous coverage and automatic network optimization."
+        },
+        {
+          "title": "Enterprise-Grade Performance",
+          "description": "Qualcomm 1GHz quad-core CPU with dedicated NSS delivers consistent high-performance for demanding business applications and high-density user environments."
+        },
+        {
+          "title": "Comprehensive Security Suite",
+          "description": "Advanced security features including WPA3, VLAN isolation, captive portal authentication, and deep packet inspection for enterprise-level network protection."
+        }
+      ],
+
+      "technicalSpecifications": {
+        "hardware": {
+          "throughputAndUsers": "3000 Mbps; 100+ users",
+          "radios": {
+            "2_4GHz": "802.11b/g/n/ax",
+            "5GHz": "802.11a/n/ac/ax"
+          },
+          "chipset": "Qualcomm 1GHz Quad-Core CPU with dedicated NSS",
+          "memory": "512 MB RAM",
+          "flash": "32 MB",
+          "ports": {
+            "wan": "1 × WAN (10/100/1000/2500 Mbps)",
+            "lan": "1 × LAN (10/100/1000 Mbps)"
+          },
+          "antenna": "Inbuilt 5 dBi omnidirectional antennas",
+          "powerConsumption": "24W max",
+          "powerSource": "PoE (802.3af/at) or Proprietary 48V",
+          "outputPower": {
+            "2_4GHz": "24 dBm"
+          },
+          "resetButton": "1 × Reset button"
+        },
+        "wireless": {
+          "standards": "IEEE 802.11 a/b/g/n/ac/ax",
+          "supportedRates": {
+            "2_4GHz": "Up to 600 Mbps"
+          },
+          "peakDataRates": {
+            "2_4GHz": "573.5 Mbps"
+          },
+          "mimo": "2x2 MIMO (2 spatial streams)",
+          "frequencyBands": {
+            "2_4GHz": "2400 – 2482 MHz",
+            "5GHz": [
+              "5150–5250 MHz",
+              "5250–5350 MHz",
+              "5470–5725 MHz",
+              "5725–5850 MHz"
+            ]
+          },
+          "security": "WPA / WPA2 / WPA3",
+          "ssids": "8 per radio",
+          "clientCapacity": "128+ concurrent devices",
+          "otherFeatures": [
+            "WMM",
+            "Power Save",
+            "Fast Roaming (802.11r/k/v)",
+            "Hotspot Service",
+            "Captive Portal",
+            "WISPr"
+          ]
+        },
+        "networking": {
+          "operationModes": ["WiFi Access Point", "Mesh"],
+          "managementPlatform": "Cloud Controller Appliance & Stand-alone mode",
+          "ipStack": "IPv4 / IPv6",
+          "vlanSupport": "802.1Q (Static & Dynamic via RADIUS)",
+          "authentication": ["RADIUS", "802.1X (Auth & Supplicant)", "PSK", "SAE"],
+          "tunnels": ["VPN", "GRE"],
+          "networkPolicies": ["ACL", "Rate Limiting", "Device Fingerprinting"]
+        },
+        "softwareFeatures": {
+          "installation": "Plug-n-Play (Zero Touch)",
+          "rateLimiting": [
+            "Per Client",
+            "Per SSID",
+            "Dynamic Rate Limiting",
+            "MAC Authentication",
+            "MAC Filtering",
+            "Firewall"
+          ],
+          "guestPortals": [
+            "Click-through",
+            "Data Capture",
+            "SMS/OTP",
+            "Payment Gateway",
+            "Social Media Login",
+            "Voucher"
+          ],
+          "troubleshooting": ["Syslog", "Ping", "Traceroute", "Speed-test"],
+          "timeSync": "NTP",
+          "dataOffload": true,
+          "snmpLocApi": false
+        },
+        "environmental": {
+          "operatingTemperature": "-20°C to 60°C",
+          "humidity": "5% – 95%",
+          "mounting": ["Ceiling mount", "Wall mount"]
+        },
+        "certifications": {
+          "safety": "EN 60950-1",
+          "wireless": "WPC",
+          "compliance": ["OpenWiFi Compliant", "Passpoint Compliant"]
+        }
+      },
+
+      "conclusion": "A robust dual-band WiFi 6 access point delivering 3Gbps speeds with seamless cloud management, enterprise-grade security, and reliable performance for high-density indoor environments.",
+
+      "summary": "A robust dual-band WiFi 6 access point delivering 3Gbps speeds with seamless cloud management, enterprise-grade security, and reliable performance for high-density indoor environments."
+    },
+
+    {
+      "id": 9,
+      "brand": "UNIBOX",
+      "company": "RIZONN",
+      "model": "U-5050",
+      "title": "AAA (Authentication, Authorization, and Accounting) Server",
+      "tagline": "Unified identity and authentication management for demanding networks",
+      "description": "The UniBox U-5050 is an all-in-one AAA server and network access controller appliance for large, demanding environments. It combines wireless LAN control, hotspot gateway, billing, bandwidth management, web logging, VPN, policy management, load balancing, and firewall capabilities in a single box.",
+      "productType": "AAA (Authentication, Authorization, and Accounting) Server U-5050",
+      "heroDescription": "The U-5050 combines authentication, authorization, accounting, hotspot gateway, billing, bandwidth management, VPN, policy, load balancing, and firewall functions in one controller appliance. It supports 500 concurrent active sessions and scales up to 10,000 users for airports, premium hotels, campuses, public hotspots, and telecom environments.",
+      "stats": [
+        {
+          "label": "Concurrent Sessions",
+          "value": "500",
+          "description": "Active authenticated sessions"
+        },
+        {
+          "label": "Scalable Users",
+          "value": "10,000",
+          "description": "Designed for large user bases"
+        }
+      ],
+
+      "overview": {
+        "paragraphs": [
+          "The Rizonn UniBox U-5050 is a high-performance AAA server and intelligent access controller built for large environments such as airports, premium hotels, educational campuses, telecom deployments, healthcare facilities, public hotspots, and transport hubs.",
+          "It provides a unified platform for authentication, authorization, and accounting while also functioning as a wireless LAN controller, hotspot gateway, web server, load balancer, web logger, VPN server, policy server, and firewall.",
+          "The integrated AAA engine supports BYOD onboarding with self-service authorization and certificate-based machine authentication for non-Active Directory mobile devices such as tablets and iPads, helping teams deliver secure and flexible access control across diverse device types."
+        ]
+      },
+
+      "applications": {
+        "title": "Ideal Applications",
+        "categories": [
+          {
+            "name": "Hospitality & Public Access",
+            "items": [
+              "Hotels & Resorts",
+              "Airports",
+              "Public Places",
+              "Transport Hubs"
+            ]
+          },
+          {
+            "name": "Education & Healthcare",
+            "items": [
+              "Universities",
+              "Healthcare Facilities",
+              "Large Campuses",
+              "Training Environments"
+            ]
+          },
+          {
+            "name": "Service Providers",
+            "items": [
+              "Telecom Networks",
+              "Managed Wi-Fi Providers",
+              "Multi-location Hotspots",
+              "Enterprise Guest Networks"
+            ]
+          }
+        ]
+      },
+
+      "keyFeatures": [
+        {
+          "category": "Unified Identity & Authentication",
+          "features": [
+            "Built-in user database with per-device and per-user credential management",
+            "Integration with external identity systems including RADIUS, AD, and LDAP",
+            "BYOD onboarding with self-service authorization",
+            "Certificate-based machine authentication for mobile devices"
+          ]
+        },
+        {
+          "category": "Universal Controller",
+          "features": [
+            "Gigabit LAN and WAN ports",
+            "Port forwarding and group-based routing",
+            "Network monitoring",
+            "Multi-WAN and load balancing support"
+          ]
+        },
+        {
+          "category": "Policy Manager",
+          "features": [
+            "Bandwidth rate limiting",
+            "Time and data quota limits",
+            "Dynamic bandwidth allocation",
+            "Group-based, fair usage, and date/time policies"
+          ]
+        },
+        {
+          "category": "Hotspot Billing",
+          "features": [
+            "Billing plans and tiered billing",
+            "Payment gateway integration",
+            "Access codes and vouchers",
+            "Multiple PMS integration with canned and automated emails"
+          ]
+        },
+        {
+          "category": "Captive Portals",
+          "features": [
+            "Template-based captive portals",
+            "Multiple login methods",
+            "On-board portal server",
+            "Two-factor SMS/OTP logins, social media login, and ad integration"
+          ]
+        },
+        {
+          "category": "Compliance & Reporting",
+          "features": [
+            "Group-based URL filtering",
+            "Web logging and archiving",
+            "TRAI/DoT compliance",
+            "Online users, usage, revenue, PMS, voucher, and network monitoring reports"
+          ]
+        }
+      ],
+
+      "advancedCapabilities": [
+        {
+          "title": "Multiple Hotspots",
+          "description": "Create and operate Wi-Fi services across multiple locations simultaneously from a single appliance."
+        },
+        {
+          "title": "LDAP / AD Integration",
+          "description": "Integrate Wi-Fi access with directory services so users can authenticate with familiar enterprise credentials."
+        },
+        {
+          "title": "Virtual PMS",
+          "description": "Deliver a PMS-like guest Wi-Fi experience even when a property management system is not available."
+        },
+        {
+          "title": "Automatic Cloud Sync",
+          "description": "Sync data automatically and enable automatic updates to simplify ongoing administration."
+        }
+      ],
+
+      "technicalSpecifications": {
+        "interface": [
+          "6 Ethernet Ports (RJ-45): 10/100/1000 base T/Tx",
+          "2 Optional SFP+ 10G ports",
+          "Intel chipset",
+          "Console Port",
+          "2 USB ports"
+        ],
+        "networking": [
+          "Static & Dynamic Routing",
+          "DNS & DHCP Server",
+          "Layer 2 Isolation",
+          "VLAN Tagging",
+          "SNMP v2c Support",
+          "NTP (RFC 1305) Support"
+        ],
+        "systemPerformance": {
+          "concurrentUserSessions": "500",
+          "dataThroughputAuth": "860 Mbps",
+          "dataThroughputNoAuth": "921 Mbps",
+          "scalableUsers": "Up to 10,000 users"
+        },
+        "power": {
+          "inputVoltage": "110-240V AC",
+          "consumption": "10W",
+          "heatDissipation": "300 BTU"
+        },
+        "physical": {
+          "formFactor": "Standalone",
+          "dimensions": "482 x 680 x 44 mm",
+          "weight": "4 kg or 8.8 lbs (approx)"
+        },
+        "environmental": {
+          "operatingTemperature": "5°C to 50°C",
+          "humidity": "8% - 90% non-condensing",
+          "cooling": "Fanless Design"
+        },
+        "compliance": [
+          "CE Emission",
+          "RoHS"
+        ]
+      },
+
+      "conclusion": "A unified AAA server and network access controller for large-scale guest and enterprise networks, combining identity management, hotspot billing, policy enforcement, reporting, and security in one appliance.",
+
+      "summary": "A high-performance AAA server and network access controller built for large venues, supporting 500 concurrent sessions and scaling up to 10,000 users with integrated authentication, billing, bandwidth management, reporting, VPN, load balancing, and firewall capabilities."
+    }
+
+  
+  ]
+}
+
+]
