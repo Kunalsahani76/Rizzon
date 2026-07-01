@@ -268,6 +268,10 @@ const getPdfFilename = (model: string): string => {
     if (model === 'U-5050') {
         return 'Rizonn UniBox U-5050 Datasheet.pdf';
     }
+
+    if (model === 'NMS') {
+        return 'Network Monitoring System.pdf';
+    }
     
     const pdfModel = modelMappings[model] || model;
     
@@ -448,6 +452,10 @@ export async function GET() {
                 match = file.match(/^Rizonn\s+UniBox\s+(.+)\s+Datasheet\.pdf$/);
                 if (match) {
                     return match[1]; // UniBox product
+                }
+
+                if (file === 'Network Monitoring System.pdf') {
+                    return 'NMS';
                 }
                 
                 return file; // Fallback to full filename

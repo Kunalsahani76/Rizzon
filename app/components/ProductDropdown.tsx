@@ -11,13 +11,12 @@ interface ProductDropdownProps {
 }
 
 export default function ProductDropdown({ isOpen, onClose }: ProductDropdownProps) {
-  // Set Access Point Controllers as default, fallback to first category
-  const defaultCategory = productCategories.find(cat => cat.title === "Access Point Controllers")?.title || productCategories[0]?.title || null;
+  const defaultCategory = "AAA";
   const [openCategory, setOpenCategory] = useState<string | null>(defaultCategory);
   const [hoveredSubItem, setHoveredSubItem] = useState<string | null>(null);
 
   const switchCategories = productCategories.filter(
-    category => category.title !== "Access Point Controllers" && category.title !== "Access Point"
+    category => !["Access Point Controllers", "Access Point", "NMS"].includes(category.title)
   );
   const switchesCategory = {
     title: "Switches",
@@ -36,7 +35,7 @@ export default function ProductDropdown({ isOpen, onClose }: ProductDropdownProp
     ? switchesCategory
     : openCategory === "AAA"
       ? aaaCategory
-    : productCategories.find((c) => c.title === openCategory) || productCategories[0];
+      : productCategories.find((c) => c.title === openCategory) || productCategories[0];
 
   const columns = getProductsMenuColumns(activeCategory, hoveredSubItem, setOpenCategory, setHoveredSubItem);
 

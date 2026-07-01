@@ -3562,6 +3562,98 @@
       "Transport"
     ],
     "summary": "FINETUNE UniController UC-500 is an enterprise-grade wired LAN controller delivering high scalability with support for 1024 APs and 24,000 concurrent clients, advanced security with WIDS/WIPS protection, AI-driven RF optimization, deep application visibility, and robust firewall performance for large-scale wireless deployments."
+  },
+  {
+    "category": "NMS",
+    "products": [
+      {
+        "id": 11,
+        "brand": "RIZONN",
+        "company": "RIZONN",
+        "model": "NMS",
+        "title": "Network Monitoring System",
+        "tagline": "Centralized network visibility and monitoring",
+        "productType": "Network Monitoring System",
+        "description": "Network Monitoring System provides centralized visibility for network infrastructure, helping teams monitor devices, uptime, traffic, alerts, and operational health from a unified dashboard.",
+        "heroDescription": "A centralized Network Monitoring System for real-time device visibility, alerting, performance tracking, and operational network health management.",
+        "overview": {
+          "title": "Product Overview",
+          "paragraphs": [
+            "Network Monitoring System helps administrators track network devices, availability, performance, and alerts from one centralized platform.",
+            "It is designed for enterprises, campuses, transport hubs, hospitality, healthcare, and public infrastructure environments that need dependable network visibility.",
+            "The platform supports proactive monitoring workflows so teams can identify issues early, reduce downtime, and maintain service continuity."
+          ]
+        },
+        "keyFeatures": [
+          {
+            "category": "Real-Time Monitoring",
+            "features": [
+              "Centralized dashboard for live network health visibility",
+              "Device availability and uptime tracking",
+              "Traffic, bandwidth, and performance monitoring"
+            ]
+          },
+          {
+            "category": "Alerts & Reporting",
+            "features": [
+              "Event-based alerts for faster troubleshooting",
+              "Operational reports for network performance review",
+              "Historical visibility for capacity planning"
+            ]
+          },
+          {
+            "category": "Infrastructure Management",
+            "features": [
+              "Supports monitoring across switches, controllers, access points, and network devices",
+              "Helps reduce downtime through proactive issue detection",
+              "Built for scalable enterprise network operations"
+            ]
+          }
+        ],
+        "applications": {
+          "title": "Ideal Applications",
+          "categories": [
+            {
+              "name": "Enterprise & Campus",
+              "items": [
+                "Corporate networks",
+                "Educational campuses",
+                "Large offices",
+                "Data rooms"
+              ]
+            },
+            {
+              "name": "Public Infrastructure",
+              "items": [
+                "Airports",
+                "Railway stations",
+                "Hospitals",
+                "Hospitality networks"
+              ]
+            }
+          ]
+        },
+        "technicalSpecifications": {
+          "monitoring": {
+            "deviceVisibility": "Network devices, controllers, switches, and access points",
+            "healthTracking": "Availability, uptime, traffic, bandwidth, and alerts",
+            "reporting": "Performance reports and historical monitoring data"
+          },
+          "management": {
+            "dashboard": "Centralized network monitoring dashboard",
+            "alerts": "Event-based notifications and operational alerts",
+            "deployment": "Suitable for enterprise and infrastructure networks"
+          }
+        },
+        "orderingInformation": [
+          {
+            "model": "NMS",
+            "description": "Network Monitoring System for centralized network visibility, alerts, reports, and infrastructure health monitoring.",
+            "powerSupply": "Software / Platform"
+          }
+        ]
+      }
+    ]
   }
    
 ]

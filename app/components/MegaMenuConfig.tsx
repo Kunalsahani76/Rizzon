@@ -3,14 +3,6 @@
 import Link from "next/link";
 import { productCategories } from "./ProductCategories";
 
-const additionalProductCategories = [
-    { title: "NMS", href: "/products" },
-    { title: "DCIM", href: "/products" },
-    { title: "HMS", href: "/products" },
-    { title: "UVSS", href: "/products" },
-    { title: "AAA", href: "/products/aaa" },
-];
-
 // Products Mega Menu Configuration
 export const getProductsMenuColumns = (
     activeCategory: any,
@@ -18,66 +10,30 @@ export const getProductsMenuColumns = (
     setOpenCategory: (cat: string) => void,
     setHoveredSubItem: (item: string | null) => void
 ) => {
+    const accessPointControllers = productCategories.find(category => category.title === "Access Point Controllers");
+    const accessPoint = productCategories.find(category => category.title === "Access Point");
+    const productMenuItems = [
+        { title: "AAA", href: "/products/aaa", activeTitle: "AAA" },
+        ...(accessPoint ? [{ title: "Access Point", href: accessPoint.href, activeTitle: accessPoint.title }] : []),
+        { title: "All Products", href: "/products" },
+        ...(accessPointControllers ? [{ title: "Controllers", href: accessPointControllers.href, activeTitle: accessPointControllers.title }] : []),
+        { title: "DCIM", href: "/products" },
+        { title: "HMS", href: "/products" },
+        { title: "NMS", href: "/products/nms", activeTitle: "NMS" },
+        { title: "Switches", href: "/products/switches", activeTitle: "Switches" },
+        { title: "UVSS", href: "/products" },
+    ];
+
     return [
         // Column 1: Sidebar
         {
             title: "",
             content: (
                 <div>
-                    {/* Access Point Section */}
                     <div className="mb-8">
                         <div className="space-y-1 px-1">
-                            {productCategories
-                                .filter(category => category.title === "Access Point Controllers")
-                                .map((category, idx) => (
-                                    <Link
-                                        key={idx}
-                                        href={category.href}
-                                        onMouseEnter={() => setOpenCategory(category.title)}
-                                        className={`flex items-center justify-between py-3 px-4 rounded-xl text-sm transition-all duration-300 border ${activeCategory?.title === category.title
-                                            ? "bg-blue-50 text-blue-700 font-medium shadow-sm border-blue-100"
-                                            : "text-gray-600 hover:bg-gray-50 hover:text-gray-900 border-transparent"
-                                            }`}
-                                    >
-                                        <span>{category.title === "Access Point Controllers" ? "Controllers" : category.title}</span>
-                                        <svg className={`w-4 h-4 transition-colors ${activeCategory?.title === category.title ? "text-blue-600" : "text-gray-400"}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                        </svg>
-                                    </Link>
-                                ))}
-                            {productCategories
-                                .filter(category => category.title === "Access Point")
-                                .map((category, idx) => (
-                                    <Link
-                                        key={idx}
-                                        href={category.href}
-                                        onMouseEnter={() => setOpenCategory(category.title)}
-                                        className={`flex items-center justify-between py-3 px-4 rounded-xl text-sm transition-all duration-300 border ${activeCategory?.title === category.title
-                                            ? "bg-blue-50 text-blue-700 font-medium shadow-sm border-blue-100"
-                                            : "text-gray-600 hover:bg-gray-50 hover:text-gray-900 border-transparent"
-                                            }`}
-                                    >
-                                        <span>{category.title}</span>
-                                        <svg className={`w-4 h-4 transition-colors ${activeCategory?.title === category.title ? "text-blue-600" : "text-gray-400"}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                        </svg>
-                                    </Link>
-                                ))}
-                            <Link
-                                href="/products/switches"
-                                onMouseEnter={() => setOpenCategory("Switches")}
-                                className={`flex items-center justify-between py-3 px-4 rounded-xl text-sm transition-all duration-300 border ${activeCategory?.title === "Switches"
-                                    ? "bg-blue-50 text-blue-700 font-medium shadow-sm border-blue-100"
-                                    : "text-gray-600 hover:bg-gray-50 hover:text-gray-900 border-transparent"
-                                    }`}
-                            >
-                                <span>Switches</span>
-                                <svg className={`w-4 h-4 transition-colors ${activeCategory?.title === "Switches" ? "text-blue-600" : "text-gray-400"}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                </svg>
-                            </Link>
-                            {additionalProductCategories.map((category, idx) => {
-                                const isActive = activeCategory?.title === category.title;
+                            {productMenuItems.map((category, idx) => {
+                                const isActive = activeCategory?.title === category.activeTitle;
                                 const className = `flex items-center justify-between py-3 px-4 rounded-xl text-sm transition-all duration-300 border ${isActive
                                     ? "bg-blue-50 text-blue-700 font-medium shadow-sm border-blue-100"
                                     : "text-gray-600 hover:bg-gray-50 hover:text-gray-900 border-transparent"
@@ -92,28 +48,18 @@ export const getProductsMenuColumns = (
                                     </>
                                 );
 
-                                return category.title === "AAA" ? (
+                                return (
                                     <Link
                                         key={idx}
                                         href={category.href}
-                                        onMouseEnter={() => setOpenCategory(category.title)}
-                                        onFocus={() => setOpenCategory(category.title)}
+                                        onMouseEnter={category.activeTitle ? () => setOpenCategory(category.activeTitle) : undefined}
+                                        onFocus={category.activeTitle ? () => setOpenCategory(category.activeTitle) : undefined}
                                         className={className}
                                     >
                                         {content}
                                     </Link>
-                                ) : (
-                                    <Link key={idx} href={category.href} className={className}>
-                                        {content}
-                                    </Link>
                                 );
                             })}
-                            <Link href="/products" className="flex items-center justify-between py-3 px-4 rounded-xl text-sm transition-all duration-300 border text-gray-600 hover:bg-gray-50 hover:text-gray-900 border-transparent">
-                                <span>All Products</span>
-                                <svg className="w-4 h-4 text-gray-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                </svg>
-                            </Link>
                         </div>
 
                     </div>
