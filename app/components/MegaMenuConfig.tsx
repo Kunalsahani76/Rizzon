@@ -13,14 +13,13 @@ export const getProductsMenuColumns = (
     const accessPointControllers = productCategories.find(category => category.title === "Access Point Controllers");
     const accessPoint = productCategories.find(category => category.title === "Access Point");
     const productMenuItems = [
+        ...(accessPoint ? [{ title: "Access Points", href: accessPoint.href, activeTitle: accessPoint.title }] : []),
+        ...(accessPointControllers ? [{ title: "Controller", href: accessPointControllers.href, activeTitle: accessPointControllers.title }] : []),
         { title: "AAA", href: "/products/aaa", activeTitle: "AAA" },
-        ...(accessPoint ? [{ title: "Access Point", href: accessPoint.href, activeTitle: accessPoint.title }] : []),
-        { title: "All Products", href: "/products" },
-        ...(accessPointControllers ? [{ title: "Controllers", href: accessPointControllers.href, activeTitle: accessPointControllers.title }] : []),
+        { title: "Switches", href: "/products/switches", activeTitle: "Switches" },
+        { title: "NMS", href: "/products/nms", activeTitle: "NMS" },
         { title: "DCIM", href: "/products" },
         { title: "HMS", href: "/products" },
-        { title: "NMS", href: "/products/nms", activeTitle: "NMS" },
-        { title: "Switches", href: "/products/switches", activeTitle: "Switches" },
         { title: "UVSS", href: "/products" },
     ];
 

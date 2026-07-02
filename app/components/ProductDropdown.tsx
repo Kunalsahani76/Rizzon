@@ -11,7 +11,7 @@ interface ProductDropdownProps {
 }
 
 export default function ProductDropdown({ isOpen, onClose }: ProductDropdownProps) {
-  const defaultCategory = "AAA";
+  const defaultCategory = "Access Point";
   const [openCategory, setOpenCategory] = useState<string | null>(defaultCategory);
   const [hoveredSubItem, setHoveredSubItem] = useState<string | null>(null);
 
