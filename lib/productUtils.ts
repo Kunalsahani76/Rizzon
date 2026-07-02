@@ -41,7 +41,7 @@ const getProductImage = (model: string): string => {
         'NAV-500': '/nav-images/Rizonn _ NAV-500.png',
         'NAV-1000': '/nav-images/Rizonn _ NAV-1000.png',
         'NAV-2500': '/nav-images/Rizonn _ NAV-2500.png',
-        'U-5050': '/banner-images/AAA.jpeg',
+        'U-5050': '/banner-images/AAA.jpg',
         'NAV-519-VA': '/nav-images/Rizonn _ NAV-519-VA.png',
         'NAV-219-VA': '/nav-images/Rizonn _ NAV-219-VA.png',
         'NAV-319-VA': '/nav-images/Rizonn _ NAV-319-VA.png',

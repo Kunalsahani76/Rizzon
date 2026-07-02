@@ -11,6 +11,8 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
 
     // Helper to normalize strings for comparison
     const normalize = (str: string) => str.toLowerCase().replace(/ /g, '-');
+    const getProductCategoryLabel = (model: string, productCategory: string) =>
+        model === "U-5050" ? "AAA" : productCategory;
 
     const products = getAllProductsIncludingAccessPoints();
     const switchProducts = products.filter(
@@ -73,7 +75,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                                         />
                                     </div>
                                     <div className="p-6 flex flex-col flex-grow">
-                                        <div className="text-xs font-semibold text-blue-600 mb-2 uppercase tracking-wider">{p.category}</div>
+                                        <div className="text-xs font-semibold text-blue-600 mb-2 uppercase tracking-wider">{getProductCategoryLabel(p.model, p.category)}</div>
                                         <h3 className="font-bold text-lg text-gray-900 mb-2 line-clamp-2">{p.title}</h3>
                                         <p className="text-sm text-gray-500 mb-4">{p.model}</p>
                                         <div className="mt-auto flex items-center text-blue-600 font-medium group-hover:translate-x-1 transition-transform">
@@ -102,7 +104,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                                         />
                                     </div>
                                     <div className="p-6 flex flex-col flex-grow">
-                                        <div className="text-xs font-semibold text-blue-600 mb-2 uppercase tracking-wider">{p.category}</div>
+                                        <div className="text-xs font-semibold text-blue-600 mb-2 uppercase tracking-wider">{getProductCategoryLabel(p.model, p.category)}</div>
                                         <h3 className="font-bold text-lg text-gray-900 mb-2 line-clamp-2">{p.title}</h3>
                                         <p className="text-sm text-gray-500 mb-4">{p.model}</p>
                                         <div className="mt-auto flex items-center text-blue-600 font-medium group-hover:translate-x-1 transition-transform">
