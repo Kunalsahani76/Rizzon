@@ -16,7 +16,7 @@ export default function ProductDropdown({ isOpen, onClose }: ProductDropdownProp
   const [hoveredSubItem, setHoveredSubItem] = useState<string | null>(null);
 
   const switchCategories = productCategories.filter(
-    category => !["Access Point Controllers", "Access Point", "NMS"].includes(category.title)
+    category => !["Access Point Controllers", "Access Point", "NMS", "UVSS"].includes(category.title)
   );
   const switchesCategory = {
     title: "Switches",

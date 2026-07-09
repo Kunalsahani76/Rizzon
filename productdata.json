@@ -3654,6 +3654,99 @@
         ]
       }
     ]
+  },
+  {
+    "category": "UVSS",
+    "products": [
+      {
+        "id": 12,
+        "brand": "RIZONN",
+        "company": "RIZONN",
+        "model": "UVSS",
+        "title": "Under Vehicle Surveillance System",
+        "tagline": "Automated under-vehicle inspection and security screening",
+        "productType": "Under Vehicle Surveillance System",
+        "description": "Under Vehicle Surveillance System helps security teams inspect vehicle undercarriages with recorded visual evidence, faster screening workflows, and centralized review for checkpoints and high-security locations.",
+        "heroDescription": "A vehicle inspection solution for checkpoints, campuses, logistics facilities, government sites, and other secure premises that need fast under-vehicle visibility and reliable screening records.",
+        "video": "/Videos/UVSS.mp4",
+        "overview": {
+          "title": "Product Overview",
+          "paragraphs": [
+            "UVSS provides a practical inspection workflow for monitoring the underside of vehicles as they pass through a security checkpoint.",
+            "It is designed for premises where vehicle screening, evidence capture, and fast operator review are important for daily security operations.",
+            "The system supports organized inspection records and helps teams improve throughput while maintaining consistent screening standards."
+          ]
+        },
+        "keyFeatures": [
+          {
+            "category": "Inspection Workflow",
+            "features": [
+              "Under-vehicle visual inspection for checkpoint screening",
+              "Supports faster review of vehicle undercarriage areas",
+              "Designed for repeatable daily security operations"
+            ]
+          },
+          {
+            "category": "Security Operations",
+            "features": [
+              "Useful for controlled entries and high-security premises",
+              "Helps maintain vehicle screening records",
+              "Supports operator-led review and incident follow-up"
+            ]
+          },
+          {
+            "category": "Deployment",
+            "features": [
+              "Suitable for campuses, government facilities, logistics hubs, and parking entries",
+              "Can be integrated into physical security workflows",
+              "Built for vehicle access control environments"
+            ]
+          }
+        ],
+        "applications": {
+          "title": "Ideal Applications",
+          "categories": [
+            {
+              "name": "Secure Premises",
+              "items": [
+                "Government buildings",
+                "Corporate campuses",
+                "Defense and critical facilities",
+                "Industrial sites"
+              ]
+            },
+            {
+              "name": "Transport & Access Control",
+              "items": [
+                "Logistics hubs",
+                "Parking entrances",
+                "Border and checkpoint screening",
+                "Public infrastructure sites"
+              ]
+            }
+          ]
+        },
+        "technicalSpecifications": {
+          "system": {
+            "solutionType": "Under Vehicle Surveillance System",
+            "inspectionMode": "Vehicle undercarriage visual inspection",
+            "deployment": "Checkpoint and controlled entry environments"
+          },
+          "operations": {
+            "recordKeeping": "Supports inspection evidence and review workflows",
+            "useCases": "Security screening, access control, and incident review",
+            "integration": "Suitable for physical security operations"
+          }
+        },
+        "orderingInformation": [
+          {
+            "model": "UVSS",
+            "description": "Under Vehicle Surveillance System for vehicle undercarriage inspection and checkpoint security screening.",
+            "powerSupply": "As per deployment requirement"
+          }
+        ]
+      }
+    ]
   }
    
 ]

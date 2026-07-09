@@ -20,7 +20,7 @@ export const getProductsMenuColumns = (
         { title: "NMS", href: "/products/nms", activeTitle: "NMS" },
         { title: "DCIM", href: "/products" },
         { title: "HMS", href: "/products" },
-        { title: "UVSS", href: "/products" },
+        { title: "UVSS", href: "/products/uvss", activeTitle: "UVSS" },
     ];
 
     return [
@@ -136,11 +136,23 @@ export const getProductsMenuColumns = (
                     <Link href={displayProduct.href} className="w-full h-full flex flex-col justify-center px-12 cursor-pointer group/preview">
                         <div className="bg-white rounded-2xl p-8 mb-8 flex-grow flex items-center justify-center relative overflow-hidden group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                            <img
-                                src={displayProduct.img || "/slide-1.jpg"}
-                                alt={displayProduct.title}
-                                className="w-full h-80 object-contain relative z-10 transform group-hover:scale-105 transition-transform duration-500 mix-blend-multiply"
-                            />
+                            {displayProduct.video ? (
+                                <video
+                                    src={displayProduct.video}
+                                    className="w-full h-80 object-contain relative z-10 transform group-hover:scale-105 transition-transform duration-500"
+                                    autoPlay
+                                    muted
+                                    loop
+                                    playsInline
+                                    aria-label={displayProduct.title}
+                                />
+                            ) : (
+                                <img
+                                    src={displayProduct.img || "/slide-1.jpg"}
+                                    alt={displayProduct.title}
+                                    className="w-full h-80 object-contain relative z-10 transform group-hover:scale-105 transition-transform duration-500 mix-blend-multiply"
+                                />
+                            )}
                         </div>
                         <div className="flex gap-4 justify-center mb-8">
                             <img

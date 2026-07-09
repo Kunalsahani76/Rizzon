@@ -7,6 +7,7 @@ export interface ProductCategory {
     title: string;
     href: string;
     img?: string;
+    video?: string;
     model?: string;
     description?: string;
     subItems?: { title: string; href: string }[]
@@ -34,6 +35,7 @@ const generateProductCategories = (): ProductCategory[] => {
       title: product.title,
       href: `/products/${product.category.toLowerCase().replace(/\s+/g, '-')}/${product.model.toLowerCase()}`,
       img: product.img,
+      video: product.video,
       model: product.model,
       description: product.description
     });

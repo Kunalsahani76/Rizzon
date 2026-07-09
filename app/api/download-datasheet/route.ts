@@ -272,6 +272,10 @@ const getPdfFilename = (model: string): string => {
     if (model === 'NMS') {
         return 'Network Monitoring System.pdf';
     }
+
+    if (model === 'UVSS') {
+        return 'UVSS TDS-1.pdf';
+    }
     
     const pdfModel = modelMappings[model] || model;
     
@@ -456,6 +460,10 @@ export async function GET() {
 
                 if (file === 'Network Monitoring System.pdf') {
                     return 'NMS';
+                }
+
+                if (file === 'UVSS TDS-1.pdf') {
+                    return 'UVSS';
                 }
                 
                 return file; // Fallback to full filename

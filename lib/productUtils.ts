@@ -9,6 +9,7 @@ export interface Product {
     category: string;
     description: string;
     img?: string;
+    video?: string;
 }
 
 // Map product models to their nav images
@@ -46,6 +47,7 @@ const getProductImage = (model: string): string => {
         'NAV-219-VA': '/nav-images/Rizonn _ NAV-219-VA.png',
         'NAV-319-VA': '/nav-images/Rizonn _ NAV-319-VA.png',
         'NMS': '/banner-images/product-3.png',
+        'UVSS': '/banner-images/UVSS.png',
     };
 
     const imagePath = imageMap[model] || "/slide-1.jpg";
@@ -67,7 +69,8 @@ export const getAllProducts = (): Product[] => {
                     model: prod.model,
                     category: item.category,
                     description: prod.description || "",
-                    img: getProductImage(prod.model)
+                    img: getProductImage(prod.model),
+                    video: prod.video
                 });
             });
         } else if (item.productType && item.model) {
@@ -77,7 +80,8 @@ export const getAllProducts = (): Product[] => {
                 model: item.model,
                 category: item.productType, // Use productType as category
                 description: typeof item.productOverview === 'string' ? item.productOverview : (item.description || ""),
-                img: getProductImage(item.model)
+                img: getProductImage(item.model),
+                video: item.video
             });
         }
     });
