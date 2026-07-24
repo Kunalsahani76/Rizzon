@@ -113,6 +113,7 @@ export default function Header() {
     });
     setIsMobileMenuOpen(false);
     setIsBusinessSolutionsHovered(false);
+    setIsSearchModalOpen(false);
   }, [pathname]);
 
   // Scroll behavior
@@ -155,14 +156,18 @@ export default function Header() {
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${!isHomePage || isScrolled || isNavHover || isSearchModalOpen
         ? "bg-black/80 backdrop-blur-md border-b border-white/10 shadow-lg shadow-black/5"
         : "bg-transparent"
-        } ${isVisible ? "translate-y-0" : "-translate-y-full"}`}
+        } translate-y-0`}
     >
       <div className="mx-auto max-w-[1400px] px-6 sm:px-10 py-5">
         <div className="flex items-center justify-between">
           {/* Left Side: Logo and Navigation */}
           <div className="flex items-center gap-16">
             {/* Logo */}
-            <Link href="/" className="flex items-center cursor-pointer">
+            <Link
+              href="/"
+              onClick={() => setIsSearchModalOpen(false)}
+              className="flex items-center cursor-pointer"
+            >
               <Image
                 src="/newlogowhite.png"
                 alt="Rizonn Logo"
@@ -184,6 +189,7 @@ export default function Header() {
                     <Link
                       key={item.id}
                       href={item.href || '#'}
+                      onClick={() => setIsSearchModalOpen(false)}
                       className="relative text-[15px] font-medium tracking-wide text-gray-300 hover:text-white transition-colors group py-2"
                     >
                       {item.label}
@@ -260,7 +266,11 @@ export default function Header() {
 
 
               {/* Contact Sales */}
-              <Link href="/contact" className="inline-flex items-center gap-2 bg-[#196fd2] text-white px-6 py-4 rounded-full hover:bg-blue-600 transition-colors text-[14px] font-medium cursor-pointer h-[48px]">
+              <Link
+                href="/contact"
+                onClick={() => setIsSearchModalOpen(false)}
+                className="inline-flex items-center gap-2 bg-[#196fd2] text-white px-6 py-4 rounded-full hover:bg-blue-600 transition-colors text-[14px] font-medium cursor-pointer h-[48px]"
+              >
                 <span>Contact Sales</span>
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
