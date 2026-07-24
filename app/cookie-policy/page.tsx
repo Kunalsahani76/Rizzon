@@ -19,7 +19,7 @@ export default function CookiePolicyPage() {
                         Cookie Policy
                     </h1>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                        Transparency about how we use cookies to improve your experience on Rizonn.
+                        How Rizonn uses browser storage and cookies to keep the website useful and reliable.
                     </p>
                 </div>
 
@@ -32,7 +32,7 @@ export default function CookiePolicyPage() {
                             What Are Cookies?
                         </h2>
                         <p className="text-gray-600 leading-relaxed">
-                            Cookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently and provide information to the owners of the site. Cookies allow us to recognize your device and remember your preferences for future visits.
+                            Cookies are small files stored by your browser. They help a website remember a choice, understand whether a page is working well, and provide a more consistent experience when you return. Rizonn may also use similar browser storage technologies for the same purposes.
                         </p>
                     </section>
 
@@ -43,31 +43,31 @@ export default function CookiePolicyPage() {
                             How We Use Cookies
                         </h2>
                         <p className="text-gray-600 leading-relaxed mb-6">
-                            We use cookies for several reasons, detailed below:
+                            Cookies used on Rizonn fall into the following practical categories:
                         </p>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
                                 <h3 className="text-lg font-semibold text-blue-600 mb-2">Essential Cookies</h3>
                                 <p className="text-sm text-gray-500">
-                                    Necessary for the website to function properly. These cannot be disabled in our systems.
+                                    Support core features such as saving a consent choice and keeping the website secure.
                                 </p>
                             </div>
                             <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
                                 <h3 className="text-lg font-semibold text-blue-600 mb-2">Performance Cookies</h3>
                                 <p className="text-sm text-gray-500">
-                                    Allow us to count visits and traffic sources so we can measure and improve the performance of our site.
+                                    Help us understand page visits, loading behaviour, and which resources visitors find useful.
                                 </p>
                             </div>
                             <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
                                 <h3 className="text-lg font-semibold text-blue-600 mb-2">Functional Cookies</h3>
                                 <p className="text-sm text-gray-500">
-                                    Enable the website to provide enhanced functionality and personalization based on your choices.
+                                    Remember preferences that make repeat visits simpler and more consistent.
                                 </p>
                             </div>
                             <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
                                 <h3 className="text-lg font-semibold text-blue-600 mb-2">Targeting Cookies</h3>
                                 <p className="text-sm text-gray-500">
-                                    May be set through our site by our advertising partners to build a profile of your interests.
+                                    May support relevant communications or campaign measurement where such tools are enabled.
                                 </p>
                             </div>
                         </div>
@@ -80,10 +80,10 @@ export default function CookiePolicyPage() {
                             Managing Your Preferences
                         </h2>
                         <p className="text-gray-600 leading-relaxed mb-4">
-                            You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. This may prevent you from taking full advantage of the website.
+                            On your first visit, Rizonn presents a choice to accept or reject cookies. You can also manage, block, or delete cookies through your browser settings. Blocking certain cookies may affect how smoothly some website features work.
                         </p>
                         <p className="text-gray-600 leading-relaxed">
-                            When you first visit our site, we provide you with a banner that allows you to accept or reject non-essential cookies. You can change these settings at any time by clearing your browser cookies for our domain.
+                            If you want to revisit a choice, clear cookies for rizonn.in in your browser and return to the site. Your browser help documentation can explain the exact steps for your device.
                         </p>
                     </section>
 
@@ -94,11 +94,11 @@ export default function CookiePolicyPage() {
                             Updates to This Policy
                         </h2>
                         <p className="text-gray-600 leading-relaxed">
-                            We may update this Cookie Policy from time to time in order to reflect, for example, changes to the cookies we use or for other operational, legal, or regulatory reasons. Please therefore re-visit this Cookie Policy regularly to stay informed about our use of cookies and related technologies.
+                            We may revise this policy when our website features, browser technologies, or legal requirements change. The date below shows when this page was last updated. For questions about cookies or privacy, email info@rizonn.in.
                         </p>
                         <div className="mt-6 pt-6 border-t border-gray-200">
                             <p className="text-sm text-gray-500">
-                                Last updated: December 12, 2025
+                                Last updated: July 24, 2026
                             </p>
                         </div>
                     </section>

@@ -4,53 +4,52 @@ export default function PrivacyPolicyPage() {
     return (
         <SimpleHeroPage
             title="Privacy Policy"
-            subtitle="How we collect, use, and protect your data."
+            subtitle="A clear explanation of the information shared with Rizonn."
         >
             <div className="space-y-12 text-slate-600">
                 <section>
-                    <h2 className="text-2xl font-bold text-slate-900 mb-4">1. Introduction</h2>
+                    <h2 className="text-2xl font-bold text-slate-900 mb-4">1. Our Privacy Commitment</h2>
                     <p className="leading-relaxed">
-                        At Rizonn, we value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
+                        Rizonn designs and supports business networking solutions. We collect only the information needed to respond to enquiries, deliver support, improve our website, and manage our business relationship with you. This policy describes how that information is handled when you visit rizonn.in, contact our team, or request information about our products.
                     </p>
                 </section>
 
                 <section>
-                    <h2 className="text-2xl font-bold text-slate-900 mb-4">2. Information We Collect</h2>
-                    <p className="mb-4">We may collect information about you in a variety of ways. The information we may collect on the Site includes:</p>
+                    <h2 className="text-2xl font-bold text-slate-900 mb-4">2. Information You Share</h2>
+                    <p className="mb-4">The information we collect depends on how you interact with Rizonn. It may include:</p>
                     <ul className="list-disc pl-6 space-y-2">
-                        <li><strong>Personal Data:</strong> Personally identifiable information, such as your name, shipping address, email address, and telephone number, and demographic information, such as your age, gender, hometown, and interests, that you voluntarily give to us when you register with the Site or when you choose to participate in various activities related to the Site.</li>
-                        <li><strong>Derivative Data:</strong> Information our servers automatically collect when you access the Site, such as your IP address, your browser type, your operating system, your access times, and the pages you have viewed directly before and after accessing the Site.</li>
+                        <li><strong>Contact and business details:</strong> your name, company, work email, telephone number, location, and the details you submit in a sales or support enquiry.</li>
+                        <li><strong>Product and support details:</strong> information about the Rizonn products, network environment, or services you ask us to discuss or support.</li>
+                        <li><strong>Website activity:</strong> technical information such as device type, browser, IP address, pages viewed, and approximate visit time, collected through normal website operation and cookies.</li>
                     </ul>
                 </section>
 
                 <section>
-                    <h2 className="text-2xl font-bold text-slate-900 mb-4">3. How We Use Your Information</h2>
-                    <p className="mb-4">Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Site to:</p>
+                    <h2 className="text-2xl font-bold text-slate-900 mb-4">3. How We Use Information</h2>
+                    <p className="mb-4">We use information to make each interaction with Rizonn relevant, secure, and useful. This includes:</p>
                     <ul className="list-disc pl-6 space-y-2">
-                        <li>Create and manage your account.</li>
-                        <li>Process your orders and deliver products.</li>
-                        <li>Email you regarding your account or order.</li>
-                        <li>Fulfill and manage purchases, orders, payments, and other transactions related to the Site.</li>
-                        <li>Generate a personal profile about you to make future visits to the Site more personalized.</li>
-                        <li>Increase the efficiency and operation of the Site.</li>
+                        <li>Replying to product, partnership, and support requests.</li>
+                        <li>Preparing recommendations, quotations, product updates, and service communications you request.</li>
+                        <li>Maintaining the security, performance, and reliability of our website and services.</li>
+                        <li>Understanding which content and solutions are most useful to visitors.</li>
                     </ul>
                 </section>
 
                 <section>
-                    <h2 className="text-2xl font-bold text-slate-900 mb-4">4. Data Security</h2>
+                    <h2 className="text-2xl font-bold text-slate-900 mb-4">4. Sharing and Safeguards</h2>
                     <p className="leading-relaxed">
-                        We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse.
+                        Rizonn does not sell personal information. We may share limited information with service providers who help us run our website, communicate with customers, or fulfil a legitimate business request. Access is limited to what is necessary. We use reasonable administrative and technical measures to protect information, although no internet transmission or storage system can be guaranteed completely secure.
                     </p>
                 </section>
 
                 <section>
-                    <h2 className="text-2xl font-bold text-slate-900 mb-4">5. Contact Us</h2>
+                    <h2 className="text-2xl font-bold text-slate-900 mb-4">5. Your Choices and Contact</h2>
                     <p className="leading-relaxed">
-                        If you have questions or comments about this Privacy Policy, please contact us at:
+                        You may ask us to update your contact information or stop non-essential communications. For privacy questions, contact us at:
                         <br />
-                        <span className="font-semibold text-slate-900">Rizonn Support</span>
+                        <span className="font-semibold text-slate-900">Rizonn Privacy Team</span>
                         <br />
-                        Email: support@Rizonn.com
+                        Email: info@rizonn.in
                     </p>
                 </section>
             </div>
