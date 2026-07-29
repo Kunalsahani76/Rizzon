@@ -77,7 +77,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
             {/* Close Button */}
             <button
                 onClick={onClose}
-                className="absolute top-32 right-8 p-2 text-gray-500 hover:text-black transition-colors z-50 cursor-pointer"
+                className="absolute right-4 top-24 z-50 cursor-pointer p-2 text-gray-500 transition-colors hover:text-black sm:right-8 sm:top-32"
             >
                 <svg
                     className="w-8 h-8"
@@ -94,7 +94,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                 </svg>
             </button>
 
-            <div className="max-w-4xl mx-auto px-6 pt-32 h-full flex flex-col">
+            <div className="mx-auto flex h-full max-w-4xl flex-col px-4 pt-24 sm:px-6 sm:pt-32">
                 {/* Search Input Section */}
                 <div className="relative border-b border-gray-200 pb-4">
                     <div className="flex items-center gap-4">

@@ -1,63 +1,31 @@
 "use client";
 
 import React, { useState } from 'react';
-import { Metadata } from 'next';
+import { Mail, MapPin, Phone } from 'lucide-react';
 import Header from '../components/Header';
 
-// Note: Since this is a client component, we'll handle metadata in a parent server component
-// For now, we'll add the metadata logic here as a comment for reference
-
-/*
-export const metadata: Metadata = generateMetadata({
-  title: "Contact Sales - Get Expert Networking Solutions",
-  description: "Contact Rizonn's sales team for expert advice on WiFi 6 access points, network controllers, and enterprise wireless solutions. Get personalized recommendations for your business needs.",
-  keywords: [
-    "contact sales",
-    "networking consultation",
-    "WiFi solutions expert",
-    "enterprise networking support",
-    "network infrastructure consultation"
-  ],
-});
-*/
-
 export default function ContactPage() {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        message: ''
-    });
+    const [formData, setFormData] = useState({ name: '', email: '', message: '' });
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = e.target;
-        setFormData(prev => ({
-            ...prev,
-            [name]: value
-        }));
+        setFormData(prev => ({ ...prev, [name]: value }));
     };
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setIsSubmitting(true);
         setSubmitStatus('idle');
-
         try {
             const response = await fetch('/api/contact', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(formData),
+                method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(formData),
             });
-
             if (response.ok) {
                 setSubmitStatus('success');
                 setFormData({ name: '', email: '', message: '' });
-            } else {
-                setSubmitStatus('error');
-            }
+            } else setSubmitStatus('error');
         } catch (error) {
             console.error('Error submitting form:', error);
             setSubmitStatus('error');
@@ -65,98 +33,64 @@ export default function ContactPage() {
             setIsSubmitting(false);
         }
     };
+
     return (
-        <main className="bg-black min-h-screen text-white">
+        <main className="min-h-screen bg-black text-white">
             <Header />
-            <div className="pt-32 pb-20 px-6 max-w-7xl mx-auto">
-                <h1 className="text-4xl md:text-6xl font-nexa-bold mb-8 text-center">Contact Sales</h1>
-                <div className="grid md:grid-cols-2 gap-12 items-start">
-                    <div className="space-y-6">
-                        <p className="text-lg text-gray-300 font-nexa-light">
-                            Ready to transform your business with Rizonn? Our team is here to help you find the perfect solution for your needs.
+            <div className="pb-16 pt-24 sm:pt-28">
+                <section className="relative flex h-[280px] w-full items-center justify-center overflow-hidden bg-[#020810] text-center sm:h-[380px]">
+                    <div className="absolute inset-0 bg-[url('/contact%20sales%20image.png')] bg-cover bg-center" />
+                    <div className="absolute inset-0 bg-black/20" />
+                    <div className="relative z-10 px-4">
+                        <h1 className="text-3xl font-nexa-bold sm:text-5xl">Contact Sales</h1>
+                        <p className="mx-auto mt-4 max-w-2xl text-xs leading-relaxed text-white/90 sm:text-sm">
+                            Ready To Transform Your Business With Rizonn?<br />
+                            Our Team Is Here To Help You Find The Perfect Solution For Your Needs.
                         </p>
-                        <div className="bg-white/5 p-8 rounded-2xl border border-white/10">
-                            <h3 className="text-2xl font-nexa-bold mb-4">Get in Touch</h3>
-                            <ul className="space-y-4 text-gray-300">
-                                <li className="flex items-center gap-3">
-                                    <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                                    <span>+91 9667656203</span>
-                                </li>
-                                <li className="flex items-center gap-3">
-                                    <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                                    <span>info@rizonn.in</span>
-                                </li>
-                                <li className="flex items-center gap-3">
-                                    <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
-                                    <span>Office No. B1C, B-79, VDS Work Eutopia, Block B, Sector 63, Noida, Uttar Pradesh-201301</span>
-                                </li>
-                                <li className="flex items-center gap-3">
-                                    <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
-                                    <span>616 West Monroe, Austin, TX 78704, USA</span>
-                                </li>
-                            </ul>
-                        </div>
+                    </div>
+                </section>
+
+                <div className="mx-auto mt-8 grid max-w-[1120px] items-start gap-6 px-5 sm:px-7 md:grid-cols-[0.8fr_1.15fr]">
+                    <div className="space-y-4">
+                        <InfoCard icon={<Phone className="h-4 w-4" />} title="Phone"><p>+91 9667656203</p></InfoCard>
+                        <InfoCard icon={<Mail className="h-4 w-4" />} title="Email"><p>info@rizonn.in</p></InfoCard>
+                        <InfoCard icon={<MapPin className="h-4 w-4" />} title="Global Offices">
+                            <h3 className="mt-4 text-xs font-nexa-bold">INDIA</h3>
+                            <p className="mt-1">Office No. B1C, B-79, VDS Work Eutopia, Block B, Sector 63, Noida, Uttar Pradesh-201301</p>
+                            <h3 className="mt-4 text-xs font-nexa-bold">USA</h3>
+                            <p className="mt-1">616 West Monroe, Austin, TX 78704, USA</p>
+                        </InfoCard>
                     </div>
 
-                    <form onSubmit={handleSubmit} className="bg-white/5 p-8 rounded-2xl border border-white/10 space-y-6">
-                        {submitStatus === 'success' && (
-                            <div className="p-4 bg-green-600/20 border border-green-500/30 rounded-lg text-green-400">
-                                Thank you! Your message has been sent successfully. We'll get back to you soon.
-                            </div>
-                        )}
-                        {submitStatus === 'error' && (
-                            <div className="p-4 bg-red-600/20 border border-red-500/30 rounded-lg text-red-400">
-                                Sorry, there was an error sending your message. Please try again.
-                            </div>
-                        )}
-                        
-                        <div>
-                            <label className="block text-sm font-medium text-gray-400 mb-2">Name</label>
-                            <input 
-                                name="name" 
-                                type="text" 
-                                value={formData.name}
-                                onChange={handleInputChange}
-                                required
-                                className="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-colors" 
-                                placeholder="Enter your name" 
-                            />
+                    <form onSubmit={handleSubmit} className="rounded-lg bg-white p-5 text-black shadow-sm sm:p-8">
+                        <h2 className="mb-7 text-2xl font-nexa-bold">Send us a message</h2>
+                        {submitStatus === 'success' && <div className="mb-5 rounded-lg border border-green-300 bg-green-50 p-4 text-green-700">Thank you! Your message has been sent successfully. We&apos;ll get back to you soon.</div>}
+                        {submitStatus === 'error' && <div className="mb-5 rounded-lg border border-red-300 bg-red-50 p-4 text-red-700">Sorry, there was an error sending your message. Please try again.</div>}
+                        <div className="space-y-5">
+                            <Field label="Name">
+                                <input name="name" type="text" value={formData.name} onChange={handleInputChange} required className="w-full rounded-md border border-[#cbd4e3] bg-[#f5f7fb] px-4 py-3 text-sm text-black outline-none transition-colors focus:border-[#0756cc]" placeholder="Your full name" />
+                            </Field>
+                            <Field label="Work Email">
+                                <input name="email" type="email" value={formData.email} onChange={handleInputChange} required className="w-full rounded-md border border-[#cbd4e3] bg-[#f5f7fb] px-4 py-3 text-sm text-black outline-none transition-colors focus:border-[#0756cc]" placeholder="example@company.com" />
+                            </Field>
+                            <Field label="Message">
+                                <textarea name="message" rows={4} value={formData.message} onChange={handleInputChange} required className="w-full resize-none rounded-md border border-[#cbd4e3] bg-[#f5f7fb] px-4 py-3 text-sm text-black outline-none transition-colors focus:border-[#0756cc]" placeholder="How can we help you?" />
+                            </Field>
+                            <button type="submit" disabled={isSubmitting} className="w-full rounded-md bg-[#0756cc] py-3 text-sm font-nexa-bold text-white transition-colors hover:bg-[#0649ae] disabled:cursor-not-allowed disabled:bg-gray-500">
+                                {isSubmitting ? 'Sending...' : 'Send Message'}
+                            </button>
                         </div>
-                        <div>
-                            <label className="block text-sm font-medium text-gray-400 mb-2">Work Email</label>
-                            <input 
-                                name="email" 
-                                type="email" 
-                                value={formData.email}
-                                onChange={handleInputChange}
-                                required
-                                className="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-colors" 
-                                placeholder="Enter your email" 
-                            />
-                        </div>
-                        <div>
-                            <label className="block text-sm font-medium text-gray-400 mb-2">Message</label>
-                            <textarea 
-                                name="message" 
-                                rows={4} 
-                                value={formData.message}
-                                onChange={handleInputChange}
-                                required
-                                className="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-colors" 
-                                placeholder="Tell us about your project..."
-                            ></textarea>
-                        </div>
-                        <button 
-                            type="submit" 
-                            disabled={isSubmitting}
-                            className="w-full bg-blue-600 hover:bg-blue-500 disabled:bg-gray-600 disabled:cursor-not-allowed text-white font-nexa-bold py-4 rounded-full transition-all hover:shadow-lg hover:shadow-blue-600/20"
-                        >
-                            {isSubmitting ? 'Sending...' : 'Send Message'}
-                        </button>
                     </form>
                 </div>
             </div>
-
         </main>
     );
+}
+
+function InfoCard({ icon, title, children }: { icon: React.ReactNode; title: string; children: React.ReactNode }) {
+    return <section className="rounded-lg bg-white p-5 text-black shadow-sm"><div className="flex items-start gap-3"><span className="rounded bg-[#e7edff] p-2 text-[#0756cc]">{icon}</span><div className="text-sm leading-snug"><h2 className="text-base font-nexa-bold">{title}</h2><div className="mt-1">{children}</div></div></div></section>;
+}
+
+function Field({ label, children }: { label: string; children: React.ReactNode }) {
+    return <div><label className="mb-2 block text-[10px] font-nexa-bold uppercase">{label}</label>{children}</div>;
 }

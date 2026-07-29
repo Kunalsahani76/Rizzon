@@ -147,8 +147,27 @@ export default function BusinessSolutionsPage() {
           </p>
         </div>
 
-        {/* Business Solutions Dropdown Layout - Similar to ProductDropdown */}
-        <div className="fixed top-20 left-0 right-0 z-[9999] bg-black/10 backdrop-blur-sm">
+        <div className="grid gap-5 lg:hidden">
+          {businessSolutionsData.map((category) => {
+            const solution = category.solutions[0];
+            return (
+              <article key={category.id} className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                <img src={solution.image} alt={solution.title} className="h-44 w-full object-cover" />
+                <div className="p-5">
+                  <p className="text-sm font-medium text-blue-600">{category.title}</p>
+                  <h2 className="mt-1 text-xl font-semibold text-gray-900">{solution.title}</h2>
+                  <p className="mt-2 text-sm leading-relaxed text-gray-600">{solution.description}</p>
+                  <ul className="mt-4 space-y-2 text-sm text-gray-700">
+                    {solution.features.map((feature) => <li key={feature} className="flex gap-2"><span className="text-blue-600">✓</span><span>{feature}</span></li>)}
+                  </ul>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+
+        {/* Desktop business-solutions dropdown layout */}
+        <div className="fixed top-20 left-0 right-0 z-[9999] hidden bg-black/10 backdrop-blur-sm lg:block">
           <div className="max-w-7xl mx-auto bg-white rounded-none shadow-xl border-t border-gray-200">
             {/* Grid layout similar to ProductDropdown */}
             <div
