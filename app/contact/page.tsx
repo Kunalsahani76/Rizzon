@@ -63,7 +63,7 @@ export default function ContactPage() {
                     </div>
 
                     <form onSubmit={handleSubmit} className="rounded-lg bg-white p-5 text-black shadow-sm sm:p-8">
-                        <h2 className="mb-7 text-2xl font-nexa-bold">Send us a message</h2>
+                        <h2 className="mb-7 text-2xl font-bold font-nexa-bold">Send us a message</h2>
                         {submitStatus === 'success' && <div className="mb-5 rounded-lg border border-green-300 bg-green-50 p-4 text-green-700">Thank you! Your message has been sent successfully. We&apos;ll get back to you soon.</div>}
                         {submitStatus === 'error' && <div className="mb-5 rounded-lg border border-red-300 bg-red-50 p-4 text-red-700">Sorry, there was an error sending your message. Please try again.</div>}
                         <div className="space-y-5">
@@ -88,9 +88,9 @@ export default function ContactPage() {
 }
 
 function InfoCard({ icon, title, children }: { icon: React.ReactNode; title: string; children: React.ReactNode }) {
-    return <section className="rounded-lg bg-white p-5 text-black shadow-sm"><div className="flex items-start gap-3"><span className="rounded bg-[#e7edff] p-2 text-[#0756cc]">{icon}</span><div className="text-sm leading-snug"><h2 className="text-base font-nexa-bold">{title}</h2><div className="mt-1">{children}</div></div></div></section>;
+    return <section className="rounded-lg bg-white p-5 text-black shadow-sm"><div className="flex items-start gap-3"><span className="rounded bg-[#e7edff] p-2 text-[#0756cc]">{icon}</span><div className="text-sm leading-snug"><h2 className="text-base font-bold font-nexa-bold">{title}</h2><div className="mt-1">{children}</div></div></div></section>;
 }
 
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
-    return <div><label className="mb-2 block text-[10px] font-nexa-bold uppercase">{label}</label>{children}</div>;
+    return <div><label className="mb-2 block text-[10px] font-bold font-nexa-bold uppercase">{label}</label>{children}</div>;
 }
