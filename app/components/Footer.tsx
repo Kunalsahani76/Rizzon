@@ -1,6 +1,6 @@
 "use client";
 
-import { FaLinkedinIn, FaFacebookF, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -35,27 +35,6 @@ export default function Footer() {
           </Link>
 
           {/* ✅ Social icons premium hover */}
-          <div className="flex items-center gap-6">
-            {[
-              { Icon: FaLinkedinIn, href: "#" },
-              { Icon: FaTwitter, href: "#" },
-              { Icon: FaFacebookF, href: "#" },
-              { Icon: FaInstagram, href: "#" },
-              { Icon: FaYoutube, href: "#" },
-            ].map(({ Icon, href }, index) => (
-              <motion.a
-                key={index}
-                href={href}
-                whileHover={{ y: -4, scale: 1.05 }}
-                transition={{ type: "spring", stiffness: 200, damping: 12 }}
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 
-                text-gray-400 hover:text-white border border-white/10 hover:border-white/20 
-                transition-all duration-300"
-              >
-                <Icon className="w-4 h-4" />
-              </motion.a>
-            ))}
-          </div>
         </div>
 
         {/* ✅ MAIN GRID */}
@@ -121,7 +100,21 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ delay: 0.45, duration: 0.8 }}
           >
-            <Newsletter variant="footer" />
+            <div className="flex items-start gap-4">
+              <motion.a
+                href="https://www.linkedin.com/company/rizonnindia/"
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ y: -4, scale: 1.05 }}
+                transition={{ type: "spring", stiffness: 200, damping: 12 }}
+                className="relative left-14 -top-20 shrink-0 w-10 h-10 flex items-center justify-center rounded-full bg-white/5
+                text-gray-400 hover:text-white border border-white/10 hover:border-white/20
+                transition-all duration-300"
+              >
+                <FaLinkedinIn className="w-4 h-4" />
+              </motion.a>
+              <Newsletter variant="footer" />
+            </div>
 
             {/* <div className="mt-6 text-gray-500 text-xs leading-relaxed">
               <p>Noida</p>
