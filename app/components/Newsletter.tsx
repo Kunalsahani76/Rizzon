@@ -86,7 +86,7 @@ export default function Newsletter({ variant = 'default', showName = false }: Ne
           </div>
         )}
         
-        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2">
+        <form onSubmit={handleSubmit} className="flex flex-wrap gap-2">
           <input
             type="email"
             name="email"
@@ -94,12 +94,12 @@ export default function Newsletter({ variant = 'default', showName = false }: Ne
             onChange={handleInputChange}
             placeholder="Enter your email"
             required
-            className="flex-1 px-4 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 transition-colors"
+            className="min-w-0 basis-48 flex-1 px-4 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 transition-colors"
           />
           <button
             type="submit"
             disabled={isSubmitting}
-            className="px-6 py-2 bg-blue-600 hover:bg-blue-500 disabled:bg-gray-600 disabled:cursor-not-allowed text-white font-nexa-bold rounded-lg transition-all whitespace-nowrap"
+            className="flex-none px-6 py-2 bg-blue-600 hover:bg-blue-500 disabled:bg-gray-600 disabled:cursor-not-allowed text-white font-nexa-bold rounded-lg transition-all whitespace-nowrap"
           >
             {isSubmitting ? 'Subscribing...' : 'Subscribe'}
           </button>

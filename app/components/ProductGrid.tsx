@@ -53,12 +53,12 @@ const products = [
 export default function ProductGrid() {
   return (
     <section className="w-full bg-[#f5f6f8] py-12 md:py-20">
-      <div className="w-full mx-auto px-4 md:px-6">
+      <div className="w-full max-w-[1500px] mx-auto px-4 md:px-6">
         {/* ✅ Responsive Product Grid */}
         <div
           className="
             grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6
-            auto-rows-[180px] md:auto-rows-[200px] lg:auto-rows-[240px]
+            auto-rows-[180px] md:auto-rows-[200px] lg:auto-rows-[210px]
           "
         >
           {products.map((p, i) => (
@@ -76,7 +76,7 @@ export default function ProductGrid() {
               <img
                 src={p.img.src} // 👈 Important: .src to get image URL from imported file
                 alt={p.title}
-                className="object-cover object-center transition-transform duration-700 group-hover:scale-105 w-full h-full"
+                className="object-contain object-center transition-transform duration-700 w-full h-full"
                 onError={(e) => {
                   e.currentTarget.src =
                     "https://placehold.co/400x400/FEE2E2/B91C1C?text=Image+Not+Found";

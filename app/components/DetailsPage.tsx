@@ -8,11 +8,11 @@ import { ProductDetail, getProductDetailBySlug } from "../lib/productDetails";
 import {
     ChevronRight, Zap, Layers, Shield, Mail, Download,
     CheckCircle2, Package, Puzzle, Settings,
-    Award, Activity, Cpu, ChevronLeft
+    Award, Activity, Cpu
 } from "lucide-react";
 import { motion, AnimatePresence, Variants } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, EffectFade, Pagination, Navigation } from "swiper/modules";
+import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
@@ -66,7 +66,6 @@ const ContentTruncator = ({
 
 export default function DetailsPage({ data, productDetail: propProductDetail }: DetailsPageProps) {
     const [activeTab, setActiveTab] = useState<'overview' | 'specs' | 'ordering'>('overview');
-    const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [isDatasheetModalOpen, setIsDatasheetModalOpen] = useState(false);
 
     // Resolve product detail from prop or data ID
@@ -227,7 +226,7 @@ export default function DetailsPage({ data, productDetail: propProductDetail }: 
                                 {/* Swiper Slider */}
                                 <div className="relative w-full h-full rounded-2xl overflow-hidden bg-white shadow-inner border border-slate-100">
                                     <Swiper
-                                        modules={[Autoplay, EffectFade, Pagination, Navigation]}
+                                        modules={[Autoplay, EffectFade, Pagination]}
                                         effect="fade"
                                         speed={800}
                                         autoplay={{
@@ -238,11 +237,6 @@ export default function DetailsPage({ data, productDetail: propProductDetail }: 
                                             clickable: true,
                                             bulletActiveClass: "swiper-pagination-bullet-active",
                                         }}
-                                        navigation={{
-                                            prevEl: '.swiper-button-prev-custom',
-                                            nextEl: '.swiper-button-next-custom',
-                                        }}
-                                        onSlideChange={(swiper) => setCurrentImageIndex(swiper.activeIndex)}
                                         className="w-full h-full product-slider"
                                     >
                                         {allImages.map((img, idx) => (
@@ -259,21 +253,6 @@ export default function DetailsPage({ data, productDetail: propProductDetail }: 
                                             </SwiperSlide>
                                         ))}
                                     </Swiper>
-
-                                    {/* Custom Navigation Buttons */}
-                                    <button className="swiper-button-prev-custom absolute left-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-white/80 backdrop-blur-sm border border-slate-200 shadow-md hover:bg-white hover:scale-110 flex items-center justify-center text-slate-700 transition-all">
-                                        <ChevronLeft className="w-5 h-5" />
-                                    </button>
-                                    <button className="swiper-button-next-custom absolute right-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-white/80 backdrop-blur-sm border border-slate-200 shadow-md hover:bg-white hover:scale-110 flex items-center justify-center text-slate-700 transition-all">
-                                        <ChevronRight className="w-5 h-5" />
-                                    </button>
-                                </div>
-
-                                {/* Image Counter */}
-                                <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/80 backdrop-blur-md border border-slate-200 shadow-sm">
-                                    <span className="text-xs text-slate-600 font-mono font-bold">
-                                        {currentImageIndex + 1} / {allImages.length}
-                                    </span>
                                 </div>
                             </div>
 

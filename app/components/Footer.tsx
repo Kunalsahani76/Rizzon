@@ -61,8 +61,6 @@ export default function Footer() {
               items: [
                 { label: 'Privacy Policy', href: '/privacy-policy' },
                 { label: 'Terms of Service', href: '/terms-of-service' },
-                { label: 'Cookie Policy', href: '/cookie-policy' },
-
               ]
             },
           ].map((col, i) => (
@@ -100,15 +98,14 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ delay: 0.45, duration: 0.8 }}
           >
-            <div className="flex items-start gap-4 max-md:flex-col max-md:gap-6">
+            <div className="relative pl-14">
               <motion.a
                 href="https://www.linkedin.com/company/rizonnindia/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ y: -4, scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 200, damping: 12 }}
-                className="relative left-14 -top-20 shrink-0 w-10 h-10 flex items-center justify-center rounded-full bg-white/5
-                max-md:static
+                className="absolute left-0 top-0 w-10 h-10 flex items-center justify-center rounded-full bg-white/5
                 text-gray-400 hover:text-white border border-white/10 hover:border-white/20
                 transition-all duration-300"
               >
