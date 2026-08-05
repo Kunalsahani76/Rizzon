@@ -8,7 +8,7 @@ import { ProductDetail, getProductDetailBySlug } from "../lib/productDetails";
 import {
     ChevronRight, Zap, Layers, Shield, Mail, Download,
     CheckCircle2, Package, Puzzle, Settings,
-    Award, Activity, Cpu
+    Award
 } from "lucide-react";
 import { motion, AnimatePresence, Variants } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -168,33 +168,6 @@ export default function DetailsPage({ data, productDetail: propProductDetail }: 
                             {/* Description */}
                             <motion.div variants={fadeInUp} className="text-lg text-slate-600 leading-relaxed max-w-xl font-medium">
                                 <ContentTruncator text={productDetail.heroDescription} limit={200} />
-                            </motion.div>
-
-                            {/* Key Stats Cards - Light Theme Refined */}
-                            <motion.div variants={fadeInUp} className="grid grid-cols-2 gap-6 pt-4">
-                                <div className="group relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md hover:border-blue-200 transition-all duration-300">
-                                    <div className="flex items-center gap-3 mb-4">
-                                        <div className="p-2 bg-blue-50 rounded-lg text-blue-600">
-                                            <Cpu className="w-5 h-5" />
-                                        </div>
-                                        <span className="text-sm text-slate-500 font-bold uppercase tracking-wide">Capacity</span>
-                                    </div>
-                                    <div className="text-2xl font-black text-slate-900 tracking-tight">
-                                        {productDetail.keyStats.switchingCapacity}
-                                    </div>
-                                </div>
-
-                                <div className="group relative bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md hover:border-emerald-200 transition-all duration-300">
-                                    <div className="flex items-center gap-3 mb-4">
-                                        <div className="p-2 bg-emerald-50 rounded-lg text-emerald-600">
-                                            <Activity className="w-5 h-5" />
-                                        </div>
-                                        <span className="text-sm text-slate-500 font-bold uppercase tracking-wide">Performance</span>
-                                    </div>
-                                    <div className="text-2xl font-black text-slate-900 tracking-tight flex items-center">
-                                        {productDetail.keyStats.forwardingRate}
-                                    </div>
-                                </div>
                             </motion.div>
 
                             {/* CTA Buttons */}
@@ -449,7 +422,7 @@ export default function DetailsPage({ data, productDetail: propProductDetail }: 
                                                 whileInView={{ opacity: 1, y: 0 }}
                                                 viewport={{ once: true }}
                                                 transition={{ delay: idx * 0.1 }}
-                                                className="bg-gradient-to-br from-blue-50 to-blue-100/50 rounded-2xl p-8 border border-blue-200"
+                                                className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200 hover:shadow-xl hover:border-blue-200 transition-all duration-300"
                                             >
                                                 <h3 className="text-xl font-bold text-blue-900 mb-6">{category.name}</h3>
                                                 <ul className="space-y-3">
@@ -500,22 +473,11 @@ export default function DetailsPage({ data, productDetail: propProductDetail }: 
                                                 whileInView={{ opacity: 1, scale: 1 }}
                                                 viewport={{ once: true }}
                                                 transition={{ delay: idx * 0.1 }}
-                                                className={`relative overflow-hidden rounded-3xl p-8 transition-all duration-300 h-full flex flex-col ${card.highlighted
-                                                    ? 'bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white shadow-2xl'
-                                                    : 'bg-white border-2 border-slate-200 text-slate-900 hover:shadow-xl hover:border-blue-200'
-                                                    }`}
+                                                className="relative overflow-hidden rounded-3xl p-8 transition-all duration-300 h-full flex flex-col bg-white border-2 border-slate-200 text-slate-900 hover:shadow-xl hover:border-blue-200"
                                             >
-                                                {card.highlighted && (
-                                                    <>
-                                                        <div className="absolute top-0 right-0 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
-                                                        <div className="absolute bottom-0 left-0 w-56 h-56 bg-purple-500/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
-                                                    </>
-                                                )}
-
                                                 <div className="relative z-10 flex flex-col h-full">
                                                     <div className="flex items-center gap-4 mb-6">
-                                                        <span className={`flex items-center justify-center w-12 h-12 rounded-xl font-bold text-lg ${card.highlighted ? 'bg-white/10 text-white' : 'bg-gradient-to-br from-blue-500 to-blue-600 text-white shadow-lg'
-                                                            }`}>
+                                                        <span className="flex items-center justify-center w-12 h-12 rounded-xl font-bold text-lg bg-gradient-to-br from-blue-500 to-blue-600 text-white shadow-lg">
                                                             {idx + 1}
                                                         </span>
                                                         <h3 className="text-xl font-bold">{card.title}</h3>
@@ -523,10 +485,8 @@ export default function DetailsPage({ data, productDetail: propProductDetail }: 
                                                     <ul className="space-y-4 flex-1">
                                                         {card.items.map((item, itemIdx) => (
                                                             <li key={itemIdx} className="flex items-start gap-3">
-                                                                <CheckCircle2 className={`w-5 h-5 mt-0.5 flex-shrink-0 ${card.highlighted ? 'text-blue-400' : 'text-blue-600'
-                                                                    }`} />
-                                                                <span className={`text-sm leading-relaxed ${card.highlighted ? 'text-slate-300' : 'text-slate-600'
-                                                                    }`}>
+                                                                <CheckCircle2 className="w-5 h-5 mt-0.5 flex-shrink-0 text-blue-600" />
+                                                                <span className="text-sm leading-relaxed text-slate-600">
                                                                     {item}
                                                                 </span>
                                                             </li>
