@@ -24,7 +24,7 @@ export default function Footer() {
         {/* ✅ TOP SECTION */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-16 gap-8">
 
-          <Link href="/" className="relative">
+          <Link href="/" className="relative footer-logo-mobile-align">
             <Image
               src="/newlogowhite.png"
               alt="Rizonn Logo"
@@ -88,6 +88,22 @@ export default function Footer() {
                   </li>
                 ))}
               </ul>
+
+              {i === 0 && (
+                <motion.a
+                  href="https://www.linkedin.com/company/rizonnindia/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow Rizonn on LinkedIn"
+                  whileHover={{ y: -4, scale: 1.05 }}
+                  transition={{ type: "spring", stiffness: 200, damping: 12 }}
+                  className="mt-6 w-10 h-10 flex items-center justify-center rounded-full bg-white/5
+                  text-gray-400 hover:text-white border border-white/10 hover:border-white/20
+                  transition-all duration-300"
+                >
+                  <FaLinkedinIn className="w-4 h-4" />
+                </motion.a>
+              )}
             </motion.div>
           ))}
 
@@ -98,19 +114,7 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ delay: 0.45, duration: 0.8 }}
           >
-            <div className="relative pl-14">
-              <motion.a
-                href="https://www.linkedin.com/company/rizonnindia/"
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ y: -4, scale: 1.05 }}
-                transition={{ type: "spring", stiffness: 200, damping: 12 }}
-                className="absolute left-0 top-0 w-10 h-10 flex items-center justify-center rounded-full bg-white/5
-                text-gray-400 hover:text-white border border-white/10 hover:border-white/20
-                transition-all duration-300"
-              >
-                <FaLinkedinIn className="w-4 h-4" />
-              </motion.a>
+            <div>
               <Newsletter variant="footer" />
             </div>
 

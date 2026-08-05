@@ -41,12 +41,14 @@ const products = [
     img: slider5,
     href: "/products",
     gridClasses: "col-span-1 sm:col-span-2 row-span-1",
+    imageClasses: "object-cover",
   },
   {
     title: "Software",
     img: slider6,
     href: "/products",
     gridClasses: "col-span-1 sm:col-span-2 row-span-1",
+    imageClasses: "object-cover",
   },
 ];
 
@@ -77,7 +79,7 @@ export default function ProductGrid() {
               <img
                 src={p.img.src} // 👈 Important: .src to get image URL from imported file
                 alt={p.title}
-                className="object-contain object-center transition-transform duration-700 w-full h-full"
+                className={`${p.imageClasses ?? "object-contain"} object-center transition-transform duration-700 w-full h-full`}
                 onError={(e) => {
                   e.currentTarget.src =
                     "https://placehold.co/400x400/FEE2E2/B91C1C?text=Image+Not+Found";

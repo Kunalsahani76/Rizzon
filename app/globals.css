@@ -161,3 +161,13 @@ canvas {
 .diagonal-separator {
   clip-path: polygon(0 0, 92% 0, 78% 100%, 0 100%);
 }
+
+.footer-logo-mobile-align {
+  left: -24px;
+}
+
+@media (min-width: 768px) {
+  .footer-logo-mobile-align {
+    left: -24px;
+  }
+}
