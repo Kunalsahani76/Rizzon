@@ -12,10 +12,9 @@ import {
 } from "lucide-react";
 import { motion, AnimatePresence, Variants } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, EffectFade, Pagination } from "swiper/modules";
+import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
-import "swiper/css/pagination";
 import "swiper/css/navigation";
 import DatasheetModal from "./DatasheetModal";
 
@@ -226,16 +225,12 @@ export default function DetailsPage({ data, productDetail: propProductDetail }: 
                                 {/* Swiper Slider */}
                                 <div className="relative w-full h-full rounded-2xl overflow-hidden bg-white shadow-inner border border-slate-100">
                                     <Swiper
-                                        modules={[Autoplay, EffectFade, Pagination]}
+                                        modules={[Autoplay, EffectFade]}
                                         effect="fade"
                                         speed={800}
                                         autoplay={{
                                             delay: 4000,
                                             disableOnInteraction: false,
-                                        }}
-                                        pagination={{
-                                            clickable: true,
-                                            bulletActiveClass: "swiper-pagination-bullet-active",
                                         }}
                                         className="w-full h-full product-slider"
                                     >
