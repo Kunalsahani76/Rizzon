@@ -16,49 +16,50 @@ const products = [
     title: "Industrial PoE Switches",
     img: slider1,
     href: "/products",
-    gridClasses: "col-span-2 row-span-2",
+    gridClasses: "col-span-1 sm:col-span-2 row-span-1 sm:row-span-2",
   },
   {
     title: "Wireless Access Points",
     img: slider2,
     href: "/products",
-    gridClasses: "col-span-1 row-span-2",
+    gridClasses: "col-span-1 row-span-1 sm:row-span-2",
   },
   {
     title: "WAN Routers ",
     img: slider3,
     href: "/products",
-    gridClasses: "col-span-1 row-span-2",
+    gridClasses: "col-span-1 row-span-1 sm:row-span-2",
   },
   {
     title: "Network Controllers",
     img: slider4,
     href: "/products",
-    gridClasses: "col-span-2 row-span-2",
+    gridClasses: "col-span-1 sm:col-span-2 row-span-1 sm:row-span-2",
   },
   {
     title: "Cloud Based",
     img: slider5,
     href: "/products",
-    gridClasses: "col-span-2 row-span-1",
+    gridClasses: "col-span-1 sm:col-span-2 row-span-1",
   },
   {
     title: "Software",
     img: slider6,
     href: "/products",
-    gridClasses: "col-span-2 row-span-1",
+    gridClasses: "col-span-1 sm:col-span-2 row-span-1",
   },
 ];
 
 export default function ProductGrid() {
   return (
     <section className="w-full bg-[#f5f6f8] py-12 md:py-20">
-      <div className="w-full max-w-[1500px] mx-auto px-4 md:px-6">
+      <div className="w-full max-w-[1500px] mx-auto px-4 sm:px-5 md:px-6">
         {/* ✅ Responsive Product Grid */}
         <div
           className="
-            grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6
-            auto-rows-[180px] md:auto-rows-[200px] lg:auto-rows-[210px]
+            grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-6
+            auto-rows-[clamp(180px,52vw,260px)]
+            sm:auto-rows-[180px] md:auto-rows-[min(13.8vw,220px)]
           "
         >
           {products.map((p, i) => (
