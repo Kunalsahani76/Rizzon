@@ -17,6 +17,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     const products = getAllProductsIncludingAccessPoints();
     const switchProducts = products.filter(
         p => !["access-point-controllers", "access-point", "nms", "uvss"].includes(normalize(p.category))
+            && !["UM-325AX", "UC-500"].includes(p.model)
     );
     const isSwitchesCategory = categorySlug === "switches";
     const isAaaCategory = categorySlug === "aaa";
