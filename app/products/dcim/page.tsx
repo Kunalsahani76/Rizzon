@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 
 export default function DcimPage() {
   return (
@@ -32,9 +31,6 @@ export default function DcimPage() {
             <div className="mb-2 text-xs font-semibold uppercase tracking-wider text-blue-600">DCIM</div>
             <h2 className="mb-2 text-lg font-bold text-gray-900">Data Center Infrastructure Management</h2>
             <p className="mb-4 text-sm text-gray-500">DCIM</p>
-            <div className="mt-auto flex items-center font-medium text-blue-600">
-              View Details <ArrowRight size={16} className="ml-2" />
-            </div>
           </div>
         </article>
       </section>
