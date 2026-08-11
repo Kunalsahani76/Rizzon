@@ -31,11 +31,35 @@ export default function ProductDropdown({ isOpen, onClose }: ProductDropdownProp
     href: "/products/aaa",
     subItems: aaaProduct ? [aaaProduct] : [],
   };
+  const dcimCategory = {
+    title: "DCIM",
+    href: "/products/dcim",
+    subItems: [{
+      title: "Data Center Infrastructure Management",
+      href: "/products/dcim",
+      img: "/banner-images/DCIM.jpg",
+      description: "Data Center Infrastructure Management",
+    }],
+  };
+  const hmsCategory = {
+    title: "HMS",
+    href: "/products/hms",
+    subItems: [{
+      title: "Health Monitoring System",
+      href: "/products/hms",
+      img: "/banner-images/HMS.jpg",
+      description: "Health Monitoring System",
+    }],
+  };
   const activeCategory = openCategory === "Switches"
     ? switchesCategory
     : openCategory === "AAA"
       ? aaaCategory
-      : productCategories.find((c) => c.title === openCategory) || productCategories[0];
+      : openCategory === "DCIM"
+        ? dcimCategory
+        : openCategory === "HMS"
+          ? hmsCategory
+          : productCategories.find((c) => c.title === openCategory) || productCategories[0];
 
   const columns = getProductsMenuColumns(activeCategory, hoveredSubItem, setOpenCategory, setHoveredSubItem);
 

@@ -18,8 +18,8 @@ export const getProductsMenuColumns = (
         { title: "AAA", href: "/products/aaa", activeTitle: "AAA" },
         { title: "Switches", href: "/products/switches", activeTitle: "Switches" },
         { title: "NMS", href: "/products/nms", activeTitle: "NMS" },
-        { title: "DCIM", href: "/products" },
-        { title: "HMS", href: "/products" },
+        { title: "DCIM", href: "/products/dcim", activeTitle: "DCIM" },
+        { title: "HMS", href: "/products/hms", activeTitle: "HMS" },
         { title: "UVSS", href: "/products/uvss", activeTitle: "UVSS" },
     ];
 
@@ -33,6 +33,11 @@ export const getProductsMenuColumns = (
                         <div className="space-y-1 px-1">
                             {productMenuItems.map((category, idx) => {
                                 const isActive = activeCategory?.title === category.activeTitle;
+                                const handleCategoryHover = () => {
+                                    if (!category.activeTitle) return;
+                                    setOpenCategory(category.activeTitle);
+                                    if (category.activeTitle === "DCIM" || category.activeTitle === "HMS") setHoveredSubItem(null);
+                                };
                                 const className = `flex items-center justify-between py-3 px-4 rounded-xl text-sm transition-all duration-300 border ${isActive
                                     ? "bg-blue-50 text-blue-700 font-medium shadow-sm border-blue-100"
                                     : "text-gray-600 hover:bg-gray-50 hover:text-gray-900 border-transparent"
@@ -51,8 +56,8 @@ export const getProductsMenuColumns = (
                                     <Link
                                         key={idx}
                                         href={category.href}
-                                        onMouseEnter={category.activeTitle ? () => setOpenCategory(category.activeTitle) : undefined}
-                                        onFocus={category.activeTitle ? () => setOpenCategory(category.activeTitle) : undefined}
+                                        onMouseEnter={category.activeTitle ? handleCategoryHover : undefined}
+                                        onFocus={category.activeTitle ? handleCategoryHover : undefined}
                                         className={className}
                                     >
                                         {content}
