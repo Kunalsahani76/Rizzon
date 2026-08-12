@@ -37,8 +37,8 @@ const getProductImage = (model: string): string => {
         'NAV-P-24P8S-4S-at': '/nav-images/Rizonn _ NAV-P-24P8S-4S.png', // Variant
         'NAV-P48P4S': '/nav-images/Rizonn _ NAV-P48P4S.png',
         // Access Point Controllers
-        'NAV-50': '/slide-1.jpg', // Image not available yet
-        'NAV-100': '/slide-1.jpg', // Image not available yet
+        'NAV-50': '/banner-images/Network Controller.jpg',
+        'NAV-100': '/banner-images/Network Controller.jpg',
         'NAV-500': '/nav-images/Rizonn _ NAV-500.png',
         'NAV-1000': '/nav-images/Rizonn _ NAV-1000.png',
         'NAV-2500': '/nav-images/Rizonn _ NAV-2500.png',
