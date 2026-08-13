@@ -1,7 +1,7 @@
 import productData from "../productdata.json";
 import accessPointData from "../accesspoint.json";
 import accessPoint1Data from "../accesspoint1.json";
-import { ProductDetail } from "@/app/lib/productDetails";
+import { getProductDetailBySlug, ProductDetail } from "@/app/lib/productDetails";
 
 export interface Product {
     title: string;
@@ -37,8 +37,8 @@ const getProductImage = (model: string): string => {
         'NAV-P-24P8S-4S-at': '/nav-images/Rizonn _ NAV-P-24P8S-4S.png', // Variant
         'NAV-P48P4S': '/nav-images/Rizonn _ NAV-P48P4S.png',
         // Access Point Controllers
-        'NAV-50': '/banner-images/Network Controller.jpg',
-        'NAV-100': '/banner-images/Network Controller.jpg',
+        'NAV-50': '/nav-images/Rizonn _ NAV-500.png',
+        'NAV-100': '/nav-images/Rizonn _ NAV-500.png',
         'NAV-500': '/nav-images/Rizonn _ NAV-500.png',
         'NAV-1000': '/nav-images/Rizonn _ NAV-1000.png',
         'NAV-2500': '/nav-images/Rizonn _ NAV-2500.png',
@@ -176,6 +176,11 @@ const toTitleCase = (str: string) => {
 };
 
 export const getProductDetail = (slug: string): ProductDetail | null => {
+    // Product details that are maintained outside the JSON product catalog
+    // (such as HMS) still use the shared DetailsPage flow.
+    const staticProductDetail = getProductDetailBySlug(slug);
+    if (staticProductDetail) return staticProductDetail;
+
     const data = productData as any[];
     const accessData = accessPointData as any[];
     const access1Data = accessPoint1Data as any[];

@@ -75,7 +75,7 @@ export default function MegaMenuDropdown({
             >
                 {/* Clipped Background Layer */}
                 <div
-                    className="absolute inset-0 bg-white/95 backdrop-blur-xl border-t-4 border-blue-600"
+                    className="absolute inset-0 bg-white border-t-4 border-blue-600"
                     style={{
                         clipPath: "url(#megaMenuWave)",
                         zIndex: 0,

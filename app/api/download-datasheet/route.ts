@@ -273,6 +273,14 @@ const getPdfFilename = (model: string): string => {
         return 'Network Monitoring System.pdf';
     }
 
+    if (model === 'HMS') {
+        return 'HMS_Technical_Data_Sheet.pdf';
+    }
+
+    if (model === 'DCIM') {
+        return 'DCIM.pdf';
+    }
+
     if (model === 'UVSS') {
         return 'UVSS TDS-1.pdf';
     }

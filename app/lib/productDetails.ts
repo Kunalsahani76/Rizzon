@@ -94,6 +94,159 @@ export interface ProductDetail {
 }
 
 export const productDetailsData: Record<string, ProductDetail> = {
+    "dcim": {
+        id: "dcim",
+        slug: "dcim",
+        name: "Data Center Infrastructure Management",
+        title: "Data Center Infrastructure Management",
+        model: "DCIM",
+        heroImage: "/banner-images/DCIM.jpg",
+        images: ["/banner-images/DCIM.jpg"],
+        heroTitle: "Data Center Infrastructure Management",
+        heroSubtitle: "DCIM",
+        heroDescription: "An advanced, next-generation data center infrastructure management platform for centralized visibility, monitoring, and control.",
+        keyStats: {
+            switchingCapacity: "Centralized",
+            forwardingRate: "Real-time",
+            connectivity: "Data center-wide"
+        },
+        features: [
+            {
+                icon: "layers",
+                title: "Infrastructure Visibility",
+                description: "Monitor critical data center assets and infrastructure from a unified operational dashboard."
+            },
+            {
+                icon: "zap",
+                title: "Real-time Monitoring",
+                description: "Track key operational conditions in real time to support faster response and efficient resource planning."
+            },
+            {
+                icon: "shield",
+                title: "Reliable Operations",
+                description: "Improve service continuity through centralized insights, alerts, and proactive infrastructure management."
+            }
+        ],
+        overview: {
+            title: "Product Overview",
+            paragraphs: [
+                "RIZONN DCIM is an advanced data center infrastructure management platform that provides a centralized view of critical infrastructure and operational performance.",
+                "It helps teams monitor data center resources, respond to operational events, and make informed decisions using real-time infrastructure information."
+            ]
+        },
+        keyFeaturesCards: [
+            {
+                title: "Centralized Monitoring",
+                items: ["Single dashboard for data center infrastructure visibility.", "Real-time operational monitoring.", "Clear insight into critical assets and conditions."]
+            },
+            {
+                title: "Operational Management",
+                items: ["Infrastructure status tracking.", "Event and alert monitoring.", "Resource and capacity planning support."]
+            },
+            {
+                title: "Data Center Intelligence",
+                items: ["Actionable reporting and analytics.", "Improved operational efficiency.", "Support for reliable, always-on data center operations."],
+                highlighted: true
+            }
+        ],
+        technicalSpecs: [
+            {
+                category: "Platform Capabilities",
+                specs: [
+                    { feature: "Infrastructure Monitoring", description: "Centralized real-time monitoring of data center infrastructure" },
+                    { feature: "Operations", description: ["Asset and status visibility", "Event and alert monitoring", "Capacity and resource planning support"] },
+                    { feature: "Insights", description: ["Operational dashboards", "Reporting and analytics", "Data-driven decision support"] }
+                ]
+            }
+        ],
+        orderingInfo: [
+            {
+                model: "DCIM",
+                description: "RIZONN Data Center Infrastructure Management platform for centralized monitoring and operational management.",
+                powerSupply: "Software solution"
+            }
+        ],
+        packingList: [
+            { content: "DCIM software access and implementation documentation", quantity: "1", unit: "License" }
+        ]
+    },
+    "hms": {
+        id: "hms",
+        slug: "hms",
+        name: "Health Monitoring System",
+        title: "Health Monitoring System",
+        model: "HMS",
+        heroImage: "/banner-images/HMS.jpg",
+        images: ["/banner-images/HMS.jpg"],
+        heroTitle: "Health Monitoring System",
+        heroSubtitle: "HMS",
+        heroDescription: "An intelligent integrated solution to streamline hospital operations and deliver better patient care.",
+        keyStats: {
+            switchingCapacity: "Centralized",
+            forwardingRate: "Real-time",
+            connectivity: "Hospital-wide"
+        },
+        features: [
+            {
+                icon: "layers",
+                title: "Integrated Management",
+                description: "Manage patient records, appointments, staff, pharmacy, laboratory, billing, and hospital operations from one platform."
+            },
+            {
+                icon: "zap",
+                title: "Real-time Visibility",
+                description: "Monitor operational information in real time to support faster, more informed clinical and administrative decisions."
+            },
+            {
+                icon: "shield",
+                title: "Better Patient Care",
+                description: "Bring essential hospital workflows together to help teams coordinate care efficiently and consistently."
+            }
+        ],
+        overview: {
+            title: "Product Overview",
+            paragraphs: [
+                "RIZONN HMS is an intelligent hospital management solution designed to streamline day-to-day hospital operations and support better patient care.",
+                "The system brings together core workflows including patient records, appointment scheduling, doctor and staff management, pharmacy, laboratory and diagnostics, billing, and hospital reporting in a centralized platform."
+            ]
+        },
+        keyFeaturesCards: [
+            {
+                title: "Patient & Appointment Management",
+                items: ["Centralized patient records.", "Appointment scheduling and management.", "Improved coordination across care teams."]
+            },
+            {
+                title: "Hospital Operations",
+                items: ["Doctor and staff management.", "Pharmacy management.", "Laboratory and diagnostics management."]
+            },
+            {
+                title: "Administration & Insights",
+                items: ["Billing and payment management.", "Real-time hospital information and reporting.", "24/7 support and operational visibility."],
+                highlighted: true
+            }
+        ],
+        technicalSpecs: [
+            {
+                category: "System Capabilities",
+                specs: [
+                    { feature: "Patient Records", description: "Centralized patient information management" },
+                    { feature: "Appointments", description: "Appointment scheduling and tracking" },
+                    { feature: "Clinical Operations", description: ["Doctor and staff management", "Pharmacy management", "Laboratory and diagnostics management"] },
+                    { feature: "Administration", description: ["Billing and payment management", "Reports and real-time monitoring"] }
+                ]
+            }
+        ],
+        orderingInfo: [
+            {
+                model: "HMS",
+                description: "RIZONN Health Monitoring System for integrated hospital operations management.",
+                powerSupply: "Software solution"
+            }
+        ],
+        packingList: [
+            { content: "HMS software access and implementation documentation", quantity: "1", unit: "License" }
+        ]
+    },
     "nav-c24s2q": {
         id: "nav-c24s2q",
         slug: "nav-c24s2q",

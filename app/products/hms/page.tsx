@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
 export default function HmsPage() {
   return (
@@ -18,6 +19,7 @@ export default function HmsPage() {
       </section>
 
       <section className="mx-auto grid max-w-[1200px] grid-cols-1 gap-8 px-6 py-20 md:grid-cols-2 lg:grid-cols-3">
+        <Link href="/products/hms/hms" className="group block h-full">
         <article className="flex h-full flex-col overflow-hidden rounded-xl border border-gray-100 bg-white shadow-sm transition-all duration-300 hover:shadow-xl">
           <div className="relative aspect-[4/3] w-full bg-gray-50 p-6">
             <Image
@@ -31,8 +33,12 @@ export default function HmsPage() {
             <div className="mb-2 text-xs font-semibold uppercase tracking-wider text-blue-600">HMS</div>
             <h2 className="mb-2 text-lg font-bold text-gray-900">Health Monitoring System</h2>
             <p className="mb-4 text-sm text-gray-500">HMS</p>
+            <div className="mt-auto flex items-center font-medium text-blue-600 transition-transform group-hover:translate-x-1">
+              View Details <ArrowRight size={16} className="ml-2" />
+            </div>
           </div>
         </article>
+        </Link>
       </section>
     </main>
   );
