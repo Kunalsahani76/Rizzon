@@ -139,12 +139,12 @@ export const getProductsMenuColumns = (
 
                 return displayProduct ? (
                     <Link href={displayProduct.href} className="w-full h-full flex flex-col justify-center px-12 cursor-pointer group/preview">
-                        <div className="bg-white rounded-2xl p-8 mb-8 flex-grow flex items-center justify-center relative overflow-hidden group">
+                        <div className="bg-white rounded-2xl p-6 mb-4 flex-grow flex items-center justify-center relative overflow-hidden group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                             {displayProduct.video ? (
                                 <video
                                     src={displayProduct.video}
-                                    className="w-full h-80 object-contain relative z-10 transform group-hover:scale-105 transition-transform duration-500"
+                                    className="w-full h-56 object-contain relative z-10 transform group-hover:scale-105 transition-transform duration-500"
                                     autoPlay
                                     muted
                                     loop
@@ -155,11 +155,11 @@ export const getProductsMenuColumns = (
                                 <img
                                     src={displayProduct.img || "/slide-1.jpg"}
                                     alt={displayProduct.title}
-                                    className="w-full h-80 object-contain relative z-10 transform group-hover:scale-105 transition-transform duration-500 mix-blend-multiply"
+                                    className="w-full h-56 object-contain relative z-10 transform group-hover:scale-105 transition-transform duration-500 mix-blend-multiply"
                                 />
                             )}
                         </div>
-                        <div className="flex gap-4 justify-center mb-8">
+                        <div className="flex gap-4 justify-center mb-4">
                             <img
                                 src="/microsoft-teams-badge.png"
                                 alt="Certified for Microsoft Teams"
@@ -178,10 +178,10 @@ export const getProductsMenuColumns = (
                             />
                         </div>
                         <div className="text-center max-w-2xl mx-auto">
-                            <h4 className="text-2xl font-bold text-gray-900 mb-4">{displayProduct.title}</h4>
+                            <h4 className="text-2xl font-bold text-gray-900 mb-2">{displayProduct.title}</h4>
                             <p className="text-base text-gray-500 leading-relaxed line-clamp-3">{displayProduct.description || displayProduct.title}</p>
 
-                            <span className="inline-flex items-center gap-2 text-blue-600 font-semibold mt-6 group-hover/preview:gap-3 transition-all">
+                            <span className="inline-flex items-center gap-2 text-blue-600 font-semibold mt-4 group-hover/preview:gap-3 transition-all">
                                 View Details
                                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                             </span>
