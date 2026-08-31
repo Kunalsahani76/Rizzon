@@ -284,6 +284,14 @@ const getPdfFilename = (model: string): string => {
     if (model === 'UVSS') {
         return 'UVSS TDS-1.pdf';
     }
+
+    if (model === 'UM-325AX') {
+        return 'Finetune UM-325AX Access Point Datasheet.pdf';
+    }
+
+    if (model === 'UC-500') {
+        return 'Finetune Indio UniController UC-500 WLAN Datasheet-2.pdf';
+    }
     
     const pdfModel = modelMappings[model] || model;
     

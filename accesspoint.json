@@ -791,6 +791,61 @@
     },
 
     {
+      "id": 10,
+      "brand": "FINETUNE INDIO",
+      "company": "RIZONN",
+      "model": "UC-500",
+      "title": "UniController WLAN Controller",
+      "tagline": "Centralised WLAN controller for managed wireless networks",
+      "productType": "WLAN Controller",
+      "description": "The Finetune Indio UniController UC-500 is a WLAN controller designed to centralise the deployment, configuration, monitoring and policy management of wireless access points across an organisation.",
+      "heroDescription": "A rack-mount WLAN controller that provides centralised access-point management, network policy control, wireless visibility and scalable operations for enterprise Wi-Fi deployments.",
+      "stats": [
+        { "label": "Management", "value": "Centralised", "description": "Unified control of WLAN access points and policies" },
+        { "label": "Form Factor", "value": "Rack Mount", "description": "Appliance controller for professional network deployments" }
+      ],
+      "highlights": [
+        { "title": "Centralised WLAN Management", "description": "Configure, monitor and maintain managed access points from one controller platform." },
+        { "title": "Simplified Deployment", "description": "Streamline controller-based access-point provisioning and consistent wireless-policy application." },
+        { "title": "Enterprise Network Control", "description": "Support segmented, secure wireless deployments with visibility into the managed WLAN environment." }
+      ],
+      "overview": {
+        "title": "Product Overview",
+        "paragraphs": [
+          "The Finetune Indio UniController UC-500 is a WLAN controller appliance for centrally managed wireless networks.",
+          "It provides a common control point for wireless access-point configuration, monitoring and policy management, helping IT teams operate consistent Wi-Fi services across their sites.",
+          "The rack-mount controller form factor is suitable for organisations that require an on-premises management appliance for their wireless infrastructure."
+        ]
+      },
+      "keyFeatures": [
+        { "category": "WLAN Management", "features": ["Centralised access-point management", "Central configuration and monitoring", "Consistent WLAN policy application", "Scalable managed wireless operations"] },
+        { "category": "Network Control", "features": ["Wireless user and device visibility", "SSID and network policy management", "VLAN-aware deployment support", "Secure enterprise WLAN operations"] },
+        { "category": "Deployment", "features": ["Rack-mount controller appliance", "Centralised on-premises management", "Suitable for multi-access-point networks", "Professional wired network integration"] }
+      ],
+      "applications": {
+        "title": "Ideal Applications",
+        "categories": [
+          { "name": "Enterprise", "items": ["Corporate offices", "Multi-floor buildings", "Branch networks", "Co-working spaces"] },
+          { "name": "Education & Hospitality", "items": ["Schools & universities", "Hotels & resorts", "Conference venues", "Campus networks"] },
+          { "name": "Public & Commercial", "items": ["Retail locations", "Healthcare facilities", "Transport hubs", "Managed Wi-Fi services"] }
+        ]
+      },
+      "advancedCapabilities": [
+        { "title": "Unified Wireless Operations", "description": "Manage wireless infrastructure centrally to maintain consistent policies, configurations and service levels." },
+        { "title": "Operational Visibility", "description": "A controller-led deployment helps administrators monitor and maintain the WLAN from a single management point." },
+        { "title": "Scalable Architecture", "description": "Designed for organisations growing their managed access-point footprint across one or more locations." }
+      ],
+      "technicalSpecifications": {
+        "productInfo": { "modelName": "UC-500", "productType": "Finetune Indio UniController WLAN Controller" },
+        "management": { "controllerType": "Centralised WLAN controller", "managedInfrastructure": "Wireless access points", "functions": ["Configuration", "Monitoring", "Policy management", "Wireless network administration"] },
+        "networking": { "deployment": "Enterprise WLAN", "segmentation": "VLAN-aware wireless deployment", "security": "Controller-managed WLAN policy support" },
+        "hardware": { "formFactor": "Rack mount appliance", "interfaces": "Ethernet network interfaces", "installation": "Data centre or network-rack installation" }
+      },
+      "conclusion": "The UC-500 provides a dedicated central-management appliance for organised, scalable and policy-controlled WLAN deployments.",
+      "summary": "A rack-mount Finetune Indio WLAN controller for centrally managing access points, wireless policies and operational visibility."
+    },
+
+    {
       "id": 6,
       "brand": "RIZONN",
       "company": "RIZONN",

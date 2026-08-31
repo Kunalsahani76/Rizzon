@@ -758,6 +758,63 @@
       "conclusion": "A robust dual-band WiFi 6 access point delivering 3Gbps speeds with seamless cloud management, enterprise-grade security, and reliable performance for high-density indoor environments.",
 
       "summary": "A robust dual-band WiFi 6 access point delivering 3Gbps speeds with seamless cloud management, enterprise-grade security, and reliable performance for high-density indoor environments."
+    },
+    {
+      "id": 9,
+      "brand": "FINETUNE",
+      "company": "RIZONN",
+      "model": "UM-325AX",
+      "title": "Tri-Band Wi-Fi 6 Cloud & Controller Managed Access Point",
+      "tagline": "Tri-band 2x2 MIMO Wi-Fi 6 access point for high-density indoor networks",
+      "productType": "Tri-Band Wi-Fi 6 Access Point",
+      "description": "The UM-325AX is a tri-band 2x2 MIMO Wi-Fi 6 access point designed for high-density indoor deployments. It combines high-capacity wireless connectivity with cloud and controller management for straightforward, scalable operations.",
+      "heroDescription": "A tri-band Wi-Fi 6 access point with three concurrent radios, 2x2 MIMO, cloud and controller management, and enterprise-ready security for demanding indoor wireless networks.",
+      "stats": [
+        { "label": "Wireless Bands", "value": "Tri-Band", "description": "One 2.4 GHz and two 5 GHz radios" },
+        { "label": "Wi-Fi Technology", "value": "Wi-Fi 6", "description": "802.11ax with 2x2 MIMO" }
+      ],
+      "highlights": [
+        { "title": "Tri-Band Wi-Fi 6", "description": "Three concurrent radios provide additional wireless capacity and efficient connectivity in busy indoor environments." },
+        { "title": "Cloud & Controller Managed", "description": "Deploy, configure, monitor and manage the access point centrally through cloud or controller management." },
+        { "title": "Enterprise-Ready Security", "description": "Supports secure WLAN deployments with WPA/WPA2/WPA3, VLAN segmentation, authentication and guest-access capabilities." }
+      ],
+      "overview": {
+        "title": "Product Overview",
+        "paragraphs": [
+          "The Finetune UniMax UM-325AX is a tri-band 2x2 MIMO Wi-Fi 6 cloud and controller managed access point.",
+          "Its concurrent 2.4 GHz and dual 5 GHz radios provide the capacity required by high-density indoor environments while Wi-Fi 6 features improve efficiency for multiple connected devices.",
+          "Central cloud and controller management supports streamlined provisioning, configuration and monitoring across the wireless network.",
+          "The compact, ceiling-mountable form factor blends cleanly into offices, schools, hospitality venues and other professional indoor spaces."
+        ]
+      },
+      "keyFeatures": [
+        { "category": "Tri-Band Wi-Fi 6 Performance", "features": ["Tri-band concurrent radio design", "IEEE 802.11ax Wi-Fi 6 technology", "2x2 MIMO per radio", "Optimised for high-density client environments"] },
+        { "category": "Cloud & Controller Management", "features": ["Cloud and controller managed deployment", "Centralised configuration and monitoring", "Scalable multi-access-point management", "Plug-and-play provisioning support"] },
+        { "category": "Network & Security", "features": ["WPA/WPA2/WPA3 wireless security", "802.1Q VLAN support", "802.1X and RADIUS authentication", "Captive portal and guest network support"] },
+        { "category": "Flexible Installation", "features": ["Compact indoor access point form factor", "Ceiling and wall mounting support", "PoE-powered installation", "Integrated omnidirectional antennas"] }
+      ],
+      "applications": {
+        "title": "Ideal Applications",
+        "categories": [
+          { "name": "Business & Hospitality", "items": ["Corporate offices", "Meeting rooms", "Hotels & resorts", "Retail spaces"] },
+          { "name": "Education & Healthcare", "items": ["Schools & universities", "Libraries", "Hospitals & clinics", "Training centres"] },
+          { "name": "High-Density Indoor Venues", "items": ["Conference centres", "Auditoriums", "Co-working spaces", "Multi-tenant buildings"] }
+        ]
+      },
+      "advancedCapabilities": [
+        { "title": "Three-Radio Capacity", "description": "Tri-band operation adds wireless capacity for client-heavy networks and helps maintain reliable service as device counts grow." },
+        { "title": "Centralised Operations", "description": "Cloud and controller management provide a consistent way to configure and monitor access points across sites." },
+        { "title": "Secure Guest Connectivity", "description": "VLAN, authentication and captive-portal capabilities help separate guest traffic from internal network services." }
+      ],
+      "technicalSpecifications": {
+        "productInfo": { "modelName": "UM-325AX", "productType": "Tri-Band 2x2 MIMO Wi-Fi 6 Cloud & Controller Managed Access Point" },
+        "wireless": { "standards": "IEEE 802.11a/b/g/n/ac/ax", "radios": "Concurrent tri-band: 2.4 GHz + 5 GHz + 5 GHz", "mimo": "2x2 MIMO", "antenna": "Integrated omnidirectional antennas", "security": "WPA / WPA2 / WPA3" },
+        "networking": { "managementModes": ["Cloud", "Controller", "Stand-alone"], "vlanSupport": "802.1Q VLAN", "authentication": ["802.1X", "RADIUS", "PSK", "SAE"], "guestAccess": ["Captive portal", "Voucher", "SMS/OTP", "Social login"] },
+        "hardware": { "ethernet": "Gigabit Ethernet uplink", "power": "Power over Ethernet (PoE)", "mounting": ["Ceiling mount", "Wall mount"] },
+        "environmental": { "deployment": "Indoor", "formFactor": "Compact square access-point enclosure" }
+      },
+      "conclusion": "The UM-325AX provides tri-band Wi-Fi 6 capacity, centralised cloud and controller management, and enterprise security in a compact indoor access point.",
+      "summary": "A tri-band 2x2 MIMO Wi-Fi 6 access point for high-density indoor networks with cloud and controller management."
     }
     ]
 }]

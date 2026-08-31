@@ -48,6 +48,8 @@ const getProductImage = (model: string): string => {
         'NAV-319-VA': '/nav-images/Rizonn _ NAV-319-VA.png',
         'NMS': '/banner-images/product-3.png',
         'UVSS': '/banner-images/UVSS.png',
+        'UM-325AX': '/products/um-325ax.png',
+        'UC-500': '/products/uc-500.png',
     };
 
     const imagePath = imageMap[model] || "/slide-1.jpg";
