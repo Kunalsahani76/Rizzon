@@ -177,14 +177,16 @@ export const getProductsMenuColumns = (
                                 }}
                             />
                         </div>
-                        <div className="text-center max-w-2xl mx-auto">
-                            <h4 className="text-2xl font-bold text-gray-900 mb-2">{displayProduct.title}</h4>
-                            <p className="text-base text-gray-500 leading-relaxed line-clamp-3">{displayProduct.description || displayProduct.title}</p>
-
-                            <span className="inline-flex items-center gap-2 text-blue-600 font-semibold mt-4 group-hover/preview:gap-3 transition-all">
-                                View Details
-                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                            </span>
+                        <div className="text-center max-w-2xl mx-auto mt-[2px]">
+                            <h4 className="text-2xl font-bold text-gray-900 mb-2">
+                                {activeCategory?.title === "Access Point"
+                                    ? "Access Points"
+                                    : activeCategory?.title === "Access Point Controllers"
+                                        ? "Controllers"
+                                    : activeCategory?.title === "Switches"
+                                        ? "Switches"
+                                        : displayProduct.title}
+                            </h4>
                         </div>
                     </Link>
                 ) : (

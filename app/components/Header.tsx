@@ -8,7 +8,6 @@ import ProductDropdown from "./ProductDropdown";
 import MegaMenuDropdown from "./MegaMenuDropdown";
 import SearchModal from "./SearchModal";
 import { getSolutionsMenuColumns } from "./MegaMenuConfig";
-import { productCategories } from "./ProductCategories";
 import { getAllProducts, Product } from "@/lib/productUtils";
 
 // Menu items configuration
@@ -43,6 +42,17 @@ const MENU_ITEMS = [
     href: '/partner',
     hasDropdown: false,
   },
+];
+
+const MOBILE_PRODUCT_MENU_ITEMS = [
+  { title: "Access Points", href: "/products/access-point" },
+  { title: "Controller", href: "/products/access-point-controllers" },
+  { title: "AAA", href: "/products/aaa" },
+  { title: "Switches", href: "/products/switches" },
+  { title: "NMS", href: "/products/nms" },
+  { title: "DCIM", href: "/products/dcim" },
+  { title: "HMS", href: "/products/hms" },
+  { title: "UVSS", href: "/products/uvss" },
 ];
 
 export default function Header() {
@@ -321,7 +331,7 @@ export default function Header() {
 
                 <div className={`overflow-hidden transition-all duration-300 ease-in-out ${openDropdowns.products ? 'max-h-[500px] opacity-100 mb-4' : 'max-h-0 opacity-0'}`}>
                   <div className="bg-white/5 rounded-xl p-3 space-y-1 border border-white/5">
-                    {productCategories.map((category, index) => (
+                    {MOBILE_PRODUCT_MENU_ITEMS.map((category, index) => (
                       <Link
                         key={index}
                         href={category.href}
