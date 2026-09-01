@@ -3527,7 +3527,7 @@
       },
       "environmental": {
         "operatingTemperature": "5°C to 50°C",
-        "humidity": "8% – 90% non-condensing"
+        "humidity": "8% - 90%"
       },
       "compliance": [
         "CE",

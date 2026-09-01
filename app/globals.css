@@ -4,7 +4,7 @@
   font-weight: 300;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0000-002E, U+0030-007B, U+007D-FFFF;
+  unicode-range: U+0000-0024, U+0026-002E, U+0030-00AF, U+00B1-FFFF;
 }
 
 @font-face {
@@ -13,7 +13,7 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0000-002E, U+0030-007B, U+007D-FFFF;
+  unicode-range: U+0000-0024, U+0026-002E, U+0030-00AF, U+00B1-FFFF;
 }
 
 @font-face {
@@ -22,7 +22,7 @@
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0000-002E, U+0030-007B, U+007D-FFFF;
+  unicode-range: U+0000-0024, U+0026-002E, U+0030-00AF, U+00B1-FFFF;
 }
 
 @font-face {
@@ -31,7 +31,7 @@
   font-weight: 900;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0000-002E, U+0030-007B, U+007D-FFFF;
+  unicode-range: U+0000-0024, U+0026-002E, U+0030-00AF, U+00B1-FFFF;
 }
 
 @import "tailwindcss";
