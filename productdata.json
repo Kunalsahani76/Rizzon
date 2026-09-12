@@ -2132,7 +2132,7 @@
       {
         "id": 4,
         "model": "NAV-I-8R2S-X",
-        "title": "10-Port Gigabit Managed Industrial Ethernet Switch",
+        "title": "Gigabit Industrial Ethernet PoE+ Fiber Switch",
         "description": "The NAV-I-8R2S-X is a managed industrial Ethernet switch designed for dependable connectivity in demanding industrial environments.",
         "productOverview": [
           "The NAV-I-8R2S-X provides reliable managed Ethernet connectivity for industrial networks.",
@@ -2150,9 +2150,50 @@
         },
         "technicalSpecification": {
           "model": "NAV-I-8R2S-X",
-          "productInformation": {
-            "productType": "Managed industrial Ethernet switch",
-            "documentation": "See the NAV-I-8R2S-X datasheet for complete specifications"
+          "interfaceAndPoE": {
+            "ports": "8 x 10/100/1000 Mbps RJ45 PoE+ ports + 2 x 1/10G SFP+ uplink ports",
+            "poeStandard": "IEEE 802.3af/at PoE+",
+            "poeOutput": "Up to 30 W PoE+ per RJ45 port",
+            "powerInput": "44–57 VDC, 2.5 A maximum input current",
+            "totalPoEBudget": "142.5 W"
+          },
+          "performance": {
+            "forwardingMode": "Store and forward, full wire-speed forwarding",
+            "switchingCapacity": "20 Gbps",
+            "forwardingRate": "14.88 Mpps",
+            "macAddressTable": "4K entries",
+            "packetBufferMemory": "1.5 Mb"
+          },
+          "hardware": {
+            "indicatorLights": "8 Link/ACT indicators, 8 speed indicators, 2 SFP Link indicators and PWR",
+            "cooling": "Fanless",
+            "dimensions": "149.2 x 122 x 50 mm",
+            "protection": "IP30",
+            "redundantPower": "Two redundant 12/24/48 VDC power inputs"
+          },
+          "environment": {
+            "installation": "DIN-rail or wall mount",
+            "operatingTemperature": "-40°C to 75°C (-40°F to 167°F)",
+            "storageTemperature": "-40°C to 85°C (-40°F to 185°F)",
+            "operatingHumidity": "10%–90% non-condensing",
+            "storageHumidity": "5%–95% non-condensing"
+          },
+          "l2Switching": {
+            "vlan": "Up to 32 VLANs from 4K VLAN IDs; Port VLAN and IEEE 802.1Q VLAN",
+            "linkAggregation": "Static aggregation: 8 groups, up to 4 ports per group",
+            "igmpSnooping": "Supports up to 128 groups",
+            "portMirroring": "One-to-one and many-to-many",
+            "spanningTree": "STP/RSTP; interoperable with Huawei and Cisco",
+            "portIsolation": "Port isolation and port grouping"
+          },
+          "qosAndManagement": {
+            "qos": "Port-based, IEEE 802.1p and DSCP priority QoS; 4 priority queues",
+            "trafficControl": "Port speed limiting and storm control",
+            "management": "Web network management; default IP 192.168.1.199",
+            "dhcpSnooping": "DHCP snooping anti-secondary route IP assignment (optional)"
+          },
+          "certification": {
+            "ems": "IEC/EN 61000-4-2 Level 4, -4-3 Level 4, -4-4 Level 4, -4-5 Level 3, -4-6 Level 3, -4-8 Level 5, -4-9 Level 5 and -4-10 Level 5"
           }
         },
         "orderingInformation": [
