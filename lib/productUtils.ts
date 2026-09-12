@@ -28,6 +28,7 @@ const getProductImage = (model: string): string => {
         'NAV-I-16R2S': '/nav-images/Rizonn _ NAV-I-16R2S.png',
         'NAV-I-8P2S': '/nav-images/Rizonn _ NAV-I-8P2S.png',
         'NAV-I-8R2S': '/nav-images/Rizonn _ NAV-I-8R2S.png',
+        'NAV-I-8R2S-X': '/products/New-switch.jpg',
         // PoE Fiber Switch
         'NAV-P-24P2S': '/nav-images/Rizonn _ NAV-P-24P2S.png',
         'NAV-P-24P2S-at': '/nav-images/Rizonn _ NAV-P-24P2S.png', // Variant

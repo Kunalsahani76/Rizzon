@@ -292,6 +292,10 @@ const getPdfFilename = (model: string): string => {
     if (model === 'UC-500') {
         return 'Finetune Indio UniController UC-500 WLAN Datasheet-2.pdf';
     }
+
+    if (model === 'NAV-I-8R2S-X') {
+        return 'Rizonn_NAV-I-8R2S-X_Datasheet_Revised.pdf';
+    }
     
     const pdfModel = modelMappings[model] || model;
     

@@ -2128,6 +2128,41 @@
             ]
           }
         ]
+      },
+      {
+        "id": 4,
+        "model": "NAV-I-8R2S-X",
+        "title": "10-Port Gigabit Managed Industrial Ethernet Switch",
+        "description": "The NAV-I-8R2S-X is a managed industrial Ethernet switch designed for dependable connectivity in demanding industrial environments.",
+        "productOverview": [
+          "The NAV-I-8R2S-X provides reliable managed Ethernet connectivity for industrial networks.",
+          "Refer to the datasheet for complete technical specifications, installation details, and ordering information."
+        ],
+        "keyFeatures": {
+          "industrialConnectivity": [
+            "Managed industrial Ethernet connectivity",
+            "Designed for dependable operation in demanding environments"
+          ],
+          "networkManagement": [
+            "Advanced network management capabilities",
+            "Datasheet available for full feature details"
+          ]
+        },
+        "technicalSpecification": {
+          "model": "NAV-I-8R2S-X",
+          "productInformation": {
+            "productType": "Managed industrial Ethernet switch",
+            "documentation": "See the NAV-I-8R2S-X datasheet for complete specifications"
+          }
+        },
+        "orderingInformation": [
+          {
+            "model": "NAV-I-8R2S-X",
+            "description": "Managed industrial Ethernet switch. Refer to the datasheet for complete ordering information.",
+            "recommendedPowerSupply": "Refer to datasheet"
+          }
+        ],
+        "packingList": []
       }
     ]
   },
