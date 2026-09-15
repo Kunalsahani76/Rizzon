@@ -12,7 +12,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     // Helper to normalize strings for comparison
     const normalize = (str: string) => str.toLowerCase().replace(/ /g, '-');
     const getProductCategoryLabel = (model: string, productCategory: string) =>
-        model === "U-5050" ? "AAA" : productCategory;
+        ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-5050"].includes(model) ? "AAA" : productCategory;
 
     const products = getAllProductsIncludingAccessPoints();
     const switchProducts = products.filter(
@@ -32,7 +32,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     const filteredProducts = isSwitchesCategory
         ? switchProducts
         : isAaaCategory
-            ? products.filter((p) => p.model === "U-5050")
+            ? products.filter((p) => ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-5050"].includes(p.model))
         : products.filter((p) => normalize(p.category) === categorySlug);
 
     if (filteredProducts.length === 0) {
@@ -61,7 +61,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                 <section className="max-w-[1200px] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-20">
                     {categorySlug==="access-point-controllers" ? (
                         <>
-                         {filteredProducts.filter((p) => !p.model.endsWith("-VA") && p.model !== "U-5050").map((p, i) => {
+                         {filteredProducts.filter((p) => !p.model.endsWith("-VA") && !["U-50", "U-100", "U-200", "U-500", "U-1000", "U-5050"].includes(p.model)).map((p, i) => {
                         const productCategorySlug = normalize(p.category);
                         const modelSlug = p.model.toLowerCase();
                         return (

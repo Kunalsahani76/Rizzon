@@ -791,6 +791,126 @@
     },
 
     {
+      "id": 11,
+      "brand": "UNIBOX",
+      "company": "RIZONN",
+      "model": "U-100",
+      "title": "UniBox HSIA Hotspot Gateway / Network Controller",
+      "tagline": "All-in-one on-premise hotspot gateway for venues with up to 100 clients",
+      "description": "UniBox U-100 is an intelligent, on-premise HSIA hotspot gateway and network controller for hotels, airports, universities, hospitals, offices, and public Wi-Fi hotspots. It combines a network gateway, AAA server, captive portal, load balancer, web logger, VPN server, policy server, and firewall in one appliance.",
+      "productType": "UniBox HSIA Hotspot Gateway / Network Controller U-100",
+      "heroDescription": "The UniBox U-100 brings hotspot control, captive portals, AAA authentication, access policies, billing, VPN, multi-WAN, and firewall services together in one compact on-premise appliance. It supports up to 100 clients and works with Indio UniMax or third-party access points.",
+      "stats": [
+        {
+          "label": "Supported Devices",
+          "value": "100 clients",
+          "description": "Hotspot 2.0 supported devices"
+        },
+        {
+          "label": "Ethernet Ports",
+          "value": "4 Gigabit",
+          "description": "3 LAN and 1 WAN port"
+        }
+      ],
+      "overview": {
+        "paragraphs": [
+          "UniBox is an intelligent, on-premise hotspot gateway and network controller appliance purpose-built for High-Speed Internet Access (HSIA) deployments in hotels, airports, universities, and large public hot zones.",
+          "It consolidates the functions of a network gateway, AAA server, captive portal server, load balancer, web logger, VPN server, policy server, and firewall into a single appliance, eliminating the need for multiple discrete network components.",
+          "The U-100 centrally manages wired and wireless networks while keeping control of user access, authentication, and traffic visibility on premises. It can be deployed alongside Indio UniMax access points or any third-party APs."
+        ]
+      },
+      "applications": {
+        "title": "Use Cases",
+        "categories": [
+          {
+            "name": "Hospitality & Public Access",
+            "items": ["Hotels / Resorts", "Public Wi-Fi Hotspots", "Hospitals"]
+          },
+          {
+            "name": "Education & Enterprise",
+            "items": ["Colleges / Universities", "Enterprise / Office Networks", "Government Projects"]
+          }
+        ]
+      },
+      "keyFeatures": [
+        {
+          "category": "All-in-One Hotspot Control",
+          "features": ["Hotspot controller", "Captive portals", "Access policies", "Built-in AAA server and 802.1X authentication"]
+        },
+        {
+          "category": "Authentication & Monetization",
+          "features": ["Voucher and coupon access", "OAuth, GSuite, and Azure authentication", "Online charging", "PMS / HMS integration"]
+        },
+        {
+          "category": "Network & Security",
+          "features": ["Multi-WAN with intelligent failover", "SD-WAN / Multi-WAN", "OpenVPN, WireGuard, and GRE", "Basic firewall and VLAN support"]
+        },
+        {
+          "category": "Guest Access Management",
+          "features": ["On-board user database", "User lifecycle management", "User grouping and activity tracking", "Usage and payment history"]
+        }
+      ],
+      "advancedCapabilities": [
+        {
+          "title": "Custom Captive Portals",
+          "description": "Use 25+ portal templates with custom branding, SSL support, multiple languages, and local portal hosting."
+        },
+        {
+          "title": "Flexible Login Methods",
+          "description": "Support username/password, mobile or email OTP, vouchers, social-media verification, click-through, data capture, 802.1X, and AD / LDAP / GSuite / Azure verification."
+        },
+        {
+          "title": "High Availability",
+          "description": "Use active-active or active-passive high availability, automated backups, and multiple WLAN load balancing for resilient guest access."
+        }
+      ],
+      "technicalSpecifications": {
+        "networking": [
+          "4 x 10/100/1000 base T/Tx RJ-45 ports",
+          "Multi-WAN with intelligent failover; Static, Dynamic, and PPPoE support",
+          "Multiple LAN configurations, virtual LAN interfaces, IEEE 802.1Q VLAN tagging",
+          "Independent DHCP service for each interface, DHCP relay, and DNS cache",
+          "Static and group-based routing, port forwarding, SNAT and DNAT"
+        ],
+        "hotspotService": [
+          "Multiple hotspot controllers with a separate captive portal per hotspot",
+          "Built-in RADIUS server, MAC authentication, RADIUS attributes, and 802.1X authentication",
+          "Supports 100 Hotspot 2.0 clients"
+        ],
+        "management": [
+          "Ping, traceroute, ARP scan, nslookup, and speed test",
+          "Web SSH, PCAP capture, RF scanning, spectrum analyzer, and remote syslog",
+          "Device monitoring, IGMP v2 / IGMP snooping, NTP RFC 1305, and SNMP v2c"
+        ],
+        "interfaces": {
+          "lan": "3 LAN ports (RJ-45), 10/100/1000 base T/Tx",
+          "wan": "1 WAN port (RJ-45), 10/100/1000 base T/Tx",
+          "usb": "2 USB ports",
+          "serialPort": "Yes",
+          "reset": "Yes"
+        },
+        "power": {
+          "inputVoltage": "12V DC",
+          "powerConsumption": "20W",
+          "heatDissipation": "200 BTU"
+        },
+        "physical": {
+          "formFactor": "Standalone",
+          "dimensions": "176 x 174 x 30 mm",
+          "weight": "500 g"
+        },
+        "environmental": {
+          "operatingTemperature": "-10°C to 55°C",
+          "storageTemperature": "-40°C to 70°C",
+          "humidity": "8% - 90% non-condensing",
+          "ingressProtection": "IP40 (indoor)"
+        }
+      },
+      "conclusion": "A compact, all-in-one on-premise HSIA gateway for securely managing, authenticating, and monetizing guest Wi-Fi in venues with up to 100 clients.",
+      "summary": "An all-in-one HSIA hotspot gateway and AAA network controller for up to 100 clients, with captive portals, authentication, billing, multi-WAN, VPN, firewall, and guest access management."
+    },
+
+    {
       "id": 10,
       "brand": "FINETUNE INDIO",
       "company": "RIZONN",
@@ -1602,6 +1722,334 @@
       "conclusion": "A robust dual-band WiFi 6 access point delivering 3Gbps speeds with seamless cloud management, enterprise-grade security, and reliable performance for high-density indoor environments.",
 
       "summary": "A robust dual-band WiFi 6 access point delivering 3Gbps speeds with seamless cloud management, enterprise-grade security, and reliable performance for high-density indoor environments."
+    },
+
+    {
+      "id": 10,
+      "brand": "UNIBOX",
+      "company": "RIZONN",
+      "model": "U-1000",
+      "title": "UniBox HSIA Hotspot Gateway / Network Controller",
+      "tagline": "Rackmount on-premise hotspot gateway for venues with up to 1,000 clients",
+      "description": "UniBox U-1000 is an intelligent, rackmount HSIA hotspot gateway and network controller for large hotels, airports, universities, hospitals, offices, and public Wi-Fi hotspots. It combines a network gateway, AAA server, captive portal, load balancer, web logger, VPN server, policy server, and firewall in one appliance.",
+      "productType": "UniBox HSIA Hotspot Gateway / Network Controller U-1000",
+      "heroDescription": "The UniBox U-1000 brings hotspot control, captive portals, AAA authentication, access policies, billing, VPN, multi-WAN, and firewall services together in one rackmount on-premise appliance. It supports up to 1,000 clients, with optional dual 10G SFP+ uplinks.",
+      "stats": [
+        { "label": "Supported Devices", "value": "1,000 clients", "description": "Hotspot 2.0 supported devices" },
+        { "label": "Connectivity", "value": "6 GbE + 2 SFP+", "description": "Optional 10G fiber uplinks" }
+      ],
+      "overview": { "paragraphs": ["UniBox is an intelligent, on-premise hotspot gateway and network controller appliance purpose-built for High-Speed Internet Access (HSIA) deployments in hotels, airports, universities, and large public hot zones.", "It consolidates a network gateway, AAA server, captive portal server, load balancer, web logger, VPN server, policy server, and firewall into a single appliance.", "The U-1000 centrally manages wired and wireless networks while maintaining on-premise control over user access, authentication, and traffic visibility."] },
+      "applications": { "title": "Use Cases", "categories": [{ "name": "Hospitality & Public Access", "items": ["Hotels / Resorts", "Public Wi-Fi Hotspots", "Hospitals"] }, { "name": "Education & Enterprise", "items": ["Colleges / Universities", "Enterprise / Office Networks", "Government Projects"] }] },
+      "keyFeatures": [
+        { "category": "All-in-One Hotspot Control", "features": ["Hotspot controller", "Captive portals", "Access policies", "Built-in AAA server and 802.1X authentication"] },
+        { "category": "Authentication & Monetization", "features": ["Voucher and coupon access", "OAuth, GSuite, and Azure authentication", "Online charging", "PMS / HMS integration"] },
+        { "category": "High-Speed Connectivity", "features": ["6 Gigabit Ethernet ports", "2 optional 10G SFP+ fiber uplinks", "Multi-WAN with intelligent failover", "OpenVPN, WireGuard, and GRE"] },
+        { "category": "Reliability & Management", "features": ["Active-active and active-passive high availability", "Automated backups", "Multiple WLAN load balancing", "Third-party SMS gateway, PMS, directory, and API integrations"] }
+      ],
+      "advancedCapabilities": [{ "title": "Custom Captive Portals", "description": "Use 25+ portal templates with custom branding, SSL support, multiple languages, and local portal hosting." }, { "title": "Flexible Login Methods", "description": "Support username/password, mobile or email OTP, vouchers, social-media verification, click-through, data capture, 802.1X, and AD / LDAP / GSuite / Azure verification." }, { "title": "High Availability", "description": "Use active-active or active-passive high availability, automated backups, and multiple WLAN load balancing for resilient guest access." }],
+      "technicalSpecifications": {
+        "networking": ["6 x 10/100/1000 base T/Tx RJ-45 ports", "2 optional 10G fiber SFP+ uplinks", "Multi-WAN with intelligent failover; Static, Dynamic, and PPPoE support", "IEEE 802.1Q VLAN tagging, independent DHCP, DHCP relay, and DNS cache", "Static and group-based routing, port forwarding, SNAT and DNAT"],
+        "hotspotService": ["Multiple hotspot controllers with a separate captive portal per hotspot", "Built-in RADIUS server, MAC authentication, RADIUS attributes, and 802.1X authentication", "Supports 1,000 Hotspot 2.0 clients"],
+        "management": ["Ping, traceroute, ARP scan, nslookup, and speed test", "Web SSH, PCAP capture, RF scanning, spectrum analyzer, and remote syslog", "Device monitoring, IGMP v2 / IGMP snooping, NTP RFC 1305, and SNMP v2c"],
+        "interfaces": { "ethernet": "6 Ethernet ports (RJ-45), 10/100/1000 base T/Tx", "sfp": "2 optional SFP+ 10G ports", "console": "1 Console port (RJ-45), 10/100/1000 base T/Tx", "usb": "2 USB ports", "serialPort": "Yes" },
+        "power": { "inputVoltage": "240V AC", "powerConsumption": "50W", "heatDissipation": "400 BTU" },
+        "physical": { "formFactor": "Rackmount", "dimensions": "482 x 680 x 44 mm", "weight": "4 kg" },
+        "environmental": { "operatingTemperature": "-10°C to 55°C", "storageTemperature": "-40°C to 70°C", "humidity": "8% - 90% non-condensing", "ingressProtection": "IP40 (indoor)" }
+      },
+      "conclusion": "A rackmount, all-in-one on-premise HSIA gateway for securely managing, authenticating, and monetizing guest Wi-Fi in venues with up to 1,000 clients.",
+      "summary": "An all-in-one rackmount HSIA hotspot gateway and AAA network controller for up to 1,000 clients, with dual optional 10G SFP+ uplinks, captive portals, authentication, billing, multi-WAN, VPN, firewall, and guest access management."
+    },
+
+    {
+      "id": 10,
+      "brand": "UNIBOX",
+      "company": "RIZONN",
+      "model": "U-500",
+      "title": "UniBox HSIA Hotspot Gateway / Network Controller",
+      "tagline": "Rackmount on-premise hotspot gateway for venues with up to 500 clients",
+      "description": "UniBox U-500 is an intelligent, rackmount HSIA hotspot gateway and network controller for hotels, airports, universities, hospitals, offices, and public Wi-Fi hotspots. It combines a network gateway, AAA server, captive portal, load balancer, web logger, VPN server, policy server, and firewall in one appliance.",
+      "productType": "UniBox HSIA Hotspot Gateway / Network Controller U-500",
+      "heroDescription": "The UniBox U-500 brings hotspot control, captive portals, AAA authentication, access policies, billing, VPN, multi-WAN, and firewall services together in one rackmount on-premise appliance. It supports up to 500 clients and works with Indio UniMax or third-party access points.",
+      "stats": [
+        { "label": "Supported Devices", "value": "500 clients", "description": "Hotspot 2.0 supported devices" },
+        { "label": "Ethernet Ports", "value": "6 Gigabit", "description": "6 Ethernet ports" }
+      ],
+      "overview": {
+        "paragraphs": [
+          "UniBox is an intelligent, on-premise hotspot gateway and network controller appliance purpose-built for High-Speed Internet Access (HSIA) deployments in hotels, airports, universities, and large public hot zones.",
+          "It consolidates a network gateway, AAA server, captive portal server, load balancer, web logger, VPN server, policy server, and firewall into a single appliance.",
+          "The U-500 centrally manages wired and wireless networks while maintaining on-premise control over user access, authentication, and traffic visibility."
+        ]
+      },
+      "applications": {
+        "title": "Use Cases",
+        "categories": [
+          { "name": "Hospitality & Public Access", "items": ["Hotels / Resorts", "Public Wi-Fi Hotspots", "Hospitals"] },
+          { "name": "Education & Enterprise", "items": ["Colleges / Universities", "Enterprise / Office Networks", "Government Projects"] }
+        ]
+      },
+      "keyFeatures": [
+        { "category": "All-in-One Hotspot Control", "features": ["Hotspot controller", "Captive portals", "Access policies", "Built-in AAA server and 802.1X authentication"] },
+        { "category": "Authentication & Monetization", "features": ["Voucher and coupon access", "OAuth, GSuite, and Azure authentication", "Online charging", "PMS / HMS integration"] },
+        { "category": "Network & Security", "features": ["Multi-WAN with intelligent failover", "OpenVPN, WireGuard, and GRE", "Basic firewall and VLAN support", "IPDR and CDR logs for TRAI compliance"] },
+        { "category": "Reliability & Management", "features": ["Active-active and active-passive high availability", "Automated backups", "Multiple WLAN load balancing", "Third-party SMS gateway, PMS, directory, and API integrations"] }
+      ],
+      "advancedCapabilities": [
+        { "title": "Custom Captive Portals", "description": "Use 25+ portal templates with custom branding, SSL support, multiple languages, and local portal hosting." },
+        { "title": "Flexible Login Methods", "description": "Support username/password, mobile or email OTP, vouchers, social-media verification, click-through, data capture, 802.1X, and AD / LDAP / GSuite / Azure verification." },
+        { "title": "High Availability", "description": "Use active-active or active-passive high availability, automated backups, and multiple WLAN load balancing for resilient guest access." }
+      ],
+      "technicalSpecifications": {
+        "networking": ["6 x 10/100/1000 base T/Tx RJ-45 ports", "Multi-WAN with intelligent failover; Static, Dynamic, and PPPoE support", "Multiple LAN configurations, virtual LAN interfaces, IEEE 802.1Q VLAN tagging", "Independent DHCP service for each interface, DHCP relay, and DNS cache", "Static and group-based routing, port forwarding, SNAT and DNAT"],
+        "hotspotService": ["Multiple hotspot controllers with a separate captive portal per hotspot", "Built-in RADIUS server, MAC authentication, RADIUS attributes, and 802.1X authentication", "Supports 500 Hotspot 2.0 clients"],
+        "management": ["Ping, traceroute, ARP scan, nslookup, and speed test", "Web SSH, PCAP capture, RF scanning, spectrum analyzer, and remote syslog", "Device monitoring, IGMP v2 / IGMP snooping, NTP RFC 1305, and SNMP v2c"],
+        "interfaces": { "ethernet": "6 Ethernet ports (RJ-45), 10/100/1000 base T/Tx", "console": "1 Console port (RJ-45), 10/100/1000 base T/Tx", "usb": "2 USB ports", "serialPort": "Yes" },
+        "power": { "inputVoltage": "240V AC", "powerConsumption": "50W", "heatDissipation": "400 BTU" },
+        "physical": { "formFactor": "Rackmount", "dimensions": "482 x 680 x 44 mm", "weight": "4 kg" },
+        "environmental": { "operatingTemperature": "-10°C to 55°C", "storageTemperature": "-40°C to 70°C", "humidity": "8% - 90% non-condensing", "ingressProtection": "IP40 (indoor)" }
+      },
+      "conclusion": "A rackmount, all-in-one on-premise HSIA gateway for securely managing, authenticating, and monetizing guest Wi-Fi in venues with up to 500 clients.",
+      "summary": "An all-in-one rackmount HSIA hotspot gateway and AAA network controller for up to 500 clients, with captive portals, authentication, billing, multi-WAN, VPN, firewall, and guest access management."
+    },
+
+    {
+      "id": 10,
+      "brand": "UNIBOX",
+      "company": "RIZONN",
+      "model": "U-200",
+      "title": "UniBox HSIA Hotspot Gateway / Network Controller",
+      "tagline": "Rackmount on-premise hotspot gateway for venues with up to 200 clients",
+      "description": "UniBox U-200 is an intelligent, rackmount HSIA hotspot gateway and network controller for hotels, airports, universities, hospitals, offices, and public Wi-Fi hotspots. It combines a network gateway, AAA server, captive portal, load balancer, web logger, VPN server, policy server, and firewall in one appliance.",
+      "productType": "UniBox HSIA Hotspot Gateway / Network Controller U-200",
+      "heroDescription": "The UniBox U-200 brings hotspot control, captive portals, AAA authentication, access policies, billing, VPN, multi-WAN, and firewall services together in one rackmount on-premise appliance. It supports up to 200 clients and works with Indio UniMax or third-party access points.",
+      "stats": [
+        {
+          "label": "Supported Devices",
+          "value": "200 clients",
+          "description": "Hotspot 2.0 supported devices"
+        },
+        {
+          "label": "Ethernet Ports",
+          "value": "5 Gigabit",
+          "description": "4 LAN and 1 WAN port"
+        }
+      ],
+      "overview": {
+        "paragraphs": [
+          "UniBox is an intelligent, on-premise hotspot gateway and network controller appliance purpose-built for High-Speed Internet Access (HSIA) deployments in hotels, airports, universities, and large public hot zones.",
+          "It consolidates the functions of a network gateway, AAA server, captive portal server, load balancer, web logger, VPN server, policy server, and firewall into a single appliance, eliminating the need for multiple discrete network components.",
+          "The U-200 centrally manages wired and wireless networks while keeping control of user access, authentication, and traffic visibility on premises. It can be deployed alongside Indio UniMax access points or any third-party APs."
+        ]
+      },
+      "applications": {
+        "title": "Use Cases",
+        "categories": [
+          {
+            "name": "Hospitality & Public Access",
+            "items": ["Hotels / Resorts", "Public Wi-Fi Hotspots", "Hospitals"]
+          },
+          {
+            "name": "Education & Enterprise",
+            "items": ["Colleges / Universities", "Enterprise / Office Networks", "Government Projects"]
+          }
+        ]
+      },
+      "keyFeatures": [
+        {
+          "category": "All-in-One Hotspot Control",
+          "features": ["Hotspot controller", "Captive portals", "Access policies", "Built-in AAA server and 802.1X authentication"]
+        },
+        {
+          "category": "Authentication & Monetization",
+          "features": ["Voucher and coupon access", "OAuth, GSuite, and Azure authentication", "Online charging", "PMS / HMS integration"]
+        },
+        {
+          "category": "Network & Security",
+          "features": ["Multi-WAN with intelligent failover", "OpenVPN, WireGuard, and GRE", "Basic firewall and VLAN support", "IPDR and CDR logs for TRAI compliance"]
+        },
+        {
+          "category": "Reliability & Management",
+          "features": ["Active-active and active-passive high availability", "Automated backups", "Multiple WLAN load balancing", "Third-party SMS gateway, PMS, directory, and API integrations"]
+        }
+      ],
+      "advancedCapabilities": [
+        {
+          "title": "Custom Captive Portals",
+          "description": "Use 25+ portal templates with custom branding, SSL support, multiple languages, and local portal hosting."
+        },
+        {
+          "title": "Flexible Login Methods",
+          "description": "Support username/password, mobile or email OTP, vouchers, social-media verification, click-through, data capture, 802.1X, and AD / LDAP / GSuite / Azure verification."
+        },
+        {
+          "title": "High Availability",
+          "description": "Use active-active or active-passive high availability, automated backups, and multiple WLAN load balancing for resilient guest access."
+        }
+      ],
+      "technicalSpecifications": {
+        "networking": [
+          "5 x 10/100/1000 base T/Tx RJ-45 ports",
+          "Multi-WAN with intelligent failover; Static, Dynamic, and PPPoE support",
+          "Multiple LAN configurations, virtual LAN interfaces, IEEE 802.1Q VLAN tagging",
+          "Independent DHCP service for each interface, DHCP relay, and DNS cache",
+          "Static and group-based routing, port forwarding, SNAT and DNAT"
+        ],
+        "hotspotService": [
+          "Multiple hotspot controllers with a separate captive portal per hotspot",
+          "Built-in RADIUS server, MAC authentication, RADIUS attributes, and 802.1X authentication",
+          "Supports 200 Hotspot 2.0 clients"
+        ],
+        "management": [
+          "Ping, traceroute, ARP scan, nslookup, and speed test",
+          "Web SSH, PCAP capture, RF scanning, spectrum analyzer, and remote syslog",
+          "Device monitoring, IGMP v2 / IGMP snooping, NTP RFC 1305, and SNMP v2c"
+        ],
+        "interfaces": {
+          "lan": "4 LAN ports (RJ-45), 10/100/1000 base T/Tx",
+          "wan": "1 WAN port (RJ-45), 10/100/1000 base T/Tx",
+          "usb": "2 USB ports",
+          "serialPort": "Yes",
+          "onOffSwitch": "Yes"
+        },
+        "power": {
+          "inputVoltage": "240V AC",
+          "powerConsumption": "30W",
+          "heatDissipation": "300 BTU"
+        },
+        "physical": {
+          "formFactor": "Rackmount",
+          "dimensions": "430 x 280 x 46 mm",
+          "weight": "500 g"
+        },
+        "environmental": {
+          "operatingTemperature": "-10°C to 55°C",
+          "storageTemperature": "-40°C to 70°C",
+          "humidity": "8% - 90% non-condensing",
+          "ingressProtection": "IP40 (indoor)"
+        }
+      },
+      "conclusion": "A rackmount, all-in-one on-premise HSIA gateway for securely managing, authenticating, and monetizing guest Wi-Fi in venues with up to 200 clients.",
+      "summary": "An all-in-one rackmount HSIA hotspot gateway and AAA network controller for up to 200 clients, with captive portals, authentication, billing, multi-WAN, VPN, firewall, and guest access management."
+    },
+
+    {
+      "id": 10,
+      "brand": "UNIBOX",
+      "company": "RIZONN",
+      "model": "U-50",
+      "title": "UniBox HSIA Hotspot Gateway / Network Controller",
+      "tagline": "All-in-one on-premise hotspot gateway for venues with up to 50 clients",
+      "description": "UniBox U-50 is an intelligent, on-premise HSIA hotspot gateway and network controller for hotels, airports, universities, hospitals, offices, and public Wi-Fi hotspots. It combines a network gateway, AAA server, captive portal, load balancer, web logger, VPN server, policy server, and firewall in one appliance.",
+      "productType": "UniBox HSIA Hotspot Gateway / Network Controller U-50",
+      "heroDescription": "The UniBox U-50 brings hotspot control, captive portals, AAA authentication, access policies, billing, VPN, multi-WAN, and firewall services together in one compact on-premise appliance. It supports up to 50 clients and works with Indio UniMax or third-party access points.",
+      "stats": [
+        {
+          "label": "Supported Devices",
+          "value": "50 clients",
+          "description": "Hotspot 2.0 supported devices"
+        },
+        {
+          "label": "Ethernet Ports",
+          "value": "4 Gigabit",
+          "description": "3 LAN and 1 WAN port"
+        }
+      ],
+      "overview": {
+        "paragraphs": [
+          "UniBox is an intelligent, on-premise hotspot gateway and network controller appliance purpose-built for High-Speed Internet Access (HSIA) deployments in hotels, airports, universities, and large public hot zones.",
+          "It consolidates the functions of a network gateway, AAA server, captive portal server, load balancer, web logger, VPN server, policy server, and firewall into a single appliance, eliminating the need for multiple discrete network components.",
+          "The U-50 centrally manages wired and wireless networks while keeping control of user access, authentication, and traffic visibility on premises. It can be deployed alongside Indio UniMax access points or any third-party APs."
+        ]
+      },
+      "applications": {
+        "title": "Use Cases",
+        "categories": [
+          {
+            "name": "Hospitality & Public Access",
+            "items": ["Hotels / Resorts", "Public Wi-Fi Hotspots", "Hospitals"]
+          },
+          {
+            "name": "Education & Enterprise",
+            "items": ["Colleges / Universities", "Enterprise / Office Networks", "Government Projects"]
+          }
+        ]
+      },
+      "keyFeatures": [
+        {
+          "category": "All-in-One Hotspot Control",
+          "features": ["Hotspot controller", "Captive portals", "Access policies", "Built-in AAA server and 802.1X authentication"]
+        },
+        {
+          "category": "Authentication & Monetization",
+          "features": ["Voucher and coupon access", "OAuth, GSuite, and Azure authentication", "Online charging", "PMS / HMS integration"]
+        },
+        {
+          "category": "Network & Security",
+          "features": ["Multi-WAN with intelligent failover", "SD-WAN / Multi-WAN", "OpenVPN, WireGuard, and GRE", "Basic firewall and VLAN support"]
+        },
+        {
+          "category": "Guest Access Management",
+          "features": ["On-board user database", "User lifecycle management", "User grouping and activity tracking", "Usage and payment history"]
+        }
+      ],
+      "advancedCapabilities": [
+        {
+          "title": "Custom Captive Portals",
+          "description": "Use 25+ portal templates with custom branding, SSL support, multiple languages, and local portal hosting."
+        },
+        {
+          "title": "Flexible Login Methods",
+          "description": "Support username/password, mobile or email OTP, vouchers, social-media verification, click-through, data capture, 802.1X, and AD / LDAP / GSuite / Azure verification."
+        },
+        {
+          "title": "Bandwidth & Policy Controls",
+          "description": "Apply per-user bandwidth control, group policies, fair-usage policies, and time, data, client, device, and internet-speed quotas."
+        }
+      ],
+      "technicalSpecifications": {
+        "networking": [
+          "4 x 10/100/1000 base T/Tx RJ-45 ports",
+          "Multi-WAN with intelligent failover; Static, Dynamic, and PPPoE support",
+          "Multiple LAN configurations, virtual LAN interfaces, IEEE 802.1Q VLAN tagging",
+          "Independent DHCP service for each interface, DHCP relay, and DNS cache",
+          "Static and group-based routing, port forwarding, SNAT and DNAT"
+        ],
+        "hotspotService": [
+          "Multiple hotspot controllers with a separate captive portal per hotspot",
+          "Built-in RADIUS server, MAC authentication, RADIUS attributes, and 802.1X authentication",
+          "Supports 50 Hotspot 2.0 clients"
+        ],
+        "management": [
+          "Ping, traceroute, ARP scan, nslookup, and speed test",
+          "Web SSH, PCAP capture, RF scanning, spectrum analyzer, and remote syslog",
+          "Device monitoring, IGMP v2 / IGMP snooping, NTP RFC 1305, and SNMP v2c"
+        ],
+        "interfaces": {
+          "lan": "3 LAN ports (RJ-45), 10/100/1000 base T/Tx",
+          "wan": "1 WAN port (RJ-45), 10/100/1000 base T/Tx",
+          "usb": "2 USB ports",
+          "serialPort": "Yes",
+          "reset": "Yes"
+        },
+        "power": {
+          "inputVoltage": "12V DC",
+          "powerConsumption": "20W",
+          "heatDissipation": "200 BTU"
+        },
+        "physical": {
+          "formFactor": "Standalone",
+          "dimensions": "176 x 174 x 30 mm",
+          "weight": "500 g"
+        },
+        "environmental": {
+          "operatingTemperature": "-10°C to 55°C",
+          "storageTemperature": "-40°C to 70°C",
+          "humidity": "8% - 90% non-condensing",
+          "ingressProtection": "IP40 (indoor)"
+        }
+      },
+      "conclusion": "A compact, all-in-one on-premise HSIA gateway for securely managing, authenticating, and monetizing guest Wi-Fi in small venues.",
+      "summary": "An all-in-one HSIA hotspot gateway and AAA network controller for up to 50 clients, with captive portals, authentication, billing, multi-WAN, VPN, firewall, and guest access management."
     },
 
     {
