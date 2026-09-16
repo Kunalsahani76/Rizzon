@@ -289,6 +289,10 @@ const getPdfFilename = (model: string): string => {
         return 'Rizonn_UniBox U-1000 Datasheet.pdf';
     }
 
+    if (model === 'U-2500') {
+        return 'Rizonn_UniBox U-2500 Datasheet.pdf';
+    }
+
     if (model === 'NMS') {
         return 'Network Monitoring System.pdf';
     }
@@ -518,6 +522,10 @@ export async function GET() {
                     return 'U-1000';
                 }
 
+                if (file === 'Rizonn_UniBox U-2500 Datasheet.pdf') {
+                    return 'U-2500';
+                }
+
                 if (file === 'Network Monitoring System.pdf') {
                     return 'NMS';
                 }
@@ -535,10 +543,10 @@ export async function GET() {
             total: availableDatasheets.length,
             categories: {
                 regularProducts: availableDatasheets.filter(model => 
-                    !['NAV-50', 'NAV-100', 'NAV-500', 'NAV-1000', 'NAV-2500', 'NAV-519-VA', 'NAV-219-VA', 'NAV-319-VA', 'U-50', 'U-100', 'U-200', 'U-500', 'U-1000', 'U-5050'].includes(model)
+                    !['NAV-50', 'NAV-100', 'NAV-500', 'NAV-1000', 'NAV-2500', 'NAV-519-VA', 'NAV-219-VA', 'NAV-319-VA', 'U-50', 'U-100', 'U-200', 'U-500', 'U-1000', 'U-2500', 'U-5050'].includes(model)
                 ),
                 accessPointControllers: availableDatasheets.filter(model => 
-                    ['NAV-50', 'NAV-100', 'NAV-500', 'NAV-1000', 'NAV-2500', 'NAV-519-VA', 'NAV-219-VA', 'NAV-319-VA', 'U-50', 'U-100', 'U-200', 'U-500', 'U-1000', 'U-5050'].includes(model)
+                    ['NAV-50', 'NAV-100', 'NAV-500', 'NAV-1000', 'NAV-2500', 'NAV-519-VA', 'NAV-219-VA', 'NAV-319-VA', 'U-50', 'U-100', 'U-200', 'U-500', 'U-1000', 'U-2500', 'U-5050'].includes(model)
                 )
             }
         });

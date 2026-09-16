@@ -183,9 +183,11 @@ export const getProductsMenuColumns = (
                                     ? "Access Points"
                                     : activeCategory?.title === "Access Point Controllers"
                                         ? "Controllers"
-                                    : activeCategory?.title === "Switches"
-                                        ? "Switches"
-                                        : displayProduct.title}
+                                        : activeCategory?.title === "AAA"
+                                            ? "AAA Server"
+                                        : activeCategory?.title === "Switches"
+                                            ? "Switches"
+                                            : displayProduct.title}
                             </h4>
                         </div>
                     </Link>

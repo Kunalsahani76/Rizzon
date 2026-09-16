@@ -12,7 +12,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     // Helper to normalize strings for comparison
     const normalize = (str: string) => str.toLowerCase().replace(/ /g, '-');
     const getProductCategoryLabel = (model: string, productCategory: string) =>
-        ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-5050"].includes(model) ? "AAA" : productCategory;
+        ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-2500", "U-5050"].includes(model) ? "AAA" : productCategory;
 
     const products = getAllProductsIncludingAccessPoints();
     const switchProducts = products.filter(
@@ -21,6 +21,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     );
     const isSwitchesCategory = categorySlug === "switches";
     const isAaaCategory = categorySlug === "aaa";
+    const aaaModelOrder = ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-2500", "U-5050"];
 
     // Find the matching category title
     const categoryTitle = isSwitchesCategory
@@ -32,7 +33,9 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     const filteredProducts = isSwitchesCategory
         ? switchProducts
         : isAaaCategory
-            ? products.filter((p) => ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-5050"].includes(p.model))
+            ? products
+                .filter((p) => aaaModelOrder.includes(p.model))
+                .sort((a, b) => aaaModelOrder.indexOf(a.model) - aaaModelOrder.indexOf(b.model))
         : products.filter((p) => normalize(p.category) === categorySlug);
 
     if (filteredProducts.length === 0) {
@@ -61,7 +64,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                 <section className="max-w-[1200px] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-20">
                     {categorySlug==="access-point-controllers" ? (
                         <>
-                         {filteredProducts.filter((p) => !p.model.endsWith("-VA") && !["U-50", "U-100", "U-200", "U-500", "U-1000", "U-5050"].includes(p.model)).map((p, i) => {
+                         {filteredProducts.filter((p) => !p.model.endsWith("-VA") && !["U-50", "U-100", "U-200", "U-500", "U-1000", "U-2500", "U-5050"].includes(p.model)).map((p, i) => {
                         const productCategorySlug = normalize(p.category);
                         const modelSlug = p.model.toLowerCase();
                         return (

@@ -23,9 +23,12 @@ export default function ProductDropdown({ isOpen, onClose }: ProductDropdownProp
     href: "/products/switches",
     subItems: switchCategories.flatMap(category => category.subItems || []),
   };
+  const aaaModelOrder = ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-2500", "U-5050"];
   const aaaProducts = productCategories
     .find(category => category.title === "Access Point Controllers")
-    ?.subItems?.filter(product => ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-5050"].includes(product.model || "")) || [];
+    ?.subItems
+    ?.filter(product => aaaModelOrder.includes(product.model || ""))
+    .sort((a, b) => aaaModelOrder.indexOf(a.model || "") - aaaModelOrder.indexOf(b.model || "")) || [];
   const aaaCategory = {
     title: "AAA",
     href: "/products/aaa",
