@@ -56,6 +56,10 @@ const getProductImage = (model: string): string => {
         'NMS': '/banner-images/product-3.png',
         'UVSS': '/banner-images/UVSS.png',
         'UM-325AX': '/products/um-325ax.png',
+        'UM-325AX-V2': '/products/um-325ax-v2.jpg',
+        'UM-325AX-V4': '/products/um-325ax-v4.jpg',
+        'UM-525AX-P': '/products/um-525ax-p.jpg',
+        'UM-525AX-M': '/products/um-525ax-m-3.jpg',
         'UC-500': '/products/uc-500.png',
     };
 

@@ -815,6 +815,78 @@
       },
       "conclusion": "The UM-325AX provides tri-band Wi-Fi 6 capacity, centralised cloud and controller management, and enterprise security in a compact indoor access point.",
       "summary": "A tri-band 2x2 MIMO Wi-Fi 6 access point for high-density indoor networks with cloud and controller management."
+    },
+    {
+      "id": 10,
+      "brand": "INDIO NETWORKS",
+      "company": "RIZONN",
+      "model": "UM-325AX-V2",
+      "title": "Wi-Fi 6 Indoor Access Point",
+      "tagline": "Dual-band cloud-managed Wi-Fi 6 access point",
+      "productType": "Wi-Fi 6 Indoor Access Point",
+      "description": "A dual-band Wi-Fi 6 indoor access point for corporate, hospitality, MDU and managed-service deployments, with cloud and controller management.",
+      "overview": { "paragraphs": ["The Indio Networks UM-325AX-V2 is an enterprise-grade Wi-Fi 6 indoor access point built on the TIP OpenWiFi architecture.", "It supports zero-touch provisioning, multi-tenant cloud management, real-time WLAN analytics, band steering and load balancing."] },
+      "keyFeatures": [
+        { "category": "Wireless Performance", "features": ["Dual-band Wi-Fi 6", "MU-MIMO support", "Enterprise-grade wireless connectivity"] },
+        { "category": "Management & Security", "features": ["Cloud and controller managed", "Zero-touch provisioning", "WPA/WPA2 enterprise security", "RADIUS and 802.1X authentication"] },
+        { "category": "Installation", "features": ["PoE+ powered (802.3af/at)", "Indoor access point form factor"] }
+      ],
+      "technicalSpecifications": { "wireless": { "standards": "Wi-Fi 5/6 (802.11ac/ax)", "radios": "Dual-band", "mimo": "MU-MIMO" }, "management": { "platform": "TIP OpenWiFi Cloud / Controller", "deployment": "Zero-touch provisioning" }, "power": { "source": "PoE+ (802.3af/at)" } },
+      "summary": "A dual-band Wi-Fi 6 indoor access point with cloud-managed deployment, enterprise security and centralised WLAN operations."
+    },
+    {
+      "id": 11,
+      "brand": "INDIO NETWORKS",
+      "company": "RIZONN",
+      "model": "UM-325AX-V4",
+      "title": "Wi-Fi 6 4x4 Indoor Access Point",
+      "tagline": "5.4 Gbps dual-band Wi-Fi 6 enterprise access point",
+      "productType": "Wi-Fi 6 Indoor Access Point",
+      "description": "A high-density dual-band Wi-Fi 6 access point with 4x4:4 MU-MIMO, 5.4 Gbps aggregate speed and cloud-managed zero-touch deployment.",
+      "overview": { "paragraphs": ["The Indio Networks UM-325AX-V4 is a Wi-Fi 6 enterprise access point designed for high-density corporate offices, campuses, airports and conference centres.", "Built on TIP OpenWiFi, it provides cloud management, multi-tenant control and real-time WLAN analytics at scale."] },
+      "keyFeatures": [
+        { "category": "High-Density Wi-Fi 6", "features": ["5.4 Gbps aggregate throughput", "Dual-band Wi-Fi 6", "4x4:4 MU-MIMO", "384+ concurrent clients"] },
+        { "category": "Cloud Operations", "features": ["TIP OpenWiFi compatible", "Zero-touch provisioning", "Multi-tenant cloud management", "Real-time WLAN analytics"] },
+        { "category": "Enterprise Security", "features": ["WPA/WPA2 enterprise security", "RADIUS and 802.1X authentication", "Captive portal and hotspot", "Band steering and load balancing"] }
+      ],
+      "technicalSpecifications": { "wireless": { "standards": "Wi-Fi 6 (802.11ax/be)", "throughput": "5.4 Gbps", "mimo": "4x4:4 MU-MIMO", "radios": "Dual-band" }, "ethernet": { "uplink": "2.5 GbE PoE" }, "power": { "source": "PoE+ (802.3af/at)" } },
+      "summary": "A 5.4 Gbps, 4x4:4 MU-MIMO Wi-Fi 6 indoor access point for high-density enterprise networks."
+    },
+    {
+      "id": 12,
+      "brand": "INDIO NETWORKS",
+      "company": "RIZONN",
+      "model": "UM-525AX-P",
+      "title": "Wi-Fi 6 Outdoor Access Point",
+      "tagline": "Dual-band cloud-managed outdoor Wi-Fi 6 access point",
+      "productType": "Wi-Fi 6 Outdoor Access Point",
+      "description": "A weather-proof dual-band Wi-Fi 6 outdoor access point for hotspots, community networks and MDU or ISP deployments.",
+      "overview": { "paragraphs": ["The UM-525AX-P is a TIP OpenWiFi compatible outdoor access point with cloud and controller management.", "Its weather-proof plastic enclosure, zero-touch provisioning and external coverage make it suited to outdoor wireless networks."] },
+      "keyFeatures": [
+        { "category": "Outdoor Wi-Fi 6", "features": ["Dual-band Wi-Fi 6", "MU-MIMO support", "Outdoor weather-proof plastic enclosure"] },
+        { "category": "Cloud Management", "features": ["TIP OpenWiFi compatible", "Zero-touch provisioning", "Cloud / controller managed", "Real-time WLAN analytics"] },
+        { "category": "Secure Access", "features": ["WPA/WPA2 enterprise security", "Captive portal and hotspot", "Band steering and load balancing"] }
+      ],
+      "technicalSpecifications": { "wireless": { "standards": "Wi-Fi 5/6 (802.11ac/ax)", "radios": "Dual-band", "mimo": "MU-MIMO" }, "power": { "source": "PoE+ (802.3af/at)" }, "environmental": { "deployment": "Outdoor", "enclosure": "Weather-proof plastic casing" } },
+      "summary": "A cloud-managed dual-band Wi-Fi 6 outdoor AP for hotspots and extended outdoor coverage."
+    },
+    {
+      "id": 13,
+      "brand": "INDIO NETWORKS",
+      "company": "RIZONN",
+      "model": "UM-525AX-M",
+      "title": "IP-67 Outdoor Wi-Fi 6 Access Point",
+      "tagline": "Dual-band 2x2 MU-MIMO cloud-managed outdoor access point",
+      "productType": "Wi-Fi 6 Outdoor Access Point",
+      "description": "A rugged IP-67 dual-band Wi-Fi 6 outdoor access point with external omnidirectional antennas, cloud management and mesh capabilities.",
+      "overview": { "paragraphs": ["The UM-525AX-M is a cloud-managed, OpenWiFi-based outdoor access point designed for demanding deployments in harsh environments.", "It provides concurrent 2.4 GHz and 5 GHz radios, self-configuring deployment and enterprise-level security for outdoor networks."] },
+      "keyFeatures": [
+        { "category": "Rugged Outdoor Wi-Fi", "features": ["Dual-band Wi-Fi 6", "2x2 MU-MIMO", "IP-67 metal enclosure", "External omnidirectional antennas"] },
+        { "category": "Cloud & Mesh Management", "features": ["Fully cloud managed", "Self-configuring plug-and-play setup", "Self-healing mesh", "Cloud / controller management"] },
+        { "category": "Enterprise Networking", "features": ["WPA/WPA2 enterprise security", "VLAN isolation", "IPv4 / IPv6 dual stack", "Pole or wall mounting"] }
+      ],
+      "technicalSpecifications": { "wireless": { "standards": "IEEE 802.11a/b/g/n/ac/ax", "radios": "Concurrent 2.4 GHz and 5 GHz", "mimo": "2x2 MU-MIMO" }, "environmental": { "enclosure": "IP-67 metal case", "mounting": "Pole or wall mount" }, "management": { "platform": "Cloud / Controller", "networking": "IPv4 / IPv6 dual stack" } },
+      "summary": "A rugged, cloud-managed dual-band Wi-Fi 6 outdoor access point for reliable extended coverage."
     }
     ]
 }]

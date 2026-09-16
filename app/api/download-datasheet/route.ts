@@ -313,6 +313,17 @@ const getPdfFilename = (model: string): string => {
         return 'Finetune UM-325AX Access Point Datasheet.pdf';
     }
 
+    const accessPointPdfMappings: { [key: string]: string } = {
+        'UM-325AX-V2': 'Access Points/Rizonn_UM325AX_V2_datasheet.pdf',
+        'UM-325AX-V4': 'Access Points/Rizonn_UM325AX-V4_datasheet.pdf',
+        'UM-525AX-P': 'Access Points/Rizonn_UM525AX_P_datasheet.pdf',
+        'UM-525AX-M': 'Access Points/UM-525AX-M-Rizonn-Datasheet.pdf',
+    };
+
+    if (accessPointPdfMappings[model]) {
+        return accessPointPdfMappings[model];
+    }
+
     if (model === 'UC-500') {
         return 'Finetune Indio UniController UC-500 WLAN Datasheet-2.pdf';
     }
