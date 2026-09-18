@@ -61,6 +61,10 @@ const getProductImage = (model: string): string => {
         'UM-525AX-P': '/products/um-525ax-p.jpg',
         'UM-525AX-M': '/products/um-525ax-m-3.jpg',
         'UC-500': '/products/uc-500.png',
+        'UC-50': '/products/unibox-u-50-clean.jpg',
+        'UC-100': '/products/unibox-u-100-clean.jpg',
+        'UC-200': '/products/unibox-u-200-clean.jpg',
+        'UC-1000': '/products/unibox-u-1000-clean.jpg',
     };
 
     const imagePath = imageMap[model] || "/slide-1.jpg";

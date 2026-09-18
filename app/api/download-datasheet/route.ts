@@ -325,7 +325,18 @@ const getPdfFilename = (model: string): string => {
     }
 
     if (model === 'UC-500') {
-        return 'Finetune Indio UniController UC-500 WLAN Datasheet-2.pdf';
+        return 'Controller/Rizonn_UniController UC-500 Datasheet.pdf';
+    }
+
+    const uniControllerPdfMappings: { [key: string]: string } = {
+        'UC-50': 'Controller/Rizonn_UniController UC-50 Datasheet.pdf',
+        'UC-100': 'Controller/Rizonn_UniController UC-100 Datasheet.pdf',
+        'UC-200': 'Controller/Rizonn_UniController UC-200 Datasheet.pdf',
+        'UC-1000': 'Controller/Rizonn_UniController UC-1000 Datasheet.pdf',
+    };
+
+    if (uniControllerPdfMappings[model]) {
+        return uniControllerPdfMappings[model];
     }
 
     if (model === 'NAV-I-8R2S-X') {

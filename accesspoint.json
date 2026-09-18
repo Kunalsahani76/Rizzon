@@ -966,6 +966,135 @@
     },
 
     {
+      "id": 14,
+      "brand": "RIZONN",
+      "company": "RIZONN",
+      "model": "UC-50",
+      "title": "UniController WLAN Controller",
+      "tagline": "Centralised wireless LAN management for up to 50 access points",
+      "productType": "WLAN Controller",
+      "description": "The Rizonn UniController UC-50 is a compact WLAN controller for centrally configuring, monitoring and managing wireless access points in small network deployments.",
+      "heroDescription": "A compact UniController for unified access-point configuration, wireless policy control and operational visibility across deployments of up to 50 access points.",
+      "stats": [
+        { "label": "AP Capacity", "value": "50", "description": "Managed wireless access points" },
+        { "label": "Management", "value": "Centralised", "description": "Unified WLAN configuration and monitoring" }
+      ],
+      "highlights": [
+        { "title": "Centralised Control", "description": "Configure and monitor the managed WLAN from a single controller." },
+        { "title": "Consistent Policies", "description": "Apply consistent wireless settings and access policies across managed access points." },
+        { "title": "Small-Site Ready", "description": "Sized for small offices, hospitality venues and branch networks." }
+      ],
+      "overview": { "paragraphs": [
+        "The Rizonn UniController UC-50 centralises day-to-day management of wireless access points for small deployments.",
+        "It gives IT teams one place to provision access points, apply WLAN policies and maintain visibility of the wireless environment."
+      ]},
+      "keyFeatures": [
+        { "category": "WLAN Management", "features": ["Centralised access-point configuration", "Wireless monitoring", "Unified WLAN policy management"] },
+        { "category": "Network Control", "features": ["SSID and access-policy administration", "Wireless client visibility", "Consistent multi-AP configuration"] },
+        { "category": "Deployment", "features": ["Supports up to 50 managed access points", "Suitable for small sites and branch offices", "On-premises controller management"] }
+      ],
+      "technicalSpecifications": {
+        "productInfo": { "modelName": "UC-50", "productType": "Rizonn UniController WLAN Controller" },
+        "management": { "managedAccessPoints": "Up to 50", "functions": ["Configuration", "Monitoring", "Wireless policy management"] },
+        "deployment": { "controllerType": "Centralised WLAN controller", "useCase": "Small wireless network deployments" }
+      },
+      "summary": "A compact WLAN controller for centrally managing up to 50 access points."
+    },
+
+    {
+      "id": 15,
+      "brand": "RIZONN",
+      "company": "RIZONN",
+      "model": "UC-100",
+      "title": "UniController WLAN Controller",
+      "tagline": "Centralised wireless LAN management for up to 100 access points",
+      "productType": "WLAN Controller",
+      "description": "The Rizonn UniController UC-100 centralises configuration, monitoring and wireless policy administration for mid-sized access-point deployments.",
+      "heroDescription": "A UniController platform that brings up to 100 access points under a single, consistent WLAN management experience.",
+      "stats": [
+        { "label": "AP Capacity", "value": "100", "description": "Managed wireless access points" },
+        { "label": "Management", "value": "Centralised", "description": "Unified WLAN configuration and monitoring" }
+      ],
+      "overview": { "paragraphs": [
+        "The Rizonn UniController UC-100 gives administrators a central point for managing wireless access points across a growing network.",
+        "Centralised configuration and policy control help maintain a consistent Wi-Fi service across up to 100 managed access points."
+      ]},
+      "keyFeatures": [
+        { "category": "WLAN Management", "features": ["Centralised access-point configuration", "Wireless monitoring", "Unified WLAN policy management"] },
+        { "category": "Network Control", "features": ["SSID and access-policy administration", "Wireless client visibility", "Consistent multi-AP configuration"] },
+        { "category": "Deployment", "features": ["Supports up to 100 managed access points", "Suitable for growing offices and hospitality sites", "On-premises controller management"] }
+      ],
+      "technicalSpecifications": {
+        "productInfo": { "modelName": "UC-100", "productType": "Rizonn UniController WLAN Controller" },
+        "management": { "managedAccessPoints": "Up to 100", "functions": ["Configuration", "Monitoring", "Wireless policy management"] },
+        "deployment": { "controllerType": "Centralised WLAN controller", "useCase": "Mid-sized wireless network deployments" }
+      },
+      "summary": "A centrally managed WLAN controller for up to 100 access points."
+    },
+
+    {
+      "id": 16,
+      "brand": "RIZONN",
+      "company": "RIZONN",
+      "model": "UC-200",
+      "title": "UniController WLAN Controller",
+      "tagline": "Centralised wireless LAN management for up to 200 access points",
+      "productType": "WLAN Controller",
+      "description": "The Rizonn UniController UC-200 provides a central platform for configuring, monitoring and operating wireless access points in larger multi-AP environments.",
+      "heroDescription": "A scalable UniController for consistent WLAN policy, access-point provisioning and network visibility across up to 200 managed access points.",
+      "stats": [
+        { "label": "AP Capacity", "value": "200", "description": "Managed wireless access points" },
+        { "label": "Management", "value": "Centralised", "description": "Unified WLAN configuration and monitoring" }
+      ],
+      "overview": { "paragraphs": [
+        "The Rizonn UniController UC-200 centralises wireless operations for deployments that need consistent control across more access points.",
+        "It enables administrators to manage access-point configuration, WLAN policies and wireless visibility from one controller."
+      ]},
+      "keyFeatures": [
+        { "category": "WLAN Management", "features": ["Centralised access-point configuration", "Wireless monitoring", "Unified WLAN policy management"] },
+        { "category": "Network Control", "features": ["SSID and access-policy administration", "Wireless client visibility", "Consistent multi-AP configuration"] },
+        { "category": "Deployment", "features": ["Supports up to 200 managed access points", "Suitable for multi-floor and multi-site networks", "On-premises controller management"] }
+      ],
+      "technicalSpecifications": {
+        "productInfo": { "modelName": "UC-200", "productType": "Rizonn UniController WLAN Controller" },
+        "management": { "managedAccessPoints": "Up to 200", "functions": ["Configuration", "Monitoring", "Wireless policy management"] },
+        "deployment": { "controllerType": "Centralised WLAN controller", "useCase": "Medium-to-large wireless network deployments" }
+      },
+      "summary": "A scalable WLAN controller for centrally managing up to 200 access points."
+    },
+
+    {
+      "id": 17,
+      "brand": "RIZONN",
+      "company": "RIZONN",
+      "model": "UC-1000",
+      "title": "UniController WLAN Controller",
+      "tagline": "Centralised wireless LAN management for up to 1,000 access points",
+      "productType": "WLAN Controller",
+      "description": "The Rizonn UniController UC-1000 is a high-capacity WLAN controller for centrally managing large wireless access-point deployments.",
+      "heroDescription": "A high-capacity UniController for unified configuration, wireless policy management and operational visibility across deployments of up to 1,000 access points.",
+      "stats": [
+        { "label": "AP Capacity", "value": "1,000", "description": "Managed wireless access points" },
+        { "label": "Management", "value": "Centralised", "description": "Unified WLAN configuration and monitoring" }
+      ],
+      "overview": { "paragraphs": [
+        "The Rizonn UniController UC-1000 provides a central control point for large-scale WLAN deployments.",
+        "It supports consistent configuration, monitoring and wireless policy administration for up to 1,000 managed access points."
+      ]},
+      "keyFeatures": [
+        { "category": "WLAN Management", "features": ["Centralised access-point configuration", "Wireless monitoring", "Unified WLAN policy management"] },
+        { "category": "Network Control", "features": ["SSID and access-policy administration", "Wireless client visibility", "Consistent multi-AP configuration"] },
+        { "category": "Deployment", "features": ["Supports up to 1,000 managed access points", "Suitable for campus and enterprise networks", "On-premises controller management"] }
+      ],
+      "technicalSpecifications": {
+        "productInfo": { "modelName": "UC-1000", "productType": "Rizonn UniController WLAN Controller" },
+        "management": { "managedAccessPoints": "Up to 1,000", "functions": ["Configuration", "Monitoring", "Wireless policy management"] },
+        "deployment": { "controllerType": "Centralised WLAN controller", "useCase": "Large enterprise and campus wireless network deployments" }
+      },
+      "summary": "A high-capacity WLAN controller for centrally managing up to 1,000 access points."
+    },
+
+    {
       "id": 6,
       "brand": "RIZONN",
       "company": "RIZONN",
