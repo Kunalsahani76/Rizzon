@@ -294,7 +294,7 @@ const getPdfFilename = (model: string): string => {
     }
 
     if (model === 'NMS') {
-        return 'Network Monitoring System.pdf';
+        return 'NMS/Rizonn_NMS.pdf';
     }
 
     if (model === 'HMS') {
@@ -548,7 +548,7 @@ export async function GET() {
                     return 'U-2500';
                 }
 
-                if (file === 'Network Monitoring System.pdf') {
+                if (file === 'Rizonn_NMS.pdf') {
                     return 'NMS';
                 }
 
@@ -559,6 +559,13 @@ export async function GET() {
                 return file; // Fallback to full filename
             })
             .sort(); // Sort alphabetically
+
+        try {
+            await fs.access(path.join(datasheetDir, 'NMS', 'Rizonn_NMS.pdf'));
+            if (!availableDatasheets.includes('NMS')) availableDatasheets.push('NMS');
+        } catch {
+            // NMS datasheet is not present in its category folder.
+        }
 
         return NextResponse.json({
             availableDatasheets,

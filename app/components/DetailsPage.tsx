@@ -176,13 +176,15 @@ export default function DetailsPage({ data, productDetail: propProductDetail }: 
                                     <Mail className="w-5 h-5" />
                                     Contact Sales
                                 </Link>
-                                <button
-                                    onClick={() => setIsDatasheetModalOpen(true)}
-                                    className="px-8 py-4 bg-white cursor-pointer hover:bg-slate-50 text-slate-700 border border-slate-200 hover:border-slate-300 rounded-xl font-bold transition-all flex items-center gap-2 shadow-sm hover:shadow-md"
-                                >
-                                    <Download className="w-5 h-5 text-slate-500" />
-                                    Datasheet
-                                </button>
+                                {productDetail.model !== "UVSS" && (
+                                    <button
+                                        onClick={() => setIsDatasheetModalOpen(true)}
+                                        className="px-8 py-4 bg-white cursor-pointer hover:bg-slate-50 text-slate-700 border border-slate-200 hover:border-slate-300 rounded-xl font-bold transition-all flex items-center gap-2 shadow-sm hover:shadow-md"
+                                    >
+                                        <Download className="w-5 h-5 text-slate-500" />
+                                        Datasheet
+                                    </button>
+                                )}
                             </motion.div>
                         </motion.div>
 

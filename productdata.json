@@ -3648,84 +3648,126 @@
         "company": "RIZONN",
         "model": "NMS",
         "title": "Network Monitoring System",
-        "tagline": "Centralized network visibility and monitoring",
+        "tagline": "Enterprise-grade, real-time network visibility and control",
         "productType": "Network Monitoring System",
-        "description": "Network Monitoring System provides centralized visibility for network infrastructure, helping teams monitor devices, uptime, traffic, alerts, and operational health from a unified dashboard.",
-        "heroDescription": "A centralized Network Monitoring System for real-time device visibility, alerting, performance tracking, and operational network health management.",
+        "description": "The Network Monitoring System (NMS) is a comprehensive, scalable, and intelligent platform designed to provide real-time visibility, performance monitoring, fault detection, and automated alerting across your entire network infrastructure—from core routers and switches to endpoints, servers, cloud instances, and IoT devices.",
+        "heroDescription": "Enterprise-grade, real-time network visibility and control across routers, switches, endpoints, servers, cloud instances, and IoT devices.",
         "overview": {
           "title": "Product Overview",
           "paragraphs": [
-            "Network Monitoring System helps administrators track network devices, availability, performance, and alerts from one centralized platform.",
-            "It is designed for enterprises, campuses, transport hubs, hospitality, healthcare, and public infrastructure environments that need dependable network visibility.",
-            "The platform supports proactive monitoring workflows so teams can identify issues early, reduce downtime, and maintain service continuity."
+            "The Network Monitoring System (NMS) is a comprehensive, scalable, and intelligent platform designed to provide real-time visibility, performance monitoring, fault detection, and automated alerting across your entire network infrastructure—from core routers and switches to endpoints, servers, cloud instances, and IoT devices."
           ]
         },
         "keyFeatures": [
-          {
-            "category": "Real-Time Monitoring",
-            "features": [
-              "Centralized dashboard for live network health visibility",
-              "Device availability and uptime tracking",
-              "Traffic, bandwidth, and performance monitoring"
-            ]
-          },
-          {
-            "category": "Alerts & Reporting",
-            "features": [
-              "Event-based alerts for faster troubleshooting",
-              "Operational reports for network performance review",
-              "Historical visibility for capacity planning"
-            ]
-          },
-          {
-            "category": "Infrastructure Management",
-            "features": [
-              "Supports monitoring across switches, controllers, access points, and network devices",
-              "Helps reduce downtime through proactive issue detection",
-              "Built for scalable enterprise network operations"
-            ]
-          }
-        ],
-        "applications": {
-          "title": "Ideal Applications",
-          "categories": [
             {
-              "name": "Enterprise & Campus",
-              "items": [
-                "Corporate networks",
-                "Educational campuses",
-                "Large offices",
-                "Data rooms"
+              "category": "Network Discovery & Mapping",
+              "features": [
+                "Automatic discovery via SNMP v1/v2c/v3, ICMP, WMI, SSH, NetFlow, sFlow, and jFlow",
+                "Dynamic Layer 2/Layer 3 topology maps with drag-and-drop customization",
+                "Centralized inventory of device type, OS, firmware, serial number, and location",
+                "Scheduled or on-demand subnet scanning and visual dependency mapping"
               ]
             },
             {
-              "name": "Public Infrastructure",
-              "items": [
-                "Airports",
-                "Railway stations",
-                "Hospitals",
-                "Hospitality networks"
+              "category": "Real-Time Performance Monitoring",
+              "features": [
+                "Per-interface bandwidth tracking for inbound, outbound, and total traffic",
+                "End-to-end latency, jitter, and packet loss measurement",
+                "CPU, memory, disk, interface, WAN/MPLS, and QoS monitoring",
+                "NetFlow, sFlow, and jFlow analysis for top talkers, applications, and protocols"
+              ]
+            },
+            {
+              "category": "Alerting & Notification Engine",
+              "features": [
+                "Warning, Critical, and Fatal threshold-based alerts",
+                "Alert correlation, de-duplication, and root-cause analysis",
+                "Multi-tier escalation with time-based rules",
+                "Email, SMS, Webhook, and SNMP Trap notifications; maintenance-window suppression and custom AND/OR rules"
+              ]
+            },
+            {
+              "category": "Reporting & Analytics",
+              "features": [
+                "100+ built-in availability, health, traffic, and Top-N reports",
+                "Scheduled drag-and-drop report builder with PDF, CSV, and Excel export",
+                "Uptime/downtime SLA compliance reports with breach tracking",
+                "Historical capacity planning, trend analysis, and role-based executive dashboards"
+              ]
+            },
+            {
+              "category": "Configuration & Security Management",
+              "features": [
+                "Optional scheduled backup of running and startup configurations",
+                "Real-time alerts for unauthorized configuration changes and side-by-side configuration comparison",
+                "Policy-based PCI-DSS, HIPAA, and SOX compliance auditing",
+                "Centralized firmware version tracking and upgrade scheduling"
+              ]
+            },
+            {
+              "category": "Multi-Environment Support",
+              "features": [
+                "AWS, Azure, and GCP monitoring for EC2, VPCs, load balancers, and cloud firewalls",
+                "VMware vSphere, Microsoft Hyper-V, and KVM monitoring",
+                "Cisco Viptela, Fortinet, Meraki, and VeloCloud SD-WAN monitoring",
+                "Wireless access point, controller, SSID, and client monitoring; custom SNMP MIB and API-based IoT polling"
+              ]
+            },
+            {
+              "category": "Integration & Extensibility",
+              "features": [
+                "REST API for CRUD operations, data queries, and automation",
+                "ITIL v3/v4 ITSM integrations with automatic ticket creation from alerts",
+                "SIEM integration through syslog forwarding",
+                "Ansible, Python scripting, and built-in workflow automation; Active Directory, LDAP, SAML 2.0, and OAuth 2.0 authentication"
               ]
             }
-          ]
-        },
-        "technicalSpecifications": {
-          "monitoring": {
-            "deviceVisibility": "Network devices, controllers, switches, and access points",
-            "healthTracking": "Availability, uptime, traffic, bandwidth, and alerts",
-            "reporting": "Performance reports and historical monitoring data"
+          ],
+        "highlights": [
+          {
+            "title": "Unified Monitoring",
+            "description": "Monitor network, server, cloud, and wireless infrastructure in one pane."
           },
-          "management": {
-            "dashboard": "Centralized network monitoring dashboard",
-            "alerts": "Event-based notifications and operational alerts",
-            "deployment": "Suitable for enterprise and infrastructure networks"
+          {
+            "title": "AI-Powered Insights",
+            "description": "Use anomaly detection and predictive analytics to identify issues earlier."
+          },
+          {
+            "title": "Scalable and Vendor Agnostic",
+            "description": "Scale from 50 nodes to 100,000+ and monitor 10,000+ device types out of the box."
+          },
+          {
+            "title": "Fast, Cost-Effective Deployment",
+            "description": "Designed for deployment within hours and lower total cost of ownership than fragmented point solutions."
+          }
+        ],
+        "conclusion": "Rizonn NMS provides real-time network visibility, performance monitoring, fault detection, and automated alerting, with tiered support for 50 to 100,000+ nodes.",
+        "technicalSpecifications": {
+          "platform": {
+            "supportedDevices": "50 to 100,000+ nodes (tiered licensing)",
+            "pollingInterval": "Configurable from 30 seconds to 24 hours (5-minute default)",
+            "protocolsSupported": "SNMP v1/v2c/v3, ICMP, WMI, SSH, Telnet, HTTP/HTTPS, NetFlow v5/v9, IPFIX, sFlow, and jFlow",
+            "database": "PostgreSQL, MySQL, or MS SQL (varies by deployment)",
+            "highAvailability": "Active-passive failover and distributed polling architecture",
+            "dataRetention": "Configurable from 30 days to 5+ years with data roll-up",
+            "webConsole": "Responsive HTML5 console supporting Chrome, Firefox, and Edge"
+          },
+          "minimumSystemRequirements": {
+            "smallDeployment": "Up to 500 devices: 4 CPU cores, 8 GB RAM, 100 GB SSD, 1 Gbps network, single server",
+            "mediumDeployment": "Up to 5,000 devices: 8 CPU cores, 32 GB RAM, 500 GB SSD, 1 Gbps network, primary server plus remote poller",
+            "largeDeployment": "50,000+ devices: 16+ CPU cores, 64+ GB RAM, 2+ TB SSD/NVMe, 10 Gbps network, distributed HA cluster"
+          },
+          "supportAndServices": {
+            "technicalSupport": "Business-hours professional support",
+            "updates": "Quarterly feature releases and monthly security patches",
+            "onboarding": "Professional deployment and migration services available",
+            "training": "Online courses, certifications, and knowledge base"
           }
         },
         "orderingInformation": [
           {
             "model": "NMS",
-            "description": "Network Monitoring System for centralized network visibility, alerts, reports, and infrastructure health monitoring.",
-            "powerSupply": "Software / Platform"
+            "description": "Enterprise-grade NMS platform with tiered licensing for 50 to 100,000+ monitored nodes."
           }
         ]
       }

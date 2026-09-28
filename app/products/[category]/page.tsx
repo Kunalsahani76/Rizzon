@@ -22,6 +22,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     const isSwitchesCategory = categorySlug === "switches";
     const isAaaCategory = categorySlug === "aaa";
     const aaaModelOrder = ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-2500", "U-5050"];
+    const controllerModelOrder = ["UC-50", "UC-100", "UC-200", "UC-500", "UC-1000"];
 
     // Find the matching category title
     const categoryTitle = isSwitchesCategory
@@ -29,6 +30,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
         : isAaaCategory
             ? "AAA"
         : products.find(p => normalize(p.category) === categorySlug)?.category;
+    const pageTitle = categorySlug === "access-point-controllers" ? "Controllers" : categoryTitle;
 
     const filteredProducts = isSwitchesCategory
         ? switchProducts
@@ -49,13 +51,13 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                 <div className="relative w-full h-[300px] bg-blue-900 flex items-center justify-center overflow-hidden">
                     <div className="absolute inset-0 bg-black/40 z-10" />
                     <div className="relative z-20 text-center px-4">
-                        <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">{categoryTitle}</h1>
+                        <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">{pageTitle}</h1>
                         <div className="flex items-center justify-center gap-2 text-gray-300 text-sm">
                             <Link href="/" className="hover:text-white">Home</Link>
                             <span>/</span>
                             <Link href="/products" className="hover:text-white">Products</Link>
                             <span>/</span>
-                            <span className="text-white">{categoryTitle}</span>
+                            <span className="text-white">{pageTitle}</span>
                         </div>
                     </div>
                 </div>
@@ -64,7 +66,11 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                 <section className="max-w-[1200px] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-20">
                     {categorySlug==="access-point-controllers" ? (
                         <>
-                         {filteredProducts.filter((p) => !p.model.endsWith("-VA") && !["U-50", "U-100", "U-200", "U-500", "U-1000", "U-2500", "U-5050"].includes(p.model)).map((p, i) => {
+                         {filteredProducts.filter((p) => normalize(p.category) !== "access-point" && !p.model.endsWith("-VA") && !["NAV-50", "NAV-100", "NAV-500", "NAV-1000", "NAV-2500", "U-50", "U-100", "U-200", "U-500", "U-1000", "U-2500", "U-5050"].includes(p.model)).sort((a, b) => {
+                            const aOrder = controllerModelOrder.indexOf(a.model);
+                            const bOrder = controllerModelOrder.indexOf(b.model);
+                            return (aOrder === -1 ? Infinity : aOrder) - (bOrder === -1 ? Infinity : bOrder);
+                         }).map((p, i) => {
                         const productCategorySlug = normalize(p.category);
                         const modelSlug = p.model.toLowerCase();
                         return (
