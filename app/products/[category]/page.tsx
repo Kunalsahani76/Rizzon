@@ -23,6 +23,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     const isAaaCategory = categorySlug === "aaa";
     const aaaModelOrder = ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-2500", "U-5050"];
     const controllerModelOrder = ["UC-50", "UC-100", "UC-200", "UC-500", "UC-1000"];
+    const switchModelOrder = ["NAV-I-8R2S-X", "US-8M", "US-8MP", "US-16M", "US-16MP", "US-24M", "US-24MP", "ECS4150-28T", "ECS4150-54T", "ECS4155-30T", "ECS5550-30X", "NAV-I-4R2S-X", "US-4MP"];
 
     // Find the matching category title
     const categoryTitle = isSwitchesCategory
@@ -34,11 +35,13 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
 
     const filteredProducts = isSwitchesCategory
         ? switchProducts
+            .filter((p) => switchModelOrder.includes(p.model))
+            .sort((a, b) => switchModelOrder.indexOf(a.model) - switchModelOrder.indexOf(b.model))
         : isAaaCategory
             ? products
                 .filter((p) => aaaModelOrder.includes(p.model))
                 .sort((a, b) => aaaModelOrder.indexOf(a.model) - aaaModelOrder.indexOf(b.model))
-        : products.filter((p) => normalize(p.category) === categorySlug);
+            : products.filter((p) => normalize(p.category) === categorySlug);
 
     if (filteredProducts.length === 0) {
         return notFound();
@@ -64,7 +67,29 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
 
                 {/* PRODUCT GRID */}
                 <section className="max-w-[1200px] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-20">
-                    {categorySlug==="access-point-controllers" ? (
+                    {isSwitchesCategory ? (
+                        <>
+                            {filteredProducts.map((p, i) => {
+                                const productCategorySlug = normalize(p.category);
+                                const modelSlug = p.model.toLowerCase();
+                                return (
+                                    <Link href={`/products/${productCategorySlug}/${modelSlug}`} key={p.model} className="block group h-full">
+                                        <div className="bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm group-hover:shadow-xl transition-all duration-300 h-full flex flex-col">
+                                            <div className="relative w-full aspect-[4/3] bg-gray-50 p-6">
+                                                <Image src={p.img || "/slide-1.jpg"} alt={p.title} fill className="object-contain p-4 transition-transform duration-500 group-hover:scale-105" />
+                                            </div>
+                                            <div className="p-6 flex flex-col flex-grow">
+                                                <div className="text-xs font-semibold text-blue-600 mb-2 uppercase tracking-wider">{getProductCategoryLabel(p.model, p.category)}</div>
+                                                <h3 className="font-bold text-lg text-gray-900 mb-2 line-clamp-2">{p.title}</h3>
+                                                <p className="text-sm text-gray-500 mb-4">{p.displayModel || p.model}</p>
+                                                <div className="mt-auto flex items-center text-blue-600 font-medium group-hover:translate-x-1 transition-transform">View Details <ArrowRight size={16} className="ml-2" /></div>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                );
+                            })}
+                        </>
+                    ) : categorySlug==="access-point-controllers" ? (
                         <>
                          {filteredProducts.filter((p) => normalize(p.category) !== "access-point" && !p.model.endsWith("-VA") && !["NAV-50", "NAV-100", "NAV-500", "NAV-1000", "NAV-2500", "U-50", "U-100", "U-200", "U-500", "U-1000", "U-2500", "U-5050"].includes(p.model)).sort((a, b) => {
                             const aOrder = controllerModelOrder.indexOf(a.model);

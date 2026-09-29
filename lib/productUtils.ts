@@ -2,10 +2,12 @@ import productData from "../productdata.json";
 import accessPointData from "../accesspoint.json";
 import accessPoint1Data from "../accesspoint1.json";
 import { getProductDetailBySlug, ProductDetail } from "@/app/lib/productDetails";
+import { switchProductsData } from "./switchProductsData";
 
 export interface Product {
     title: string;
     model: string;
+    displayModel?: string;
     category: string;
     description: string;
     img?: string;
@@ -29,6 +31,18 @@ const getProductImage = (model: string): string => {
         'NAV-I-8P2S': '/nav-images/Rizonn _ NAV-I-8P2S.png',
         'NAV-I-8R2S': '/nav-images/Rizonn _ NAV-I-8R2S.png',
         'NAV-I-8R2S-X': '/products/New-switch.jpg',
+        'NAV-I-4R2S-X': '/nav-images/Rizonn _ NAV-I-8R2S.png',
+        'US-8M': '/products/switches/US-8M.png',
+        'US-8MP': '/products/switches/US-8MP.png',
+        'US-16M': '/products/switches/US-16M.png',
+        'US-16MP': '/products/switches/US-16MP.png',
+        'US-24M': '/products/switches/US-24M.png',
+        'US-24MP': '/products/switches/US-24MP.png',
+        'US-4MP': '/products/switches/US-4MP.png',
+        'ECS4150-28T': '/nav-images/Rizonn _ NAV-C24S2Q.png',
+        'ECS4150-54T': '/nav-images/Rizonn _ NAV-C48S2Q-4Q.png',
+        'ECS4155-30T': '/nav-images/Rizonn _ NAV-C48S2Q-4Q.png',
+        'ECS5550-30X': '/nav-images/Rizonn _ NAV-C24S2Q.png',
         // PoE Fiber Switch
         'NAV-P-24P2S': '/nav-images/Rizonn _ NAV-P-24P2S.png',
         'NAV-P-24P2S-at': '/nav-images/Rizonn _ NAV-P-24P2S.png', // Variant
@@ -101,6 +115,17 @@ export const getAllProducts = (): Product[] => {
                 video: item.video
             });
         }
+    });
+
+    switchProductsData.forEach((product) => {
+        products.push({
+            title: product.title,
+            model: product.model,
+            displayModel: product.displayModel,
+            category: product.category,
+            description: product.description,
+            img: getProductImage(product.model),
+        });
     });
 
     // Include access point controllers in main products page
@@ -201,7 +226,7 @@ export const getProductDetail = (slug: string): ProductDetail | null => {
     const data = productData as any[];
     const accessData = accessPointData as any[];
     const access1Data = accessPoint1Data as any[];
-    let foundProduct: any = null;
+    let foundProduct: any = switchProductsData.find((product) => product.model.toLowerCase() === slug.toLowerCase()) || null;
 
     // Search for the product by model (slug is assumed to be model)
     // Slug might be lowercased, so we compare case-insensitively
