@@ -265,6 +265,25 @@ const getPdfFilename = (model: string): string => {
         // 'NAV-C24S20': 'NAV-C24S2Q', // Example: if variant uses same PDF
     };
 
+    const switchDatasheetMappings: { [key: string]: string } = {
+        'US-4MP': 'Switches/Rizonn_US-4MP_Switch_Datasheet.pdf',
+        'US-8M': 'Switches/Rizonn US-8M_Switch Datasheet.pdf',
+        'US-8MP': 'Switches/Rizonn US-8MP_Switch Datasheet.pdf',
+        'US-16M': 'Switches/Rizonn US-16M_Switch Datasheet.pdf',
+        'US-16MP': 'Switches/Rizonn US-16MP_Switch Datasheet.pdf',
+        'US-24M': 'Switches/Rizonn US-24M_Switch Datasheet.pdf',
+        'US-24MP': 'Switches/Rizonn US-24MP_Switch Datasheet.pdf',
+        'ECS4150-28T': 'Switches/Rizonn_ECS4150-28T_ECS4150-28P_.pdf',
+        'ECS4150-54T': 'Switches/Rizonn_ECS4150-54T_ECS4150-54P_.pdf',
+        'ECS4155-30T': 'Switches/Rizonn_ECS4155-30T_ECS4155-30P_.pdf',
+        'ECS5550-30X': 'Switches/Rizonn_ECS5550-30X_ECS5550-54X_.pdf',
+        'NAV-I-4R2S-X': 'Switches/Rizonn_NAV-I-4R2S-X_Datasheet.pdf',
+    };
+
+    if (switchDatasheetMappings[model]) {
+        return switchDatasheetMappings[model];
+    }
+
     if (model === 'U-5050') {
         return 'Rizonn UniBox U-5050 Datasheet.pdf';
     }
