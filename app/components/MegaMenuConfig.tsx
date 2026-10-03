@@ -20,6 +20,7 @@ export const getProductsMenuColumns = (
         { title: "NMS", href: "/products/nms", activeTitle: "NMS" },
         { title: "DCIM", href: "/products/dcim", activeTitle: "DCIM" },
         { title: "HMS", href: "/products/hms", activeTitle: "HMS" },
+        { title: "ITAM", href: "/products/itam", activeTitle: "ITAM" },
         { title: "UVSS", href: "/products/uvss", activeTitle: "UVSS" },
     ];
 

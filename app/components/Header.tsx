@@ -52,6 +52,7 @@ const MOBILE_PRODUCT_MENU_ITEMS = [
   { title: "NMS", href: "/products/nms" },
   { title: "DCIM", href: "/products/dcim" },
   { title: "HMS", href: "/products/hms" },
+  { title: "ITAM", href: "/products/itam" },
   { title: "UVSS", href: "/products/uvss" },
 ];
 

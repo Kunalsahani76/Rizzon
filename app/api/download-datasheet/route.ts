@@ -320,6 +320,10 @@ const getPdfFilename = (model: string): string => {
         return 'HMS_Technical_Data_Sheet.pdf';
     }
 
+    if (model === 'ITAM') {
+        return 'ITAM/IT asset management and network monitoring.pdf';
+    }
+
     if (model === 'DCIM') {
         return 'DCIM.pdf';
     }
@@ -584,6 +588,13 @@ export async function GET() {
             if (!availableDatasheets.includes('NMS')) availableDatasheets.push('NMS');
         } catch {
             // NMS datasheet is not present in its category folder.
+        }
+
+        try {
+            await fs.access(path.join(datasheetDir, 'ITAM', 'IT asset management and network monitoring.pdf'));
+            if (!availableDatasheets.includes('ITAM')) availableDatasheets.push('ITAM');
+        } catch {
+            // ITAM datasheet is not present in its category folder.
         }
 
         return NextResponse.json({

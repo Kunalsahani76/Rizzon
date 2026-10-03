@@ -3865,6 +3865,16 @@
         ]
       }
     ]
+  },
+  {
+    "category": "ITAM",
+    "products": [
+      {
+        "model": "ITAM",
+        "title": "IT Asset Management and Network Monitoring",
+        "productType": "IT Asset Management and Network Monitoring",
+        "description": "Manage IT assets, software inventory, network discovery, risk, monitoring, events and reports from one on-premises console. Agentless and with no cloud dependency."
+      }
+    ]
   }
-   
 ]

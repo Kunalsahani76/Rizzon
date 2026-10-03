@@ -68,6 +68,7 @@ const getProductImage = (model: string): string => {
         'NAV-219-VA': '/nav-images/Rizonn _ NAV-219-VA.png',
         'NAV-319-VA': '/nav-images/Rizonn _ NAV-319-VA.png',
         'NMS': '/banner-images/product-3.png',
+        'ITAM': '/banner-images/ITAM.jpg',
         'UVSS': '/banner-images/UVSS.png',
         'UM-325AX': '/products/um-325ax.png',
         'UM-325AX-V2': '/products/um-325ax-v2.jpg',
@@ -175,12 +176,19 @@ export const getAccessPointControllers = (): Product[] => {
 export const getAccessPoints = (): Product[] => {
     const products: Product[] = [];
     const accessData = accessPoint1Data as any[];
+    const visibleAccessPointModels = new Set([
+        "UM-525AX-M",
+        "UM-325AX-V2",
+        "UM-325AX-V4",
+        "UM-525AX-P",
+    ]);
 
     // Process access point data only
     accessData.forEach((item) => {
         if (item.category && item.products) {
             // Category group
             item.products.forEach((prod: any) => {
+                if (!visibleAccessPointModels.has(prod.model)) return;
                 products.push({
                     title: prod.title || prod.model,
                     model: prod.model,

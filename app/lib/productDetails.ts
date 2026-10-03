@@ -247,6 +247,104 @@ export const productDetailsData: Record<string, ProductDetail> = {
             { content: "HMS software access and implementation documentation", quantity: "1", unit: "License" }
         ]
     },
+    "itam": {
+        id: "itam",
+        slug: "itam",
+        name: "IT Asset Management and Network Monitoring",
+        title: "IT Asset Management and Network Monitoring",
+        model: "ITAM",
+        heroImage: "/banner-images/ITAM.jpg",
+        images: ["/banner-images/ITAM.jpg"],
+        heroTitle: "IT Asset Management and Network Monitoring",
+        heroSubtitle: "ITAM",
+        heroDescription: "Asset management and network monitoring in one console, running entirely on your own server. Nothing leaves your network. No agents. No cloud dependency.",
+        keyStats: {
+            switchingCapacity: "Agentless discovery",
+            forwardingRate: "Scheduled scans",
+            connectivity: "On-premises"
+        },
+        features: [
+            {
+                icon: "layers",
+                title: "One Current Asset Register",
+                description: "Keep device identity, ownership, commercial data, network context and history connected in one record."
+            },
+            {
+                icon: "zap",
+                title: "Agentless Network Discovery",
+                description: "Identify devices through ICMP, TCP, ARP, SNMP, BACnet and Modbus, then review proposed matches before they update the register."
+            },
+            {
+                icon: "shield",
+                title: "On-Premises Control",
+                description: "Run on a Windows or Linux server with no agents or cloud services; credentials are encrypted and actions are audit logged."
+            }
+        ],
+        overview: {
+            title: "Product Overview",
+            paragraphs: [
+                "Rizonn ITAM combines IT asset management and network monitoring in a single on-premises console. It keeps an evidence-based device register current through scheduled network discovery, and links assets to software, checks, events and faults.",
+                "The platform provides software inventory, lifecycle and security risk checks, availability monitoring, event correlation, reporting, and service desk workflows. It is designed to run inside your network without agents or cloud dependency."
+            ]
+        },
+        keyFeaturesCards: [
+            {
+                title: "Asset Register & Discovery",
+                items: ["Record tag, model, serial, owner, site, supplier, cost, warranty, address, OS, ports, rack, uplink and dependencies.", "Discover devices using ICMP, TCP, ARP, SNMP, BACnet and Modbus.", "Match devices by serial number or MAC, update moves, flag repeated absence and review discoveries before writing them."]
+            },
+            {
+                title: "Risk & Software Inventory",
+                items: ["Prioritise lifecycle, patching, exposed ports, ownership and identity findings with recommended remediation.", "Collect Windows software through WinRM and Linux software through SSH without deploying agents.", "Identify installed, licensable, unsupported, unrecognised and removed software."]
+            },
+            {
+                title: "Monitoring, Events & Service Desk",
+                items: ["Configure consecutive failure and success thresholds to reduce noisy alarms.", "Classify, deduplicate, suppress and correlate syslog and SNMP trap events to identify root causes.", "Create and safely retry deduplicated Jira and ServiceNow tickets."]
+            },
+            {
+                title: "Reports & Security",
+                items: ["Schedule 13 reports as CSV, Excel or PDF and map evidence to ISO 27001, SOC 2, NIST CSF, PCI DSS and GDPR/DPDP controls.", "Use five roles: Super admin, Asset manager, Network operator, Auditor and Read only.", "Maintain a hash-chained audit trail and encrypt SNMP, SSH, WinRM, email and service desk credentials at rest."]
+            }
+        ],
+        technicalSpecs: [
+            {
+                category: "Discovery & Inventory",
+                specs: [
+                    { feature: "Discovery signals", description: "ICMP, TCP, ARP, SNMP, BACnet and Modbus" },
+                    { feature: "Software collection", description: "WinRM for Windows and SSH for Linux; agentless" },
+                    { feature: "Asset record", description: "Identity, ownership, commercial data, network context, relationships and change history" }
+                ]
+            },
+            {
+                category: "Monitoring & Operations",
+                specs: [
+                    { feature: "Event sources", description: "Syslog and SNMP traps" },
+                    { feature: "Monitoring behavior", description: "Consecutive failure and success thresholds are configurable" },
+                    { feature: "Reports", description: "13 reports; CSV, Excel and PDF exports with scheduled email delivery" },
+                    { feature: "Service desk integrations", description: "Jira and ServiceNow" }
+                ]
+            },
+            {
+                category: "Deployment & Security",
+                specs: [
+                    { feature: "Server", description: "Windows or Linux" },
+                    { feature: "Database", description: "PostgreSQL" },
+                    { feature: "Credentials", description: "Read-only SNMP and service account credentials" },
+                    { feature: "Agents and cloud services", description: "None" },
+                    { feature: "Current limits", description: "No segmented site collectors, usage agent or VMware vSphere inventory yet" }
+                ]
+            }
+        ],
+        orderingInfo: [
+            {
+                model: "ITAM",
+                description: "Rizonn IT Asset Management and Network Monitoring software platform.",
+                powerSupply: "Software solution; Windows or Linux server deployment"
+            }
+        ],
+        packingList: [
+            { content: "ITAM software platform", quantity: "1", unit: "License" }
+        ]
+    },
     "nav-c24s2q": {
         id: "nav-c24s2q",
         slug: "nav-c24s2q",
