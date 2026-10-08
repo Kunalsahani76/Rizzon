@@ -21,6 +21,16 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     );
     const isSwitchesCategory = categorySlug === "switches";
     const isAaaCategory = categorySlug === "aaa";
+    const aaaProductImages: Record<string, string> = {
+        "U-50": "/products/AAA/Rizonn_UniBox%20U-50.jpg",
+        "U-100": "/products/AAA/Rizonn_UniBox%20U-100.jpg",
+        "U-200": "/products/AAA/Rizonn_UniBox%20U-200.jpeg",
+        "U-500": "/products/AAA/Rizonn_UniBox%20U-500.jpeg",
+        "U-1000": "/products/AAA/Rizonn_UniBox%20U-1000.jpeg",
+        "U-2500": "/products/AAA/Rizonn_UniBox%20U-2500.jpeg",
+    };
+    const getCardImage = (product: (typeof products)[number]) =>
+        (isAaaCategory && aaaProductImages[product.model]) || product.img || "/slide-1.jpg";
     const aaaModelOrder = ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-2500", "U-5050"];
     const controllerModelOrder = ["UC-50", "UC-100", "UC-200", "UC-500", "UC-500-WLAN", "UC-1000"];
     const switchModelOrder = ["US-4MP", "US-8M", "US-8MP", "US-16M", "US-16MP", "US-24M", "US-24MP", "ECS4150-28T", "ECS4150-54T", "ECS4155-30T", "ECS5550-30X", "NAV-I-4R2S-X", "NAV-I-8R2S-X"];
@@ -76,7 +86,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                                     <Link href={`/products/${productCategorySlug}/${modelSlug}`} key={p.model} className="block group h-full">
                                         <div className="bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm group-hover:shadow-xl transition-all duration-300 h-full flex flex-col">
                                             <div className="relative w-full aspect-[4/3] bg-gray-50 p-6">
-                                                <Image src={p.img || "/slide-1.jpg"} alt={p.title} fill className="object-contain p-4 transition-transform duration-500 group-hover:scale-105" />
+                                                <Image src={getCardImage(p)} alt={p.title} fill className="object-contain p-4 transition-transform duration-500 group-hover:scale-105" />
                                             </div>
                                             <div className="p-6 flex flex-col flex-grow">
                                                 <div className="text-xs font-semibold text-blue-600 mb-2 uppercase tracking-wider">{getProductCategoryLabel(p.model, p.category)}</div>
@@ -103,7 +113,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                                 <div className="bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm group-hover:shadow-xl transition-all duration-300 h-full flex flex-col">
                                     <div className="relative w-full aspect-[4/3] bg-gray-50 p-6">
                                         <Image
-                                            src={p.img || "/slide-1.jpg"}
+                                            src={getCardImage(p)}
                                             alt={p.title}
                                             fill
                                             className="object-contain p-4 transition-transform duration-500 group-hover:scale-105"
@@ -132,7 +142,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                                 <div className="bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm group-hover:shadow-xl transition-all duration-300 h-full flex flex-col">
                                     <div className="relative w-full aspect-[4/3] bg-gray-50 p-6">
                                         <Image
-                                            src={p.img || "/slide-1.jpg"}
+                                            src={getCardImage(p)}
                                             alt={p.title}
                                             fill
                                             className="object-contain p-4 transition-transform duration-500 group-hover:scale-105"

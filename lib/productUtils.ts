@@ -72,8 +72,8 @@ const getProductImage = (model: string): string => {
         'UVSS': '/banner-images/UVSS.png',
         'UM-325AX': '/products/um-325ax.png',
         'UM-325AX-FINETUNE': '/datasheet-pdf/Access%20Points/New/Finetune%20UM-325AX%20Access%20Point%20Datasheet.jpg',
-        'UM-325AX-V2': '/datasheet-pdf/Access%20Points/New/Rizonn_UM325AX_V2_datasheet.jpg',
-        'UM-325AX-V4': '/datasheet-pdf/Access%20Points/New/Rizonn_UM325AX_V4_datasheet.jpg',
+        'UM-325AX-V2': '/products/Access%20Point/Rizonn_UM325AX_V2.jpg',
+        'UM-325AX-V4': '/products/Access%20Point/Rizonn_UM325AX-V4.jpg',
         'UM-525AX-P': '/datasheet-pdf/Access%20Points/New/Rizonn_UM525AX_P.jpg',
         'UM-525AX-M': '/datasheet-pdf/Access%20Points/New/UM-525AX-M-Rizonn.jpg',
         'UC-500': '/datasheet-pdf/Controller/Finetune%20Indio%20UniController%20UC-500%20WLAN%20Datasheet-2.jpg',
@@ -225,7 +225,7 @@ export const getAllCategories = (): string[] => {
 // Helper to convert camelCase to Title Case
 const toTitleCase = (str: string) => {
     const result = str.replace(/([A-Z])/g, " $1");
-    return result.charAt(0).toUpperCase() + result.slice(1);
+    return (result.charAt(0).toUpperCase() + result.slice(1)).replace(/\bW L A N\b/g, "WLAN");
 };
 
 export const getProductDetail = (slug: string): ProductDetail | null => {
