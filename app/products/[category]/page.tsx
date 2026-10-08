@@ -22,7 +22,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     const isSwitchesCategory = categorySlug === "switches";
     const isAaaCategory = categorySlug === "aaa";
     const aaaModelOrder = ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-2500", "U-5050"];
-    const controllerModelOrder = ["UC-50", "UC-100", "UC-200", "UC-500", "UC-1000"];
+    const controllerModelOrder = ["UC-50", "UC-100", "UC-200", "UC-500", "UC-500-WLAN", "UC-1000"];
     const switchModelOrder = ["US-4MP", "US-8M", "US-8MP", "US-16M", "US-16MP", "US-24M", "US-24MP", "ECS4150-28T", "ECS4150-54T", "ECS4155-30T", "ECS5550-30X", "NAV-I-4R2S-X", "NAV-I-8R2S-X"];
 
     // Find the matching category title

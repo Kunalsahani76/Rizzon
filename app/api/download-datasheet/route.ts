@@ -332,7 +332,7 @@ const getPdfFilename = (model: string): string => {
         return 'UVSS TDS-1.pdf';
     }
 
-    if (model === 'UM-325AX') {
+    if (model === 'UM-325AX' || model === 'UM-325AX-FINETUNE') {
         return 'Finetune UM-325AX Access Point Datasheet.pdf';
     }
 
@@ -347,8 +347,8 @@ const getPdfFilename = (model: string): string => {
         return accessPointPdfMappings[model];
     }
 
-    if (model === 'UC-500') {
-        return 'Controller/Rizonn_UniController UC-500 Datasheet.pdf';
+    if (model === 'UC-500' || model === 'UC-500-WLAN') {
+        return 'Controller/Finetune Indio UniController UC-500 WLAN Datasheet-2.pdf';
     }
 
     const uniControllerPdfMappings: { [key: string]: string } = {

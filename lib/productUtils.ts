@@ -71,11 +71,13 @@ const getProductImage = (model: string): string => {
         'ITAM': '/banner-images/ITAM.jpg',
         'UVSS': '/banner-images/UVSS.png',
         'UM-325AX': '/products/um-325ax.png',
+        'UM-325AX-FINETUNE': '/datasheet-pdf/Access%20Points/New/Finetune%20UM-325AX%20Access%20Point%20Datasheet.jpg',
         'UM-325AX-V2': '/datasheet-pdf/Access%20Points/New/Rizonn_UM325AX_V2_datasheet.jpg',
         'UM-325AX-V4': '/datasheet-pdf/Access%20Points/New/Rizonn_UM325AX_V4_datasheet.jpg',
         'UM-525AX-P': '/datasheet-pdf/Access%20Points/New/Rizonn_UM525AX_P.jpg',
         'UM-525AX-M': '/datasheet-pdf/Access%20Points/New/UM-525AX-M-Rizonn.jpg',
-        'UC-500': '/products/uc-500.png',
+        'UC-500': '/datasheet-pdf/Controller/Finetune%20Indio%20UniController%20UC-500%20WLAN%20Datasheet-2.jpg',
+        'UC-500-WLAN': '/datasheet-pdf/Controller/Finetune%20Indio%20UniController%20UC-500%20WLAN%20Datasheet-2.jpg',
         'UC-50': '/products/unibox-u-50-clean.jpg',
         'UC-100': '/products/unibox-u-100-clean.jpg',
         'UC-200': '/products/unibox-u-200-clean.jpg',
@@ -180,6 +182,7 @@ export const getAccessPoints = (): Product[] => {
         "UM-525AX-M",
         "UM-325AX-V2",
         "UM-325AX-V4",
+        "UM-325AX-FINETUNE",
         "UM-525AX-P",
     ]);
 
