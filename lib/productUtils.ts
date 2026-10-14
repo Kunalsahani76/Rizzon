@@ -18,7 +18,7 @@ export interface Product {
 const getProductImage = (model: string): string => {
     const imageMap: { [key: string]: string } = {
         // Core Routing Switch
-        'NAV-C24S2Q': '/nav-images/Rizonn _ NAV-C24S2Q.png',
+        'NAV-C24S2Q': '/products/switches/New%20Switch/Rizonn_NAV-C24S2Q.webp',
         'NAV-C24S20': '/nav-images/Rizonn _ NAV-C24S2Q.png', // Variant
         'NAV-C48S2Q-4Q': '/nav-images/Rizonn _ NAV-C48S2Q-4Q.png',
         'NAV-C48S2Q-40': '/nav-images/Rizonn _ NAV-C48S2Q-4Q.png', // Variant
@@ -32,13 +32,13 @@ const getProductImage = (model: string): string => {
         'NAV-I-8R2S': '/nav-images/Rizonn _ NAV-I-8R2S.png',
         'NAV-I-8R2S-X': '/products/New-switch.jpg',
         'NAV-I-4R2S-X': '/nav-images/Rizonn _ NAV-I-8R2S.png',
-        'US-8M': '/products/switches/US-8M.png',
-        'US-8MP': '/products/switches/US-8MP.png',
-        'US-16M': '/products/switches/US-16M.png',
-        'US-16MP': '/products/switches/US-16MP.png',
-        'US-24M': '/products/switches/US-24M.png',
-        'US-24MP': '/products/switches/US-24MP.png',
-        'US-4MP': '/products/switches/US-4MP.png',
+        'US-8M': '/products/switches/New%20Switch/US-8M.webp',
+        'US-8MP': '/products/switches/New%20Switch/US-8MP.webp',
+        'US-16M': '/products/switches/New%20Switch/US-16M.webp',
+        'US-16MP': '/products/switches/New%20Switch/US-16MP.webp',
+        'US-24M': '/products/switches/New%20Switch/US-24M.webp',
+        'US-24MP': '/products/switches/New%20Switch/US-24MP.webp',
+        'US-4MP': '/products/switches/New%20Switch/US-4MP.webp',
         'ECS4150-28T': '/nav-images/Rizonn _ NAV-C24S2Q.png',
         'ECS4150-54T': '/nav-images/Rizonn _ NAV-C48S2Q-4Q.png',
         'ECS4155-30T': '/nav-images/Rizonn _ NAV-C48S2Q-4Q.png',

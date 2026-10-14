@@ -19,13 +19,33 @@ export default function ContactPage() {
         setIsSubmitting(true);
         setSubmitStatus('idle');
         try {
-            const response = await fetch('/api/contact', {
-                method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(formData),
+            const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+            const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+            const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+
+            if (!serviceId || !templateId || !publicKey) {
+                throw new Error('EmailJS is not configured');
+            }
+
+            const response = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    service_id: serviceId,
+                    template_id: templateId,
+                    user_id: publicKey,
+                    template_params: {
+                        name: formData.name,
+                        email: formData.email,
+                        message: formData.message,
+                        reply_to: formData.email,
+                    },
+                }),
             });
-            if (response.ok) {
-                setSubmitStatus('success');
-                setFormData({ name: '', email: '', message: '' });
-            } else setSubmitStatus('error');
+
+            if (!response.ok) throw new Error('EmailJS failed to send the message');
+            setSubmitStatus('success');
+            setFormData({ name: '', email: '', message: '' });
         } catch (error) {
             console.error('Error submitting form:', error);
             setSubmitStatus('error');

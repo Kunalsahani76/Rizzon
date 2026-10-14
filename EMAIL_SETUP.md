@@ -6,7 +6,7 @@ This document describes the email functionality implemented for the Rizonn websi
 
 ### Contact Form (`/contact`)
 - Collects name, email, and message from visitors
-- Sends formatted emails to company email address
+- Sends submissions through EmailJS to the recipient configured in the EmailJS template
 - Includes form validation and success/error feedback
 - Responsive design with loading states
 
@@ -31,17 +31,22 @@ This document describes the email functionality implemented for the Rizonn websi
 - `/api/newsletter` - Handles newsletter subscriptions
 - `/api/newsletter/unsubscribe` - Handles newsletter unsubscribe requests
 
-### Email Service
-- Uses **Nodemailer** with Gmail SMTP
-- Configured with app-specific password for security
-- HTML formatted emails with professional styling
-- Error handling and validation
+### Email Services
+- The Contact Sales form uses EmailJS in the browser.
+- Other existing email routes use **Nodemailer** with Gmail SMTP.
+- Keep Gmail SMTP credentials in server-side environment variables; EmailJS public configuration is exposed to the browser by design.
+- Email sending includes error handling and form validation.
 
 ### Environment Variables
 ```
 EMAIL_USER=rizonntechnologies@gmail.com
-EMAIL_PASS=bovy sfkf hhtl vxdw
+EMAIL_PASS=<your Gmail app password>
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=
 ```
+
+For the Contact Sales form, create an EmailJS email template with `name`, `email`, `message`, and `reply_to` variables. Set the template recipient to `rizonntechnologies@gmail.com`. Add the three `NEXT_PUBLIC_EMAILJS_*` values from your EmailJS account to `.env.local` and your deployment environment, then restart/redeploy the app.
 
 ## Email Templates
 
