@@ -31,7 +31,7 @@ const getProductImage = (model: string): string => {
         'NAV-I-8P2S': '/nav-images/Rizonn _ NAV-I-8P2S.png',
         'NAV-I-8R2S': '/nav-images/Rizonn _ NAV-I-8R2S.png',
         'NAV-I-8R2S-X': '/products/switches/New Switch/Updated/Rizonn_NAV-I-8R2S-X.jpg',
-        'NAV-I-4R2S-X': '/nav-images/Rizonn _ NAV-I-8R2S.png',
+        'NAV-I-4R2S-X': '/products/switches/New Switch/Updated/Rizonn_NAV-I-4R2S-X_Datasheet.PNG',
         'US-8M': '/products/switches/New%20Switch/US-8M.webp',
         'US-8MP': '/products/switches/New%20Switch/US-8MP.webp',
         'US-16M': '/products/switches/New%20Switch/US-16M.webp',
@@ -43,7 +43,6 @@ const getProductImage = (model: string): string => {
         'ECS4150-54T': '/products/switches/New Switch/Updated/Rizonn_ECS4150-54T_ECS4150-54P.PNG',
         'ECS4155-30T': '/products/switches/New Switch/Updated/Rizonn_ECS4155-30T_ECS4155-30P.PNG',
         'ECS5550-30X': '/products/switches/New Switch/Updated/Rizonn_ECS5550-30X_ECS5550-54X.PNG',
-        'NAV-I-4R2S-X': '/products/switches/New Switch/Updated/Rizonn_NAV-I-4R2S-X_Datasheet.PNG',
         // PoE Fiber Switch
         'NAV-P-24P2S': '/nav-images/Rizonn _ NAV-P-24P2S.png',
         'NAV-P-24P2S-at': '/nav-images/Rizonn _ NAV-P-24P2S.png', // Variant
