@@ -71,17 +71,17 @@ const getProductImage = (model: string): string => {
         'ITAM': '/banner-images/ITAM.jpg',
         'UVSS': '/banner-images/UVSS.png',
         'UM-325AX': '/products/um-325ax.png',
-        'UM-325AX-FINETUNE': '/datasheet-pdf/Access%20Points/New/Finetune%20UM-325AX%20Access%20Point%20Datasheet.jpg',
+        'UM-325AX-FINETUNE': '/products/Access%20Point/um-325ax-finetune.jpg',
         'UM-325AX-V2': '/products/Access%20Point/Rizonn_UM325AX_V2.jpg',
         'UM-325AX-V4': '/products/Access%20Point/Rizonn_UM325AX-V4.jpg',
         'UM-525AX-P': '/datasheet-pdf/Access%20Points/New/Rizonn_UM525AX_P.jpg',
         'UM-525AX-M': '/datasheet-pdf/Access%20Points/New/UM-525AX-M-Rizonn.jpg',
         'UC-500': '/datasheet-pdf/Controller/Finetune%20Indio%20UniController%20UC-500%20WLAN%20Datasheet-2.jpg',
-        'UC-500-WLAN': '/datasheet-pdf/Controller/Finetune%20Indio%20UniController%20UC-500%20WLAN%20Datasheet-2.jpg',
-        'UC-50': '/products/unibox-u-50-clean.jpg',
-        'UC-100': '/products/unibox-u-100-clean.jpg',
-        'UC-200': '/products/unibox-u-200-clean.jpg',
-        'UC-1000': '/products/unibox-u-1000-clean.jpg',
+        'UC-500-WLAN': '/products/Controllers/uc-500-wlan.jpg',
+        'UC-50': '/products/Controllers/controller.jpg',
+        'UC-100': '/products/Controllers/controller.jpg',
+        'UC-200': '/products/Controllers/controller.jpg',
+        'UC-1000': '/products/Controllers/controller.jpg',
     };
 
     const imagePath = imageMap[model] || "/slide-1.jpg";

@@ -137,6 +137,9 @@ export const getProductsMenuColumns = (
 
                 // Use hovered product or fallback to active category's first item
                 const displayProduct = hoveredAccessPointControllerProduct || hoveredAccessPointProduct || activeCategory?.subItems?.[0];
+                const previewImage = activeCategory?.title === "Access Point Controllers"
+                    ? "/products/Controllers/controller.jpg"
+                    : displayProduct?.img || "/slide-1.jpg";
 
                 return displayProduct ? (
                     <Link href={displayProduct.href} className="w-full h-full flex flex-col justify-center px-12 cursor-pointer group/preview">
@@ -154,7 +157,7 @@ export const getProductsMenuColumns = (
                                 />
                             ) : (
                                 <img
-                                    src={displayProduct.img || "/slide-1.jpg"}
+                                    src={previewImage}
                                     alt={displayProduct.title}
                                     className="w-full h-56 object-contain relative z-10 transform group-hover:scale-105 transition-transform duration-500 mix-blend-multiply"
                                 />
