@@ -64,6 +64,7 @@ const getProductImage = (model: string): string => {
         'U-1000': '/products/unibox-u-1000-clean.jpg',
         'U-2500': '/products/unibox-u-2500-clean.jpg',
         'U-5050': '/banner-images/AAA.jpg',
+        'U-5060': '/products/AAA/Rizonn_UniBox U-5060.jpg',
         'NAV-519-VA': '/nav-images/Rizonn _ NAV-519-VA.png',
         'NAV-219-VA': '/nav-images/Rizonn _ NAV-219-VA.png',
         'NAV-319-VA': '/nav-images/Rizonn _ NAV-319-VA.png',

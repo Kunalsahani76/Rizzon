@@ -2457,10 +2457,78 @@
       "conclusion": "A unified AAA server and network access controller for large-scale guest and enterprise networks, combining identity management, hotspot billing, policy enforcement, reporting, and security in one appliance.",
 
       "summary": "A high-performance AAA server and network access controller built for large venues, supporting 500 concurrent sessions and scaling up to 10,000 users with integrated authentication, billing, bandwidth management, reporting, VPN, load balancing, and firewall capabilities."
+    },
+    {
+      "id": 10,
+      "brand": "UNIBOX",
+      "company": "RIZONN",
+      "model": "U-5060",
+      "title": "UniBox HSIA Hotspot Gateway / Network Controller",
+      "productType": "UniBox HSIA Hotspot Gateway / Network Controller U-5060",
+      "description": "An HSIA hotspot gateway and network controller with multi-WAN, captive portal, built-in RADIUS and TACACS+, 802.1X onboarding, billing, bandwidth policies, and endpoint posture checks.",
+      "heroDescription": "The UniBox U-5060 combines hotspot access, authentication, network control, billing, and endpoint security in a rackmount appliance.",
+      "overview": {
+        "paragraphs": [
+          "UniBox provides HSIA hotspot and network control for hospitality, public Wi-Fi, education, healthcare, enterprise, and government deployments.",
+          "The platform combines multi-WAN routing and failover, captive portals, RADIUS and TACACS+ authentication, user onboarding, billing, bandwidth policies, reporting, and endpoint posture assessment."
+        ]
+      },
+      "keyFeatures": [
+        {
+          "category": "Hotspot & Authentication",
+          "features": ["Multiple hotspot controllers and captive portals", "Built-in RADIUS (RFC 2865/2866) and TACACS+", "802.1X with EAP-TLS, PEAP-MSCHAPv2, and EAP-TTLS", "Username/password, OTP, voucher, social, and click-through login"]
+        },
+        {
+          "category": "Network & Connectivity",
+          "features": ["6 Gigabit Ethernet RJ-45 ports", "Multi-WAN load balancing and intelligent failover", "Static, dynamic, and PPPoE WAN support", "OpenVPN, WireGuard, and GRE tunnels", "2 USB 3.0 ports"]
+        },
+        {
+          "category": "Access Policies & Billing",
+          "features": ["Per-user bandwidth controls and group policies", "Time, data, device, and client quotas", "Payment gateway integration, billing plans, and vouchers", "Website filtering, URL policies, and usage reports"]
+        },
+        {
+          "category": "Endpoint Security & Availability",
+          "features": ["Endpoint posture assessment and quarantine", "Active-active or active-passive high availability", "Automated backups and remote diagnostics", "Supports 500 clients and scales up to 10,000 users"]
+        }
+      ],
+      "technicalSpecifications": {
+        "networking": [
+          "6 x 10/100/1000 base-T/Tx RJ-45 Ethernet ports",
+          "1 RJ-45 console port; 2 USB 3.0 ports",
+          "Multi-WAN with load balancing, link checks, and intelligent failover",
+          "Static and dynamic routing, PPPoE, VLAN 802.1Q, DHCP, DNS, and port forwarding",
+          "OpenVPN, WireGuard, and GRE; SNMP v2c and NTP (RFC 1305)"
+        ],
+        "hotspotAndAccess": [
+          "Multiple hotspot controllers with a separate captive portal per hotspot",
+          "Built-in RADIUS (RFC 2865/2866) and TACACS+",
+          "802.1X: EAP-TLS, PEAP-MSCHAPv2, and EAP-TTLS; MAC authentication",
+          "Supports 500 clients; scalable posture enforcement up to 10,000 users",
+          "25+ captive portal templates and multiple login methods including OTP, vouchers, social login, and click-through"
+        ],
+        "hardware": {
+          "formFactor": "Rackmount",
+          "inputVoltage": "240V AC",
+          "powerConsumption": "50W",
+          "heatDissipation": "400 BTU",
+          "dimensions": "482 x 680 x 44 mm",
+          "weight": "Up to 4 kg",
+          "operatingTemperature": "-10°C to 55°C",
+          "storageTemperature": "-40°C to 70°C",
+          "humidity": "8%–90%, non-condensing",
+          "ingressProtection": "IP40 (indoor)"
+        },
+        "managementAndSecurity": [
+          "Bandwidth control, group policies, fair usage, and time/data quotas",
+          "Payment gateways, custom billing plans, paid vouchers, and tiered billing",
+          "Website filtering, URL policies, web browsing logs, and TRAI-compliant IPDR/CDR logs",
+          "Endpoint posture checks with automatic quarantine and remediation VLAN",
+          "High availability active-active or active-passive; automated backups"
+        ]
+      },
+      "summary": "Rackmount HSIA hotspot gateway and network controller with multi-WAN, built-in authentication, captive portals, billing, access policies, and endpoint security."
     }
 
-  
   ]
 }
-
 ]

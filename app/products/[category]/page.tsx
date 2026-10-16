@@ -12,7 +12,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     // Helper to normalize strings for comparison
     const normalize = (str: string) => str.toLowerCase().replace(/ /g, '-');
     const getProductCategoryLabel = (model: string, productCategory: string) =>
-        ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-2500", "U-5050"].includes(model) ? "AAA" : productCategory;
+        ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-2500", "U-5050", "U-5060"].includes(model) ? "AAA" : productCategory;
 
     const products = getAllProductsIncludingAccessPoints();
     const switchProducts = products.filter(
@@ -28,6 +28,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
         "U-500": "/products/AAA/Rizonn_UniBox%20U-500.jpeg",
         "U-1000": "/products/AAA/Rizonn_UniBox%20U-1000.jpeg",
         "U-2500": "/products/AAA/Rizonn_UniBox%20U-2500.jpeg",
+        "U-5060": "/products/AAA/Rizonn_UniBox%20U-5060.jpg",
     };
     const getCardImage = (product: (typeof products)[number]) =>
         (product.model === "UC-500-WLAN" && categorySlug === "access-point-controllers"
@@ -35,7 +36,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
             : ["UM-325AX", "UM-325AX-FINETUNE"].includes(product.model) && categorySlug === "access-point"
                 ? "/products/Access%20Point/um-325ax-finetune.jpg"
             : (isAaaCategory && aaaProductImages[product.model]) || product.img || "/slide-1.jpg");
-    const aaaModelOrder = ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-2500", "U-5050"];
+    const aaaModelOrder = ["U-50", "U-100", "U-200", "U-500", "U-1000", "U-2500", "U-5050", "U-5060"];
     const controllerModelOrder = ["UC-50", "UC-100", "UC-200", "UC-500", "UC-500-WLAN", "UC-1000"];
     const switchModelOrder = ["US-4MP", "US-8M", "US-8MP", "US-16M", "US-16MP", "US-24M", "US-24MP", "ECS4150-28T", "ECS4150-54T", "ECS4155-30T", "ECS5550-30X", "NAV-I-4R2S-X", "NAV-I-8R2S-X"];
 

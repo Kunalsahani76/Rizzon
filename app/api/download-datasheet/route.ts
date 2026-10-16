@@ -288,6 +288,10 @@ const getPdfFilename = (model: string): string => {
         return 'Rizonn UniBox U-5050 Datasheet.pdf';
     }
 
+    if (model === 'U-5060') {
+        return 'AAA/Rizonn_UniBox_U-5060_Datasheet.pdf';
+    }
+
     if (model === 'U-50') {
         return 'Rizonn_UniBox U-50 Datasheet.pdf';
     }

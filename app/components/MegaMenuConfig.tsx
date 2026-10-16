@@ -139,6 +139,8 @@ export const getProductsMenuColumns = (
                 const displayProduct = hoveredAccessPointControllerProduct || hoveredAccessPointProduct || activeCategory?.subItems?.[0];
                 const previewImage = activeCategory?.title === "Access Point Controllers"
                     ? "/products/Controllers/controller.jpg"
+                    : activeCategory?.title === "Access Point" && !hoveredSubItem
+                        ? "/datasheet-pdf/Access%20Points/New/Finetune%20UM-325AX%20Access%20Point%20Datasheet.jpg"
                     : displayProduct?.img || "/slide-1.jpg";
 
                 return displayProduct ? (
