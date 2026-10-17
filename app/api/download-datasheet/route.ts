@@ -273,6 +273,7 @@ const getPdfFilename = (model: string): string => {
         'US-16MP': 'Switches/Rizonn US-16MP_Switch Datasheet.pdf',
         'US-24M': 'Switches/Rizonn US-24M_Switch Datasheet.pdf',
         'US-24MP': 'Switches/Rizonn US-24MP_Switch Datasheet.pdf',
+        'US-24MP-Indo': 'Switches/Indo/US-24MP_Switch_Datasheet_Rizonn.pdf',
         'ECS4150-28T': 'Switches/Rizonn_ECS4150-28T_ECS4150-28P_.pdf',
         'ECS4150-54T': 'Switches/Rizonn_ECS4150-54T_ECS4150-54P_.pdf',
         'ECS4155-30T': 'Switches/Rizonn_ECS4155-30T_ECS4155-30P_.pdf',

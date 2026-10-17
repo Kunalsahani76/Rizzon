@@ -38,6 +38,7 @@ const getProductImage = (model: string): string => {
         'US-16MP': '/products/switches/New%20Switch/US-16MP.webp',
         'US-24M': '/products/switches/New%20Switch/US-24M.webp',
         'US-24MP': '/products/switches/New%20Switch/US-24MP.webp',
+        'US-24MP-Indo': '/products/switches/New%20Switch/Indo-US-24MP.webp',
         'US-4MP': '/products/switches/New%20Switch/US-4MP.webp',
         'ECS4150-28T': '/products/switches/New Switch/Updated/Rizonn_ECS4150-28T_ECS4150-28P.png',
         'ECS4150-54T': '/products/switches/New Switch/Updated/Rizonn_ECS4150-54T_ECS4150-54P.PNG',

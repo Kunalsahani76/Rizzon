@@ -77,6 +77,40 @@ export const switchProductsData: Array<Record<string, any>> = [
     uniSwitch("US-24M", 24, false, "2 or 4", "56 Gbps", "41.7 Mbps", "8K", "4.1 MB"),
     uniSwitch("US-24MP", 24, true, "2 or 4", "56 Gbps", "41.7 Mbps", "8K", "4.1 MB", "400 W"),
     {
+        ...uniSwitch("US-24MP-Indo", 24, true, "4", "56 Gbps", "41.7 Mbps", "8K", "4.1 MB", "370 W"),
+        model: "US-24MP-Indo",
+        displayModel: "US-24MP",
+        title: "24-Port Managed PoE L2+ Switch",
+        productType: "24-Port Managed PoE L2+ Switch",
+        description: "The Indio Networks US-24MP is a managed Layer 2+ switch with 24 Gigabit PoE+ ports, four Gigabit SFP uplinks and a 370 W total PoE budget.",
+        productOverview: [
+            "The Indio Networks US-24MP provides 24 Gigabit Ethernet PoE+ access ports and four Gigabit SFP uplink ports for enterprise and campus networks.",
+            "IEEE 802.3af/at PoE+ supplies up to 30 W per port, with a 370 W total PoE budget. Managed Layer 2+ features include VLAN, QoS, link aggregation, spanning tree and multicast management.",
+        ],
+        technicalSpecification: {
+            interfaceConfiguration: {
+                ethernetPorts: "24 x 10/100/1000 Mbps RJ-45 PoE+ ports",
+                opticalPorts: "4 x Gigabit SFP uplink ports",
+                poeStandard: "IEEE 802.3af/at",
+                maximumPoEPerPort: "30 W",
+                poePowerBudget: "370 W",
+            },
+            performance: {
+                switchingCapacity: "56 Gbps",
+                packetForwardingRate: "41.7 Mpps",
+                macAddressTable: "8K",
+                packetBuffer: "4.1 MB",
+                jumboFrame: "15 KB",
+            },
+            networkManagement: {
+                management: "Cloud management",
+                layer2Features: "VLAN, QoS, IGMP/MLD snooping, STP/RSTP/MSTP and link aggregation",
+            },
+        },
+        orderingInformation: [{ model: "US-24MP", description: "24-port managed PoE+ switch", recommendedPowerSupply: "See datasheet" }],
+        datasheetUrl: "/datasheet-pdf/Switches/Indo/US-24MP_Switch_Datasheet_Rizonn.pdf",
+    },
+    {
         model: "ECS4150-28T", displayModel: "ECS4150-28T / ECS4150-28P", category: "Switches", title: "L2+/Lite L3 Gigabit Ethernet Switch", productType: "L2+/Lite L3 Gigabit Ethernet Switch",
         description: "The Edgecore ECS4150-28T/ECS4150-28P family combines Gigabit access ports with 10G SFP+ uplinks, L2+/Lite L3 features and multi-method management.",
         productOverview: ["The ECS4150-28T is a 24-port Gigabit Ethernet access switch with four 10G SFP+ uplinks. The ECS4150-28P variant adds PoE+ on all 24 access ports, with up to 30 W per port and a 370 W total PoE budget.", "Designed for ISP, SMB, enterprise and campus access, the series includes ring protection, IPv6 features, security and QoS. Management is available through Web, CLI, SNMP, ecCLOUD and TIP OLS."],
